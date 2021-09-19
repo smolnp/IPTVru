@@ -35,6 +35,9 @@ http://ott.inmart.tv:8081/54/index.m3u8
 #EXTINF:-1,UA TV (Украина)
 #EXTGRP:Общественные
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+#EXTINF:-1,360°
+#EXTGRP:Новости
+https://video1.in-news.ru/360/index.m3u8
 #EXTINF:-1,Известия
 #EXTGRP:Новости
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
@@ -47,6 +50,9 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1,ТВР 24
 #EXTGRP:Новости
 https://live-tvr24.cdnvideo.ru/tvr24/tvr24.sdp/playlist.m3u8
+#EXTINF:-1,2x2
+#EXTGRP:Развлекательные
+https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1,Рен ТВ
 #EXTGRP:Развлекательные
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
@@ -362,12 +368,12 @@ https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 #EXTINF:-1,Астрахань 24
 #EXTGRP:Региональные
 http://streaming.astrakhan.ru/astrakhan24/index.m3u8
+#EXTINF:-1,Липецкое время
+#EXTGRP:Региональные
+https://live.trk-luch.ru/hls/live.m3u8
 #EXTINF:-1,Новый век (Тамбов)
 #EXTGRP:Региональные
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
 #EXTINF:-1,Беларусь 4 Витебск (Белорусь)
 #EXTGRP:Региональные
 http://95.46.208.8:26258/belarus4
-#EXTINF:-1,Bambarbia TV (Украина)
-#EXTGRP:Туризм и путешествия
-http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/bbb/bbbtv-720p/playlist.m3u8
