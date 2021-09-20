@@ -38,6 +38,9 @@ http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
 #EXTINF:-1,360°
 #EXTGRP:Новости
 https://video1.in-news.ru/360/index.m3u8
+#EXTINF:-1,Euronews
+#EXTGRP:Новости
+https://www.youtube.com/watch?v=WiB69tJIAU4
 #EXTINF:-1,Известия
 #EXTGRP:Новости
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
@@ -56,15 +59,21 @@ https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/37
 #EXTINF:-1,Рен ТВ
 #EXTGRP:Развлекательные
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
-#EXTINF:-1,ТНТ (+3)
+#EXTINF:-1,ТНТ
 #EXTGRP:Развлекательные
-http://ott-cdn.ucom.am/s19/04.m3u8
+https://ok.ru/video/854539312735
+#EXTINF:-1,ТНТ4
+#EXTGRP:Развлекательные
+https://ok.ru/video/979125083771
 #EXTINF:-1,Nosтаlьгия
 #EXTGRP:Развлекательные
 http://37.99.5.234/btv/SWM/NOSTALGIYA/NOSTALGIYA.m3u8
 #EXTINF:-1,ОНТ
 #EXTGRP:Развлекательные
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1,СТС
+#EXTGRP:Развлекательные
+http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1,Поехали!
 #EXTGRP:Развлекательные
 https://sc.id-tv.kz/poehali_34_35.m3u8
@@ -80,6 +89,9 @@ http://ott.inmart.tv:8081/17/index.m3u8
 #EXTINF:-1,31 канал (Казахстан)
 #EXTGRP:Развлекательные
 https://sc.id-tv.kz/31Kanal.m3u8
+#EXTINF:-1,123 GO!
+#EXTGRP:Детские
+https://www.youtube.com/watch?v=tQrJuZVsSec
 #EXTINF:-1,Cartoon Network
 #EXTGRP:Детские
 http://94.243.222.46:8888/udp/224.200.202.25:1234
@@ -257,6 +269,9 @@ https://sc.id-tv.kz/1hd_34_35.m3u8
 #EXTINF:-1,Metal TV
 #EXTGRP:Музыка
 http://v1.catcast.me/content/33816/index.m3u8
+#EXTINF:-1,RU TV
+#EXTGRP:Музыка
+https://ok.ru/video/230273326594
 #EXTINF:0,Страна FM HD
 #EXTGRP:Музыка
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
@@ -266,6 +281,9 @@ http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.
 #EXTINF:-1,Retro Music
 #EXTGRP:Музыка
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1,МУЗ-ТВ
+#EXTGRP:Музыка
+https://ok.ru/video/2500581596714
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
