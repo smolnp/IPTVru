@@ -1,4 +1,10 @@
 #EXTM3U
+#EXTINF:-1,1
+#EXTGRP:Общественные
+http://ott-cdn.ucom.am/s14/04.m3u8
+#EXTINF:-1,1 Евразия
+#EXTGRP:Общественные
+https://sc.id-tv.kz/1KanalEvraziya.m3u8
 #EXTINF:-1,Россия 1 HD
 #EXTGRP:Общественные
 http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
@@ -38,9 +44,9 @@ http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
 #EXTINF:-1,360°
 #EXTGRP:Новости
 https://video1.in-news.ru/360/index.m3u8
-#EXTINF:-1,Euronews
+#EXTINF:-1,Евроновости
 #EXTGRP:Новости
-https://www.youtube.com/watch?v=WiB69tJIAU4
+http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 #EXTINF:-1,Известия
 #EXTGRP:Новости
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
@@ -61,7 +67,7 @@ https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/37
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
 #EXTINF:-1,ТНТ
 #EXTGRP:Развлекательные
-https://ok.ru/video/854539312735
+https://rutube.ru/live/video/546602986e6a424d74d594876ddb3f04/
 #EXTINF:-1,ТНТ4
 #EXTGRP:Развлекательные
 https://ok.ru/video/979125083771
@@ -89,9 +95,6 @@ http://ott.inmart.tv:8081/17/index.m3u8
 #EXTINF:-1,31 канал (Казахстан)
 #EXTGRP:Развлекательные
 https://sc.id-tv.kz/31Kanal.m3u8
-#EXTINF:-1,123 GO!
-#EXTGRP:Детские
-https://www.youtube.com/watch?v=tQrJuZVsSec
 #EXTINF:-1,Cartoon Network
 #EXTGRP:Детские
 http://94.243.222.46:8888/udp/224.200.202.25:1234
@@ -116,6 +119,9 @@ http://94.243.222.46:8888/udp/224.200.202.210:1234
 #EXTINF:-1,O!
 #EXTGRP:Детские
 http://94.243.222.46:8888/udp/224.200.202.237:1234
+#EXTINF:-1,Рыжий
+#EXTGRP:Детские
+http://ott-cdn.ucom.am/s57/index.m3u8
 #EXTINF:-1,Мульт
 #EXTGRP:Детские
 https://autopilot.catcast.tv/content/38850/index.m3u8
@@ -271,7 +277,7 @@ https://sc.id-tv.kz/1hd_34_35.m3u8
 http://v1.catcast.me/content/33816/index.m3u8
 #EXTINF:-1,RU TV
 #EXTGRP:Музыка
-https://ok.ru/video/230273326594
+https://rutv.gcdn.co/streams/1410_95/playlist.m3u8
 #EXTINF:0,Страна FM HD
 #EXTGRP:Музыка
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
@@ -281,9 +287,12 @@ http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.
 #EXTINF:-1,Retro Music
 #EXTGRP:Музыка
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+#EXTINF:-1,Жар Птица
+#EXTGRP:Музыка
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1,МУЗ-ТВ
 #EXTGRP:Музыка
-https://ok.ru/video/2500581596714
+http://ott-cdn.ucom.am/s28/index.m3u8
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
@@ -365,6 +374,9 @@ http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
 #EXTINF:-1,Global Star TV
 #EXTGRP:Познавательные
 http://stream2.hardlife.tv:8134/hls-live/hlsGS/_definst_/liveevent/gs.m3u8
+#EXTINF:-1,История
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s40/index.m3u8
 #EXTINF:-1,Мособр TV HD
 #EXTGRP:Познавательные
 http://retj.educom.ru/mosobrtv/tv1/index.m3u8
