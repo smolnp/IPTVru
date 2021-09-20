@@ -35,9 +35,9 @@ http://ott.inmart.tv:8081/54/index.m3u8
 #EXTINF:-1,UA TV (Украина)
 #EXTGRP:Общественные
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
-#EXTINF:-1,360°
+#EXTINF:-1,360° Новости
 #EXTGRP:Новости
-https://video1.in-news.ru/360/index.m3u8
+https://edge2-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
 #EXTINF:-1,Евроновости
 #EXTGRP:Новости
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
@@ -59,12 +59,18 @@ https://live-tvr24.cdnvideo.ru/tvr24/tvr24.sdp/playlist.m3u8
 #EXTINF:-1,2x2
 #EXTGRP:Развлекательные
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+#EXTINF:-1,ТНТ International
+#EXTGRP:Развлекательные
+http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1,Рен ТВ
 #EXTGRP:Развлекательные
 http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
 #EXTINF:-1,Nosтаlьгия
 #EXTGRP:Развлекательные
 http://37.99.5.234/btv/SWM/NOSTALGIYA/NOSTALGIYA.m3u8
+#EXTINF:-1,СТС
+#EXTGRP:Развлекательные
+http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1,8 канал (Беларусь)
 #EXTGRP:Развлекательные
 http://95.46.208.8:24433/art
@@ -80,6 +86,9 @@ http://94.243.222.46:8888/udp/224.200.202.25:1234
 #EXTINF:-1,Gravity Fouls
 #EXTGRP:Детские
 https://autopilot.catcast.tv/content/38105/index.m3u8
+#EXTINF:-1,Tiji
+#EXTGRP:Детские
+http://188.40.68.167/russia/tiji/playlist.m3u8
 #EXTINF:-1,Disney
 #EXTGRP:Детские
 http://94.243.222.46:8888/udp/224.200.202.88:1234
@@ -221,9 +230,18 @@ https://autopilot.catcast.tv/content/38896/index.m3u8
 #EXTINF:-1,ПРЕМЬЕРА
 #EXTGRP:Кино и сериалы
 https://autopilot.catcast.tv/content/39161/index.m3u8
+#EXTINF:-1,HITV
+#EXTGRP:Музыка
+https://strm.yandex.ru/kal/hittv/hittv0.m3u8
 #EXTINF:-1,Metal TV
 #EXTGRP:Музыка
 http://v1.catcast.me/content/33816/index.m3u8
+#EXTINF:-1,Music Box Россия
+#EXTGRP:Музыка
+https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:0,НОВОЕ радио
+#EXTGRP:Музыка
+https://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 #EXTINF:0,Страна FM HD
 #EXTGRP:Музыка
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
@@ -236,6 +254,9 @@ http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1,Жар Птица
 #EXTGRP:Музыка
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+#EXTINF:-1,МУЗ-ТВ
+#EXTGRP:Музыка
+https://strm.yandex.ru/kal/muztv_supres/muztv_supres0.m3u8
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
