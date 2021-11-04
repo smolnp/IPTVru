@@ -122,6 +122,15 @@ http://ott.inmart.tv:8081/17/index.m3u8
 #EXTINF:-1,Disney (Ланта)
 #EXTGRP:Детские
 udp://@225.50.66.2:1234
+#EXTINF:-1,Da Vinchi Kids
+#EXTGRP:Детские
+https://sc.id-tv.kz/DaVinci_34_35.m3u8
+#EXTINF:-1,O!
+#EXTGRP:Детские
+https://sc.id-tv.kz/o_34_35.m3u8
+#EXTINF:-1,СТС Kids HD
+#EXTGRP:Детские
+https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1,Мульт
 #EXTGRP:Детские
 https://autopilot.catcast.tv/content/38850/index.m3u8
