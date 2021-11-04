@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.it999.ru/epg2.xml.gz"
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/jtv.zip"
 #EXTINF:-1,360° HD 
 #EXTGRP:Общественные
 udp://@225.50.66.8:1234
@@ -11,10 +11,10 @@ udp://@225.50.66.97:1234
 #EXTINF:-1,Россия HD
 #EXTGRP:Общественные
 udp://@225.50.66.25:1234
-#EXTINF:-1,Культура
+#EXTINF:-1,РОССИЯ-К
 #EXTGRP:Общественные
 udp://@225.50.66.87:1234
-#EXTINF:-1,Россия-Планета
+#EXTINF:-1,Россия-Планета (Европа)
 #EXTGRP:Общественные
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
 #EXTINF:-1,Пятый Канал
