@@ -11,7 +11,7 @@ udp://@225.50.66.97:1234
 #EXTINF:-1,Россия HD
 #EXTGRP:Общественные
 udp://@225.50.66.25:1234
-#EXTINF:-1,Россия К
+#EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
 udp://@225.50.66.87:1234
 #EXTINF:-1,Россия-Планета (Европа)
@@ -80,9 +80,6 @@ http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-#EXTINF:-1,ТВР24
-#EXTGRP:Новости
-https://live-tvr24.cdnvideo.ru/tvr24/tvr24.sdp/playlist.m3u8
 #EXTINF:-1,Канал 2x2 
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
