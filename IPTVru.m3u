@@ -98,6 +98,9 @@ udp://@225.50.66.59:1234
 #EXTINF:-1,ТНТ4 
 #EXTGRP:Развлекательные
 udp://@225.50.66.7:1234
+#EXTINF:-1 ,ТНТ HD
+#EXTGRP:Развлекательные
+http://37.235.130.201:81/udp/225.50.64.12:1234
 #EXTINF:-1, Ю 
 #EXTGRP:Развлекательные
 udp://@225.50.66.9:1234
@@ -128,6 +131,12 @@ https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1,СТС Kids HD
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
+#EXTINF:-1 ,В гостях у сказки
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.45:1234
+#EXTINF:-1 ,Капитан Фантастика HD
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.62:1234
 #EXTINF:-1,Радость моя
 #EXTGRP:Детские
 https://cdn-01.bonus-tv.ru:8090/radostmoya_edge/tracks-v1a1/mono.m3u8
@@ -137,12 +146,39 @@ https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTINF:-1 ,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
+#EXTINF:-1 ,Мультимузыка
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.80:1234
+#EXTINF:-1 ,Мультиландия
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.30:1234
 #EXTINF:-1,Карусель 
 #EXTGRP:Детские
 udp://@225.50.66.5:1234
+#EXTINF:-1 ,Рыжий
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.61:1234
+#EXTINF:-1 ,Уникум
+#EXTGRP:Детские
+http://37.235.130.201:81/udp/225.50.64.32:1234
 #EXTINF:-1,Смайлик ТВ
 #EXTGRP:Детские
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+#EXTINF:-1 ,A1
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
+#EXTINF:-1 ,A2
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
+#EXTINF:-1 ,Amedia Hit
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
+#EXTINF:-1,Fox HD
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
+#EXTINF:-1 ,Fox Life
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:64,ViP Premiere
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
@@ -179,18 +215,21 @@ http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 #EXTINF:-1,Star Family
 #EXTGRP:Кино и сериалы
 http://95.67.12.94:9002
-#EXTINF:-1,Свежаки
+#EXTINF:-1,КИНОСЕРИЯ
 #EXTGRP:Кино и сериалы
-https://ed-nl-01.mycdn.video/fresh/index.m3u8
+http://37.235.130.201:81/udp/225.50.64.4:1234
 #EXTINF:-1,Уже видел HD
 #EXTGRP:Кино и сериалы
 https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Zee TV
 #EXTGRP:Кино и сериалы
 http://194.213.23.7:3304
-#EXTINF:-1,Киноклуб
+#EXTINF:-1 ,Русский роман 
 #EXTGRP:Кино и сериалы
-http://autopilot.catcast.tv/content/39005/index.m3u8
+http://37.235.130.201:81/udp/225.50.64.1:1234
+#EXTINF:-1 ,Русский бестселлер
+#EXTGRP:Кино и сериалы
+http://37.235.130.201:81/udp/225.50.64.8:1234
 #EXTINF:-1,ВидеокассетА
 #EXTGRP:Кино и сериалы
 https://autopilot.catcast.tv/content/37925/index.m3u8
