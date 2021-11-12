@@ -4,7 +4,7 @@
 udp://@225.50.66.8:1234
 #EXTINF:-1,Первый канал
 #EXTGRP:Общественные
-udp://@225.50.66.11:1234
+http://91.192.168.251:5050
 #EXTINF:-1,Россия 1
 #EXTGRP:Общественные
 udp://@225.50.66.97:1234 
@@ -34,7 +34,7 @@ udp://@225.50.66.52:1234
 udp://@225.50.66.14:1234
 #EXTINF:-1,НТВ 
 #EXTGRP:Общественные
-udp://@225.50.66.94:1234
+https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
 #EXTINF:-1,ОТР 
 #EXTGRP:Общественные
 udp://@225.50.66.12:1234
@@ -98,9 +98,6 @@ udp://@225.50.66.59:1234
 #EXTINF:-1,ТНТ4 
 #EXTGRP:Развлекательные
 udp://@225.50.66.7:1234
-#EXTINF:-1 ,ТНТ HD
-#EXTGRP:Развлекательные
-http://37.235.130.201:81/udp/225.50.64.12:1234
 #EXTINF:-1, Ю 
 #EXTGRP:Развлекательные
 udp://@225.50.66.9:1234
@@ -127,7 +124,7 @@ udp://@225.50.66.2:1234
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1,O!
 #EXTGRP:Детские
-https://sc.id-tv.kz/o_34_35.m3u8
+http://37.235.130.201:81/udp/225.50.64.6:1234
 #EXTINF:-1,СТС Kids HD
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
@@ -146,21 +143,9 @@ https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTINF:-1 ,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
-#EXTINF:-1 ,Мультимузыка
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.80:1234
-#EXTINF:-1 ,Мультиландия
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.30:1234
 #EXTINF:-1,Карусель 
 #EXTGRP:Детские
 udp://@225.50.66.5:1234
-#EXTINF:-1 ,Рыжий
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.61:1234
-#EXTINF:-1 ,Уникум
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.32:1234
 #EXTINF:-1,Смайлик ТВ
 #EXTGRP:Детские
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
@@ -215,24 +200,18 @@ http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 #EXTINF:-1,Star Family
 #EXTGRP:Кино и сериалы
 http://95.67.12.94:9002
-#EXTINF:-1,КИНОСЕРИЯ
-#EXTGRP:Кино и сериалы
-http://37.235.130.201:81/udp/225.50.64.4:1234
 #EXTINF:-1,Уже видел HD
 #EXTGRP:Кино и сериалы
 https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Zee TV
 #EXTGRP:Кино и сериалы
 http://194.213.23.7:3304
-#EXTINF:-1 ,Русский роман 
-#EXTGRP:Кино и сериалы
-http://37.235.130.201:81/udp/225.50.64.1:1234
-#EXTINF:-1 ,Русский бестселлер
-#EXTGRP:Кино и сериалы
-http://37.235.130.201:81/udp/225.50.64.8:1234
 #EXTINF:-1,ВидеокассетА
 #EXTGRP:Кино и сериалы
 https://autopilot.catcast.tv/content/37925/index.m3u8
+#EXTINF:-1,НТВ Хит HD
+#EXTGRP:Кино и сериалы
+http://fwryalta.trkcrimea.ru/yalta.m3u8
 #EXTINF:-1,Фантастика Sci-Fi
 #EXTGRP:Кино и сериалы
 https://autopilot.catcast.tv/content/38801/index.m3u8
@@ -308,6 +287,9 @@ http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
+#EXTINF:-1,Родной канал HD
+#EXTGRP:Познавательные
+https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 #EXTINF:-1,Королев ТВ
 #EXTGRP:Региональные
 http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
