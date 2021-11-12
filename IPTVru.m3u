@@ -122,24 +122,24 @@ udp://@225.50.66.2:1234
 #EXTINF:-1,Da Vinchi Kids
 #EXTGRP:Детские
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
+#EXTINF:-1,TiJi
+#EXTGRP:Детские
+http://194.190.78.91:8080/TiJi_OT/video.m3u8
 #EXTINF:-1,O!
 #EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.6:1234
+https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1,СТС Kids HD
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-#EXTINF:-1 ,В гостях у сказки
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.45:1234
-#EXTINF:-1 ,Капитан Фантастика HD
-#EXTGRP:Детские
-http://37.235.130.201:81/udp/225.50.64.62:1234
 #EXTINF:-1,Радость моя
 #EXTGRP:Детские
 https://cdn-01.bonus-tv.ru:8090/radostmoya_edge/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Мульт
+#EXTINF:-1,Мультики
 #EXTGRP:Детские
 https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1,Детское|Кино
+#EXTGRP:Детские
+http://v2.catcast.me/content/38720/index.m3u8
 #EXTINF:-1 ,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
@@ -287,9 +287,6 @@ http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-#EXTINF:-1,Родной канал HD
-#EXTGRP:Познавательные
-https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 #EXTINF:-1,Королев ТВ
 #EXTGRP:Региональные
 http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
