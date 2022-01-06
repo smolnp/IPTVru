@@ -1,20 +1,23 @@
 #EXTM3U url-tvg="http://www.teleguide.info/download/new3/jtv.zip"
-#EXTINF:-1,360° HD 
+#---url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
+#---https://iptvx.one/epg/epg.xml.gz---http://epg.it999.ru/edem.xml.gz
+
+#EXTINF:-1,360° HD
 #EXTGRP:Общественные
 udp://@225.50.66.8:1234
 #EXTINF:-1,Первый канал
 #EXTGRP:Общественные
-http://91.192.168.251:5050
+http://37.235.137.192:81/udp/225.50.66.201:1234
 #EXTINF:-1,Россия 1
 #EXTGRP:Общественные
-udp://@225.50.66.97:1234 
+udp://@225.50.66.97:1234
 #EXTINF:-1,Россия HD
 #EXTGRP:Общественные
-udp://@225.50.66.25:1234
+http://37.235.137.192:81/udp/225.50.66.25:1234
 #EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
 udp://@225.50.66.87:1234
-#EXTINF:-1,Россия-Планета (Европа)
+#EXTINF:-1,Россия RTR
 #EXTGRP:Общественные
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
 #EXTINF:-1,Пятый Канал
@@ -23,22 +26,22 @@ udp://@225.50.66.95:1234
 #EXTINF:-1,Домашний
 #EXTGRP:Общественные
 udp://@225.50.66.54:1234
-#EXTINF:-1,МИР 
+#EXTINF:-1,МИР
 #EXTGRP:Общественные
 udp://@225.50.66.34:1234
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
 udp://@225.50.66.52:1234
-#EXTINF:-1,Новый 
+#EXTINF:-1,Новый
 #EXTGRP:Общественные
 udp://@225.50.66.14:1234
-#EXTINF:-1,НТВ 
+#EXTINF:-1,НТВ
 #EXTGRP:Общественные
 https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-#EXTINF:-1,ОТР 
+#EXTINF:-1,ОТР
 #EXTGRP:Общественные
 udp://@225.50.66.12:1234
-#EXTINF:-1,Продвижение 
+#EXTINF:-1,Продвижение
 #EXTGRP:Общественные
 udp://@225.50.66.15:1234
 #EXTINF:-1,Новый мир
@@ -47,7 +50,7 @@ http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1,Звезда
 #EXTGRP:Общественные
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1,Красная линия 
+#EXTINF:-1,Красная линия
 #EXTGRP:Общественные
 https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
 #EXTINF:-1,Первый СССР
@@ -62,9 +65,6 @@ http://212.98.171.116/HLS/ctvby/playlist.m3u8
 #EXTINF:-1,Беларусь 24
 #EXTGRP:Общественные
 http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
-#EXTINF:-1,Оплoт ТВ
-#EXTGRP:Общественные
-http://ott.inmart.tv:8081/54/index.m3u8
 #EXTINF:-1,UA TV
 #EXTGRP:Общественные
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
@@ -74,37 +74,37 @@ http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 #EXTINF:-1,Известия
 #EXTGRP:Новости
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-#EXTINF:0,Настоящее время
-#EXTGRP:Новости
-http://rfe-lh.akamaihd.net/i/rfe_tvmc5@383630/master.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-#EXTINF:-1,Канал 2x2 
+#EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
-#EXTINF:-1,РЕН ТВ 
+#EXTINF:-1,РЕН ТВ
 #EXTGRP:Развлекательные
 udp://@225.50.66.51:1234
-#EXTINF:-1,СТС 
+#EXTINF:-1,СТС
 #EXTGRP:Развлекательные
 udp://@225.50.66.53:1234
-#EXTINF:-1,ТВ-3 
+#EXTINF:-1 ,СТС Love
+#EXTGRP:Развлекательные
+http://37.235.137.192:81/udp/225.50.64.18:1234
+#EXTINF:-1,ТВ-3
 #EXTGRP:Развлекательные
 udp://@225.50.66.55:1234
-#EXTINF:-1,ТНТ 
+#EXTINF:-1,ТНТ
 #EXTGRP:Развлекательные
 udp://@225.50.66.59:1234
-#EXTINF:-1,ТНТ4 
+#EXTINF:-1,ТНТ4
 #EXTGRP:Развлекательные
 udp://@225.50.66.7:1234
-#EXTINF:-1, Ю 
+#EXTINF:-1, Ю
 #EXTGRP:Развлекательные
 udp://@225.50.66.9:1234
 #EXTINF:-1, Пятница
 #EXTGRP:Развлекательные
 udp://@225.50.66.56:1234
-#EXTINF:-1, Суббота 
+#EXTINF:-1, Суббота
 #EXTGRP:Развлекательные
 udp://@225.50.66.6:1234
 #EXTINF:-1,8 канал (Беларусь)
@@ -116,18 +116,12 @@ http://95.46.208.8:26259/nashe
 #EXTINF:-1,Оплoт 2
 #EXTGRP:Развлекательные
 http://ott.inmart.tv:8081/17/index.m3u8
-#EXTINF:-1,Disney 
+#EXTINF:-1,Disney
 #EXTGRP:Детские
 udp://@225.50.66.2:1234
-#EXTINF:-1,Da Vinchi Kids
-#EXTGRP:Детские
-https://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1,TiJi
 #EXTGRP:Детские
 http://194.190.78.91:8080/TiJi_OT/video.m3u8
-#EXTINF:-1,O!
-#EXTGRP:Детские
-https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1,СТС Kids HD
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
@@ -137,22 +131,28 @@ https://cdn-01.bonus-tv.ru:8090/radostmoya_edge/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Мультики
 #EXTGRP:Детские
 https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1 ,Мультиландия
+#EXTGRP:Детские
+http://37.235.137.192:81/udp/225.50.64.30:1234
+#EXTINF:-1 ,Мультимузыка
+https://autopilot.catcast.tv/content/38850/index.m3u8
+http://37.235.137.192:81/udp/225.50.64.80:1234
 #EXTINF:-1,Детское|Кино
 #EXTGRP:Детские
 http://v2.catcast.me/content/38720/index.m3u8
 #EXTINF:-1 ,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
-#EXTINF:-1,Карусель 
+#EXTINF:-1,Карусель
 #EXTGRP:Детские
 udp://@225.50.66.5:1234
 #EXTINF:-1,Смайлик ТВ
 #EXTGRP:Детские
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
-#EXTINF:-1 ,A1
+#EXTINF:-1 ,Amedia 1
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
-#EXTINF:-1 ,A2
+#EXTINF:-1 ,Amedia 2
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 ,Amedia Hit
@@ -239,7 +239,7 @@ http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.
 #EXTINF:-1,Retro Music
 #EXTGRP:Музыка
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1,МУЗ-ТВ 
+#EXTINF:-1,МУЗ-ТВ
 #EXTGRP:Музыка
 udp://@225.50.66.10:1234
 #EXTINF:-1,Евроденс 90х HD
@@ -302,4 +302,3 @@ http://streaming.astrakhan.ru/astrakhan24/index.m3u8
 #EXTINF:-1,Новый век
 #EXTGRP:Региональные
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
-
