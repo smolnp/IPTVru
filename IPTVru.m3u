@@ -80,9 +80,9 @@ http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
-#EXTINF:-1,РЕН ТВ
+#EXTINF:-1,РЕН ТВ HD
 #EXTGRP:Развлекательные
-udp://@225.50.66.51:1234
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1,СТС
 #EXTGRP:Развлекательные
 udp://@225.50.66.53:1234
