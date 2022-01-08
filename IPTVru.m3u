@@ -194,30 +194,39 @@ http://95.67.12.94:9002
 #EXTINF:-1,Дорама
 #EXTGRP:Кино и сериалы
 http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
-#EXTINF:-1,Феникс+Кино
-#EXTGRP:Кино и сериалы
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
-#EXTINF:-1,Кино ТВ
-#EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a09u/index.m3u8
-#EXTINF:-1,Киномикс
-#EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a08q/index.m3u8
 #EXTINF:-1,Киносвидание
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a08r/index.m3u8
 #EXTINF:-1,Киносемья
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a090/index.m3u8
-#EXTINF:-1,Киносерия
+#EXTINF:-1,КИНОХИТ
 #EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a08w/index.m3u8
-#EXTINF:-1,Кинохит
+http://185.129.1.242:80/kinoxit/mpegts
+#EXTINF:-1,Мир сериала
 #EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a08s/index.m3u8
+http://31.173.178.110:8004/play/a06j/index.m3u8
+#EXTINF:-1,Наше новое кино
+#EXTGRP:Кино и сериалы
+http://31.173.178.110:8004/play/a08z/index.m3u8
 #EXTINF:-1,Кинокомедия
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a08t/index.m3u8
+#EXTINF:-1,Русский Иллюзион
+#EXTGRP:Кино и сериалы
+http://86.57.178.105:10823
+#EXTINF:-1,Кино 1 International
+#EXTGRP:Кино и сериалы
+https://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1,BACKUS TV HD
+#EXTGRP:Кино и сериалы
+http://stream.backustv.ru/live/btv/index.m3u8
+#EXTINF:-1,BACKUSTV Страшное HD
+#EXTGRP:Кино
+http://stream.backustv.ru/live/btv2/index.m3u8
+#EXTINF:-1,Феникс+Кино
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1,HITV
 #EXTGRP:Музыка
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
