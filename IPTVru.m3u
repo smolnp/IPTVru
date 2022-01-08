@@ -194,15 +194,12 @@ http://95.67.12.94:9002
 #EXTINF:-1,Дорама
 #EXTGRP:Кино и сериалы
 http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
-#EXTINF:-1,Киносвидание
-#EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a08r/index.m3u8
-#EXTINF:-1,Киносемья
-#EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a090/index.m3u8
 #EXTINF:-1,КИНОХИТ
 #EXTGRP:Кино и сериалы
 http://185.129.1.242:80/kinoxit/mpegts
+#EXTINF:-1,КИНО 24
+#EXTGRP:Кино и сериалы
+http://85.192.10.131/hls/Kino24Ru/playlist.m3u8
 #EXTINF:-1,Мир сериала
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a06j/index.m3u8
@@ -212,9 +209,9 @@ http://31.173.178.110:8004/play/a08z/index.m3u8
 #EXTINF:-1,Кинокомедия
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a08t/index.m3u8
-#EXTINF:-1,Русский Иллюзион
+#EXTINF:-1,T+
 #EXTGRP:Кино и сериалы
-http://86.57.178.105:10823
+http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:-1,Кино 1 International
 #EXTGRP:Кино и сериалы
 https://kino-1.catcast.tv/content/38617/index.m3u8
