@@ -185,45 +185,45 @@ https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:64,TV1000 Русское кино
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+#EXTINF:-1,Zee TV
+#EXTGRP:Кино и сериалы
+http://194.213.23.7:3304
+#EXTINF:-1,Star Family
+#EXTGRP:Кино и сериалы
+http://95.67.12.94:9002
 #EXTINF:-1,Дорама
 #EXTGRP:Кино и сериалы
 http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
 #EXTINF:-1,Феникс+Кино
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
-#EXTINF:-1,Наше Новое Кино
+#EXTINF:-1,Кино ТВ
 #EXTGRP:Кино и сериалы
-http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
-#EXTINF:-1,Мир сериалов
+http://31.173.178.110:8004/play/a09u/index.m3u8
+#EXTINF:-1,Киномикс
 #EXTGRP:Кино и сериалы
-http://188.40.68.167/russia/mir_seriala/playlist.m3u8
-#EXTINF:-1,Star Family
+http://31.173.178.110:8004/play/a08q/index.m3u8
+#EXTINF:-1,Киносвидание
 #EXTGRP:Кино и сериалы
-http://95.67.12.94:9002
-#EXTINF:-1,Уже видел HD
+http://31.173.178.110:8004/play/a08r/index.m3u8
+#EXTINF:-1,Киносемья
 #EXTGRP:Кино и сериалы
-https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Zee TV
+http://31.173.178.110:8004/play/a090/index.m3u8
+#EXTINF:-1,Киносерия
 #EXTGRP:Кино и сериалы
-http://194.213.23.7:3304
-#EXTINF:-1,ВидеокассетА
+http://31.173.178.110:8004/play/a08w/index.m3u8
+#EXTINF:-1,Кинохит
 #EXTGRP:Кино и сериалы
-https://autopilot.catcast.tv/content/37925/index.m3u8
-#EXTINF:-1,НТВ Хит HD
+http://31.173.178.110:8004/play/a08s/index.m3u8
+#EXTINF:-1,Кинокомедия
 #EXTGRP:Кино и сериалы
-http://fwryalta.trkcrimea.ru/yalta.m3u8
-#EXTINF:-1,Фантастика Sci-Fi
-#EXTGRP:Кино и сериалы
-https://autopilot.catcast.tv/content/38801/index.m3u8
-#EXTINF:-1,Ужастик
-#EXTGRP:Кино и сериалы
-https://autopilot.catcast.tv/content/38896/index.m3u8
-#EXTINF:-1,ПРЕМЬЕРА
-#EXTGRP:Кино и сериалы
-https://autopilot.catcast.tv/content/39161/index.m3u8
+http://31.173.178.110:8004/play/a08t/index.m3u8
 #EXTINF:-1,HITV
 #EXTGRP:Музыка
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
+#EXTINF:-1,ТНТ Music HD
+#EXTGRP:Музыка
+http://83.222.205.65:8080/tntmusic/index.m3u8
 #EXTINF:-1,Metal TV
 #EXTGRP:Музыка
 http://v1.catcast.me/content/33816/index.m3u8
