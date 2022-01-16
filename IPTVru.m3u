@@ -25,7 +25,7 @@ https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 udp://@225.50.66.34:1234
 #EXTINF:-1,НТВ
 #EXTGRP:Общественные
-https://live-hls-tvplusonline.cdnvideo.ru/ntv_abr/tracks-v1a1/mono.m3u8
+udp://@225.50.66.94:1234
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
