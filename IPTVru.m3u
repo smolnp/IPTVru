@@ -26,18 +26,12 @@ udp://@225.50.66.34:1234
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
-#EXTINF:-1,Новый
-#EXTGRP:Общественные
-udp://@225.50.66.14:1234
 #EXTINF:-1,НТВ
 #EXTGRP:Общественные
 https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
 #EXTINF:-1,ОТР
 #EXTGRP:Общественные
 udp://@225.50.66.12:1234
-#EXTINF:-1,Продвижение
-#EXTGRP:Общественные
-udp://@225.50.66.15:1234
 #EXTINF:-1,Новый мир
 #EXTGRP:Общественные
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
@@ -59,9 +53,6 @@ http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1,UA TV
 #EXTGRP:Общественные
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
-#EXTINF:-1,НОВЫЙ ВЕК
-#EXTGRP:Общественные
-http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
 #EXTINF:-1,Евроновости
 #EXTGRP:Новости
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
@@ -110,6 +101,12 @@ http://95.46.208.8:26259/nashe
 #EXTINF:-1,Че
 #EXTGRP:Развлекательные
 http://176.114.16.54:80/che/index.m3u8
+#EXTINF:-1,Продвижение
+#EXTGRP:Развлекательные
+udp://@225.50.66.15:1234
+#EXTINF:-1,НОВЫЙ ВЕК
+#EXTGRP:Развлекательные
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
 #EXTINF:-1,Baby TV
 #EXTGRP:Детские
 http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
