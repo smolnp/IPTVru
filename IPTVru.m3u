@@ -23,6 +23,9 @@ https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1,МИР
 #EXTGRP:Общественные
 udp://@225.50.66.34:1234
+#EXTINF:-1,НТВ
+#EXTGRP:Общественные
+https://live-hls-tvplusonline.cdnvideo.ru/ntv_abr/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
@@ -38,6 +41,9 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1,Красная линия
 #EXTGRP:Общественные
 https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
+#EXTINF:-1,Юнион
+#EXTGRP:Общественные
+http://ott.inmart.tv:8081/35/index.m3u8
 #EXTINF:-1,БелРос
 #EXTGRP:Общественные
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
@@ -199,6 +205,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
 #EXTINF:-1 ,.red
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
+#EXTINF:-1,Новорocсия ТВ HD
+#EXTGRP:Кино и сериалы
+http://ott.inmart.tv:8081/19/index.m3u8
 #EXTINF:-1,Феникс+Кино
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
@@ -232,6 +241,14 @@ https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
 #EXTINF:-1,Дикая рыбалка HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
+#EXTINF:-1,История
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s40/04.m3u8
+#EXTINF:-1,Наука
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s98/04.m3u8
 #EXTINF:-1,Viasat Nature/History HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
