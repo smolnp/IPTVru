@@ -11,15 +11,9 @@ http://37.235.137.192:81/udp/225.50.66.201:1234
 #EXTINF:-1,Россия 1
 #EXTGRP:Общественные
 udp://@225.50.66.97:1234
-#EXTINF:-1,Россия HD
-#EXTGRP:Общественные
-http://37.235.137.192:81/udp/225.50.66.25:1234
 #EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
 udp://@225.50.66.87:1234
-#EXTINF:-1,Россия RTR
-#EXTGRP:Общественные
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
 #EXTINF:-1,Пятый Канал
 #EXTGRP:Общественные
 udp://@225.50.66.95:1234
@@ -53,9 +47,6 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1,Красная линия
 #EXTGRP:Общественные
 https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
-#EXTINF:-1,Первый СССР
-#EXTGRP:Общественные
-http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
 #EXTINF:-1,БелРос
 #EXTGRP:Общественные
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
@@ -197,17 +188,23 @@ http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
 #EXTINF:-1,КИНОХИТ
 #EXTGRP:Кино и сериалы
 http://185.129.1.242:80/kinoxit/mpegts
-#EXTINF:-1,Киноужас HD
+#EXTINF:-1,Киносвидание HD
 #EXTGRP:Кино и сериалы
-http://78.58.133.179:28000/play/a00v/index.m3u8
+https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
+#EXTINF:-1,Мужское Кино HD
+#EXTGRP:Кино и сериалы
+https://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
+#EXTINF:-1,Родное Кино
+#EXTGRP:Кино и сериалы
+https://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
+#EXTINF:-1,Cinema
+#EXTGRP:Кино и сериалы
+https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1,Мир сериала
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a06j/index.m3u8
-#EXTINF:-1,BACKUS TV HD
-#EXTGRP:Кино и сериалы
-http://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1,BACKUSTV Страшное HD
-#EXTGRP:Кино
+#EXTGRP:Кино и сериалы
 http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1,Феникс+Кино
 #EXTGRP:Кино и сериалы
@@ -215,9 +212,6 @@ https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1,HITV
 #EXTGRP:Музыка
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-#EXTINF:-1,ТНТ Music HD
-#EXTGRP:Музыка
-http://83.222.205.65:8080/tntmusic/index.m3u8
 #EXTINF:-1,Metal TV
 #EXTGRP:Музыка
 http://v1.catcast.me/content/33816/index.m3u8
@@ -239,12 +233,6 @@ udp://@225.50.66.10:1234
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
-#EXTINF:-1,Discovery Channel
-#EXTGRP:Познавательные
-http://46.34.209.244:80/btv/SWM/discovery_hd/discovery_hd_720p_3500kbps.m3u8
-#EXTINF:-1,TLC
-#EXTGRP:Познавательные
-http://46.34.209.244:80/btv/SWM/tlc_hd/tlc_hd_720p_3500kbps.m3u8
 #EXTINF:-1,Viasat Nature/History HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
@@ -254,45 +242,15 @@ https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
 #EXTINF:-1,Viasat History
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
-#EXTINF:-1,Дикая Охота HD
-#EXTGRP:Познавательные
-http://91.221.201.2:7100/play/a00n/index.m3u8
-#EXTINF:-1,Дикая Рыбалка HD
-#EXTGRP:Познавательные
-http://91.221.201.2:7100/play/a00l/index.m3u8
-#EXTINF:-1,Конный мир
-#EXTGRP:Познавательные
-http://83.222.205.10:38080/konnyimir/index.m3u8
-#EXTINF:-1,Калейдоскоп ТВ
-#EXTGRP:Познавательные
-http://live-1.otcnet.ru/kaleidoskop/tracks-v1a1/index.m3u8
-#EXTINF:-1,Silence TV WORLD
-#EXTGRP:Познавательные
-http://93.190.140.42:8081/SilenceTV/live/playlist.m3u8
-#EXTINF:-1,Travel Guid-TV
-#EXTGRP:Познавательные
-http://cdn10.live-tv.od.ua:8081/leonovtv/1080i/playlist.m3u8
-#EXTINF:-1,100% News
-#EXTGRP:Познавательные
-http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1,Мособр TV HD
 #EXTGRP:Познавательные
 http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-#EXTINF:-1,Королев ТВ
-#EXTGRP:Региональные
-http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
 #EXTINF:-1,Губерния
 #EXTGRP:Региональные
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/chunklist.m3u8
-#EXTINF:-1,Мордовия 24 (Саранск)
-#EXTGRP:Региональные
-https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
-#EXTINF:-1,Астрахань 24
-#EXTGRP:Региональные
-http://streaming.astrakhan.ru/astrakhan24/index.m3u8
 #EXTINF:-1,Новый век
 #EXTGRP:Региональные
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
