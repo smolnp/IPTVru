@@ -26,9 +26,6 @@ udp://@225.50.66.34:1234
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
-#EXTINF:-1,НТВ
-#EXTGRP:Общественные
-https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
 #EXTINF:-1,ОТР
 #EXTGRP:Общественные
 udp://@225.50.66.12:1234
