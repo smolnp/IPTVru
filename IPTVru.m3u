@@ -145,6 +145,9 @@ udp://@225.50.66.5:1234
 #EXTINF:-1,Смайлик ТВ
 #EXTGRP:Детские
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+#EXTINF:-1,Рыжий
+#EXTGRP:Детские
+http://ott-cdn.ucom.am/s57/04.m3u8
 #EXTINF:-1 ,Amedia 1
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
@@ -160,6 +163,9 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 #EXTINF:-1 ,Fox Life
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
+#EXTINF:-1,Cinema
+#EXTGRP:Кино и сериалы
+https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:64,ViP Premiere
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
@@ -235,18 +241,22 @@ udp://@225.50.66.10:1234
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
+#EXTINF:-1,ЗОО ТВ
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s92/04.m3u8
 #EXTINF:-1,Дикая охота HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
 #EXTINF:-1,Дикая рыбалка HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
+#EXTINF:-1,Загородный
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:-1,История
-#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s40/04.m3u8
 #EXTINF:-1,Наука
-#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s98/04.m3u8
 #EXTINF:-1,Viasat Nature/History HD
@@ -264,3 +274,12 @@ http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
+#EXTINF:-1,Brics TV HD
+#EXTGRP:Познавательные
+http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
+#EXTINF:-1,Приключения HD
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s99/04.m3u8
+#EXTINF:-1, Первый Космический
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s44/04.m3u8
