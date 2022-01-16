@@ -59,6 +59,9 @@ http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1,UA TV
 #EXTGRP:Общественные
 http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+#EXTINF:-1,НОВЫЙ ВЕК
+#EXTGRP:Общественные
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
 #EXTINF:-1,Евроновости
 #EXTGRP:Новости
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
@@ -104,7 +107,7 @@ http://95.46.208.8:24433/art
 #EXTINF:-1,Наше ТВ
 #EXTGRP:Развлекательные
 http://95.46.208.8:26259/nashe
-#EXTINF:-1,ЧЕ!
+#EXTINF:-1,Че
 #EXTGRP:Развлекательные
 http://176.114.16.54:80/che/index.m3u8
 #EXTINF:-1,Baby TV
@@ -129,7 +132,6 @@ https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 #EXTINF:-1 ,Мультимузыка
-https://autopilot.catcast.tv/content/38850/index.m3u8
 http://37.235.137.192:81/udp/225.50.64.80:1234
 #EXTINF:-1,Детское|Кино
 #EXTGRP:Детские
@@ -251,9 +253,3 @@ http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-#EXTINF:-1,Губерния
-#EXTGRP:Региональные
-http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/chunklist.m3u8
-#EXTINF:-1,Новый век
-#EXTGRP:Региональные
-http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/index.m3u8
