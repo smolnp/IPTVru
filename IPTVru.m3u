@@ -104,9 +104,12 @@ http://95.46.208.8:24433/art
 #EXTINF:-1,Наше ТВ
 #EXTGRP:Развлекательные
 http://95.46.208.8:26259/nashe
-#EXTINF:-1,Оплoт 2
+#EXTINF:-1,ЧЕ!
 #EXTGRP:Развлекательные
-http://ott.inmart.tv:8081/17/index.m3u8
+http://176.114.16.54:80/che/index.m3u8
+#EXTINF:-1,Сарафан ТВ
+#EXTGRP:Развлекательные
+http://195.26.83.96:7024/play/82
 #EXTINF:-1,Disney
 #EXTGRP:Детские
 udp://@225.50.66.2:1234
