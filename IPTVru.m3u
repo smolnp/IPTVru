@@ -146,6 +146,7 @@ udp://@225.50.66.5:1234
 #EXTGRP:Детские
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTINF:-1,Рыжий
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Детские
 http://ott-cdn.ucom.am/s57/04.m3u8
 #EXTINF:-1 ,Amedia 1
@@ -242,6 +243,7 @@ udp://@225.50.66.10:1234
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
 #EXTINF:-1,ЗОО ТВ
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s92/04.m3u8
 #EXTINF:-1,Дикая охота HD
@@ -251,12 +253,15 @@ https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
 #EXTINF:-1,Загородный
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:-1,История
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s40/04.m3u8
 #EXTINF:-1,Наука
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s98/04.m3u8
 #EXTINF:-1,Viasat Nature/History HD
@@ -275,11 +280,14 @@ http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 #EXTINF:-1,Brics TV HD
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
 #EXTINF:-1,Приключения HD
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1, Первый Космический
+#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s44/04.m3u8
