@@ -5,27 +5,27 @@
 #EXTINF:-1,360° HD
 #EXTGRP:Общественные
 udp://@225.50.66.8:1234
-#EXTINF:-1,Первый канал
+#EXTINF:-1,Первый канал HD
 #EXTGRP:Общественные
-http://37.235.137.192:81/udp/225.50.66.201:1234
-#EXTINF:-1,Россия 1
+https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
+#EXTINF:-1,Россия 1 HD
 #EXTGRP:Общественные
-udp://@225.50.66.97:1234
+https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 #EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
-udp://@225.50.66.87:1234
+https://okkotv-live.cdnvideo.ru/channel/Russia_K_SD.m3u8
 #EXTINF:-1,Пятый Канал
 #EXTGRP:Общественные
-udp://@225.50.66.95:1234
-#EXTINF:-1,Домашний
+https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
+#EXTINF:-1,Домашний HD
 #EXTGRP:Общественные
-udp://@225.50.66.54:1234
+https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1,МИР
 #EXTGRP:Общественные
 udp://@225.50.66.34:1234
 #EXTINF:-1,Спас ТВ
 #EXTGRP:Общественные
-udp://@225.50.66.52:1234
+https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
 #EXTINF:-1,Новый
 #EXTGRP:Общественные
 udp://@225.50.66.14:1234
@@ -67,16 +67,16 @@ http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
+https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
 #EXTINF:-1,РЕН ТВ HD
 #EXTGRP:Развлекательные
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
-#EXTINF:-1,СТС
+#EXTINF:-1,СТС HD
 #EXTGRP:Развлекательные
-udp://@225.50.66.53:1234
+https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 ,СТС Love
 #EXTGRP:Развлекательные
 http://46.46.127.13:8306
@@ -107,6 +107,9 @@ http://95.46.208.8:26259/nashe
 #EXTINF:-1,ЧЕ!
 #EXTGRP:Развлекательные
 http://176.114.16.54:80/che/index.m3u8
+#EXTINF:-1,Baby TV
+#EXTGRP:Детские
+http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
 #EXTINF:-1,Disney
 #EXTGRP:Детские
 udp://@225.50.66.2:1234
@@ -124,7 +127,7 @@ https://cdn-01.bonus-tv.ru:8090/radostmoya_edge/tracks-v1a1/mono.m3u8
 https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTINF:-1 ,Мультиландия
 #EXTGRP:Детские
-http://37.235.137.192:81/udp/225.50.64.30:1234
+https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 #EXTINF:-1 ,Мультимузыка
 https://autopilot.catcast.tv/content/38850/index.m3u8
 http://37.235.137.192:81/udp/225.50.64.80:1234
@@ -185,9 +188,6 @@ http://95.67.12.94:9002
 #EXTINF:-1,Дорама
 #EXTGRP:Кино и сериалы
 http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
-#EXTINF:-1,Дом Кино Премиум
-#EXTGRP:Кино и сериалы
-https://sc.id-tv.kz/domkino_hd.m3u8
 #EXTINF:-1,КИНОХИТ
 #EXTGRP:Кино и сериалы
 http://185.129.1.242:80/kinoxit/mpegts
@@ -197,6 +197,12 @@ http://31.173.178.110:8004/play/a06j/index.m3u8
 #EXTINF:-1 ,Sony Sci-Fi
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 ,Black
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
+#EXTINF:-1 ,Red
+#EXTGRP:Кино и сериалы
+https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 #EXTINF:-1,Феникс+Кино
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
@@ -224,10 +230,10 @@ udp://@225.50.66.10:1234
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
-#EXTINF:-1,Дикая охота
+#EXTINF:-1,Дикая охота HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
-#EXTINF:-1,Дикая рыбалка
+#EXTINF:-1,Дикая рыбалка HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
 #EXTINF:-1,Viasat Nature/History HD
