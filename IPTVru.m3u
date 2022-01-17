@@ -149,6 +149,10 @@ http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Детские
 http://ott-cdn.ucom.am/s57/04.m3u8
+#EXTINF:-1,Детский мир
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Детские
+http://ott-cdn.ucom.am/s58/04.m3u8
 #EXTINF:-1 ,Amedia 1
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
@@ -200,9 +204,19 @@ http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
 #EXTINF:-1,КИНОХИТ
 #EXTGRP:Кино и сериалы
 http://185.129.1.242:80/kinoxit/mpegts
+#EXTINF:-1,Киноужас
+#EXTGRP:Кино и сериалы
+#EXTVLCOPT:http-user-agent=smartlabs
+http://ott-cdn.ucom.am/s87/04.m3u8
 #EXTINF:-1,Мир сериала
 #EXTGRP:Кино и сериалы
 http://31.173.178.110:8004/play/a06j/index.m3u8
+#EXTINF:0,Русский детектив
+#EXTGRP:Кино и сериалы
+http://109.171.45.109:81/udp/239.54.7.32:1224
+#EXTINF:0,Русский роман
+#EXTGRP:Кино и сериалы
+http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1 ,.sci-fi
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -218,6 +232,10 @@ http://ott.inmart.tv:8081/19/index.m3u8
 #EXTINF:-1,Феникс+Кино
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+#EXTINF:-1,Bridge TV Русский хит
+#EXTGRP:Музыка
+#EXTVLCOPT:http-user-agent=smartlabs
+http://ott-cdn.ucom.am/s78/04.m3u8
 #EXTINF:-1,HITV
 #EXTGRP:Музыка
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
@@ -242,6 +260,14 @@ udp://@225.50.66.10:1234
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
+#EXTINF:-1,Шансон ТВ
+#EXTGRP:Музыка
+#EXTVLCOPT:http-user-agent=smartlabs
+http://ott-cdn.ucom.am/s43/04.m3u8
+#EXTINF:-1,Арсенал
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s68/04.m3u8
 #EXTINF:-1,ЗОО ТВ
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -252,6 +278,10 @@ https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
 #EXTINF:-1,Дикая рыбалка HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
+#EXTINF:-1,Рыболов
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s55/04.m3u8
 #EXTINF:-1,Загородный
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -291,3 +321,11 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s44/04.m3u8
+#EXTINF:-1,Food Network
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s18/04.m3u8
+#EXTINF:-1,RTG TV
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Познавательные
+http://ott-cdn.ucom.am/s80/04.m3u8
