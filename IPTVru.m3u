@@ -189,9 +189,6 @@ https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
 #EXTINF:64,TV1000 Action
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
-#EXTINF:64,TV1000 Русское кино
-#EXTGRP:Кино и сериалы
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 #EXTINF:-1,Zee TV
 #EXTGRP:Кино и сериалы
 http://194.213.23.7:3304
@@ -208,15 +205,6 @@ http://185.129.1.242:80/kinoxit/mpegts
 #EXTGRP:Кино и сериалы
 #EXTVLCOPT:http-user-agent=smartlabs
 http://ott-cdn.ucom.am/s87/04.m3u8
-#EXTINF:-1,Мир сериала
-#EXTGRP:Кино и сериалы
-http://31.173.178.110:8004/play/a06j/index.m3u8
-#EXTINF:0,Русский детектив
-#EXTGRP:Кино и сериалы
-http://109.171.45.109:81/udp/239.54.7.32:1224
-#EXTINF:0,Русский роман
-#EXTGRP:Кино и сериалы
-http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1 ,.sci-fi
 #EXTGRP:Кино и сериалы
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -229,8 +217,20 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 #EXTINF:-1,Новорocсия ТВ HD
 #EXTGRP:Кино и сериалы
 http://ott.inmart.tv:8081/19/index.m3u8
+#EXTINF:64,TV1000 Русское кино
+#EXTGRP:Кино и сериалы (русские)
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+#EXTINF:-1,Мир сериала
+#EXTGRP:Кино и сериалы (русские)
+http://31.173.178.110:8004/play/a06j/index.m3u8
+#EXTINF:0,Русский детектив
+#EXTGRP:Кино и сериалы (русские)
+http://109.171.45.109:81/udp/239.54.7.32:1224
+#EXTINF:0,Русский роман
+#EXTGRP:Кино и сериалы (русские)
+http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1,Феникс+Кино
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кино и сериалы (русские)
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1,Bridge TV Русский хит
 #EXTGRP:Музыка
