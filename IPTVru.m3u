@@ -65,6 +65,9 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
 https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
+#EXTINF:-1,24 канал HD
+#EXTGRP:Новости
+http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b2096000.m3u8
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
@@ -154,83 +157,83 @@ http://ott-cdn.ucom.am/s57/04.m3u8
 #EXTGRP:Детские
 http://ott-cdn.ucom.am/s58/04.m3u8
 #EXTINF:-1 ,Amedia 1
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 #EXTINF:-1 ,Amedia 2
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 ,Amedia Hit
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 #EXTINF:-1,Fox HD
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 #EXTINF:-1 ,Fox Life
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:-1,Cinema
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:64,ViP Premiere
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #EXTINF:64,ViP Megahit
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
 #EXTINF:64,ViP Comedy
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
 #EXTINF:64,ViP Serial
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 #EXTINF:64,TV1000
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
 #EXTINF:64,TV1000 Action
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1,Zee TV
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 http://194.213.23.7:3304
 #EXTINF:-1,Star Family
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 http://95.67.12.94:9002
 #EXTINF:-1,Дорама
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
 #EXTINF:-1,КИНОХИТ
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 http://185.129.1.242:80/kinoxit/mpegts
 #EXTINF:-1,Киноужас
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 #EXTVLCOPT:http-user-agent=smartlabs
 http://ott-cdn.ucom.am/s87/04.m3u8
-#EXTINF:-1 ,.sci-fi
-#EXTGRP:Кино и сериалы
+#EXTINF:-1,.sci-fi
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
-#EXTINF:-1 ,.black
-#EXTGRP:Кино и сериалы
+#EXTINF:-1,.black
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
-#EXTINF:-1 ,.red
-#EXTGRP:Кино и сериалы
+#EXTINF:-1,.red
+#EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 #EXTINF:-1,Новорocсия ТВ HD
-#EXTGRP:Кино и сериалы
+#EXTGRP:Кинозал
 http://ott.inmart.tv:8081/19/index.m3u8
 #EXTINF:64,TV1000 Русское кино
-#EXTGRP:Кино и сериалы (русские)
+#EXTGRP:Кинозал (русские)
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 #EXTINF:-1,Мир сериала
-#EXTGRP:Кино и сериалы (русские)
+#EXTGRP:Кинозал (русские)
 http://31.173.178.110:8004/play/a06j/index.m3u8
 #EXTINF:0,Русский детектив
-#EXTGRP:Кино и сериалы (русские)
+#EXTGRP:Кинозал (русские)
 http://109.171.45.109:81/udp/239.54.7.32:1224
 #EXTINF:0,Русский роман
-#EXTGRP:Кино и сериалы (русские)
+#EXTGRP:Кинозал (русские)
 http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1,Феникс+Кино
-#EXTGRP:Кино и сериалы (русские)
+#EXTGRP:Кинозал (русские)
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1,Bridge TV Русский хит
 #EXTGRP:Музыка
@@ -245,12 +248,6 @@ http://v1.catcast.me/content/33816/index.m3u8
 #EXTINF:0,НОВОЕ радио
 #EXTGRP:Музыка
 https://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
-#EXTINF:0,Страна FM HD
-#EXTGRP:Музыка
-http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1,РORTAL FOXMIX TV
-#EXTGRP:Музыка
-http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
 #EXTINF:-1,Retro Music
 #EXTGRP:Музыка
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
