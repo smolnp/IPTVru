@@ -5,21 +5,24 @@
 #EXTINF:-1,360° HD
 #EXTGRP:Общественные
 udp://@225.50.66.8:1234
-#EXTINF:-1,Первый канал HD
+#EXTINF:-1,Первый канал
 #EXTGRP:Общественные
-https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
+http://ott-cdn.ucom.am/s14/index.m3u8
 #EXTINF:-1,Россия 1 HD
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
+#EXTINF:0,Планета РТР
+#EXTGRP:Общественные
+http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
-https://okkotv-live.cdnvideo.ru/channel/Russia_K_SD.m3u8
+http://ott-cdn.ucom.am/s16/index.m3u8
 #EXTINF:-1,Пятый Канал
 #EXTGRP:Общественные
 https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
-#EXTINF:-1,Домашний HD
+#EXTINF:-1,Домашний
 #EXTGRP:Общественные
-https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
+http://ott-cdn.ucom.am/s88/index.m3u8
 #EXTINF:-1,МИР
 #EXTGRP:Общественные
 udp://@225.50.66.34:1234
@@ -64,16 +67,16 @@ http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
-https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
+http://ott-cdn.ucom.am/s21/index.m3u8
 #EXTINF:-1,24 канал HD
 #EXTGRP:Новости
 http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b2096000.m3u8
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
-#EXTINF:-1,РЕН ТВ HD
+#EXTINF:-1,РЕН ТВ
 #EXTGRP:Развлекательные
-https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
+http://ott-cdn.ucom.am/s85/index.m3u8
 #EXTINF:-1,СТС HD
 #EXTGRP:Развлекательные
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
