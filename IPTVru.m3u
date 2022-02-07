@@ -33,12 +33,15 @@ https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
 #EXTINF:-1,БелРос
 #EXTGRP:Общественные
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+#EXTINF:-1,РЕН ТВ
+#EXTGRP:Общественные
+udp://@225.50.66.51:1234
 #EXTINF:-1,СТВ
 #EXTGRP:Общественные
 http://212.98.171.116/HLS/ctvby/playlist.m3u8
-#EXTINF:-1,UA TV
+#EXTINF:-1,Липецкое время
 #EXTGRP:Общественные
-http://ua-tv-hls2.cosmonova.net.ua/hls/ua-tv_ua_mid/index.m3u8
+http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1,Евроновости
 #EXTGRP:Новости
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
@@ -48,27 +51,27 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1,Россия 24
 #EXTGRP:Новости
 udp://@225.50.66.86:1234
-#EXTINF:-1,24 канал HD
-#EXTGRP:Новости
-http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b2096000.m3u8
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
-#EXTINF:-1,РЕН ТВ
-#EXTGRP:Развлекательные
-udp://@225.50.66.51:1234
 #EXTINF:-1,СТС
 #EXTGRP:Развлекательные
 udp://@225.50.66.53:1234
 #EXTINF:-1 ,СТС Love
 #EXTGRP:Развлекательные
 http://46.46.127.13:8306
+#EXTINF:-1,СТС International
+#EXTGRP:Развлекательные
+https://sc.id-tv.kz/STS_34_35.m3u8
 #EXTINF:-1,ТНТ
 #EXTGRP:Развлекательные
 udp://@225.50.66.59:1234
 #EXTINF:-1,ТНТ4
 #EXTGRP:Развлекательные
 udp://@225.50.66.7:1234
+#EXTINF:-1,ТНТ International
+#EXTGRP:Развлекательные
+http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1, Ю
 #EXTGRP:Развлекательные
 udp://@225.50.66.9:1234
@@ -81,6 +84,9 @@ udp://@225.50.66.6:1234
 #EXTINF:-1,Продвижение
 #EXTGRP:Развлекательные
 udp://@225.50.66.15:1234
+#EXTINF:-1,8 канал
+#EXTGRP:Развлекательные
+http://80.94.225.126:8080/8kanalHD/mono.m3u8
 #EXTINF:-1,Baby TV
 #EXTGRP:Детские
 http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
@@ -119,15 +125,12 @@ http://ott-cdn.ucom.am/s58/04.m3u8
 #EXTINF:-1,Cinema
 #EXTGRP:Кинозал
 https://sc.id-tv.kz/Cinema_34_35.m3u8
-#EXTINF:64,ViP Premiere
+#EXTINF:-1,BACKUS TV HD
 #EXTGRP:Кинозал
-http://5.53.118.226:61106/play/a02b
-#EXTINF:64,ViP Megahit
+http://stream.backustv.ru/live/btv/index.m3u8
+#EXTINF:-1,BACKUSTV Страшное HD
 #EXTGRP:Кинозал
-http://5.53.118.226:61106/play/a02a
-#EXTINF:64,ViP Comedy
-#EXTGRP:Кинозал
-http://5.53.118.226:61106/play/a029
+http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:64,TV1000
 #EXTGRP:Кинозал
 http://dmitry-tv.ml/hls/CH_TV1000HD.m3u8
@@ -146,12 +149,15 @@ http://live.fluxhd.ru/FLUX_720P/video.m3u8
 #EXTINF:-1,Киносвидание HD
 #EXTGRP:Кинозал
 https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
-#EXTINF:-1,Мужское Кино HD
+#EXTINF:-1,Киномикс
 #EXTGRP:Кинозал
-https://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
-#EXTINF:-1,КИНОХИТ
+https://sc.id-tv.kz/Kinomix_hd_34_35.m3u8
+#EXTINF:-1,Кинохит
 #EXTGRP:Кинозал
-http://185.129.1.242:80/kinoxit/mpegts
+https://sc.id-tv.kz/Kinohit_hd_34_35.m3u8
+#EXTINF:-1,Кинокомедия
+#EXTGRP:Кинозал
+https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
 #EXTINF:-1,Киноужас
 #EXTGRP:Кинозал
 #EXTVLCOPT:http-user-agent=smartlabs
@@ -162,12 +168,12 @@ http://109.200.130.124:7006/play/a00y
 #EXTINF:-1,Киносат
 #EXTGRP:Кинозал
 http://193.33.88.172:8080/kinosat/index.m3u8
+#EXTINF:-1,Мужское Кино HD
+#EXTGRP:Кинозал
+https://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
 #EXTINF:-1,FlixSnip
 #EXTGRP:Кинозал
 http://145.249.228.229:8000/play/40
-#EXTINF:64,TV1000 Русское кино
-#EXTGRP:Кинозал (русские)
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 #EXTINF:-1,Мосфильм. Золотая коллекция
 #EXTGRP:Кинозал (русские)
 http://193.33.88.172:8080/mosfilm/tracks-v1a1/mono.m3u8
@@ -183,9 +189,12 @@ http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1,Русский Бестселлер
 #EXTGRP:Кинозал (русские)
 http://193.33.88.172:8080/rus-bestseller/index.m3u8
-#EXTINF:-1,Феникс+Кино
+#EXTINF:-1,Твое ТВ HD
 #EXTGRP:Кинозал (русские)
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+http://stream-norst.cf:8080/tvoetv/index.m3u8
+#EXTINF:-1,Родное Кино
+#EXTGRP:Кинозал (русские)
+https://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
 #EXTINF:-1,Bridge TV Русский хит
 #EXTGRP:Музыка
 #EXTVLCOPT:http-user-agent=smartlabs
