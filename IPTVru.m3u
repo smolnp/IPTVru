@@ -137,6 +137,18 @@ http://dmitry-tv.ml/hls/CH_TV1000HD.m3u8
 #EXTINF:64,TV1000 Action
 #EXTGRP:Кинозал
 http://dmitry-tv.ml/hls/CH_TV1000ACTIONHD.m3u8
+#EXTINF:-1,VIP Comedy HD
+#EXTGRP:Кинозал
+https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,VIP Megahit HD
+#EXTGRP:Кинозал
+https://bl.uma.media/live/485537/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,VIP Premiere HD
+#EXTGRP:Кинозал
+https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,VIP Serial HD
+#EXTGRP:Кинозал
+https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,Zee TV
 #EXTGRP:Кинозал
 http://194.213.23.7:3304
@@ -170,7 +182,7 @@ http://109.200.130.124:7006/play/a00y
 http://193.33.88.172:8080/kinosat/index.m3u8
 #EXTINF:-1,Мужское Кино HD
 #EXTGRP:Кинозал
-https://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
+http://128.0.27.41:8080/239.211.200.31/mpegts
 #EXTINF:-1,FlixSnip
 #EXTGRP:Кинозал
 http://145.249.228.229:8000/play/40
