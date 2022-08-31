@@ -120,19 +120,28 @@ http://ott-cdn.ucom.am/s57/04.m3u8
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Детские
 http://ott-cdn.ucom.am/s58/04.m3u8
+#EXTINF:-1,312 Кино
+#EXTGRP:Кинозал
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
+#EXTINF:-1,.Sci-Fi
+#EXTGRP:Кинозал
+http://82.200.60.211:4022/udp/239.54.6.50:1224
+#EXTINF:-1,FAN
+#EXTGRP:Кинозал
+http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Cinema
 #EXTGRP:Кинозал
 http://195.26.83.96:50001/1
 #EXTINF:-1,BACKUS TV HD
 #EXTGRP:Кинозал
 http://stream.backustv.ru/live/btv/index.m3u8
-#EXTINF:-1,BACKUSTV Страшное HD
+#EXTINF:-1,BACKUSTV dark HD
 #EXTGRP:Кинозал
 http://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:64,TV1000
+#EXTINF:-1,TV1000
 #EXTGRP:Кинозал
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tv1000
-#EXTINF:64,TV1000 Action
+#EXTINF:-1,TV1000 Action
 #EXTGRP:Кинозал
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tv1000action
 #EXTINF:-1,VIP Comedy HD
@@ -147,33 +156,24 @@ https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,VIP Serial HD
 #EXTGRP:Кинозал
 https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,Film Box
+#EXTGRP:Кинозал
+http://tv.tuva.ru/film_box/index.m3u8
+#EXTINF:-1,Start Air HD
+#EXTGRP:Кинозал
+https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1,Zee TV
 #EXTGRP:Кинозал
 http://82.200.60.211:4022/udp/239.54.6.173:1234
 #EXTINF:-1,Индийское кино
 #EXTGRP:Кинозал
 http://46.174.83.66/Indiiskoe_kino/index.m3u8
-#EXTINF:-1,.Sci-Fi
-#EXTGRP:Кинозал
-http://82.200.60.211:4022/udp/239.54.6.50:1224
-#EXTINF:-1,Киносвидание HD
-#EXTGRP:Кинозал
-http://persik.tv/stream/1234/3//30.m3u8
-#EXTINF:-1,Киномикс
-#EXTGRP:Кинозал
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=kinomix
 #EXTINF:-1,Кинопоказ
 #EXTGRP:Кинозал
 http://193.233.9.49/streams/media/Kinopokaz/index.m3u8
-#EXTINF:-1,Кинопремьера
-#EXTGRP:Кинозал
-https://sc.id-tv.kz/Kinopremiera_hd.m3u8
 #EXTINF:-1,Кинокомедия
 #EXTGRP:Кинозал
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=kinokomedia
-#EXTINF:-1,Остросюжетное HD
-#EXTGRP:Кинозал
-http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD
 #EXTINF:-1,НСТ
 #EXTGRP:Кинозал
 http://109.200.130.124:7006/play/a00y
@@ -183,27 +183,30 @@ http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m
 #EXTINF:-1,Кино ТВ HD
 #EXTGRP:Кинозал
 http://82.200.60.211:4022/udp/239.54.6.115:1234
-#EXTINF:-1,Мосфильм. Золотая коллекция
+#EXTINF:-1,TV1000 Руское кино
 #EXTGRP:Кинозал (русские)
-http://193.33.88.172:8080/mosfilm/tracks-v1a1/mono.m3u8
-#EXTINF:-1,Мир сериала
+https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,Наше новое кино
 #EXTGRP:Кинозал (русские)
-http://31.173.178.110:8004/play/a06j/index.m3u8
-#EXTINF:0,Русский детектив
+http://82.200.60.211:4022/udp/239.54.6.213:1224
+#EXTINF:-1,Русский детектив
 #EXTGRP:Кинозал (русские)
 http://109.171.45.109:81/udp/239.54.7.32:1224
-#EXTINF:0,Русский роман
+#EXTINF:-1,Русский роман
 #EXTGRP:Кинозал (русские)
 http://109.171.45.109:81/udp/239.54.5.87:1224
 #EXTINF:-1,Русский Бестселлер
 #EXTGRP:Кинозал (русские)
-http://193.33.88.172:8080/rus-bestseller/index.m3u8
+http://195.26.83.96:7024/play/80
 #EXTINF:-1,Твое ТВ HD
 #EXTGRP:Кинозал (русские)
 http://stream-norst.cf:8080/tvoetv/index.m3u8
-#EXTINF:-1,Родное Кино
+#EXTINF:-1,Русский иллюзион
 #EXTGRP:Кинозал (русские)
-https://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
+http://86.57.178.105:10823
+#EXTINF:-1,Феникс+ кино
+#EXTGRP:Кинозал (русские)
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=fenixkino
 #EXTINF:-1,Bridge TV Русский хит
 #EXTGRP:Музыка
 #EXTVLCOPT:http-user-agent=smartlabs
@@ -211,7 +214,7 @@ http://ott-cdn.ucom.am/s78/04.m3u8
 #EXTINF:-1,Metal TV
 #EXTGRP:Музыка
 http://v1.catcast.me/content/33816/index.m3u8
-#EXTINF:0,НОВОЕ радио
+#EXTINF:-1,НОВОЕ радио
 #EXTGRP:Музыка
 https://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 #EXTINF:-1,МУЗ-ТВ
