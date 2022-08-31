@@ -24,6 +24,9 @@ http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1,РЕН ТВ
 #EXTGRP:Общественные
 udp://@225.50.66.51:1234
+#EXTINF:-1,Красная линия
+#EXTGRP:Общественные
+https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 #EXTINF:-1,СТВ
 #EXTGRP:Общественные
 http://212.98.171.116/HLS/ctvby/playlist.m3u8
@@ -215,18 +218,9 @@ https://eurodance90.catcast.tv/content/36987/index.m3u8
 #EXTINF:-1,RU TV
 #EXTGRP:Музыка
 http://188.191.160.238:9099/channel/RU_TV.ts
-#EXTINF:-1,VIVA Russia
-#EXTGRP:Музыка
-https://hls.goodgame.ru/hls/180805.m3u8
 #EXTINF:-1,Жар Птица
 #EXTGRP:Музыка
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-#EXTINF:-1,Жара
-#EXTGRP:Музыка
-http://109.200.130.124:9100/play/a02i/index.m3u8
-#EXTINF:-1,Ля-минор
-#EXTGRP:Музыка
-http://188.93.94.140/liaminortv/playlist.m3u8?token=%E3%82%B8%E3%83%A7%E3%83%AB%E3%82%B8
 #EXTINF:-1,Муз ТВ
 #EXTGRP:Музыка
 http://213.172.73.170:8081/nimble_live/1132__Muz_Tv/playlist.m3u8
@@ -236,14 +230,12 @@ https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
 #EXTINF:-1,Rock
 #EXTGRP:Музыка
 https://sluhay.by/live/Ch114pub/index.m3u8
-#EXTINF:-1,ЗОО ТВ
-#EXTVLCOPT:http-user-agent=smartlabs
+#EXTINF:-1,Домашние Животные
 #EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s92/04.m3u8
-#EXTINF:-1,Рыболов
-#EXTVLCOPT:http-user-agent=smartlabs
+http://78.25.155.47:1309/channel/Dom_jiv.ts
+#EXTINF:-1,Здоровое ТВ
 #EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s55/04.m3u8
+http://78.25.155.47:1309/channel/Zdorovoe.ts
 #EXTINF:-1,Загородный
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -253,19 +245,17 @@ http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s40/04.m3u8
 #EXTINF:-1,Наука
-#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s98/04.m3u8
+http://78.25.155.47:1309/channel/Nauka.ts
 #EXTINF:-1,Мособр TV HD
 #EXTGRP:Познавательные
 http://retj.educom.ru/mosobrtv/tv1/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-#EXTINF:-1,Brics TV HD
-#EXTVLCOPT:http-user-agent=smartlabs
+#EXTINF:-1,Наши Города
 #EXTGRP:Познавательные
-http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
+https://kogalimtv.gcdn.co/streams/775_101/1080n/index.m3u8
 #EXTINF:-1,Приключения HD
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -278,7 +268,6 @@ http://ott-cdn.ucom.am/s44/04.m3u8
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s18/04.m3u8
-#EXTINF:-1,RTG TV
-#EXTVLCOPT:http-user-agent=smartlabs
+#EXTINF:-1,Психология
 #EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s80/04.m3u8
+http://78.25.155.47:1309/channel/Psih_21.ts
