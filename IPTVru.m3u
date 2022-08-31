@@ -18,16 +18,6 @@ udp://@225.50.66.52:1234
 #EXTINF:-1,ОТР
 #EXTGRP:Общественные
 udp://@225.50.66.12:1234
-#EXTINF:-1,Новый мир
-#EXTGRP:Общественные
-http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1,Арсенал
-#EXTVLCOPT:http-user-agent=smartlabs
-#EXTGRP:Общественные
-http://ott-cdn.ucom.am/s68/04.m3u8
-#EXTINF:-1,Красная линия
-#EXTGRP:Общественные
-https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
 #EXTINF:-1,БелРос
 #EXTGRP:Общественные
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
@@ -40,15 +30,6 @@ http://212.98.171.116/HLS/ctvby/playlist.m3u8
 #EXTINF:-1,Липецкое время
 #EXTGRP:Общественные
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
-#EXTINF:-1,Евроновости
-#EXTGRP:Новости
-http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
-#EXTINF:-1,Известия
-#EXTGRP:Новости
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-#EXTINF:-1,Россия 24
-#EXTGRP:Новости
-udp://@225.50.66.86:1234
 #EXTINF:-1,Канал 2x2
 #EXTGRP:Развлекательные
 udp://@225.50.66.4:1234
@@ -57,10 +38,7 @@ udp://@225.50.66.4:1234
 udp://@225.50.66.53:1234
 #EXTINF:-1 ,СТС Love
 #EXTGRP:Развлекательные
-http://46.46.127.13:8306
-#EXTINF:-1,СТС International
-#EXTGRP:Развлекательные
-https://sc.id-tv.kz/STS_34_35.m3u8
+https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
 #EXTINF:-1,ТНТ
 #EXTGRP:Развлекательные
 udp://@225.50.66.59:1234
@@ -82,44 +60,50 @@ udp://@225.50.66.6:1234
 #EXTINF:-1,Продвижение
 #EXTGRP:Развлекательные
 udp://@225.50.66.15:1234
-#EXTINF:-1,8 канал
-#EXTGRP:Развлекательные
-http://80.94.225.126:8080/8kanalHD/mono.m3u8
-#EXTINF:-1,Baby TV
+#EXTINF:-1,Ani
 #EXTGRP:Детские
-http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
+http://bsttv.bonus-tv.ru/cdn/ani/playlist_sdhigher.m3u8
 #EXTINF:-1,Disney
 #EXTGRP:Детские
 udp://@225.50.66.2:1234
 #EXTINF:-1,TiJi
 #EXTGRP:Детские
 http://194.190.78.91:8080/TiJi_OT/video.m3u8
+#EXTINF:-1,Детский мир
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Детские
+http://ott-cdn.ucom.am/s58/04.m3u8
+#EXTINF:-1,Детское Кино
+#EXTGRP:Детские
+https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1,СТС Kids HD
 #EXTGRP:Детские
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-#EXTINF:-1,Радость моя
+#EXTINF:-1,О!
 #EXTGRP:Детские
-https://cdn-01.bonus-tv.ru:8090/radostmoya_edge/tracks-v1a1/mono.m3u8
+http://46.174.83.66/O/index.m3u8
+#EXTINF:-1 ,Мультиландия
+#EXTGRP:Детские
+https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 #EXTINF:-1 ,Мультимузыка
 #EXTGRP:Детские
-http://37.235.137.192:81/udp/225.50.64.80:1234
+http://109.171.45.109:81/udp/239.54.5.73:1224
 #EXTINF:-1 ,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
 #EXTINF:-1,Карусель
 #EXTGRP:Детские
 udp://@225.50.66.5:1234
-#EXTINF:-1,Смайлик ТВ
+#EXTINF:-1,Уникум
 #EXTGRP:Детские
-http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+http://46.174.83.66/Unikum/mpegts
 #EXTINF:-1,Рыжий
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Детские
 http://ott-cdn.ucom.am/s57/04.m3u8
-#EXTINF:-1,Детский мир
-#EXTVLCOPT:http-user-agent=smartlabs
+#EXTINF:-1,Радость моя
 #EXTGRP:Детские
-http://ott-cdn.ucom.am/s58/04.m3u8
+http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1,312 Кино
 #EXTGRP:Кинозал
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
@@ -132,6 +116,9 @@ http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Cinema
 #EXTGRP:Кинозал
 http://195.26.83.96:50001/1
+#EXTINF:-1,Cinema Classic
+#EXTGRP:Кинозал
+http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1,BACKUS TV HD
 #EXTGRP:Кинозал
 http://stream.backustv.ru/live/btv/index.m3u8
@@ -162,9 +149,12 @@ http://tv.tuva.ru/film_box/index.m3u8
 #EXTINF:-1,Start Air HD
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
-#EXTINF:-1,Zee TV
+#EXTINF:-1,Start World HD
 #EXTGRP:Кинозал
-http://82.200.60.211:4022/udp/239.54.6.173:1234
+https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
+#EXTINF:-1,Trash HD
+#EXTGRP:Кинозал
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=trash
 #EXTINF:-1,Индийское кино
 #EXTGRP:Кинозал
 http://46.174.83.66/Indiiskoe_kino/index.m3u8
@@ -207,26 +197,45 @@ http://86.57.178.105:10823
 #EXTINF:-1,Феникс+ кино
 #EXTGRP:Кинозал (русские)
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=fenixkino
-#EXTINF:-1,Bridge TV Русский хит
+#EXTINF:-1,1 HD Music
 #EXTGRP:Музыка
-#EXTVLCOPT:http-user-agent=smartlabs
-http://ott-cdn.ucom.am/s78/04.m3u8
-#EXTINF:-1,Metal TV
+http://178.212.71.253:8002/play/a006/index.m3u8
+#EXTINF:-1,70-80-90
 #EXTGRP:Музыка
-http://v1.catcast.me/content/33816/index.m3u8
-#EXTINF:-1,НОВОЕ радио
+https://593b04c4c5670.streamlock.net/8002/8002/playlist.m3u8
+#EXTINF:-1,BRIDGE TV Шлягер
 #EXTGRP:Музыка
-https://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
-#EXTINF:-1,МУЗ-ТВ
+https://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgetvshlyager
+#EXTINF:-1,Bridge Русский хит
 #EXTGRP:Музыка
-udp://@225.50.66.10:1234
+https://livetv.mylifeisgood.ml/channels/bridgerushittv
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
-#EXTINF:-1,Шансон ТВ
+#EXTINF:-1,RU TV
 #EXTGRP:Музыка
-#EXTVLCOPT:http-user-agent=smartlabs
-http://ott-cdn.ucom.am/s43/04.m3u8
+http://188.191.160.238:9099/channel/RU_TV.ts
+#EXTINF:-1,VIVA Russia
+#EXTGRP:Музыка
+https://hls.goodgame.ru/hls/180805.m3u8
+#EXTINF:-1,Жар Птица
+#EXTGRP:Музыка
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+#EXTINF:-1,Жара
+#EXTGRP:Музыка
+http://109.200.130.124:9100/play/a02i/index.m3u8
+#EXTINF:-1,Ля-минор
+#EXTGRP:Музыка
+http://188.93.94.140/liaminortv/playlist.m3u8?token=%E3%82%B8%E3%83%A7%E3%83%AB%E3%82%B8
+#EXTINF:-1,Муз ТВ
+#EXTGRP:Музыка
+http://213.172.73.170:8081/nimble_live/1132__Muz_Tv/playlist.m3u8
+#EXTINF:-1,ТНТ Music
+#EXTGRP:Музыка
+https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
+#EXTINF:-1,Rock
+#EXTGRP:Музыка
+https://sluhay.by/live/Ch114pub/index.m3u8
 #EXTINF:-1,ЗОО ТВ
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
