@@ -9,6 +9,9 @@ udp://@225.50.66.97:1234
 #EXTINF:-1,Россия-Культура
 #EXTGRP:Общественные
 udp://@225.50.66.87:1234
+#EXTINF:-1,ТВ3 HD
+#EXTGRP:Общественные
+https://livetv.mylifeisgood.ml/channels/tv3
 #EXTINF:-1,Домашний
 #EXTGRP:Общественные
 udp://@225.50.66.54:1234
@@ -172,7 +175,7 @@ http://tv.tuva.ru/film_box/index.m3u8
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1,Start World HD
 #EXTGRP:Кинозал
-https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
+https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #EXTINF:-1,Star Cinema HD
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8
