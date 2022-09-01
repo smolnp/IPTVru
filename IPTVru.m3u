@@ -127,7 +127,7 @@ http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1,.Sci-Fi
 #EXTGRP:Кинозал
-http://82.200.60.211:4022/udp/239.54.6.50:1224
+https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8
 #EXTINF:-1,Fox HD
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
@@ -139,7 +139,7 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
 http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Cinema
 #EXTGRP:Кинозал
-http://195.26.83.96:50001/1
+http://213.172.73.170:8081/nimble_live/1142__Sinema/playlist.m3u8
 #EXTINF:-1,Cinema Classic
 #EXTGRP:Кинозал
 http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
@@ -200,9 +200,9 @@ http://109.200.130.124:7006/play/a00y
 #EXTINF:-1,Премиальное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
-#EXTINF:-1,Кино ТВ HD
+#EXTINF:-1,Кино ТВ
 #EXTGRP:Кинозал
-http://82.200.60.211:4022/udp/239.54.6.115:1234
+http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1,TV1000 Руское кино
 #EXTGRP:Кинозал (русские)
 https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
@@ -264,9 +264,9 @@ http://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s18/04.m3u8
-#EXTINF:-1,Бобер
+#EXTINF:-1,Бобёр
 #EXTGRP:Познавательные
-https://pkvc-hls4.cdnvideo.ru/Bober/smil:Bober.smil
+https://pkvc-hls4.cdnvideo.ru/Bober/smil:Bober.smil/chunklist_b2628000_slru.m3u8
 #EXTINF:-1,Домашние Животные
 #EXTGRP:Познавательные
 http://78.25.155.47:1309/channel/Dom_jiv.ts
