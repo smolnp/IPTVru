@@ -1,44 +1,42 @@
 #EXTM3U url-tvg="http://iptvx.one/epg/epg_lite.xml.gz"
 
+#EXTINF:-1,TV BRICS HD
+#EXTGRP:Общественные
+http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
 #EXTINF:-1,OVAA TV
 #EXTGRP:Общественные
 http://tv.tuva.ru/ovaa/index.m3u8
-#EXTINF:-1,Россия 1
+#EXTINF:-1,CGTN Русский
 #EXTGRP:Общественные
-udp://@225.50.66.97:1234
-#EXTINF:-1,Россия-Культура
-#EXTGRP:Общественные
-udp://@225.50.66.87:1234
-#EXTINF:-1,ТВ3 HD
-#EXTGRP:Общественные
-https://livetv.mylifeisgood.ml/channels/tv3
-#EXTINF:-1,Домашний
-#EXTGRP:Общественные
-udp://@225.50.66.54:1234
-#EXTINF:-1,МИР
-#EXTGRP:Общественные
-udp://@225.50.66.34:1234
-#EXTINF:-1,Спас ТВ
-#EXTGRP:Общественные
-udp://@225.50.66.52:1234
-#EXTINF:-1,ОТР
-#EXTGRP:Общественные
-udp://@225.50.66.12:1234
+http://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1,БелРос
 #EXTGRP:Общественные
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1,РЕН ТВ
+#EXTINF:-1,Домашний
 #EXTGRP:Общественные
-udp://@225.50.66.51:1234
+udp://@225.50.66.54:1234
 #EXTINF:-1,Красная линия
 #EXTGRP:Общественные
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:-1,СТВ
+#EXTINF:-1,Калейдоскоп ТВ
 #EXTGRP:Общественные
-http://212.98.171.116/HLS/ctvby/playlist.m3u8
+http://live-1.otcnet.ru/kaleidoskop/tracks-v1a1/index.m3u8
 #EXTINF:-1,Липецкое время
 #EXTGRP:Общественные
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+#EXTINF:-1,Новый Век (Тамбов)
+#EXTGRP:Общественные
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls
+#EXTINF:-1,РЕН ТВ
+#EXTGRP:Общественные
+udp://@225.50.66.51:1234
+#EXTINF:-1,СТВ
+#EXTGRP:Общественные
+http://212.98.171.116/HLS/ctvby/playlist.m3u8
+#EXTINF:-1,ТВ3 HD
+#EXTGRP:Общественные
+https://livetv.mylifeisgood.ml/channels/tv3
+
 #EXTINF:-1,312
 #EXTGRP:Развлекательные
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
@@ -72,9 +70,11 @@ udp://@225.50.66.6:1234
 #EXTINF:-1,Продвижение
 #EXTGRP:Развлекательные
 udp://@225.50.66.15:1234
+
 #EXTINF:-1,MMA TV HD
 #EXTGRP:Спортивные
 https://sc.id-tv.kz/M-1_34_35.m3u8
+
 #EXTINF:-1,Ani
 #EXTGRP:Детские
 http://bsttv.bonus-tv.ru/cdn/ani/playlist_sdhigher.m3u8
@@ -122,6 +122,7 @@ http://ott-cdn.ucom.am/s57/04.m3u8
 #EXTINF:-1,Радость моя
 #EXTGRP:Детские
 http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
+
 #EXTINF:-1,312 Кино
 #EXTGRP:Кинозал
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
@@ -203,12 +204,25 @@ http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m
 #EXTINF:-1,Кино ТВ
 #EXTGRP:Кинозал
 http://vod.tuva.ru/kinotv/index.m3u8
+
 #EXTINF:-1,TV1000 Руское кино
 #EXTGRP:Кинозал (русские)
 https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,Дом Кино
+#EXTGRP:Кинозал (русские)
+http://78.25.155.47:1309/channel/DOM_kino.ts
+#EXTINF:-1,Дом Кино Премиум
+#EXTGRP:Кинозал (русские)
+https://pkvc-hls4.cdnvideo.ru/DKP/smil:DKP.smil
 #EXTINF:-1,Наше новое кино
 #EXTGRP:Кинозал (русские)
 http://82.200.60.211:4022/udp/239.54.6.213:1224
+#EXTINF:-1,НТВ Сериал
+#EXTGRP:Кинозал (русские)
+http://ntv-hls-orig.cdnvideo.ru/th_serial/tracks-v1a1/mono.m3u8
+#EXTINF:-1,НТВ Хит
+#EXTGRP:Кинозал (русские)
+http://ntv-hls-orig.cdnvideo.ru/th_hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1,Русский детектив
 #EXTGRP:Кинозал (русские)
 http://109.171.45.109:81/udp/239.54.7.32:1224
@@ -227,6 +241,7 @@ http://86.57.178.105:10823
 #EXTINF:-1,Феникс+ кино
 #EXTGRP:Кинозал (русские)
 http://livetv.mylifeisgood.ml/mfolive.m3u8?media=fenixkino
+
 #EXTINF:-1,1 HD Music
 #EXTGRP:Музыка
 http://178.212.71.253:8002/play/a006/index.m3u8
@@ -257,33 +272,21 @@ https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
 #EXTINF:-1,Rock
 #EXTGRP:Музыка
 https://sluhay.by/live/Ch114pub/index.m3u8
-#EXTINF:-1,CGTN Русский
-#EXTGRP:Познавательные
-http://liveru.cgtn.com/1000r/prog_index.m3u8
+
 #EXTINF:-1,Food Network
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s18/04.m3u8
-#EXTINF:-1,Бобёр
-#EXTGRP:Познавательные
-https://pkvc-hls4.cdnvideo.ru/Bober/smil:Bober.smil/chunklist_b2628000_slru.m3u8
-#EXTINF:-1,Домашние Животные
-#EXTGRP:Познавательные
-http://78.25.155.47:1309/channel/Dom_jiv.ts
 #EXTINF:-1,Здоровое ТВ
 #EXTGRP:Познавательные
 http://78.25.155.47:1309/channel/Zdorovoe.ts
-#EXTINF:-1,Загородный
-#EXTVLCOPT:http-user-agent=smartlabs
-#EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s31/04.m3u8
-#EXTINF:-1,Охота и Рыбалка
-#EXTGRP:Познавательные
-http://78.25.155.47:1309/channel/Ohota_i_rib.ts
 #EXTINF:-1,История
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
 http://ott-cdn.ucom.am/s40/04.m3u8
+#EXTINF:-1,Viasat History HD
+#EXTGRP:Познавательные
+https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD/1080p.m3u8
 #EXTINF:-1,Наука
 #EXTGRP:Познавательные
 http://78.25.155.47:1309/channel/Nauka.ts
@@ -296,13 +299,12 @@ http://193.33.240.8:8080/planeta_hd/index.m3u8
 #EXTINF:-1,Министерство идей
 #EXTGRP:Познавательные
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
+#EXTINF:-1,Мама
+#EXTGRP:Познавательные
+http://78.25.155.47:1309/channel/Mama.ts
 #EXTINF:-1,Наши Города
 #EXTGRP:Познавательные
 https://kogalimtv.gcdn.co/streams/775_101/1080n/index.m3u8
-#EXTINF:-1,Приключения HD
-#EXTVLCOPT:http-user-agent=smartlabs
-#EXTGRP:Познавательные
-http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1,Первый Космический
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -314,4 +316,23 @@ http://78.25.155.47:1309/channel/Psih_21.ts
 #EXTGRP:Познавательные
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 
-
+#EXTINF:-1,TVM Channel
+#EXTGRP:Хобби и увлечения
+http://origin5.mediacdn.ru/live/tvm/index.m3u8
+#EXTINF:-1,Бобёр
+#EXTGRP:Хобби и увлечения
+https://pkvc-hls4.cdnvideo.ru/Bober/smil:Bober.smil/chunklist_b2628000_slru.m3u8
+#EXTINF:-1,Домашние Животные
+#EXTGRP:Хобби и увлечения
+http://78.25.155.47:1309/channel/Dom_jiv.ts
+#EXTINF:-1,Загородный
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Хобби и увлечения
+http://ott-cdn.ucom.am/s31/04.m3u8
+#EXTINF:-1,Приключения HD
+#EXTVLCOPT:http-user-agent=smartlabs
+#EXTGRP:Хобби и увлечения
+http://ott-cdn.ucom.am/s99/04.m3u8
+#EXTINF:-1,Охота и Рыбалка
+#EXTGRP:Хобби и увлечения
+http://78.25.155.47:1309/channel/Ohota_i_rib.ts
