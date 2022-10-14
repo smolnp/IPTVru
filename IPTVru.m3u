@@ -1,5 +1,13 @@
-#EXTM3U url-tvg="http://iptvx.one/epg/epg_lite.xml.gz"
+#EXTM3U url-tvg="http://tv.lanta-net.ru/tvprogram.zip"
 
+#EXTINF:-1,Первый канал HD
+#EXTGRP:Общественные
+logo="http://tv.lanta-net.ru/213.png",
+udp://@225.50.66.11:1234
+#EXTINF:-1,Россия HD
+#EXTGRP:Общественные
+logo="http://tv.lanta-net.ru/211.png",Россия HD
+udp://@225.50.66.25:1234
 #EXTINF:-1,TV BRICS HD
 #EXTGRP:Общественные
 http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
@@ -26,16 +34,18 @@ http://live-1.otcnet.ru/kaleidoskop/tracks-v1a1/index.m3u8
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1,Новый Век (Тамбов)
 #EXTGRP:Общественные
-http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls
+logo="http://tv.lanta-net.ru/177.png",
+udp://@225.50.66.14:1234
 #EXTINF:-1,РЕН ТВ
 #EXTGRP:Общественные
 udp://@225.50.66.51:1234
 #EXTINF:-1,СТВ
 #EXTGRP:Общественные
 http://212.98.171.116/HLS/ctvby/playlist.m3u8
-#EXTINF:-1,ТВ3 HD
+#EXTINF:-1,ТВ3
 #EXTGRP:Общественные
-https://livetv.mylifeisgood.ml/channels/tv3
+logo="http://tv.lanta-net.ru/60.png",
+udp://@225.50.66.55:1234
 
 #EXTINF:-1,312
 #EXTGRP:Развлекательные
@@ -74,6 +84,13 @@ udp://@225.50.66.15:1234
 #EXTINF:-1,MMA TV HD
 #EXTGRP:Спортивные
 https://sc.id-tv.kz/M-1_34_35.m3u8
+#EXTINF:-1,Матч ТВ
+#EXTGRP:Спортивные
+logo="http://tv.lanta-net.ru/36.png",
+udp://@225.50.66.91:1234
+#EXTINF:-1,Бокс ТВ
+#EXTGRP:Спортивные
+https://sc.id-tv.kz/BoksTV_36_37.m3u8
 
 #EXTINF:-1,Ani
 #EXTGRP:Детские
@@ -84,10 +101,6 @@ udp://@225.50.66.2:1234
 #EXTINF:-1,TiJi
 #EXTGRP:Детские
 http://194.190.78.91:8080/TiJi_OT/video.m3u8
-#EXTINF:-1,Детский мир
-#EXTVLCOPT:http-user-agent=smartlabs
-#EXTGRP:Детские
-http://ott-cdn.ucom.am/s58/04.m3u8
 #EXTINF:-1,Детское Кино
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38720/index.m3u8
@@ -105,7 +118,7 @@ http://bsttv.bonus-tv.ru/cdn/mama/playlist_sdhigher.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 #EXTINF:-1,Мультимузыка
 #EXTGRP:Детские
-http://109.171.45.109:81/udp/239.54.5.73:1224
+http://bsttv.bonus-tv.ru/cdn/multimuzika/playlist_sdhigher.m3u8
 #EXTINF:-1,KINDER TV
 #EXTGRP:Детские
 https://v2.catcast.tv/content/38144/index.m3u8
@@ -132,7 +145,7 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8
 #EXTINF:-1,Fox HD
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
-#EXTINF:-1,Fox Life HD
+#EXTINF:-1,Сапфир
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
 #EXTINF:-1,FAN
@@ -152,10 +165,10 @@ http://stream.backustv.ru/live/btv/index.m3u8
 http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1,TV1000
 #EXTGRP:Кинозал
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tv1000
+https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,TV1000 Action
 #EXTGRP:Кинозал
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=tv1000action
+https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,VIP Comedy HD
 #EXTGRP:Кинозал
 https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8
@@ -171,33 +184,39 @@ https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,Film Box
 #EXTGRP:Кинозал
 http://tv.tuva.ru/film_box/index.m3u8
-#EXTINF:-1,Start Air HD
+#EXTINF:-1,Start Air
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
-#EXTINF:-1,Start World HD
+#EXTINF:-1,Start World
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
-#EXTINF:-1,Star Cinema HD
+#EXTINF:-1,Star Cinema
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8
-#EXTINF:-1,Star Family HD
+#EXTINF:-1,Star Family
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
-#EXTINF:-1,Trash HD
+#EXTINF:-1,Дорама
 #EXTGRP:Кинозал
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=trash
+https://sc.id-tv.kz/dorama_hd_36_37.m3u8
 #EXTINF:-1,Индийское кино
 #EXTGRP:Кинозал
 http://46.174.83.66/Indiiskoe_kino/index.m3u8
 #EXTINF:-1,Кинопоказ
 #EXTGRP:Кинозал
 http://193.233.9.49/streams/media/Kinopokaz/index.m3u8
+#EXTINF:-1,СТРК HD
+#EXTGRP:Кинозал
+http://sochi-strk.ru:2015/STRK/mpegts
 #EXTINF:-1,Кинокомедия
 #EXTGRP:Кинозал
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=kinokomedia
-#EXTINF:-1,НСТ
+http://46.174.83.66/Kinokomedia/index.m3u8
+#EXTINF:-1,Киносемья
 #EXTGRP:Кинозал
-http://109.200.130.124:7006/play/a00y
+http://109.248.157.167:81/udp/238.1.1.52:1234
+#EXTINF:-1,Остросюжетное HD
+#EXTGRP:Кинозал
+http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
 #EXTINF:-1,Премиальное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
@@ -211,9 +230,6 @@ https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,Дом Кино
 #EXTGRP:Кинозал (русские)
 http://78.25.155.47:1309/channel/DOM_kino.ts
-#EXTINF:-1,Дом Кино Премиум
-#EXTGRP:Кинозал (русские)
-https://pkvc-hls4.cdnvideo.ru/DKP/smil:DKP.smil
 #EXTINF:-1,Наше новое кино
 #EXTGRP:Кинозал (русские)
 http://82.200.60.211:4022/udp/239.54.6.213:1224
@@ -238,9 +254,7 @@ http://stream-norst.cf:8080/tvoetv/index.m3u8
 #EXTINF:-1,Русский иллюзион
 #EXTGRP:Кинозал (русские)
 http://86.57.178.105:10823
-#EXTINF:-1,Феникс+ кино
-#EXTGRP:Кинозал (русские)
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=fenixkino
+
 
 #EXTINF:-1,1 HD Music
 #EXTGRP:Музыка
@@ -248,12 +262,9 @@ http://178.212.71.253:8002/play/a006/index.m3u8
 #EXTINF:-1,70-80-90
 #EXTGRP:Музыка
 https://593b04c4c5670.streamlock.net/8002/8002/playlist.m3u8
-#EXTINF:-1,BRIDGE TV Шлягер
-#EXTGRP:Музыка
-https://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgetvshlyager
 #EXTINF:-1,Bridge Русский хит
 #EXTGRP:Музыка
-https://livetv.mylifeisgood.ml/channels/bridgerushittv
+http://213.172.73.170:8081/nimble_live/1092__Bridge_Tv_russkiy_xit/playlist.m3u8
 #EXTINF:-1,Евроденс 90х HD
 #EXTGRP:Музыка
 https://eurodance90.catcast.tv/content/36987/index.m3u8
@@ -302,9 +313,6 @@ http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 #EXTINF:-1,Мама
 #EXTGRP:Познавательные
 http://78.25.155.47:1309/channel/Mama.ts
-#EXTINF:-1,Наши Города
-#EXTGRP:Познавательные
-https://kogalimtv.gcdn.co/streams/775_101/1080n/index.m3u8
 #EXTINF:-1,Первый Космический
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Познавательные
@@ -319,9 +327,6 @@ http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTINF:-1,TVM Channel
 #EXTGRP:Хобби и увлечения
 http://origin5.mediacdn.ru/live/tvm/index.m3u8
-#EXTINF:-1,Бобёр
-#EXTGRP:Хобби и увлечения
-https://pkvc-hls4.cdnvideo.ru/Bober/smil:Bober.smil/chunklist_b2628000_slru.m3u8
 #EXTINF:-1,Домашние Животные
 #EXTGRP:Хобби и увлечения
 http://78.25.155.47:1309/channel/Dom_jiv.ts
@@ -330,9 +335,8 @@ http://78.25.155.47:1309/channel/Dom_jiv.ts
 #EXTGRP:Хобби и увлечения
 http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:-1,Приключения HD
-#EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Хобби и увлечения
-http://ott-cdn.ucom.am/s99/04.m3u8
+http://193.33.240.8:8080/teletravel_hd/index.m3u8
 #EXTINF:-1,Охота и Рыбалка
 #EXTGRP:Хобби и увлечения
 http://78.25.155.47:1309/channel/Ohota_i_rib.ts
