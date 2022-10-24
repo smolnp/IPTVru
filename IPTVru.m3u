@@ -142,12 +142,6 @@ http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1,.Sci-Fi
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8
-#EXTINF:-1,Fox HD
-#EXTGRP:Кинозал
-https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
-#EXTINF:-1,Сапфир
-#EXTGRP:Кинозал
-https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
 #EXTINF:-1,FAN
 #EXTGRP:Кинозал
 http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
@@ -196,6 +190,12 @@ https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8
 #EXTINF:-1,Star Family
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
+#EXTINF:-1,Кинеко
+#EXTGRP:Кинозал
+https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
+#EXTINF:-1,Сапфир
+#EXTGRP:Кинозал
+https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
 #EXTINF:-1,Дорама
 #EXTGRP:Кинозал
 https://sc.id-tv.kz/dorama_hd_36_37.m3u8
