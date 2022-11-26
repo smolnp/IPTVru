@@ -178,6 +178,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo/480p.m3u8
 #EXTINF:-1,.Sci-Fi
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8
+#EXTINF:-1,AMEDIA Hit HD
+#EXTGRP:Кинозал
+https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 #EXTINF:-1,BACKUSTV dark
 #EXTGRP:Кинозал
 http://stream.backustv.ru/live/btv2/index.m3u8
@@ -214,6 +217,18 @@ https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8
 #EXTINF:-1,Star Family
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
+#EXTINF:-1,SHOT TV
+#EXTGRP:Кинозал
+http://194.113.234.110:4137
+#EXTINF:-1,PARAMOUNT CHANNEL
+#EXTGRP:Кинозал
+http://livetv.mylifeisgood.ml/channels/paramount_channel
+#EXTINF:-1,FilmBox
+#EXTGRP:Кинозал
+http://94.230.240.17:8080/film_box/index.m3u8
+#EXTINF:-1,CINEMA CLASSIC TV
+#EXTGRP:Кинозал
+http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1,Дорама
 #EXTGRP:Кинозал
 https://sc.id-tv.kz/dorama_hd_36_37.m3u8
