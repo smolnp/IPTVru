@@ -181,9 +181,6 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi/480p.m3u8
 #EXTINF:-1,BACKUSTV dark
 #EXTGRP:Кинозал
 http://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1,CC TV
-#EXTGRP:Кинозал
-http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1,FAN
 #EXTGRP:Кинозал
 http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
@@ -193,12 +190,6 @@ https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,TV1000 Action
 #EXTGRP:Кинозал
 https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1,TV XXL
-#EXTGRP:Кинозал
-http://193.233.9.49/streams/media/TV_XXI/index.m3u8
-#EXTINF:-1,TVM Channel
-#EXTGRP:Кинозал
-http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1,VIP Comedy HD
 #EXTGRP:Кинозал
 https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8
@@ -241,15 +232,15 @@ http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1,Кинопоказ
 #EXTGRP:Кинозал
 http://193.233.9.49/streams/media/Kinopokaz/index.m3u8
-#EXTINF:-1,Классика индийского кино
-#EXTGRP:Кинозал
-https://autopilot.catcast.tv/content/41596/index.m3u8
 #EXTINF:-1,Остросюжетное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
 #EXTINF:-1,Премиальное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
+#EXTINF:-1,Родное кино
+#EXTGRP:Кинозал (русские)
+http://109.248.157.167:81/udp/238.1.1.77:1234
 #EXTINF:-1,Сапфир
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
@@ -275,9 +266,6 @@ http://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
 #EXTINF:-1,Ратник
 #EXTGRP:Кинозал (русские)
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTINF:-1,Родное кино
-#EXTGRP:Кинозал (русские)
-http://109.248.157.167:81/udp/238.1.1.77:1234
 #EXTINF:-1,Русский детектив
 #EXTGRP:Кинозал (русские)
 http://78.25.155.47:1309/channel/rus_d.ts
@@ -294,7 +282,7 @@ http://78.25.155.47:1309/channel/Rus_illuz.ts
 #EXTGRP:Кинозал (русские)
 http://78.25.155.47:1309/channel/Telecafe.ts
 
-#EXTINF:-1,O2
+#EXTINF:-1,O!2
 #EXTGRP:Музыка
 udp://@225.50.66.151:1234
 #EXTINF:-1,AIVA
