@@ -45,7 +45,7 @@ udp://@225.50.66.94:1234
 #EXTINF:-1,РЕН ТВ
 #EXTGRP:Общественные
 udp://@225.50.66.51:1234
-#EXTINF:-1,ТВ3
+#EXTINF:-1,РЕН ТВ
 #EXTGRP:Общественные
 udp://@225.50.66.55:1234
 #EXTINF:-1,Ретро
@@ -74,19 +74,28 @@ udp://@225.50.66.86:1234
 #EXTGRP:Новостные
 udp://@225.50.66.1:1234
 
+#EXTINF:-1,CNL HD
+#EXTGRP:Религиозные
+http://dmi3y-tv.ru/hls/CH_CNLHD.m3u8
 #EXTINF:-1,Союз
 #EXTGRP:Религиозные
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1,Спас
 #EXTGRP:Религиозные
 http://78.25.155.47:1309/channel/Spas.ts
+#EXTINF:-1,Три Ангела
+#EXTGRP:Религиозные
+http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 
 #EXTINF:-1,Bolt
 #EXTGRP:Развлекательные
 https://okkotv-live.cdnvideo.ru/channel/Bolt_HD/1080p.m3u8
-#EXTINF:-1,Девятая Волна
+#EXTINF:-1,E TV HD
 #EXTGRP:Развлекательные
-http://cdn-01.bonus-tv.ru:8080/9volna/tracks-v1a1/index.m3u8
+http://dmi3y-tv.ru/hls/CH_ETVHD.m3u8
+#EXTINF:-1,TVM Channel
+#EXTGRP:Развлекательные
+http://dmi3y-tv.ru/hls/CH_TVMCHANNEL.m3u8
 #EXTINF:-1,Продвижение
 #EXTGRP:Развлекательные
 udp://@225.50.66.15:1234
@@ -121,12 +130,28 @@ http://78.25.155.47:1309/channel/Che.ts
 #EXTGRP:Развлекательные
 udp://@225.50.66.9:1234
 
+#EXTINF:-1,Viasat Sport
+#EXTGRP:Спортивные
+http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,Матч ТВ
 #EXTGRP:Спортивные
 udp://@225.50.66.91:1234
+#EXTINF:-1,Матч! СТРАНА
+#EXTGRP:Спортивные
+http://bl.uma.media/live/291663/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1,Матч! ФУТБОЛ 1
+#EXTGRP:Спортивные
+http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
+#EXTINF:-1,Матч! АРЕНА
+#EXTGRP:Спортивные
+http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
+#EXTINF:-1,Матч! ПЛАНЕТА
+#EXTGRP:Спортивные
+http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1,Бокс ТВ
 #EXTGRP:Спортивные
 https://sc.id-tv.kz/BoksTV_36_37.m3u8
+
 
 #EXTINF:-1,Gulli Girl
 #EXTGRP:Детские
@@ -226,9 +251,6 @@ http://livetv.mylifeisgood.ml/channels/paramount_channel
 #EXTINF:-1,FilmBox
 #EXTGRP:Кинозал
 http://94.230.240.17:8080/film_box/index.m3u8
-#EXTINF:-1,CINEMA CLASSIC TV
-#EXTGRP:Кинозал
-http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1,Дорама
 #EXTGRP:Кинозал
 https://sc.id-tv.kz/dorama_hd_36_37.m3u8
@@ -253,9 +275,6 @@ http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playli
 #EXTINF:-1,Премиальное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
-#EXTINF:-1,Родное кино
-#EXTGRP:Кинозал (русские)
-http://109.248.157.167:81/udp/238.1.1.77:1234
 #EXTINF:-1,Сапфир
 #EXTGRP:Кинозал
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
@@ -297,9 +316,9 @@ http://78.25.155.47:1309/channel/Rus_illuz.ts
 #EXTGRP:Кинозал (русские)
 http://78.25.155.47:1309/channel/Telecafe.ts
 
-#EXTINF:-1,O!2
+#EXTINF:-1,Девятая Волна
 #EXTGRP:Музыка
-udp://@225.50.66.151:1234
+http://cdn-01.bonus-tv.ru:8080/9volna/tracks-v1a1/index.m3u8
 #EXTINF:-1,AIVA
 #EXTGRP:Музыка
 http://194.190.78.91:8080/aivaya/index.m3u8
@@ -331,9 +350,6 @@ http://78.25.155.47:1309/channel/Shanson.ts
 #EXTINF:-1,Univer TV
 #EXTGRP:Познавательные
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
-#EXTINF:-1,Sochi Live HD
-#EXTGRP:Познавательные
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1,Viasat History HD
 #EXTGRP:Познавательные
 https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD/1080p.m3u8
@@ -366,6 +382,9 @@ http://ott-cdn.ucom.am/s44/04.m3u8
 #EXTINF:-1,Просвещение
 #EXTGRP:Познавательные
 http://cdn-01.bonus-tv.ru:8080/prosveschenie_edge/tracks-v1a1/index.m3u8
+#EXTINF:-1,ТВ7
+#EXTGRP:Познавательные
+http://dmi3y-tv.ru/hls/CH_TV7HD720.m3u8
 
 #EXTINF:-1,Драйв
 #EXTGRP:Хобби и увлечения
