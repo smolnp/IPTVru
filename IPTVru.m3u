@@ -245,6 +245,9 @@ https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
 #EXTINF:-1,SHOT TV
 #EXTGRP:Кинозал
 http://194.113.234.110:4137
+#EXTINF:-1,Cinema
+#EXTGRP:Кинозал
+https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1,PARAMOUNT CHANNEL
 #EXTGRP:Кинозал
 http://livetv.mylifeisgood.ml/channels/paramount_channel
@@ -269,6 +272,21 @@ http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1,Кинопоказ
 #EXTGRP:Кинозал
 http://193.233.9.49/streams/media/Kinopokaz/index.m3u8
+#EXTINF:-1,Кинопремьера
+#EXTGRP:Кинозал
+http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o
+#EXTINF:-1,Кинохит
+#EXTGRP:Кинозал
+http://194.113.234.110:4187
+#EXTINF:-1,Киносемья
+#EXTGRP:Кинозал
+http://95.217.196.109:8081/russia/kinosemya_sd_new/playlist.m3u8
+#EXTINF:-1,Киносвидание
+#EXTGRP:Кинозал
+http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
+#EXTINF:-1,Комедия
+#EXTGRP:Кинозал
+http://flu.ttk.mx:9090/Komediya/index.m3u8?token=orh6o
 #EXTINF:-1,Остросюжетное HD
 #EXTGRP:Кинозал
 http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
@@ -285,6 +303,9 @@ https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1,Дом Кино
 #EXTGRP:Кинозал (русские)
 http://78.25.155.47:1309/channel/DOM_kino.ts
+#EXTINF:-1,Золотая коллекция
+#EXTGRP:Кинозал (русские)
+http://flu.ttk.mx:9090/Mosfilm/index.m3u8?token=orh6o
 #EXTINF:-1,Кино 1 International
 #EXTGRP:Кинозал (русские)
 https://kino-1.catcast.tv/content/38617/index.m3u8
@@ -396,6 +417,15 @@ http://78.25.155.47:1309/channel/Dom_jiv.ts
 #EXTVLCOPT:http-user-agent=smartlabs
 #EXTGRP:Хобби и увлечения
 http://ott-cdn.ucom.am/s31/04.m3u8
+#EXTINF:-1,КУХНЯ ТВ
+#EXTGRP:Хобби и увлечения
+https://sc.id-tv.kz/kuhnya_hd_34_35.m3u8
+#EXTINF:-1,Кулинар ТВ
+#EXTGRP:Хобби и увлечения
+http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
+#EXTINF:-1,Приключения HD
+#EXTGRP:Хобби и увлечения
+http://193.33.240.8:8080/teletravel_hd/index.m3u8
 #EXTINF:-1,Приключения HD
 #EXTGRP:Хобби и увлечения
 http://193.33.240.8:8080/teletravel_hd/index.m3u8
