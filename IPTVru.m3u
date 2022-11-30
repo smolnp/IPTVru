@@ -426,9 +426,6 @@ http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1,Приключения HD
 #EXTGRP:Хобби и увлечения
 http://193.33.240.8:8080/teletravel_hd/index.m3u8
-#EXTINF:-1,Приключения HD
-#EXTGRP:Хобби и увлечения
-http://193.33.240.8:8080/teletravel_hd/index.m3u8
 #EXTINF:-1,Точка Отрыва
 #EXTGRP:Хобби и увлечения
 http://185.52.77.43:8080/TochkaOtriva/index.m3u8
