@@ -174,6 +174,8 @@ http://194.113.234.110:4137
 http://flu.ttk.mx:9090/TV21/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2181.png" group-title="Кинозал",FilmBox
 http://94.230.240.17:8080/film_box/index.m3u8
+#EXTINF:-1 tvg-logo="https://picon.ml/dorama.png" group-title="Кинозал",Дорама
+https://sc.id-tv.kz/dorama_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/352.png" group-title="Кинозал",Еврокино
 http://194.113.234.110:4034
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2403.png" group-title="Кинозал",Иллюзион+
