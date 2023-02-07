@@ -113,7 +113,7 @@ https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 http://193.33.240.8:8080/mama/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/mult.png" group-title="Детские",Мульт
 http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия HD
+#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
 udp://@225.50.66.5:1234
@@ -141,7 +141,7 @@ https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8
 https://sc.id-tv.kz/amedia_pr_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/backustv.png" group-title="Кинозал",BackusTV Original
 https://playlist.wasd.tv/live/1626710/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4662.png" group-title="Кинозал"/,BackusTV dark
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4662.png" group-title="Кинозал"/,BackusTV Dark
 http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2359.png" group-title="Кинозал",FAN
 http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
