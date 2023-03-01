@@ -4,6 +4,10 @@
 udp://@225.50.66.11:1234
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/984.png" group-title="Общественные",Россия 1 HD
 udp://@225.50.66.25:1234
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",НТВ HD
+http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="Общественные",Пятый канал
+https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/kultura.png" group-title="Общественные",Россия К
 udp://@225.50.66.87:1234
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2295.png" group-title="Общественные",RTД HD
@@ -26,8 +30,6 @@ http://cdn-01.bonus-tv.ru:8080/kriktv_edge/index.m3u8
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Общественные",Новый Век (Тамбов)
 udp://@225.50.66.14:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",НТВ HD
-http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2470.png" group-title="Общественные",Ратник
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ HD
@@ -37,7 +39,33 @@ https://bl.uma.media/live/407373/HLS/6307840_7/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2402.png" group-title="Общественные",Ретро
 http://138.201.67.145:8081/retro/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Общественные",Совершенно Секретно
-http://live-sovsec.cdnvideo.ru/sovsec/sovsec_orig/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://picon.ml/ani.png" group-title="Детские",Ani
+https://flu.ttk.mx/Ani/index.m3u8?token=orh6o
+#EXTINF:-1 tvg-logo="https://picon.ml/nickelodeon.png" group-title="Детские",Nickelodeon
+
+#EXTINF:-1 tvg-logo="" group-title="Детские",СОЛНЦЕ
+udp://@225.50.66.2:1234
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
+https://v2.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids HD
+https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/618.png" group-title="Детские",Мама
+http://193.33.240.8:8080/mama/index.m3u8
+#EXTINF:-1 tvg-logo="https://picon.ml/mult.png" group-title="Детские",Мульт
+http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o
+#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
+https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
+udp://@225.50.66.5:1234
+#EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Детские",О!
+https://flu.ttk.mx/O!/index.m3u8?token=orh6o
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
+#EXTVLCOPT:http-user-agent=smartlabs
+http://ott-cdn.ucom.am/s57/04.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="Детские",Радость моя
+http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4458.png" group-title="Новостные",360 Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
@@ -97,33 +125,7 @@ http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2043.png" group-title="Спортивные",Матч! ПЛАНЕТА
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/russky-ekstrim.png" group-title="Спортивные",Русский Экстрим
-http://vid.extremtv.ru/hls_get/cameraFeed.m3u8
 
-#EXTINF:-1 tvg-logo="https://picon.ml/ani.png" group-title="Детские",Ani
-https://flu.ttk.mx/Ani/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="https://picon.ml/nickelodeon.png" group-title="Детские",Nickelodeon
-https://sc.id-tv.kz/Nickelodeon.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Детские",СОЛНЦЕ
-udp://@225.50.66.2:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
-https://v2.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids HD
-https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/618.png" group-title="Детские",Мама
-http://193.33.240.8:8080/mama/index.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/mult.png" group-title="Детские",Мульт
-http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
-https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
-udp://@225.50.66.5:1234
-#EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Детские",О!
-https://flu.ttk.mx/O!/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
-#EXTVLCOPT:http-user-agent=smartlabs
-http://ott-cdn.ucom.am/s57/04.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="Детские",Радость моя
-http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/311.png" group-title="Кинозал",.Red
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET/480p.m3u8
@@ -182,13 +184,13 @@ http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/566.png" group-title="Кинозал",Кинопремьера HD
 http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/987.png" group-title="Кинозал",Киносемья
-https://sc.id-tv.kz/Kinosemiya_hd.m3u8
+
 #EXTINF:-1 tvg-logo="https://picon.ml/kinokomedia.png" group-title="Кинозал",Кинокомедия
 https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/462.png" group-title="Кинозал",Киносвидание
 http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="https://picon.ml/russkaya-komedia.png" group-title="Кинозал",Комедия
-http://138.201.67.145:8081/komediya/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1588.png" group-title="Кинозал",Остросюжетное HD
 http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2732.png" group-title="Кинозал",Премиальное HD
@@ -201,7 +203,7 @@ https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/834.png" group-title="Кинозал (русские)",Дом Кино
 http://78.25.155.47:1309/channel/DOM_kino.ts
 #EXTINF:-1 tvg-logo="https://picon.ml/domkino-premium.png" group-title="Кинозал (русские)",Дом кино Премиум HD
-http://138.201.67.145:8081/Dom_kino_premium_HD/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6258.png" group-title="Кинозал (русские)",Кино 1 International
 https://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/3357.png" group-title="Кинозал (русские)",Мосфильм. Золотая коллекция
@@ -234,7 +236,7 @@ http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыка",Муз ТВ
 udp://@225.50.66.10:1234
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Музыка",МузСоюз
-http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/680.png" group-title="Музыка",ТНТ Music HD
 https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыка",Шансон ТВ
