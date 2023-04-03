@@ -1,19 +1,19 @@
 #EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz, https://iptvx.one/epg/epg.xml.gz"
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/983.png" group-title="Общественные",Первый канал HD
-udp://@225.50.66.11:1234
+https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/984.png" group-title="Общественные",Россия 1 HD
-udp://@225.50.66.25:1234
+https://okkotv-live.cdnvideo.ru/channel/Russia1HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",НТВ HD
 http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="Общественные",Пятый канал
 https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/kultura.png" group-title="Общественные",Россия К
-udp://@225.50.66.87:1234
+https://vgtrksmotrim.cdnvideo.ru/iframe/stream/live_id/19201?ext=.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2295.png" group-title="Общественные",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Общественные",ОТР
-udp://@225.50.66.12:1234
+http://79.141.211.254:8000/OTR
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Общественные",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/669.png" group-title="Общественные",Время
@@ -34,8 +34,10 @@ udp://@225.50.66.14:1234
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT/1080p.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ
+http://79.141.211.254:8000/RenTV
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/698.png" group-title="Общественные",ТВ3
-https://bl.uma.media/live/407373/HLS/6307840_7/2/1/playlist.m3u8
+http://79.141.211.254:8000/TV3
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2402.png" group-title="Общественные",Ретро
 http://138.201.67.145:8081/retro/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Общественные",Совершенно Секретно
@@ -58,7 +60,9 @@ http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
-udp://@225.50.66.5:1234
+http://31.40.149.157:9981/stream/channelid/962642100?ticket=5A3B19C349BB6E56EEFF4C98FB5C46C86EFA790D&profile=pass
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
+https://www.dropbox.com/s/nf3meuf88aqserp/iptv_apiv8.m3u8?dl=1
 #EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Детские",О!
 https://flu.ttk.mx/O!/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
@@ -78,7 +82,7 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/3015.png" group-title="Новостные",МИР24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/rossia-24.png" group-title="Новостные",Россия 24
-udp://@225.50.66.86:1234
+http://79.141.211.254:8000/Russia24
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/743.png" group-title="Новостные",РБК HD
 udp://@225.50.66.1:1234
 
@@ -95,8 +99,10 @@ http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 udp://@225.50.66.15:1234
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница HD
 https://bl.uma.media/live/410336/HLS/6307840_7/2/1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница
+http://79.141.211.254:8000/Friday
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлекательные",Сарафан
-http://138.201.67.145:8081/sarafan/index.m3u8
+http://79.141.211.254:8000/Sarafan
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Развлекательные",Суббота
 udp://@225.50.66.6:1234
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="Развлекательные",СТС
@@ -104,9 +110,9 @@ https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1322.png" group-title="Развлекательные",СТС Love
 https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ
-udp://@225.50.66.59:1234
+http://79.141.211.254:8000/TNT
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1649.png" group-title="Развлекательные",ТНТ4
-udp://@225.50.66.7:1234
+http://79.141.211.254:8000/TNT4
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1598.png" group-title="Развлекательные",Че!
 https://okkotv-live.cdnvideo.ru/channel/Che_OTT_2/480p.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2678.png" group-title="Развлекательные",Ю
@@ -115,7 +121,7 @@ udp://@225.50.66.9:1234
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viasat Sport HD
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Sport_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2051.png" group-title="Спортивные",Матч ТВ
-udp://@225.50.66.91:1234
+http://79.141.211.254:8000/Match
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2042.png" group-title="Спортивные",Матч! СТРАНА
 http://bl.uma.media/live/291663/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",Матч! ФУТБОЛ 1 HD
