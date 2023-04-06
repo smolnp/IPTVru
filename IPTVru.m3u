@@ -12,7 +12,7 @@ https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/kultura.png" group-title="Общественные",Россия К
 http://livehlsvgtrkrf.cdnvideo.ru/hls/russia_k/playlist_3.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2295.png" group-title="Общественные",RTД HD
-https://hls.rt.com/hls/rtdru.m3u8
+http://cdn-01.bonus-tv.ru:8080/rtdoc/tracks-v1a1/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Общественные",ОТР
 https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
@@ -39,7 +39,7 @@ http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/698.png" group-title="Общественные",ТВ3
-https://bl.uma.media/live/407373/HLS/6307840_7/2/1/playlist.m3u8
+https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2402.png" group-title="Общественные",Ретро
 http://138.201.67.145:8081/retro/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Общественные",Совершенно Секретно
@@ -52,7 +52,7 @@ https://okkotv-live.cdnvideo.ru/channel/Da_Vinci/480p.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/nickelodeon.png" group-title="Детские",Nickelodeon
 https://sc.id-tv.kz/Nickelodeon_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="Детские",TiJi
-http://live-1.otcnet.ru/TiJi_OT/index.m3u8
+
 #EXTINF:-1 tvg-logo="" group-title="Детские",СОЛНЦЕ
 https://okkotv-live.cdnvideo.ru/channel/Disney.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
@@ -102,7 +102,7 @@ http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2297.png" group-title="Развлекательные",Продвижение
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница HD
-https://bl.uma.media/live/410336/HLS/6307840_7/2/1/playlist.m3u8
+https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлекательные",Сарафан
 http://138.201.67.145:8081/sarafan/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Развлекательные",Суббота
@@ -111,7 +111,7 @@ https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2f
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1322.png" group-title="Развлекательные",СТС Love
 https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5441.png" group-title="Развлекательные",Твое ТВ
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5441.png" group-title="Развлекательные",Твое ТВ HD
 http://stream1.servers.chd-tv.tk:80/Tvoe_tv/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD/1080p.m3u8
@@ -124,7 +124,7 @@ https://okkotv-live.cdnvideo.ru/channel/Yu_OTT.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+ Sport HD
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Sport_HD/1080p.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2326.png" group-title="Спортивные",MMA-TV
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2326.png" group-title="Спортивные",MMA TV
 http://tv.tuva.ru/m1global/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="Спортивные",СТАРТ HD
 https://okkotv-live.cdnvideo.ru/channel/Start/1080p.m3u8
@@ -193,7 +193,7 @@ https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
 https://sc.id-tv.kz/dorama_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2403.png" group-title="Кинозал",Иллюзион+
 http://93.125.121.75:8080/Illusionplus/index.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/kineko.png" group-title="Кинозал",Кинеко HD
+#EXTINF:-1 tvg-logo="https://picon.ml/kineko.png" group-title="Кинозал",Кинеко
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2834.png" group-title="Кинозал",Кинопоказ
 
@@ -211,7 +211,7 @@ https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
 http://213.172.73.133:8081/nimble_live/9009_Остросюжетное_HD/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2732.png" group-title="Кинозал",Премиальное HD
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/sapfir.png" group-title="Кинозал",Сапфир HD
+#EXTINF:-1 tvg-logo="https://picon.ml/sapfir.png" group-title="Кинозал",Сапфир
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/267.png" group-title="Кинозал (русские)",Viju TV1000 Русское кино HD
@@ -258,7 +258,7 @@ https://okkotv-live.cdnvideo.ru/channel/MuzTV/480p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/680.png" group-title="Музыка",ТНТ Music HD
 https://strm.yandex.ru/kal/tntmusic/tntmusic0.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыка",Шансон ТВ
-http://78.25.155.47:1309/channel/Shanson.ts
+http://146.158.0.56/ShansonTV/mono.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
@@ -300,7 +300,7 @@ http://ott-cdn.ucom.am/s31/04.m3u8
 http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2444.png" group-title="Хобби и увлечения",Мужской
 http://81.177.165.206:8009/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/prikluchenia-hd.png" group-title="Хобби и увлечения",Приключения
+#EXTINF:-1 tvg-logo="https://picon.ml/prikluchenia-hd.png" group-title="Хобби и увлечения",Приключения HD
 http://193.33.240.8:8080/teletravel_hd/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/tochka-otryva.png" group-title="Хобби и увлечения",Точка Отрыва
 http://185.52.77.43:8080/TochkaOtriva/index.m3u8
