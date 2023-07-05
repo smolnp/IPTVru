@@ -68,7 +68,7 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
 https://livetv.mylifeisgood.ml/channels/karuselvgtrk.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Детские",О!
-
+https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
 #EXTVLCOPT:http-user-agent=smartlabs
 http://ott-cdn.ucom.am/s57/04.m3u8
@@ -140,7 +140,7 @@ http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6654.png" group-title="Кинозал",312 Кино KG
-http://176.126.166.43:1935/live/312kino/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/311.png" group-title="Кинозал",.Red
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET/480p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/935.png" group-title="Кинозал",.Black
@@ -154,7 +154,7 @@ https://okkotv-live.cdnvideo.ru/channel/A2_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/amedia-hit.png" group-title="Кинозал",Amedia Hit HD
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/amedia-premium.png" group-title="Кинозал",Amedia Premium HD
-http://93.125.34.51:30002/AmediaPremiumHD/index.m3u8
+https://sc.id-tv.kz/amedia_pr_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/backustv.png" group-title="Кинозал",BackusTV Original
 https://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4662.png" group-title="Кинозал"/,BackusTV Dark
@@ -164,7 +164,7 @@ http://94.230.240.17:8080/fan/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2181.png" group-title="Кинозал",FilmBox
 http://94.230.240.17:8080/film_box/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/flixsnip.png" group-title="Кинозал",FlixSnip
-
+https://sc.id-tv.kz/FlixSnip.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/127.png" group-title="Кинозал",Viju TV1000 HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/125.png" group-title="Кинозал",Viju TV1000 Action HD
@@ -192,7 +192,7 @@ https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/dorama.png" group-title="Кинозал",Дорама HD
 https://sc.id-tv.kz/dorama_hd_34_35.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2403.png" group-title="Кинозал",Иллюзион+
-http://93.125.121.75:8080/Illusionplus/index.m3u8
+https://sc.id-tv.kz/IlluzionPlus_36_37.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/kineko.png" group-title="Кинозал",Кинеко
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2834.png" group-title="Кинозал",Кинопоказ
@@ -286,7 +286,7 @@ http://cdn-01.bonus-tv.ru:8080/prosveschenie_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/521.png" group-title="Хобби и увлечения",Viju Explore HD
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD/1080p.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/domashnie-zhivotnye.png" group-title="Хобби и увлечения",Домашние Животные
-
+http://45.144.31.195:8013/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="Хобби и увлечения",Дикая Охота HD
 http://81.177.136.209:8007/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения",Дикая Рыбалка HD
