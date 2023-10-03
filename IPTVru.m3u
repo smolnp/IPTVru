@@ -206,8 +206,8 @@ http://dmi3y-tv.ru/hls/CH_KINOPOKAZ.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/566.png" group-title="Кинозал",Кинопремьера HD
 http://dmi3y-tv.ru/hls/CH_KINOPREMIERA.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/987.png" group-title="Кинозал",Киносемья
-http://dmi3y-tv.ru/hls/CH_KINOKOMEDIYA.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/kinokomedia.png" group-title="Кинозал",Кинокомедия
+http://dmi3y-tv.ru/hls/CH_KINOSEMYA.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Кинозал",Кинокомедия
 http://dmi3y-tv.ru/hls/CH_KINOKOMEDIYA.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/462.png" group-title="Кинозал",Киносвидание
 http://dmi3y-tv.ru/hls/CH_KINOSVIDANIE.m3u8
