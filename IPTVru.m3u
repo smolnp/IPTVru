@@ -168,6 +168,8 @@ http://stream01.vnet.am/AmediaPremium/mono.m3u8
 https://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4662.png" group-title="Кинозал",BackusTV Dark
 http://stream.backustv.ru/live/btv2/index.m3u8
+#EXTINF:-1 tvg-id="hlsproxy-55456" tvg-logo="http://skaz.tv/tvicon/772.png" tvg-shift="0" group-title="Кинозал",BCU Comedy HD
+http://158.101.194.132:8888/channel/n3679d099/index.mpeg?q=f601bfe6ca637f5e7f8b0c32a2e23796
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2754.png" group-title="Кинозал",Cinema
 http://iptv.mega.net.ru:8888/History_HD/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2359.png" group-title="Кинозал",FAN
