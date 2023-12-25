@@ -186,8 +186,8 @@ http://92.100.39.32:2289/play/a094/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1012.png" group-title="Кинозал",Viju+ Megahit HD
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1013.png" group-title="Кинозал",Viju+ Premiere HD
-
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1013.png" group-title="Кинозал",Viju+ Premiere
+http://94.232.104.237:8000/play/076/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2838.png" group-title="Кинозал",Viju+ Serial HD
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QAdDARF.png" group-title="Кинозал",Kino 24
@@ -197,7 +197,7 @@ http://moobl.ru/hls/Kino_24.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/431.png" group-title="Кинозал",SHOT TV
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/3361.png" group-title="Кинозал",Trash
-
+https://cdn01.poster-abh.ru/Trash_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2832.png" group-title="Кинозал",Блокбастер
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2174.png" group-title="Кинозал",Дорама
@@ -205,7 +205,7 @@ http://ott-cdn.ucom.am/s95/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/352.png" group-title="Кинозал",Еврокино
 http://109.239.208.82:80/eurokino/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2403.png" group-title="Кинозал",Иллюзион+
-
+http://94.232.104.237:8000/play/049/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2233.png" group-title="Кинозал",Индия
 https://stream01.vnet.am/ZeeTV/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="Кинозал",Кинеко
@@ -213,7 +213,7 @@ http://31.148.48.15/Kineko/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/644.png" group-title="Кинозал",Киномикс
 http://dmi3y-tv.ru/hls/CH_KINOMIKS.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2834.png" group-title="Кинозал",Кинопоказ
-
+http://94.232.104.237:8000/play/047/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/566.png" group-title="Кинозал",Кинопремьера HD
 https://tbs01-edge11.itdc.ge/kinopremyerahd/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2407.png" group-title="Кинозал",Киносат
@@ -233,7 +233,7 @@ http://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/477.png" group-title="Кинозал",Любимое Кино
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2732.png" group-title="Кинозал",Премиальное HD
-
+http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1584.png" group-title="Кинозал",Мужское кино
 http://45.159.74.14:80/MujskoeKino/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7315.png" group-title="Кинозал",Сапфир
@@ -300,7 +300,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia24-sd/index.m3u8
 http://92.50.128.180/utv/1358/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+ Sport
-
+http://45.159.74.13:80/AutoPlus/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2326.png" group-title="Спортивные",MMA-TV.com
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2497.png" group-title="Спортивные",Russian Extreme HD
