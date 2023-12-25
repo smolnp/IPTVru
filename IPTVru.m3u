@@ -82,7 +82,7 @@ http://bl.uma.media/live/317805/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Развлекательные",TVM Channel
 http://origin5.mediacdn.ru/live/tvm/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Развлекательные",Домашний
-
+https://dom-live-megafon2.mediavitrina.ru/hls-livef1/ctc-dom/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Развлекательные",КВН ТВ
 http://moobl.ru/hls/KVN.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/783.png" group-title="Развлекательные",Ностальгия
@@ -102,7 +102,7 @@ https://livetv.mylifeisgood.net.ru/channels/stslove.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/698.png" group-title="Развлекательные",ТВ3
 http://bl.uma.media/live/317846/HLS/4614144_3/9642999221/b28fb562733bc4e163eb4b83ee11a4b2/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5441.png" group-title="Развлекательные",Твое ТВ
-
+http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ
 http://bl.uma.media/live/317850/HLS/2703360_3/9613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1649.png" group-title="Развлекательные",ТНТ4
@@ -116,11 +116,11 @@ http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4037.png" group-title="Музыкальные",1HD
 http://91.247.68.229:8000/play/1HD/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2837.png" group-title="Музыкальные",AIVA HD
-
+http://live-3.otcnet.ru/aivaclient/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/591.png" group-title="Музыкальные",BRIDGE Русский Хит
 https://livetv.mylifeisgood.net.ru/channels/bridgerushittv.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4621.png" group-title="Музыкальные",BRIDGE Шлягер
-
+https://livetv.mylifeisgood.net.ru/channels/bridgetvshlyager.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV HD
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2307.png" group-title="Музыкальные",Девятая Волна
@@ -132,11 +132,11 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5382.png" group-title="Музыкальные",Жара kids HD
 http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/165.png" group-title="Музыкальные",Жара
-
+http://94.232.104.237:8000/play/095/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыкальные",Муз ТВ
-
+http://stream01.vnet.am/MuzTv/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Музыкальные",МузСоюз
-
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Музыкальные",Музыка 1 International
 #EXTVLCOPT:http-user-agent=SmartSDK
 http://kino-1.catcast.tv/content/37745/index.m3u8
