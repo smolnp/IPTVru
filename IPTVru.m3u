@@ -262,7 +262,7 @@ http://46.151.151.245:10007/play/a009
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6258.png" group-title="Русский кинозал",Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/3357.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция
-
+http://data.homeiptv.org:8090/Mosfilm/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/485.png" group-title="Русский кинозал",Наше Новое Кино
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал",НТВ Сериал
@@ -274,7 +274,7 @@ http://ott-cdn.ucom.am/s47/04.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Русский кинозал",Родное кино
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/w0ZE9QJ.png" group-title="Русский кинозал",Русский бестселлер
-
+http://94.232.104.237:8000/play/104/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1570.png" group-title="Русский кинозал",Русский детектив
 http://45.144.31.195:8010/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/401.png" group-title="Русский кинозал",Русский роман
@@ -334,15 +334,15 @@ http://moobl.ru/hls/365_dnej.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
-
+http://92.100.39.32:2289/play/a097/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="Познавательные",Viju Nature
-
+http://92.100.39.32:2289/play/a098/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="Познавательные",Viju+ Planet HD
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7632.png" group-title="Познавательные",Terra
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="Познавательные",Travel+Adventure HD orig
-
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="Познавательные",Travel+Adventure
+http://92.100.39.32:2289/play/a05r/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG HD
 http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал
@@ -360,14 +360,14 @@ http://46.151.151.245:10002/play/a0b5
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2296.png" group-title="Познавательные",Просвещение
 http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Познавательные",Россия К
-
+http://farm-vgtrk.rfn.ru/hls/russia_k/playlist_3.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Совершенно Секретно
-
+https://livetv.mylifeisgood.net.ru/channels/sovsec127.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2424.png" group-title="Познавательные",Телепутешествия
-
+http://94.232.104.237:8000/play/080/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/521.png" group-title="Хобби и увлечения",Viju Explore
-
+https://edge02.odtv.az/o5/viasatexporer/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2477.png" group-title="Хобби и увлечения",ТНОМЕР
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2008.png" group-title="Хобби и увлечения",Авто 24
@@ -393,7 +393,7 @@ http://45.144.31.195:8024/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Хобби и увлечения",Кухня ТВ
 http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2444.png" group-title="Хобби и увлечения",Мужской
-
+http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2433.png" group-title="Хобби и увлечения",Наша Тема
 http://live-1.otcnet.ru/nashatema1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",НТВ Стиль
@@ -401,11 +401,11 @@ http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="Хобби и увлечения",Охота и Рыбалка
 http://45.144.31.195:8007/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения
-
+http://stream01.vnet.am/PriklyucheniyaHd/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения",Точка Отрыва
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
-
+http://94.232.104.237:8000/play/121/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск)
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
@@ -424,7 +424,7 @@ https://rost.mediacdn.ru/cdn/rostov1/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",Раменское ТВ HD
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург HD
-
+http://farm-vgtrk.rfn.ru/hls2/ext_spbtv/playlist_5.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6794.png" group-title="Региональные",Саров 24
 http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6779.png" group-title="Региональные",ЮУрГУ ТВ HD Челябинск
