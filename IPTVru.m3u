@@ -35,8 +35,7 @@ http://194.158.222.36:6102
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Общественные",ОТР
 https://vgtrk-live-megafon2.mediavitrina.ru/hls-livec2/streams/vitrina-hls/otr_0/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="Общественные",Пятый канал
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2470.png" group-title="Общественные",Ратник
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Общественные",РЕН ТВ HD
@@ -47,7 +46,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2011.png" group-title="Детские",Ani
-https://streamer1.connectto.com/534/mono.m3u8
+
 #EXTINF:-1 tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network
 http://135.181.115.81/russia/cartoon/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito
@@ -55,7 +54,7 @@ http://135.181.115.81/russia/boomerang/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/410.png" group-title="Детские",Da Vinci
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl
-http://92.100.39.32:2289/play/a05v/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/423.png" group-title="Детские",Nickelodeon
 http://135.181.115.81/russia/nickelodeon/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="Детские",TiJi
@@ -79,7 +78,7 @@ http://moobl.ru/hls/Mult_hd.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания (Латвия)
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1757.png" group-title="Детские",О!
-http://92.100.39.32:2289/play/a08x/index.m3u8
+http://46.151.151.245:10007/play/a006
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7669.png" group-title="Детские",СОЛНЦЕ
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
@@ -89,7 +88,7 @@ http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум
-http://92.100.39.32:2289/play/a08v/index.m3u8
+http://86.57.211.182:32200/Unikum/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7597.png" group-title="Детские",Чижик HD
 
 
@@ -104,7 +103,7 @@ https://dom-live-megafon2.mediavitrina.ru/hls-livef1/ctc-dom/tracks-v5a1/mono.m3
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ
 http://moobl.ru/hls/KVN.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/783.png" group-title="Развлекательные",Ностальгия
-http://92.100.39.32:2289/play/noctalgya/index.m3u8
+http://146.158.0.56/Nostalgiya/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2297.png" group-title="Развлекательные",Продвижение
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница HD
@@ -151,10 +150,10 @@ http://146.158.0.56:80/Lya-Minor/mono.m3u8
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2415.png" group-title="Музыкальные",Жар Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-#EXTINF:-1 id="5382" tvg-logo="http://epg.it999.ru/img2/5382.png" group-title="Музыкальные",Жара kids
-http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/165.png" group-title="Музыкальные",Жара
 http://92.100.39.32:2289/play/Zhara/index.m3u8
+#EXTINF:-1 id="5382" tvg-logo="http://epg.it999.ru/img2/5382.png" group-title="Музыкальные",Жара kids
+http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыкальные",Муз ТВ
 http://stream01.vnet.am/MuzTv/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Музыкальные",МузСоюз
