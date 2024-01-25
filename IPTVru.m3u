@@ -8,8 +8,6 @@ http://dmi3y-tv.ru/hls/CH_1RNKHD720.m3u8
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/tv-brics.png" group-title="Общественные",TV BRICS
 http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Общественные",БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2398.png" group-title="Общественные",Вместе-РФ
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/669.png" group-title="Общественные",Время
@@ -30,8 +28,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://dmi3y-tv.ru/hls/CH_UNKNOWN_RUSSIAHD.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Общественные",НТВ HD
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Общественные",ОНТ
-http://194.158.222.36:6102
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Общественные",ОТР
 https://vgtrk-live-megafon2.mediavitrina.ru/hls-livec2/streams/vitrina-hls/otr_0/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="Общественные",Пятый канал
@@ -88,7 +84,7 @@ http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум
-http://86.57.211.182:32200/Unikum/index.m3u8
+http://31.148.48.15:80/Detskiy/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7597.png" group-title="Детские",Чижик HD
 
 
@@ -466,6 +462,24 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
 
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 1
+http://86.57.211.182:32200/Belarus_1/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 2
+http://194.158.222.36:6107
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 24 HD
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 3
+http://194.158.222.36:6108
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 4 Брест
+http://86.57.211.182:32200/Belarus4/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Беларусь",БелРос
+http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Беларусь",Звязда
+http://82.209.197.187:8080/udp/239.0.100.142:1234
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Беларусь",ОНТ
+http://194.158.222.36:6102
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",СТВ (Беларусь)
+http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск)
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
