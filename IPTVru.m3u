@@ -355,7 +355,7 @@ http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2043.png" group-title="Спортивные",Матч! ПЛАНЕТА
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/mir-basketbola.png" group-title="Спортивные",Мир Баскетбола
-http://92.100.39.32:2289/play/a07u/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6030.png" group-title="Христианские",Небеса ТВ7
 http://dmi3y-tv.ru/hls/CH_TV7.m3u8
@@ -373,21 +373,21 @@ http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/animal-planet-eu.png" group-title="Познавательные",Animal Planet HD
 http://135.181.115.81/russia/animal_planet/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/big-planet.png" group-title="Познавательные",Big Planet
-http://92.100.39.32:2289/play/a09h/index.m3u8
+http://178.132.117.42:9999/ntv
 #EXTINF:-1 tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV
 http://146.158.0.56/Galaxy/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
-http://92.100.39.32:2289/play/a097/index.m3u8
+http://135.181.115.81/russia/viasat_history/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="Познавательные",Viju Nature
-http://92.100.39.32:2289/play/a098/index.m3u8
+http://195.26.83.96:7013/play/37/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="Познавательные",Viju+ Planet HD
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7632.png" group-title="Познавательные",Terra
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="Познавательные",Travel+Adventure
-http://92.100.39.32:2289/play/a05r/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG TV
 http://195.26.83.96:7007/play/a00n/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал
@@ -425,15 +425,15 @@ http://stream01.vnet.am/Zagorodniy/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/bober.png" group-title="Хобби и увлечения",Бобер
 http://178.212.71.253:8002/play/a00m/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/doktor.png" group-title="Хобби и увлечения",Доктор
-http://92.100.39.32:2289/play/a07j/index.m3u8
+http://31.148.48.15:80/Doktor/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/520.png" group-title="Хобби и увлечения",Домашние Животные
-http://92.100.39.32:2289/play/a09d/index.m3u8
+http://109.239.208.82:80/animals/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="Хобби и увлечения",Дикая Охота HD
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения",Дикая Рыбалка HD
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="Хобби и увлечения",Дикий
-http://92.100.39.32:2289/play/Dikii/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7614.png" group-title="Хобби и увлечения",Еда
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",ЖИВИ!
@@ -447,7 +447,7 @@ http://146.158.0.56/ZagorodnayaJizn/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/zdorovoe-tv.png" group-title="Хобби и увлечения",Здоровое ТВ
 http://dmi3y-tv.ru/hls/CH_ZDOROVOETV.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Хобби и увлечения",Кухня ТВ
-http://92.100.39.32:2289/play/KuhnyaTV/index.m3u8
+http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2444.png" group-title="Хобби и увлечения",Мужской
 http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2433.png" group-title="Хобби и увлечения",Наша Тема
@@ -455,30 +455,28 @@ http://live-1.otcnet.ru/nashatema1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",НТВ Стиль
 http://dmi3y-tv.ru/hls/CH_NTVSTIL.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="Хобби и увлечения",Охота и Рыбалка
-http://92.100.39.32:2289/play/a05l/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения HD
 http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения",Точка Отрыва
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
 
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 1
-http://86.57.211.182:32200/Belarus_1/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 2
-http://194.158.222.36:6107
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 24 HD
+#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 1 HD
+http://moobl.ru/hls/Belarus1_hd.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 2 HD
+http://moobl.ru/hls/Belarus2_hd.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 3
-http://194.158.222.36:6108
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",Беларусь 4 Брест
-http://86.57.211.182:32200/Belarus4/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Беларусь",БелРос
+#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 3 HD
+http://moobl.ru/hls/Belarus3_hd.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 4 Брест
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Белорусские",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Беларусь",Звязда
-http://82.209.197.187:8080/udp/239.0.100.142:1234
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Беларусь",ОНТ
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Белорусские",ОНТ
 http://194.158.222.36:6102
-#EXTINF:-1 tvg-logo="" group-title="Беларусь",СТВ (Беларусь)
+#EXTINF:-1 tvg-logo="" group-title="Беларусь",СТВ Беларусь
 http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск)
