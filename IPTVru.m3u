@@ -191,7 +191,7 @@ http://hlss.goodgame.ru/hls/157239.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7281.png" group-title="Кинозал",Fox
 http://stream01.vnet.am/Fox/mono.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Кинозал",Fox Life
+#EXTINF:-1 tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",Fox Life
 http://dmi3y-tv.ru/hls/CH_FOXLIFE.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/608.png" group-title="Кинозал",HollywooD
 https://strm.yandex.ru/kal/hollywood_belarus/hollywood_belarus0.m3u8
@@ -231,7 +231,7 @@ http://94.232.104.237:8000/play/049/index.m3u8
 https://stream01.vnet.am/ZeeTV/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kamedi.png" group-title="Кинозал",Камеди HD
 
-#EXTINF:-1 tvg-logo="" group-title="Кинозал",Комедия
+#EXTINF:-1 tvg-logo="https://epgx.site/p/russkaya-komedia.png" group-title="Кинозал",Комедия
 http://91.142.158.107:8092/play/30/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="Кинозал",Кинеко
 http://109.197.192.121:8080/foxhd/tracks-v1a1/mono.m3u8
@@ -376,6 +376,9 @@ http://135.181.115.81/russia/animal_planet/playlist.m3u8
 http://178.132.117.42:9999/ntv
 #EXTINF:-1 tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV
 http://146.158.0.56/Galaxy/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png"" group-title="Познавательные",Discovery HD
+http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
@@ -462,21 +465,19 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
 
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 1 HD
+#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus1hd.png" group-title="Белорусские",Беларусь 1 HD
 http://moobl.ru/hls/Belarus1_hd.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 2 HD
+#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Белорусские",Беларусь 2 HD
 http://moobl.ru/hls/Belarus2_hd.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 24
+#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus24.png" group-title="Белорусские",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 3 HD
+#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus3hd.png" group-title="Белорусские",Беларусь 3 HD
 http://moobl.ru/hls/Belarus3_hd.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",Беларусь 4 Брест
-
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Белорусские",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Белорусские",ОНТ
 http://194.158.222.36:6102
-#EXTINF:-1 tvg-logo="" group-title="Белорусские",СТВ Беларусь
+#EXTINF:-1 tvg-logo="https://epgx.site/p/stv-by.png" group-title="Белорусские",СТВ Беларусь
 http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск)
