@@ -376,9 +376,8 @@ http://135.181.115.81/russia/animal_planet/playlist.m3u8
 http://178.132.117.42:9999/ntv
 #EXTINF:-1 tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV
 http://146.158.0.56/Galaxy/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png"" group-title="Познавательные",Discovery HD
-http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
-
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png"" group-title="Познавательные",Discovery
+http://edge02.odtv.az/o5/discovery/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
