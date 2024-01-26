@@ -301,7 +301,7 @@ http://ott-cdn.ucom.am/s47/04.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/rodnoe-kino.png" group-title="Русский кинозал",Родное кино
 https://strm.yandex.ru/kal/rodnoe_kino_belarus/rodnoe_kino_belarus0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер
-http://91.142.158.107:8092/play/26/index.m3u8
+http://dmi3y-tv.ru/hls/CH_RUSSKIY_BESTSELLER.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/russky-detektiv.png" group-title="Русский кинозал",Русский детектив
 http://91.142.158.107:8092/play/27/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/russky-roman.png" group-title="Русский кинозал",Русский роман
@@ -457,7 +457,7 @@ http://live-1.otcnet.ru/nashatema1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",НТВ Стиль
 http://dmi3y-tv.ru/hls/CH_NTVSTIL.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="Хобби и увлечения",Охота и Рыбалка
-
+http://dmi3y-tv.ru/hls/CH_OHOTAIRYBALKA.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения HD
 http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения",Точка Отрыва
