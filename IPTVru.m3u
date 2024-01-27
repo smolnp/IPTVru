@@ -412,8 +412,8 @@ http://109.239.208.82:80/nauka20/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/675.png" group-title="Познавательные",Моя Планета
 http://46.151.151.245:10002/play/a0b5
-##EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический
-
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический
+http://stream01.vnet.am/Evrika/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/poexali.png" group-title="Общественные",Поехали!
 http://46.151.151.245:10007/play/a004
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2296.png" group-title="Познавательные",Просвещение
