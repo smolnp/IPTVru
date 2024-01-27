@@ -175,6 +175,8 @@ http://94.232.104.237:8000/play/106/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/516.png" group-title="Кинозал",.Sci-Fi
 http://stream01.vnet.am/Kinoseriya/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/312-kino.png" group-title="Кинозал",312 Кино
+http://moobl.ru/hls/312_kino.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1371.png" group-title="Кинозал",Amedia 1
 http://176.222.190.11/btv/SWM/A1/A1.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2492.png" group-title="Кинозал",Amedia 2
