@@ -384,27 +384,27 @@ http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="Познавательные",365 Дней ТВ
 http://146.158.0.56:80/365dney/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/animal-planet-eu.png" group-title="Познавательные",Animal Planet HD
-
+http://91.207.115.228:5000/c147
 #EXTINF:-1 tvg-logo="https://epgx.site/p/big-planet.png" group-title="Познавательные",Big Planet
-
+http://91.207.115.228:5000/c94
 #EXTINF:-1 tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV
 http://146.158.0.56/Galaxy/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Познавательные",Discovery HD
-
+http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/idxtra.png" group-title="Познавательные", ID Xtra Европа
-
+http://94.232.104.237:8000/play/109/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5600.png" group-title="Познавательные",Univer TV
 http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="Познавательные",Viju History
-
+http://31.131.136.4:8001/play/e002
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="Познавательные",Viju Nature
 http://195.26.83.96:7013/play/37/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="Познавательные",Viju+ Planet HD
-
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="Познавательные",Viju+ Planet
+http://31.131.136.4:8001/play/e006
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7632.png" group-title="Познавательные",Terra
-
+http://hls.k-telecom.org:8081/kt/102/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="Познавательные",Travel+Adventure
-
+http://212.22.76.51:83/Travel_Adventure/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG TV
 http://195.26.83.96:7007/play/a00n/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал
@@ -420,7 +420,7 @@ http://146.158.0.56/KtoEstKto/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nauka-20.png" group-title="Познавательные",Наука
 http://109.239.208.82:80/nauka20/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6031.png" group-title="Познавательные",Министерство идей
-
+http://hls.k-telecom.org:8081/kt/81/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/675.png" group-title="Познавательные",Моя Планета
 http://46.151.151.245:10002/play/a0b5
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический
@@ -434,7 +434,7 @@ http://91.142.158.107:8092/play/36/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Совершенно Секретно
 https://livetv.mylifeisgood.net.ru/channels/sovsec127.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2424.png" group-title="Познавательные",Телепутешествия
-
+http://94.232.104.237:8000/play/080/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/521.png" group-title="Хобби и увлечения",Viju Explore
 http://91.205.199.3:80/viasatexplorer/index.m3u8
