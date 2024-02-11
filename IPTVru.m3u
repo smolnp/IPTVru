@@ -216,9 +216,9 @@ http://91.207.115.228:5000/c144
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1013.png" group-title="Кинозал",Viju+ Premiere HD
 http://91.207.115.228:5000/c145
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2838.png" group-title="Кинозал",Viju+ Serial HD
-
+http://31.148.6.4:10215/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kino-24.png" group-title="Кинозал",Kino 24
-
+https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kinoliving.png" group-title="Кинозал",KinoLiving
 http://91.207.115.228:5000/c61
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kinowood.png" group-title="Кинозал",Kinowood HD
@@ -266,7 +266,7 @@ http://91.205.199.3:80/kinoxithd/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1037.png" group-title="Кинозал",Кино ТВ
 http://86.57.211.182:32200/Animal_Planet/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/477.png" group-title="Кинозал",Любимое Кино
-
+http://212.22.76.51:83/Lubimoe_kino/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1584.png" group-title="Кинозал",Мужское кино
 http://45.159.74.14:80/MujskoeKino/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nst.png" group-title="Кинозал",НСТ
@@ -307,7 +307,7 @@ http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="Русский кинозал",НТВ Хит
 http://cdn.ntv.ru/th_hit/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="Русский кинозал",Победа
-
+http://hls.k-telecom.org:8081/kt/238/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/rodnoe-kino.png" group-title="Русский кинозал",Родное кино
 https://strm.yandex.ru/kal/rodnoe_kino_belarus/rodnoe_kino_belarus0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер
