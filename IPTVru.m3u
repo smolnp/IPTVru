@@ -447,15 +447,15 @@ http://31.148.48.15:80/Doktor/index.m3u8?token=test
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/520.png" group-title="Хобби и увлечения",Домашние Животные
 http://109.239.208.82:80/animals/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="Хобби и увлечения",Дикая Охота HD
-
+http://hls.k-telecom.org:8081/kt/169/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения",Дикая Рыбалка HD
-
+http://31.148.6.4:10243/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="Хобби и увлечения",Дикий
-
+http://212.22.76.51:82/Dikij/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7614.png" group-title="Хобби и увлечения",Еда
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",ЖИВИ!
-
+http://94.228.204.166:8000/play/0097
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="Хобби и увлечения",Живи Активно HD
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2463.png" group-title="Хобби и увлечения",Загородный
@@ -463,7 +463,7 @@ http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь
 http://146.158.0.56/ZagorodnayaJizn/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/zdorovoe-tv.png" group-title="Хобби и увлечения",Здоровое ТВ
-
+http://178.124.179.122:8088/ZdorovoeTV/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Хобби и увлечения",Кухня ТВ
 http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2444.png" group-title="Хобби и увлечения",Мужской
@@ -481,6 +481,7 @@ http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения",Точка Отрыва
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
+http://94.232.104.237:8000/play/121/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/belarus1hd.png" group-title="Белорусские",Беларусь 1 HD
 https://edge60.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
