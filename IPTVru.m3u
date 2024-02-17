@@ -1,4 +1,4 @@
-#EXTM3U m3uautoload=1 deinterlace=1 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" catchup="append" catchup-source="&offset=-${offset}&utcstart=${timestamp}" catchup-days="3" cache=1500
+#EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" tvg-shift="+3" abs="true"
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/983.png" group-title="Общественные",Первый канал HD
 http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
@@ -56,7 +56,7 @@ http://94.232.104.237:8000/play/123/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/410.png" group-title="Детские",Da Vinci
 http://91.207.115.228:5000/c72
 #EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl
-http://212.22.76.51:83/Gulli_Girl/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="Детские",TiJi
 http://stream01.vnet.am/Tiji/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
@@ -88,7 +88,7 @@ http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум
-http://31.148.48.15:80/Detskiy/index.m3u8?token=test
+
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/323.png" group-title="Развлекательные",2x2
 http://91.207.115.228:5000/c180
@@ -107,7 +107,7 @@ http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница HD
 http://109.239.138.241:8000/pyatnicaott
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлекательные",Сарафан
-http://212.22.76.51:83/Sarafan/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Развлекательные",Суббота
 http://195.26.83.96:7013/play/a00e/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="Развлекательные",СТС
@@ -154,8 +154,6 @@ http://94.232.104.237:8000/play/095/index.m3u8
 http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыкальные",Муз ТВ
 https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Музыкальные",МузСоюз
-http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого
 http://109.239.208.82:80/muz1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6266.png" group-title="Музыкальные",Музыка 1 International
@@ -366,6 +364,8 @@ http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 http://dmi3y-tv.ru/hls/CH_TV7.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nadezhda.png" group-title="Христианские",Надежда
 http://dmi3y-tv.ru/hls/CH_NADEZHDAHD720.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Христианские",МузСоюз
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2448.png" group-title="Христианские",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Христианские",Спас
