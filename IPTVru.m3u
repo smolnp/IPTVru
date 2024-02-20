@@ -188,11 +188,15 @@ http://hlss.goodgame.ru/hls/157239.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2181.png" group-title="Кинозал",FilmBox
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7281.png" group-title="Кинозал",Fox
-
+http://stream01.vnet.am/Fox/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",Fox Life
 http://dmi3y-tv.ru/hls/CH_FOXLIFE.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/608.png" group-title="Кинозал",HollywooD
 https://strm.yandex.ru/kal/hollywood_belarus/hollywood_belarus0.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Кинозал",Viasat Kino
+http://89.254.128.5:22280/viasat_kino/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Кинозал",Viasat Kino Action
+http://89.254.128.5:22280/viasat_kino_action/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/127.png" group-title="Кинозал",Viju TV1000
 http://94.232.104.237:8000/play/039/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/125.png" group-title="Кинозал",Viju TV1000 Action
@@ -209,8 +213,6 @@ http://31.148.6.4:10215/index.m3u8
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kinoliving.png" group-title="Кинозал",KinoLiving
 http://91.207.115.228:5000/c61
-#EXTINF:-1 tvg-logo="https://epgx.site/p/kinowood.png" group-title="Кинозал",Kinowood HD
-
 #EXTINF:-1 tvg-logo="https://epgx.site/p/plan-b.png" group-title="Кинозал",Plan B
 http://31.148.6.4:10236/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="Кинозал",Start World
@@ -327,7 +329,7 @@ https://player.smotrim.ru/iframe/stream/live_id/63338?43e=5.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+ Sport
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/kxl.png" group-title="Спортивные",KHL
-
+https://strm.yandex.ru/kal/khl_belarus/khl_belarus0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="Спортивные",Extreme Sports
 http://45.159.74.14:80/KXLTV/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="Спортивные",Бокс ТВ
@@ -359,7 +361,8 @@ http://91.207.115.228:5000/c115
 #EXTINF:-1 tvg-logo="https://epgx.site/p/xokkejny.png" group-title="Спортивные",Хоккейный
 
 
-
+#EXTINF:-1 tvg-logo="" group-title="Христианские",Angel TV
+https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6030.png" group-title="Христианские",Небеса ТВ7
 http://dmi3y-tv.ru/hls/CH_TV7.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nadezhda.png" group-title="Христианские",Надежда
