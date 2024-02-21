@@ -158,7 +158,7 @@ https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_
 http://109.239.208.82:80/muz1/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/680.png" group-title="Музыкальные",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыкальные",Шансон ТВ
+#EXTINF:-1 tvg-id="shanson-tv" tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыкальные",Шансон ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/935.png" group-title="Кинозал",.Black
@@ -398,7 +398,7 @@ http://dmi3y-tv.ru/hls/CH_RTGTV.m3u8
 http://91.221.201.2:7013/play/a009/index.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/zhivaya-planeta.png" group-title="Познавательные",Живая Планета
 http://109.239.208.82:80/liveplanet/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/367.png" group-title="Познавательные",Зоопарк
+#EXTINF:-1 tvg-id="zoopark" tvg-logo="http://epg.it999.ru/img2/367.png" group-title="Познавательные",Зоопарк
 http://109.239.208.82:80/zoo/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1036.png" group-title="Познавательные",История
 http://109.239.208.82:80/history/index.m3u8
@@ -441,7 +441,7 @@ http://31.148.6.4:10243/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7614.png" group-title="Хобби и увлечения",Еда
 http://dmi3y-tv.ru/hls/CH_EDATV.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",ЖИВИ!
+#EXTINF:-1 tvg-id="zhivi" tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",ЖИВИ!
 http://94.228.204.166:8000/play/0097
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="Хобби и увлечения",Живи Активно HD
 
@@ -515,8 +515,6 @@ http://dmi3y-tv.ru/hls/smotrim/region/CH_NN24HD_NN.m3u8
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nts-sevastopol.png" group-title="Региональные",НТС Севастополь
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6766.png" group-title="Региональные",Первый Ростовский HD
-https://rost.mediacdn.ru/cdn/rostov1/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",Раменское ТВ HD
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29
