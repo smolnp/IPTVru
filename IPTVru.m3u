@@ -73,7 +73,7 @@ http://stream01.vnet.am/Mama/mono.m3u8
 https://strm.yandex.ru/kal/mult_belarus/mult_belarus0.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
 http://91.207.115.228:5000/c67
-#EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания (Латвия)
+#EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1757.png" group-title="Детские",О!
 http://94.232.104.237:8000/play/241/index.m3u8
@@ -441,7 +441,7 @@ http://31.148.6.4:10243/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7614.png" group-title="Хобби и увлечения",Еда
 http://dmi3y-tv.ru/hls/CH_EDATV.m3u8
-#EXTINF:-1 tvg-id="zhivi" tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",ЖИВИ!
+#EXTINF:-1 tvg-id="zhivi" tvg-logo="http://epg.it999.ru/img2/113.png" group-title="Хобби и увлечения",Живи!
 http://94.228.204.166:8000/play/0097
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="Хобби и увлечения",Живи Активно HD
 
