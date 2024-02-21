@@ -306,7 +306,7 @@ http://94.232.104.237:8000/play/048/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2304.png" group-title="Русский кинозал",Телекафе
 http://stream01.vnet.am/Telekafe/mono.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2404.png" group-title="Русский кинозал",Феникс плюс Кино
-
+http://82.209.197.187:8080/udp/239.0.100.101:1234
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4458.png" group-title="Новостные",360 Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
