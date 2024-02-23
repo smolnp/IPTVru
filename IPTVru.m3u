@@ -28,7 +28,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://dmi3y-tv.ru/hls/CH_UNKNOWN_RUSSIAHD.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://epgx.site/p/ntv.png" group-title="Общественные",НТВ (FHD)
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-"ntv-amerika" tvg-logo="https://epgx.site/p/ntv-amerika.png" group-title="Общественные",НТВ Америка (480p)
+#EXTINF:-1 tvg-id="ntv-amerika" tvg-logo="https://epgx.site/p/ntv-amerika.png" group-title="Общественные",НТВ Америка (480p)
 http://4.59.210.197:8815/udp/127.0.0.1:6003
 #EXTINF:-1 tvg-id="otr" tvg-logo="https://epgx.site/p/otr.png" group-title="Общественные",ОТР (480p)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
@@ -40,54 +40,50 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Общественные",РенТВ (FHD)
 http://185.37.150.40:8092/RenTV_HD/playlist.m3u8
-#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (Тамбов TV)
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (Тамбов, TV)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (FHD)
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
 #EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Общественные",ТВ Центр (480p)
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2011.png" group-title="Детские",Ani
+#EXTINF:-1 tvg-id="ani" tvg-logo="https://epgx.site/p/ani.png" group-title="Детские",Ani (TV)
 http://94.232.104.237:8000/play/123/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network
-
-#EXTINF:-1 tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/410.png" group-title="Детские",Da Vinci
+#EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://epgx.site/p/da-vinci.png" group-title="Детские",Da Vinci (TV)
 http://91.207.115.228:5000/c72
-#EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl
+#EXTINF:-1 tvg-id="gulli-girl" tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl (TV)
 http://strm.yandex.ru/kal/gulli_girl_belarus/gulli_girl_belarus0.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="Детские",TiJi
+#EXTINF:-1 tvg-id="tiji" tvg-logo="https://epgx.site/p/timeless-dizi.png" group-title="Детские",TiJi (TV)
 http://stream01.vnet.am/Tiji/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Детские",Детское кино International
+#EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://epgx.site/p/detkinoint-tviksel.png" group-title="Детские",Детское кино International (480p)
 https://v2.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/923.png" group-title="Детские",Детский мир
+#EXTINF:-1 tvg-id="detsky-mir" tvg-logo="https://epgx.site/p/detsky-mir.png" group-title="Детские",Детский мир (TV)
 http://stream01.vnet.am/CartoonNetwork/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Детские",Карусель
+#EXTINF:-1 tvg-id="karusel" tvg-logo="https://epgx.site/p/karusel.png" group-title="Детские",Карусель (TV)
 http://91.142.158.107:8092/play/38/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/liova.png"  group-title="Детские", Лёва HD
+#EXTINF:-1 tvg-id="liova" tvg-logo="https://epgx.site/p/liova.png"  group-title="Детские", Лёва (FHD)
 http://strm.yandex.ru/kal/leva/leva0.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/618.png" group-title="Детские",Мама
+#EXTINF:-1 tvg-id="mama" tvg-logo="https://epgx.site/p/mama.png" group-title="Детские",Мама (4:3, TV)
 http://stream01.vnet.am/Mama/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1332.png" group-title="Детские",Мульт
+#EXTINF:-1 tvg-id="mult" tvg-logo="https://epgx.site/p/mult.png" group-title="Детские",Мульт (TV)
 https://strm.yandex.ru/kal/mult_belarus/mult_belarus0.m3u8
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Детские",Мультиландия
+#EXTINF:-1 tvg-id="multimania" tvg-logo="https://epgx.site/p/multimania.png" group-title="Детские",Мультиландия (TV)
 http://91.207.115.228:5000/c67
-#EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания LV
+#EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания LV (4:3, TV)
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1757.png" group-title="Детские",О!
+#EXTINF:-1 tvg-id="o_" tvg-logo="https://epgx.site/p/o_.png" group-title="Детские",О! (TV)
 http://94.232.104.237:8000/play/241/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Детские",Рыжий
+#EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://epgx.site/p/ryzhy.png" group-title="Детские",Рыжий (480p)
 http://ott-cdn.ucom.am/s57/04.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="Детские",Радость моя
+#EXTINF:-1 tvg-id="radost-moya" tvg-logo="https://epgx.site/p/radost-moya.png" group-title="Детские",Радость моя (TV)
 http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
-#EXTINF:-1  tvg-logo="https://epgx.site/p/smaylik-tv.png" group-title="Детские", Смайлик ТВ
+#EXTINF:-1  tvg-id="smaylik-tv" tvg-logo="https://epgx.site/p/smaylik-tv.png" group-title="Детские",Смайлик ТВ (HD ready)
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7669.png" group-title="Детские",СОЛНЦЕ
+#EXTINF:-1 tvg-id="solnce" tvg-logo="https://epgx.site/p/solnce.png" group-title="Детские",Солнце (TV)
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Детские",СТС Kids
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://epgx.site/p/sts-kids-hd.png" group-title="Детские",СТС Kids (TV)
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум
+#EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум (TV)
 http://dmi3y-tv.ru/hls/CH_UNIKUM.m3u8
 
 #EXTINF:-1 tvg-id="1-2" tvg-logo="https://epgx.site/p/1-2.png" group-title="Развлекательные",1+2
