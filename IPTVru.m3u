@@ -86,52 +86,52 @@ http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум (TV)
 http://dmi3y-tv.ru/hls/CH_UNIKUM.m3u8
 
-#EXTINF:-1 tvg-id="1-2" tvg-logo="https://epgx.site/p/1-2.png" group-title="Развлекательные",1+2
+#EXTINF:-1 tvg-id="1-2" tvg-logo="https://epgx.site/p/1-2.png" group-title="Развлекательные",1+2 (TV)
 http://89.254.128.5:22280/1_2/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/323.png" group-title="Развлекательные",2x2
+#EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2 (TV)
 http://91.207.115.228:5000/c180
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2497.png" group-title="Развлекательные",Russian Extreme HD
+#EXTINF:-1 tvg-id="russky-ekstrim" tvg-logo="https://epgx.site/p/russky-ekstrim.png" group-title="Развлекательные",HD REX (FHD)
 http://91.221.201.2:7013/play/a00a/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/tvmchannel.png" group-title="Развлекательные",TVM Channel
+#EXTINF:-1 tvg-id="tvmchannel" tvg-logo="https://epgx.site/p/tvmchannel.png" group-title="Развлекательные",TVM Channel (TV)
 http://origin5.mediacdn.ru/live/tvm/index.m3u8
-#EXTINF:-1 tvg-id="domashny" tvg-logo="https://epgx.site/p/domashny.png" group-title="Развлекательные",Домашний
+#EXTINF:-1 tvg-id="domashny" tvg-logo="https://epgx.site/p/domashny.png" group-title="Развлекательные",Домашний (TV)
 http://86.57.211.182:32200/Domashnij/index.m3u8
-#EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Развлекательные",Домашний HD
+#EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Развлекательные",Домашний (FHD)
 http://109.239.138.241:8000/domashniyott
-#EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний Международный
+#EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний International (TV)
 http://45.159.74.13:80/Domashniy/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ
+#EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ (TV)
 https://strm.yandex.ru/kal/kvn_tv_belarus/kvn_tv_belarus0.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/783.png" group-title="Развлекательные",Ностальгия
+#EXTINF:-1 tvg-id="nostalgia" tvg-logo="https://epgx.site/p/nostalgia.png" group-title="Развлекательные",Ностальгия (4:3, TV)
 http://146.158.0.56/Nostalgiya/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/perec.png" group-title="Развлекательные",Перец
+#EXTINF:-1 tvg-id="perec-int" tvg-logo="https://epgx.site/p/perec.png" group-title="Развлекательные",Перец (TV)
 http://stream01.vnet.am/Perec/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2297.png" group-title="Развлекательные",Продвижение
+#EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epgx.site/p/prodvizhenie.png" group-title="Развлекательные",Продвижение (TV)
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2830.png" group-title="Развлекательные",Пятница HD
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница HD (FHD)
 http://109.239.138.241:8000/pyatnicaott
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлекательные",Сарафан
-http://86.57.178.105:10822
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Развлекательные",Суббота
+#EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="Развлекательные",Сарафан (TV)
+http://hls.k-telecom.org:8081/kt/155/playlist.m3u8
+#EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (TV)
 http://195.26.83.96:7013/play/a00e/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="Развлекательные",СТС
+#EXTINF:-1 tvg-id="sts" tvg-logo="https://epgx.site/p/sts.png" group-title="Развлекательные",СТС (FHD)
 http://109.239.138.241:8000/stsott
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1322.png" group-title="Развлекательные",СТС Love
+#EXTINF:-1 tvg-id="sts-love" tvg-logo="https://epgx.site/p/sts-love.png" group-title="Развлекательные",СТС Love (480p)
 https://livetv.mylifeisgood.net.ru/channels/stslove.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/698.png" group-title="Развлекательные",ТВ3
+#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://epgx.site/p/tv3-ru.png" group-title="Развлекательные",ТВ3 (TV)
 https://streaming.televizor-24-tochka.ru/live/18-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/tvoyo-tv-hd.png" group-title="Развлекательные",Твоё ТВ HD
+#EXTINF:-1 tvg-id="tvoyo-tv-hd" tvg-logo="https://epgx.site/p/tvoyo-tv-hd.png" group-title="Развлекательные",Твоё ТВ (FHD)
 http://tvoetv.space:8080/tvoetv/index.m3u8
-#EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://epgx.site/p/tochka-tv.png" group-title="Развлекательные",Точка ТВ
+#EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://epgx.site/p/tochka-tv.png" group-title="Развлекательные",Точка ТВ (TV)
 https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ HD
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ (FHD)
 http://94.232.104.237:8000/play/138/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1649.png" group-title="Развлекательные",ТНТ4
+#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Развлекательные",ТНТ4 (TV)
 http://91.205.199.3:80/tnt4/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1598.png" group-title="Развлекательные",Че!
+#EXTINF:-1 tvg-id="che" tvg-logo="https://epgx.site/p/che.png" group-title="Развлекательные",Че! (480p)
 #EXTVLCOPT:http-user-agent=SmartLabs
 http://livetv.mylifeisgood.net.ru/channels/che.m3u8
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/2678.png" group-title="Развлекательные",Ю
+#EXTINF:-1 tvg-id="yu" tvg-logo="https://epgx.site/p/yu.png" group-title="Развлекательные",Ю (HD ready)
 http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4037.png" group-title="Музыкальные",1HD
