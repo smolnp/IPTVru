@@ -134,35 +134,35 @@ http://livetv.mylifeisgood.net.ru/channels/che.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-logo="https://epgx.site/p/yu.png" group-title="Развлекательные",Ю (HD ready)
 http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4037.png" group-title="Музыкальные",1HD
-https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/backustv-music.png" group-title="Музыкальные",BackusTV Music
+#EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (FHD)
+http://146.158.0.56/1HD/mono.m3u8
+#EXTINF:-1 tvg-id="backustv-music" tvg-logo="https://epgx.site/p/backustv-music.png" group-title="Музыкальные",BackusTV Music (FHD)
 https://playlist.nuum.ru/live/5478/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge TV Русский хит
+#EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge TV Русский хит (TV)
 https://livetv.mylifeisgood.net.ru/channels/bridgerushittv.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge TV Шлягер
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge TV Шлягер (TV)
 http://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
-#EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV
+#EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV
+#EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (TV)
 http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV HD
+#EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (FHD)
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2415.png" group-title="Музыкальные",Жар Птица
+#EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://epgx.site/p/zhar-ptica.png" group-title="Музыкальные",Жар Птица (360p)
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/165.png" group-title="Музыкальные",Жара
+#EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (TV)
 http://94.232.104.237:8000/play/095/index.m3u8
-#EXTINF:-1 tvg-id="la-minor" tvg-logo="https://epgx.site/p/la-minor.png" group-title="Музыкальные",Ля-минор ТВ
+#EXTINF:-1 tvg-id="la-minor" tvg-logo="https://epgx.site/p/la-minor.png" group-title="Музыкальные",Ля-минор (TV)
 http://146.158.0.56:80/Lya-Minor/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/897.png" group-title="Музыкальные",Муз ТВ
+#EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (TV)
 https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого
+#EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (TV)
 http://109.239.208.82:80/muz1/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5369.png" group-title="Музыкальные",Страна FM
+#EXTINF:-1 tvg-id="radio-strana-fm-tv" tvg-logo="https://epgx.site/p/radio-strana-fm-tv.png" group-title="Музыкальные",Страна FM (HD ready)
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/680.png" group-title="Музыкальные",ТНТ Music HD
+#EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (FHD)
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-id="shanson-tv" tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыкальные",Шансон ТВ
+#EXTINF:-1 tvg-id="shanson-tv" tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="Музыкальные",Шансон ТВ (360p)
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/935.png" group-title="Кинозал",.Black
