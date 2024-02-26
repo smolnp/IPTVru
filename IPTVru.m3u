@@ -316,39 +316,39 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" tvg-logo="https://epgx.site/p/solovjinypomiot.png" group-title="Новостные",Соловьев.Live (FHD)
 https://player.smotrim.ru/iframe/stream/live_id/63338?43e=5.m3u8
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="Спортивные",Extreme Sports
+#EXTINF:-1 tvg-id="extreme-sports" tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="Спортивные",Extreme Sports (EDTV 576p)
 http://45.159.74.14:80/KXLTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/kxl.png" group-title="Спортивные",KHL
+#EXTINF:-1 tvg-id="kxl" tvg-logo="https://epgx.site/p/kxl.png" group-title="Спортивные",KHL (WSVGA)
 https://strm.yandex.ru/kal/khl_belarus/khl_belarus0.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+ Sport
+#EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+ Sport (EDTV 576p)
 http://94.232.104.237:8000/play/063/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus5hd.png" group-title="Спортивные",Беларусь 5
+#EXTINF:-1 tvg-id="belarus5" tvg-logo="https://epgx.site/p/belarus5hd.png" group-title="Спортивные",Беларусь 5 (FHD)
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="Спортивные",Бокс ТВ
+#EXTINF:-1 tvg-id="box-tv" tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="Спортивные",Бокс (FHD)
 http://45.11.139.43:8081/stream/boks_tv/hls/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/konny-mir.png" group-title="Спортивные",Конный Мир
+#EXTINF:-1 tvg-id="konny-mir" tvg-logo="https://epgx.site/p/konny-mir.png" group-title="Спортивные",Конный Мир (WSVGA)
 http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/match-tv.png" group-title="Спортивные",Матч! ТВ
+#EXTINF:-1 tvg-id="match-tv" tvg-logo="https://epgx.site/p/match-tv.png" group-title="Спортивные",Матч! (EDTV 576p)
 http://91.142.158.107:8092/play/33/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2042.png" group-title="Спортивные",Матч! СТРАНА
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",Матч! ФУТБОЛ 1 HD
-http://91.207.115.228:5000/c114
+
 #EXTINF:-1 tvg-logo="https://epgx.site/p/match-football2.png" group-title="Спортивные", Матч! Футбол 2 HD
-http://91.207.115.228:5000/c115
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2003.png" group-title="Спортивные",Матч! АРЕНА HD
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2043.png" group-title="Спортивные",Матч! ПЛАНЕТА
-
+#EXTINF:-1 tvg-id="match-premier" tvg-logo="https://epgx.site/p/match-premiere.png" group-title="Спортивные",Матч! Премьер (EDTV 576p)
+http://109.248.236.21:4433/udp/238.1.1.14:1234
 #EXTINF:-1 tvg-logo="https://epgx.site/p/sportivny.png" group-title="Спортивные",Спортивный
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="Спортивные",Старт
+#EXTINF:-1 tvg-id="start" tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="Спортивные",Старт (FHD)
 https://strm.yandex.ru/kal/start/start0.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/start-triumf.png" group-title="Спортивные",Старт Триумф HD
+#EXTINF:-1 tvg-id="start-triumf" tvg-logo="https://epgx.site/p/start-triumf.png" group-title="Спортивные",Старт Триумф (HD ready)
 https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 #EXTINF:-1 tvg-logo="https://epgx.site/p/footbolny.png" group-title="Спортивные",Футбольный
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/xokkejny.png" group-title="Спортивные",Хоккейный
+#EXTINF:-1 tvg-id="xokkejny" tvg-logo="https://epgx.site/p/xokkejny.png" group-title="Спортивные",Хоккейный (EDTV 576p)
 http://94.232.104.237:8000/play/122/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://epgx.site/p/angel-tv.png" group-title="Христианские",Angel TV
