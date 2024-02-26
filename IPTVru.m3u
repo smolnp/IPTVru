@@ -351,19 +351,19 @@ https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd
 #EXTINF:-1 tvg-id="xokkejny" tvg-logo="https://epgx.site/p/xokkejny.png" group-title="Спортивные",Хоккейный (EDTV 576p)
 http://94.232.104.237:8000/play/122/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/angel-tv.png" group-title="Христианские",Angel TV
+#EXTINF:-1 tvg-id="angel-tv" tvg-logo="https://epgx.site/p/angel-tv.png" group-title="Христианские",Angel TV (HD ready)
 https://cdn3.wowza.com/5/TDJ0aWNkNXFxWWta/angeltvcloud/ngrp:angelrussia_all/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/nadezhda.png" group-title="Христианские",Надежда
+#EXTINF:-1 tvg-id="nadezhda" tvg-logo="https://epgx.site/p/nadezhda.png" group-title="Христианские",Надежда (HD ready)
 http://dmi3y-tv.ru/hls/CH_NADEZHDAHD720.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6030.png" group-title="Христианские",Небеса ТВ7
+#EXTINF:-1 tvg-id="nebesa-tv7" tvg-logo="http://epg.it999.ru/img2/6030.png" group-title="Христианские",Небеса ТВ7 (nHD)
 http://dmi3y-tv.ru/hls/CH_TV7.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Христианские",МузСоюз
+#EXTINF:-1 tvg-id="muzsoyuz" tvg-logo="http://epg.it999.ru/img2/2413.png" group-title="Христианские",МузСоюз (WSVGA)
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2448.png" group-title="Христианские",Союз
+#EXTINF:-1 tvg-id="soyuz" tvg-logo="http://epg.it999.ru/img2/2448.png" group-title="Христианские",Союз (FHD)
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Христианские",Спас
+#EXTINF:-1 tvg-id="spas" tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Христианские",Спас (WSVGA)
 http://spas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2469.png" group-title="Христианские",Три Ангела
+#EXTINF:-1 tvg-id="tri-angela" tvg-logo="http://epg.it999.ru/img2/2469.png" group-title="Христианские",Три Ангела (FHD)
 http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="Познавательные",365 Дней ТВ
