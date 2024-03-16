@@ -400,8 +400,8 @@ http://91.205.199.3:80/viasatnature/index.m3u8
 http://31.131.136.4:8001/play/e006
 #EXTINF:-1 tvg-id="arsenaltv" tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал (HD)
 http://91.221.201.2:7013/play/a009/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/zhivaya-planeta.png" group-title="Познавательные",Живая Планета
-http://109.239.208.82:80/liveplanet/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/zhivaya-planeta.png" group-title="Познавательные",Живая Планета (EDTV 576p)
+http://188.113.190.15/89/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="zoopark" tvg-logo="http://epg.it999.ru/img2/367.png" group-title="Познавательные",Зоопарк (EDTV 576p)
 http://109.239.208.82:80/zoo/index.m3u8
 #EXTINF:-1 tvg-id="istoria" tvg-logo="https://epgx.site/p/istoria.png" group-title="Познавательные",История (EDTV 576p)
@@ -410,18 +410,18 @@ http://109.239.208.82:80/history/index.m3u8
 http://146.158.0.56/KtoEstKto/mono.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/nauka-20.png" group-title="Познавательные",Наука (EDTV 576p)
 http://109.239.208.82:80/nauka20/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6031.png" group-title="Познавательные",Министерство идей
+#EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="http://epg.it999.ru/img2/6031.png" group-title="Познавательные",Министерство идей
 
 #EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.it999.ru/img2/675.png" group-title="Познавательные",Моя Планета (HD)
 http://188.113.190.15/219/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический
+#EXTINF:-1 tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический (HD)
 http://stream01.vnet.am/Evrika/mono.m3u8
 #EXTINF:-1 tvg-id="poexali" tvg-logo="https://epgx.site/p/poexali.png" group-title="Познавательные",Поехали! (EDTV 576p)
 http://188.113.190.15/206/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2296.png" group-title="Познавательные",Просвещение
+#EXTINF:-1 tvg-id="prosveschenie" tvg-logo="https://epgx.site/p/prosveschenie.png" group-title="Познавательные",Просвещение (720×540)
 http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Познавательные",Россия К
-http://91.142.158.107:8092/play/36/index.m3u8
+#EXTINF:-1 id="kultura" tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Познавательные",Россия К (HD)
+https://player.smotrim.ru/iframe/stream/live_id/19201
 #EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Совершенно Секретно (EDTV 576p)
 http://45.15.43.12:80/sovershennosekretno/video.m3u8?token=test
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2424.png" group-title="Познавательные",Телепутешествия
@@ -525,10 +525,10 @@ https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29
 http://live-atkmedia.cdnvideo.ru/atkmedia/atkmedia/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/rostov-papa.png" group-title="Региональные",Ростов-папа
-
 #EXTINF:-1 tvg-logo="https://epgx.site/p/svoyo-tv-stavropol.png" group-title="Региональные",Своё ТВ Ставрополь
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist_hdhigh.m3u8
+#EXTINF:-1 tvg-id="s1-surgut" logo="https://epgx.site/p/s1-surgut.png",С1 Сургут (WSVGA)
+https://sitv.ru/hls/stv1024.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/russky-sever.png" group-title="Региональные",Русский Север
 https://live.rusevertv.ru/rs/1080/s.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург
