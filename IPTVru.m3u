@@ -476,19 +476,19 @@ http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="Хобби и увлечения",Усадьба
 
 
-#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus1hd.png" group-title="Белорусские",Беларусь 1 HD
+#EXTINF:-1 tvg-id="belarus1" tvg-logo="https://epgx.site/p/belarus1hd.png" group-title="Белорусские",Беларусь 1 (HD)
 https://edge60.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Белорусские",Беларусь 2 HD
+#EXTINF:-1 tvg-id="belarus2" tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Белорусские",Беларусь 2 (HD)
 https://edge60.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus24.png" group-title="Белорусские",Беларусь 24
+#EXTINF:-1 tvg-id="belarus24" tvg-logo="https://epgx.site/p/belarus24.png" group-title="Белорусские",Беларусь 24 (HD)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/belarus3hd.png" group-title="Белорусские",Беларусь 3 HD
+#EXTINF:-1 tvg-id="belarus3" tvg-logo="https://epgx.site/p/belarus3hd.png" group-title="Белорусские",Беларусь 3 (HD)
 https://edge60.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Белорусские",БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Белорусские",ОНТ
+#EXTINF:-1 tvg-id="tro" tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Белорусские",БелРос (WSVGA)
+http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
+#EXTINF:-1 tvg-id="ont-by" tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="Белорусские",ОНТ (EDTV 576p)
 http://194.158.222.36:6102
-#EXTINF:-1 tvg-logo="https://epgx.site/p/stv-by.png" group-title="Белорусские",СТВ Беларусь
+#EXTINF:-1 tvg-id="stv-by" tvg-logo="https://epgx.site/p/stv-by.png" group-title="Белорусские",СТВ (HD)
 http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 tvg-id="12-omsk" tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск, WSVGA)
