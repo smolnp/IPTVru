@@ -88,7 +88,7 @@ http://86.57.211.182:32200/Unikum/index.m3u8
 
 #EXTINF:-1 tvg-id="1-2" tvg-logo="https://epgx.site/p/1-2.png" group-title="Развлекательные",1+2 (EDTV 576p)
 
-#EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2
+#EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2 (EDTV 576p)
 http://45.15.43.12:80/2x2/video.m3u8?token=test
 #EXTINF:-1 tvg-id="2na2-pl4" tvg-logo="https://epgx.site/p/2na2-pl4.png" group-title="Развлекательные",2x2 (+4, EDTV 576p)
 
@@ -493,51 +493,51 @@ http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 tvg-id="12-omsk" tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск, WSVGA)
 http://dmi3y-tv.ru/hls/region/CH_12CHANNEL_OMSK.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/astraxan24.png" group-title="Региональные",Астрахань 24
+#EXTINF:-1 tvg-id="astraxan24" tvg-logo="https://epgx.site/p/astraxan24.png" group-title="Региональные",Астрахань 24 (HD)
 http://astrakhan24.mediacdn.ru:80/cdn/astrakhan24/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/vetta24.png" group-title="Региональные",Ветта 24 Пермь
+#EXTINF:-1 tvg-id="vetta24" tvg-logo="https://epgx.site/p/vetta24.png" group-title="Региональные",Ветта 24 (Пермь, EDTV 480p)
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2468.png" group-title="Региональные",Волга
+#EXTINF:-1 tvg-id="volga" tvg-logo="http://epg.it999.ru/img2/2468.png" group-title="Региональные",Волга (Нижний Новгород, HD)
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/gFMnaU5.png" group-title="Региональные",Волгоград 24
+#EXTINF:-1 tvg-id="volgograd-24" tvg-logo="https://i.imgur.com/gFMnaU5.png" group-title="Региональные",Волгоград 24 (HD)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="Региональные",Городской телеканал Ярославль
+#EXTINF:-1 tvg-id="gorodskoy-yaroslavl" tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="Региональные",Городской телеканал Ярославль (EDTV 576p)
 https://www.gtk.tv/hls/gtyar.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IlL57Rm.png" group-title="Региональные",Губерния Самара
+#EXTINF:-1 tvg-id="gubernia-samara" tvg-logo="https://i.imgur.com/IlL57Rm.png" group-title="Региональные",Губерния (Самара, WSVGA)
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/don-24.png" group-title="Региональные",Дон 24
+#EXTINF:-1 tvg-id="don-24" tvg-logo="https://epgx.site/p/don-24.png" group-title="Региональные",Дон 24 (Ростов-на-Дону, nHD)
 https://donmedia.bonus-tv.ru/cdn/donmedia/playlist_sdmid.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/enisey-region.png" group-title="Региональные",Енисей регион
+#EXTINF:-1 tvg-id="enisey-region" tvg-logo="https://epgx.site/p/enisey-region.png" group-title="Региональные",Енисей (Красноярск, HD)
 https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/krasnodar.png" group-title="Региональные",Краснодар
+#EXTINF:-1 tvg-id="krasnodar" tvg-logo="https://epgx.site/p/krasnodar.png" group-title="Региональные",Краснодар (HD)
 http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="legendarny24" tvg-logo="https://epgx.site/p/legendarny24.png" group-title="Региональные",Легендарный 24
+#EXTINF:-1 tvg-id="legendarny24" tvg-logo="https://epgx.site/p/legendarny24.png" group-title="Региональные",Легендарный 24 (Севастополь, HD)
 https://sevas.1tvcrimea.ru/legendarniy24.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Региональные",Липецкое время
+#EXTINF:-1 tvg-id="lipeckoe-vremia" tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Региональные",Липецкое время (HD ready)
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ Волгоград
+#EXTINF:-1 tvg-id="mtv-volgograd" tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ (Волгоград, HD ready)
 https://hls-volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Региональные",Нижний Новгород 24
+#EXTINF:-1 tvg-id="nn-24" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Региональные",Нижний Новгород 24 (HD)
 http://dmi3y-tv.ru/hls/smotrim/region/CH_NN24HD_NN.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Региональные",Новый Век (Тамбов)
+#EXTINF:-1 tvg-id="novy-vek-tambov" tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Региональные",Новый Век (Тамбов, HD ready)
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
-#EXTINF:-1 tvg-id="ntm" tvg-logo="https://epgx.site/p/ntm.png" group-title="Региональные",НТМ (HD ready)
+#EXTINF:-1 tvg-id="ntm" tvg-logo="https://epgx.site/p/ntm.png" group-title="Региональные",НТМ (Саранск, HD ready)
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/nts-sevastopol.png" group-title="Региональные",НТС Севастополь
+#EXTINF:-1 tvg-id="nts-sevastopol" tvg-logo="https://epgx.site/p/nts-sevastopol.png" group-title="Региональные",НТС (Севастополь, HD)
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",Раменское ТВ HD
+#EXTINF:-1 tvg-id="ramenskoe-tv" tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",Раменское ТВ (HD ready)
 https://e10-ll.facecast.net/rtv/0.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29
+#EXTINF:-1 tvg-id="region29" tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29 (Архангельск, HD ready)
 http://live-atkmedia.cdnvideo.ru/atkmedia/atkmedia/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/svoyo-tv-stavropol.png" group-title="Региональные",Своё ТВ Ставрополь
+#EXTINF:-1 tvg-id="svoyo-tv-stavropol" tvg-logo="https://epgx.site/p/svoyo-tv-stavropol.png" group-title="Региональные",Своё ТВ (Ставрополь, HD)
 https://svoetv.mediacdn.ru/cdn/svoetv/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-id="s1-surgut" logo="https://epgx.site/p/s1-surgut.png",С1 Сургут (WSVGA)
+#EXTINF:-1 tvg-id="s1-surgut" logo="https://epgx.site/p/s1-surgut.png",С1 (Сургут, WSVGA)
 https://sitv.ru/hls/stv1024.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/russky-sever.png" group-title="Региональные",Русский Север
+#EXTINF:-1 tvg-id="russky-sever" tvg-logo="https://epgx.site/p/russky-sever.png" group-title="Региональные",Русский Север (Вологда, HD)
 https://live.rusevertv.ru/rs/1080/s.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург
+#EXTINF:-1 tvg-id="sankt-peterburg" tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург (HD)
 https://player.smotrim.ru/iframe/stream/live_id/62037
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6794.png" group-title="Региональные",Саров 24
+#EXTINF:-1 tvg-id="sarov-24" tvg-logo="http://epg.it999.ru/img2/6794.png" group-title="Региональные",Саров 24 (HD ready)
 http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/insit-tv.png" group-title="Региональные",ЮУрГУ
+#EXTINF:-1 tvg-id="insit-tv" tvg-logo="https://epgx.site/p/insit-tv.png" group-title="Региональные",ЮУрГУ (Челябинск, HD ready)
 http://tvrlive.susu.ru/1800k/playlist.m3u8
