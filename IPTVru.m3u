@@ -88,7 +88,7 @@ http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://epgx.site/p/sts-kids-hd.png" group-title="Детские",СТС Kids (EDTV 576p)
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум (EDTV 576p)
-http://86.57.211.182:32200/Unikum/index.m3u8
+
 
 #EXTINF:-1 tvg-id="1-2" tvg-logo="https://epgx.site/p/1-2.png" group-title="Развлекательные",1+2 (EDTV 576p)
 
@@ -117,7 +117,7 @@ http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница (EDTV 576p)
 http://31.148.6.9:10016/index.m3u8
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="Развлекательные",Сарафан (EDTV 576p)
-http://178.124.179.122:8088/Sarafan/index.m3u8
+
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (EDTV 576p)
 http://195.26.83.96:7013/play/a00e/index.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://epgx.site/p/sts.png" group-title="Развлекательные",СТС (HD)
@@ -463,7 +463,7 @@ http://109.239.208.82:80/animals/index.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения",Дикая Рыбалка HD
 
-#EXTINF:-1 tvg-id="dikiy" tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="Хобби и увлечения",Дикий (EDTV 576p)
+#EXTINF:-1 tvg-id="dikiy" tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="Хобби и увлечения",Дикий (SDTV 576i)
 http://mfe01.cliptv.az/dash/Oxota_i_Ribalka_SDkjk467.ism/playlist.mpd
 #EXTINF:-1 tvg-id="eda" tvg-logo="http://epg.it999.ru/img2/7614.png" group-title="Хобби и увлечения",Еда
 
