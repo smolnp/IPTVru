@@ -30,7 +30,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 ::selection 	{
-	background-color: var(--selection-background-color);
+	background: var(--box-background);
+    color: var(--font-color);
 }
 /************************************************************************************
 GENERAL STYLING
