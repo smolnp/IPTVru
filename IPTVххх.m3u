@@ -203,9 +203,9 @@ http://hlss.goodgame.ru/hls/157239.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-logo="https://epgx.site/p/fox.png" group-title="Кинозал",FX (EDTV 576p)
 http://stream01.vnet.am/Fox/mono.m3u8
 #EXTINF:-1 tvg-id="foxlife" tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",FX Life (EDTV 576p)
-http://91.205.199.3:80/FoxLife/index.m3u8
-#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://epgx.site/p/hollywood-hd.png" group-title="Кинозал",HollywooD (HD)
-http://stream01.vnet.am/ParamountChannel/mono.m3u8
+
+#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://epgx.site/p/hollywood-hd.png" group-title="Кинозал",HollywooD (EDTV 576p)
+http://45.15.43.12:80/hollywood/video.m3u8?token=test
 #EXTINF:-1 tvg-id="kino-24" tvg-logo="https://epgx.site/p/kino-24.png" group-title="Кинозал",Kino 24 (EDTV 576p)
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="kinojam2" tvg-logo="https://epgx.site/p/kinojam2.png" group-title="Кинозал",Kinojam 2 (HD)
@@ -447,7 +447,7 @@ https://player.smotrim.ru/iframe/stream/live_id/19201
 #EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Совершенно Секретно (EDTV 576p)
 http://45.15.43.12:80/sovershennosekretno/video.m3u8?token=test
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2424.png" group-title="Познавательные",Телепутешествия
-http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
+
 
 #EXTINF:-1 tvg-id="fashion-tv" tvg-logo="https://epgx.site/p/fashion-tv.png" group-title="Хобби и увлечения",Fashion TV (HD)
 http://91.247.68.229:8000/play/Fashion/index.m3u8
