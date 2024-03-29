@@ -106,6 +106,8 @@ https://streaming.televizor-24-tochka.ru/live/17-req_offset_28000000-req_window_
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний International (EDTV 576p)
 http://45.159.74.13:80/Domashniy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zal-suda" tvg-logo="https://epgx.site/p/zal-suda.png" group-title="Развлекательные", Зал суда (EDTV 576p)
+http://95.156.76.230:33001/udp/230.4.34.6:1234
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ (EDTV 576p)
 https://woobl.ru/hls987/KVN.m3u8
 #EXTINF:-1 tvg-id="nostalgia" tvg-logo="https://epgx.site/p/nostalgia.png" group-title="Развлекательные",Ностальгия (SDTV 576i)
@@ -213,7 +215,7 @@ https://live-mirror-12.ott.tricolor.tv/dtv/id861_MSKSG-PVR-1--Kinojam_2/03/plst.
 #EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://epgx.site/p/kinoliving.png" group-title="Кинозал",KinoLiving ()
 
 #EXTINF:-1 tvg-id="plan-b" tvg-logo="https://epgx.site/p/plan-b.png" group-title="Кинозал",Plan B (HD)
-
+http://88.85.172.243:7012/play/a028
 #EXTINF:-1 tvg-id="romance" tvg-logo="https://epgx.site/p/romance.png" group-title="Кинозал",Romance (SDTV 576i)
 http://146.158.0.56:80/Motosport/index.m3u8
 #EXTINF:-1 tvg-id="start-world" tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="Кинозал",Start World ()
