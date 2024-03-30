@@ -78,3 +78,27 @@ http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="dorama" tvg-logo="https://epgx.site/p/dorama.png" group-title="Выбор подписчиков",Дорама
 http://ott-cdn.ucom.am/s95/04.m3u8
 
+#EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://epgx.site/p/avtoradio.png" group-title="Радио",Авторадио
+http://ic7.101.ru:8000/v3_1
+#EXTINF:-1 tvg-id="dorozhnoe-radio" tvg-logo="https://epgx.site/p/dorozhnoe-radio.png" group-title="Радио",Дорожное Радио
+http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
+#EXTINF:-1 tvg-id="radio-dfm" tvg-logo="https://epgx.site/p/radio-dfm.png" group-title="Радио",Радио DFM
+http://dfm.hostingradio.ru/dfm128.mp3
+#EXTINF:-1 tvg-id="radio-mayak" tvg-logo="https://epgx.site/p/radio-mayak.png" group-title="Радио",Радио Маяк
+http://icecast.vgtrk.cdnvideo.ru/mayakfm
+#EXTINF:-1 tvg-id="radio-mir" tvg-logo="https://epgx.site/p/radio-mir.png" group-title="Радио",Радио Мир
+http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
+#EXTINF:-1 tvg-id="radio-na7xolmax" tvg-logo="https://epgx.site/p/radio-na7xolmax.png" group-title="Радио",Радио на семи холмах
+http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
+#EXTINF:-1 tvg-id="radio-romantika" tvg-logo="https://epgx.site/p/radio-romantika.png" group-title="Радио",Радио Романтика
+http://ic7.101.ru:8000/v4_1
+#EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://epgx.site/p/radio-shanson.png" group-title="Радио",Радио Шансон
+http://chanson.hostingradio.ru:8041/chanson256.mp3
+#EXTINF:-1 tvg-id="radio-vania" tvg-logo="https://epgx.site/p/radio-vania.png" group-title="Радио",Радио Ваня
+http://icecast-radiovanya.cdnvideo.ru:8000/radiovanya
+#EXTINF:-1 tvg-id="retro-fm" tvg-logo="https://epgx.site/p/retro-fm.png" group-title="Радио",Ретро FM
+http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
+#EXTINF:-1 tvg-id="xit-fm" tvg-logo="https://epgx.site/p/xit-fm.png" group-title="Радио",Хит FM
+http://hitfm.hostingradio.ru/hitfm128.mp3
+#EXTINF:-1 tvg-id="yumor-fm" tvg-logo="https://epgx.site/p/yumor-fm.png" group-title="Радио",Юмор FM
+http://ic7.101.ru:8000/v5_1

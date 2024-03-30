@@ -40,7 +40,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Общественные",Рен ТВ (HD)
 http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (Тамбов,WSVGA)
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (Тамбов, WSVGA)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (HD)
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
@@ -140,7 +140,7 @@ https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
 http://45.15.43.12:80/tnt/video.m3u8?token=test
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ (HD)
 http://92.242.110.52:9835/udp/238.1.4.4:1234
-#EXTINF:-1 tvg-id="tnt-int-cis" tvg-logo="https://epgx.site/p/tnt-int-cis.png" group-title="Развлекательные",ТНТ International (СНГ,480p)
+#EXTINF:-1 tvg-id="tnt-int-cis" tvg-logo="https://epgx.site/p/tnt-int-cis.png" group-title="Развлекательные",ТНТ International (СНГ, 480p)
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV 576p)
 http://91.205.199.3:80/tnt4/index.m3u8
@@ -408,6 +408,8 @@ http://92.242.110.52:9835/udp/238.1.8.20:1234
 http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="galaxy-tv" tvg-logo="https://epgx.site/p/galaxy-tv.png" group-title="Познавательные",Galaxy TV (EDTV 576p)
 http://146.158.0.56/Galaxy/mono.m3u8
+#EXTINF:-1 tvg-id="h2" tvg-logo="https://epgx.site/p/h2.png" group-title="Познавательные",H2 (HD)
+https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" tvg-logo="https://epgx.site/p/idxtra.png" group-title="Познавательные",ID Xtra (HD)
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="nat-geo-wild" tvg-logo="https://epgx.site/p/nat-geo-wild.png" group-title="Познавательные",Nat Geo Wild (EDTV 576p)
@@ -585,3 +587,28 @@ https://player.smotrim.ru/iframe/stream/live_id/62037
 http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="insit-tv" tvg-logo="https://epgx.site/p/insit-tv.png" group-title="Региональные",ЮУрГУ (Челябинск,HD ready)
 http://tvrlive.susu.ru/1800k/playlist.m3u8
+
+#EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://epgx.site/p/avtoradio.png" group-title="Радио",Авторадио
+http://ic7.101.ru:8000/v3_1
+#EXTINF:-1 tvg-id="dorozhnoe-radio" tvg-logo="https://epgx.site/p/dorozhnoe-radio.png" group-title="Радио",Дорожное Радио
+http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
+#EXTINF:-1 tvg-id="radio-dfm" tvg-logo="https://epgx.site/p/radio-dfm.png" group-title="Радио",Радио DFM
+http://dfm.hostingradio.ru/dfm128.mp3
+#EXTINF:-1 tvg-id="radio-mayak" tvg-logo="https://epgx.site/p/radio-mayak.png" group-title="Радио",Радио Маяк
+http://icecast.vgtrk.cdnvideo.ru/mayakfm
+#EXTINF:-1 tvg-id="radio-mir" tvg-logo="https://epgx.site/p/radio-mir.png" group-title="Радио",Радио Мир
+http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
+#EXTINF:-1 tvg-id="radio-na7xolmax" tvg-logo="https://epgx.site/p/radio-na7xolmax.png" group-title="Радио",Радио на семи холмах
+http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
+#EXTINF:-1 tvg-id="radio-romantika" tvg-logo="https://epgx.site/p/radio-romantika.png" group-title="Радио",Радио Романтика
+http://ic7.101.ru:8000/v4_1
+#EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://epgx.site/p/radio-shanson.png" group-title="Радио",Радио Шансон
+http://chanson.hostingradio.ru:8041/chanson256.mp3
+#EXTINF:-1 tvg-id="radio-vania" tvg-logo="https://epgx.site/p/radio-vania.png" group-title="Радио",Радио Ваня
+http://icecast-radiovanya.cdnvideo.ru:8000/radiovanya
+#EXTINF:-1 tvg-id="retro-fm" tvg-logo="https://epgx.site/p/retro-fm.png" group-title="Радио",Ретро FM
+http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
+#EXTINF:-1 tvg-id="xit-fm" tvg-logo="https://epgx.site/p/xit-fm.png" group-title="Радио",Хит FM
+http://hitfm.hostingradio.ru/hitfm128.mp3
+#EXTINF:-1 tvg-id="yumor-fm" tvg-logo="https://epgx.site/p/yumor-fm.png" group-title="Радио",Юмор FM
+http://ic7.101.ru:8000/v5_1
