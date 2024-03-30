@@ -92,7 +92,7 @@ http://188.113.190.15/41/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2 (EDTV 576p)
 http://45.15.43.12:80/2x2/video.m3u8?token=test
-#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="Развлекательные", Comedy Central (EDTV 576p)
+#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="Развлекательные",Comedy Central (EDTV 576p)
 https://bkm.beetv.kz/btv/live/hls/000000452.m3u8
 #EXTINF:-1 tvg-id="e-tv" tvg-logo="https://epgx.site/p/e-tv.png" group-title="Развлекательные",E TV (HD)
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
@@ -108,7 +108,7 @@ https://streaming.televizor-24-tochka.ru/live/17-req_offset_28000000-req_window_
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний International (EDTV 576p)
 http://45.159.74.13:80/Domashniy/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="zal-suda" tvg-logo="https://epgx.site/p/zal-suda.png" group-title="Развлекательные", Зал суда (EDTV 576p)
+#EXTINF:-1 tvg-id="zal-suda" tvg-logo="https://epgx.site/p/zal-suda.png" group-title="Развлекательные",Зал суда (EDTV 576p)
 http://95.156.76.230:33001/udp/230.4.34.6:1234
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ (EDTV 576p)
 https://woobl.ru/hls987/KVN.m3u8
@@ -360,14 +360,18 @@ http://45.11.139.43:8081/stream/boks_tv/hls/playlist.m3u8
 http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-logo="https://epgx.site/p/match-tv.png" group-title="Спортивные",Матч! (EDTV 576p)
 http://91.142.158.107:8092/play/33/index.m3u8
+#EXTINF:-1 tvg-id="match-arena" tvg-logo="https://epgx.site/p/match-arena.png" group-title="Спортивные",Матч! Арена (EDTV 576p)
+http://tv.streams.baikal-telecom.net:8080/MatchArena/mpegts
+#EXTINF:-1 tvg-id="match-igra" tvg-logo="https://epgx.site/p/match-igra.png" group-title="Спортивные",Матч! Игра (HD)
+http://193.201.98.10:5000/c104
+#EXTINF:-1 tvg-id="match-nash-sport" tvg-logo="https://epgx.site/p/match-strana.png" group-title="Спортивные",Матч! Страна (HD)
+http://193.201.98.10:5000/c106
 #EXTINF:-1 tvg-id="match-planeta" tvg-logo="https://epgx.site/p/match-planeta.png" group-title="Спортивные",Матч! Планета (WSVGA)
 https://strm.yandex.ru/kal/match_planeta_belarus/match_planeta_belarus0.m3u8
 #EXTINF:-1 tvg-id="match-premier" tvg-logo="https://epgx.site/p/match-premiere.png" group-title="Спортивные",Матч! Премьер (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.2.3:1234
 #EXTINF:-1 tvg-id="match-football1" tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",Матч! Футбол 1 (HD ready)
 http://194.143.148.28:8080/MatchFutbol1/mpegts
-#EXTINF:-1 tvg-id="match-football2" tvg-logo="https://epgx.site/p/match-football2.png" group-title="Спортивные", Матч! Футбол 2 HD
-
 #EXTINF:-1 tvg-id="mir-basketbola" tvg-logo="https://epgx.site/p/mir-basketbola.png" group-title="Спортивные",Мир баскетбола (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.1.17:1234
 #EXTINF:-1 tvg-logo="https://epgx.site/p/sportivny.png" group-title="Спортивные",Спортивный
