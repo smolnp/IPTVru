@@ -51,8 +51,8 @@ https://streaming.televizor-24-tochka.ru/live/13-req_offset_28000000-req_window_
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network (EDTV 576p)
 http://stream01.vnet.am/Kinosemya/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (HD)
-
+#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (EDTV 576p)
+https://bkm.beetv.kz/btv/live/hls/000000160.m3u8
 #EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://epgx.site/p/da-vinci.png" group-title="Детские",Da Vinci (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.8.45:1234
 #EXTINF:-1 tvg-id="gulli-girl" tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="Детские",Gulli Girl (EDTV 576p)
@@ -92,6 +92,8 @@ http://188.113.190.15/41/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2 (EDTV 576p)
 http://45.15.43.12:80/2x2/video.m3u8?token=test
+#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="Развлекательные", Comedy Central (EDTV 576p)
+https://bkm.beetv.kz/btv/live/hls/000000452.m3u8
 #EXTINF:-1 tvg-id="e-tv" tvg-logo="https://epgx.site/p/e-tv.png" group-title="Развлекательные",E TV (HD)
 http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="gags-network" tvg-logo="https://epgx.site/p/gags-network.png" group-title="Развлекательные",GagsNetwork (EDTV 576p)
@@ -200,26 +202,26 @@ http://stream.backustv.ru/live/btv2/index.m3u8
 http://otv.wotom.net:4433/udp/238.1.1.140:1234
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://epgx.site/p/fanhd.png" group-title="Кинозал",FAN (HD)
 http://hlss.goodgame.ru/hls/157239.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2181.png" group-title="Кинозал",FilmBox
-
+#EXTINF:-1 tvg-id="filmbox-arthouse" tvg-logo="https://epgx.site/p/filmbox-arthouse.png" group-title="Кинозал",Filmbox Arthouse (EDTV 576p)
+http://188.113.190.15/207/mono.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-logo="https://epgx.site/p/fox.png" group-title="Кинозал",FX (EDTV 576p)
 http://stream01.vnet.am/Fox/mono.m3u8
 #EXTINF:-1 tvg-id="foxlife" tvg-logo="https://epgx.site/p/foxlife.png" group-title="Кинозал",FX Life (EDTV 576p)
-
+https://bkm.beetv.kz/btv/live/hls/000004471.m3u8
 #EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://epgx.site/p/hollywood-hd.png" group-title="Кинозал",HollywooD (EDTV 576p)
 http://45.15.43.12:80/hollywood/video.m3u8?token=test
 #EXTINF:-1 tvg-id="kino-24" tvg-logo="https://epgx.site/p/kino-24.png" group-title="Кинозал",Kino 24 (EDTV 576p)
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="kinojam2" tvg-logo="https://epgx.site/p/kinojam2.png" group-title="Кинозал",Kinojam 2 (HD)
 https://live-mirror-12.ott.tricolor.tv/dtv/id861_MSKSG-PVR-1--Kinojam_2/03/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI0MTAyNTUwMDYwNTg4MiIsImV4cCI6MTY5MjczNTA3OCwiaHdpZCI6IjA1OTgxOTUwMjliODE3MzIxYTQ2MGE3M2QwNWRjNGY5M2I5ZmM0NjM5OWFlOWRmYzJlZTZiMGUwNDVhZWViYzkiLCJsYXN0X3JlcV9kYXRlIjoxNjkyMTMwMjc4LCJzZXNzaW9uX2lkIjoiOWNmODQ0NGJiOGM3NWI5NGFjNDJiM2JkNGI3ZWMxMzIiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.hUXvl74L08qIrIia8T5RQVD8khzcJt-HW6HB1kR6Shc
-#EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://epgx.site/p/kinoliving.png" group-title="Кинозал",KinoLiving ()
-
+#EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://epgx.site/p/kinoliving.png" group-title="Кинозал",KinoLiving (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.8.1:1234
 #EXTINF:-1 tvg-id="plan-b" tvg-logo="https://epgx.site/p/plan-b.png" group-title="Кинозал",Plan B (HD)
 http://88.85.172.243:7012/play/a028
 #EXTINF:-1 tvg-id="romance" tvg-logo="https://epgx.site/p/romance.png" group-title="Кинозал",Romance (SDTV 576i)
 http://146.158.0.56:80/Motosport/index.m3u8
-#EXTINF:-1 tvg-id="start-world" tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="Кинозал",Start World ()
-
+#EXTINF:-1 tvg-id="start-world" tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="Кинозал",Start World (HD)
+https://bkm.beetv.kz/btv/live/hls/000007818.m3u8
 #EXTINF:-1 tvg-id="trashtv" tvg-logo="https://epgx.site/p/trashtv.png" group-title="Кинозал",Trash (HD)
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="https://epgx.site/p/tv1000.png" group-title="Кинозал",Viju TV1000 (EDTV 576p)
@@ -265,7 +267,7 @@ https://strm.yandex.ru/kal/kinosemya_belarus/kinosemya_belarus0.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" tvg-logo="https://epgx.site/p/kinosvidanie.png" group-title="Кинозал",Киносвидание
 
 #EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://epgx.site/p/kinouzhas.png" group-title="Кинозал",Киноужас
-
+http://31.131.136.4:8001/play/e00b
 #EXTINF:-1 tvg-id="kinoxit" tvg-logo="https://epgx.site/p/kinoxit.png" group-title="Кинозал",Кинохит (EDTV 576p)
 http://109.248.236.21:4433/udp/238.1.1.53:1234
 #EXTINF:-1 tvg-id="kino-tv" tvg-logo="https://epgx.site/p/kino-tv.png" group-title="Кинозал",Кино ТВ (EDTV 576p)
@@ -284,7 +286,9 @@ http://188.113.190.15/182/tracks-v1a1/index.m3u8
 http://hlss.goodgame.ru/hls/187241.m3u8
 
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://epgx.site/p/start-air.png" group-title="Русский кинозал",Start Air (HD)
-
+http://92.242.110.52:9835/udp/238.1.7.28:1234
+#EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://epgx.site/p/star-cinema.png" group-title="Русский кинозал",Star Cinema (HD)
+http://88.135.128.20:7272/szWljUvHlTAKXVa
 #EXTINF:-1 tvg-id="star-family" tvg-logo="https://epgx.site/p/star-family.png" group-title="Русский кинозал",Star Family (Латвия, HD)
 http://88.135.128.20:7272/MTsnTXg1kReNwSf
 #EXTINF:-1 tvg-id="kinojam1" tvg-logo="https://epgx.site/p/kinojam1.png" group-title="Кинозал",Kinojam 1 (HD)
@@ -324,6 +328,8 @@ http://stream01.vnet.am/RusskiyRoman/mono.m3u8
 http://45.15.43.12:80/illuzion/video.m3u8?token=test
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="http://epg.it999.ru/img2/2304.png" group-title="Русский кинозал",Телекафе (EDTV 576p)
 http://stream01.vnet.am/Telekafe/mono.m3u8
+#EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://epgx.site/p/feniks-plus-kino.png" group-title="Русский кинозал",Феникс+Кино (EDTV 576p)
+http://188.113.190.15/24/mono.m3u8
 
 #EXTINF:-1 tvg-id="360-news" tvg-logo="https://epgx.site/p/360-news.png" group-title="Новостные",360° Новости (HD)
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
@@ -357,7 +363,7 @@ http://91.142.158.107:8092/play/33/index.m3u8
 #EXTINF:-1 tvg-id="match-planeta" tvg-logo="https://epgx.site/p/match-planeta.png" group-title="Спортивные",Матч! Планета (WSVGA)
 https://strm.yandex.ru/kal/match_planeta_belarus/match_planeta_belarus0.m3u8
 #EXTINF:-1 tvg-id="match-premier" tvg-logo="https://epgx.site/p/match-premiere.png" group-title="Спортивные",Матч! Премьер (EDTV 576p)
-
+http://92.242.110.52:9835/udp/238.1.2.3:1234
 #EXTINF:-1 tvg-id="match-football1" tvg-logo="http://epg.it999.ru/img2/2044.png" group-title="Спортивные",Матч! Футбол 1 (HD ready)
 http://194.143.148.28:8080/MatchFutbol1/mpegts
 #EXTINF:-1 tvg-id="match-football2" tvg-logo="https://epgx.site/p/match-football2.png" group-title="Спортивные", Матч! Футбол 2 HD
@@ -578,9 +584,11 @@ http://tvrlive.susu.ru/1800k/playlist.m3u8
 
 #EXTINF:-1 tvg-id="brazzers-tv-europe" tvg-logo="https://epgx.site/p/brazzers.png" group-title="Для взрослых",Brazzers TV Europe (HD)
 http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="sholk" tvg-logo="https://epgx.site/p/sholk.png" group-title="Для взрослых",Шёлк (HD)
-http://live-1.otcnet.ru/shelkhdmts/index.m3u8
 #EXTINF:-1 tvg-id="extasytv" tvg-logo="https://epgx.site/p/extasytv.png" group-title="Для взрослых",Extasy (HD)
 http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="passionxxx" tvg-logo="https://epgx.site/p/passionxxx.png" group-title="Для взрослых",PassionXXX (HD)
 https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
+#EXTINF:-1 tvg-id="playboy-tv" tvg-logo="https://epgx.site/p/playboy-tv.png" group-title="Для взрослых",Playboy (HD)
+http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="sholk" tvg-logo="https://epgx.site/p/sholk.png" group-title="Для взрослых",Шёлк (HD)
+http://live-1.otcnet.ru/shelkhdmts/index.m3u8
