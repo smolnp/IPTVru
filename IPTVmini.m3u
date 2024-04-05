@@ -9,8 +9,7 @@ http://91.142.158.107:8092/play/33/index.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://epgx.site/p/ntv.png" group-title="Федеральные",НТВ HD
 http://cdn2.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://epgx.site/p/5kanal-ru.png" group-title="Федеральные",Пятый канал
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 id="kultura" tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Федеральные",Россия-Культура HD
 https://player.smotrim.ru/iframe/stream/live_id/19201
 #EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://epgx.site/p/rossia-24.png" group-title="Федеральные",Россия 24
@@ -22,10 +21,9 @@ https://player.smotrim.ru/iframe/stream/live_id/61126
 #EXTINF:-1 tvg-id="solnce" tvg-logo="https://epgx.site/p/solnce.png" group-title="Федеральные",Солнце
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 tvg-id="otr" tvg-logo="https://epgx.site/p/otr.png" group-title="Федеральные",ОТР
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8
 #EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Федеральные",ТВ Центр
-https://streaming.televizor-24-tochka.ru/live/13-req_offset_28000000-req_window_0-1k_v5.m3u8
+http://31.148.6.9:10010/index.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Федеральные",РЕН ТВ
 http://45.15.43.12:80/rentv/video.m3u8?token=test
 #EXTINF:-1 tvg-id="spas" tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Федеральные",Спас

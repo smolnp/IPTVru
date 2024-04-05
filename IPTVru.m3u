@@ -30,12 +30,10 @@ http://cdn2.ntv.ru/unknown_russia/tracks-v1a1/mono.m3u8
 http://cdn2.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-amerika" tvg-logo="https://epgx.site/p/ntv-amerika.png" group-title="Общественные",НТВ Америка (EDTV 480p)
 http://4.59.210.197:8815/udp/127.0.0.1:6003
-#EXTINF:-1 tvg-id="otr" tvg-logo="https://epgx.site/p/otr.png" group-title="Общественные",ОТР (EDTV 480p)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
-#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://epgx.site/p/5kanal-ru.png" group-title="Общественные",Пятый канал (EDTV 480p)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+#EXTINF:-1 tvg-id="otr" tvg-logo="https://epgx.site/p/otr.png" group-title="Общественные",ОТР (EDTV 576p)
+http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://epgx.site/p/5kanal-ru.png" group-title="Общественные",Пятый канал (EDTV 576p)
+http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 tvg-id="ratnik" tvg-logo="https://epgx.site/p/ratnik.png" group-title="Общественные",Ратник (HD)
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Общественные",Рен ТВ (HD)
@@ -44,8 +42,8 @@ http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (HD)
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
-#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Общественные",ТВЦ (WSVGA)
-https://streaming.televizor-24-tochka.ru/live/13-req_offset_28000000-req_window_0-1k_v5.m3u8
+#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Общественные",ТВЦ (EDTV 576p)
+http://31.148.6.9:10010/index.m3u8
 
 #EXTINF:-1 tvg-id="ani" tvg-logo="https://epgx.site/p/ani.png" group-title="Детские",Ani (WSVGA)
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
@@ -153,8 +151,16 @@ http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 http://146.158.0.56/1HD/mono.m3u8
 #EXTINF:-1 tvg-id="backustv-music" tvg-logo="https://epgx.site/p/backustv-music.png" group-title="Музыкальные",BackusTV Music (HD)
 https://playlist.nuum.ru/live/5478/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные",Bridge (WSVGA)
+https://strm.yandex.ru/kal/bridgetv/bridgetv0.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic (EDTV 576p)
+http://188.113.190.15/302/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://epgx.site/p/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe (HD)
+https://strm.yandex.ru/kal/bridgetvdeluxe/bridgetvdeluxe0.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (HD)
 http://strm.yandex.ru/kal/bridge_tv_fresh/bridge_tv_fresh0.m3u8
+#EXTINF:-1 tvg-id="2024" tvg-logo="http://epg.one/img2/2024.png" group-title="Музыкальные",Bridge Hits (EDTV 576p)
+http://188.113.190.15/122/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
 http://45.15.43.12:80/dangetv/video.m3u8?token=test
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
