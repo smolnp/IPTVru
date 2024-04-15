@@ -38,6 +38,8 @@ http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Общественные",Рен ТВ (HD)
 http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (Тамбов, WSVGA)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 (HD)
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
 #EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Общественные",ТВЦ (EDTV 576p)
@@ -98,6 +100,8 @@ http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 http://91.205.199.3:80/gagsnetwork/index.m3u8
 #EXTINF:-1 tvg-id="tvmchannel" tvg-logo="https://epgx.site/p/tvmchannel.png" group-title="Развлекательные",TVM Channel (EDTV 576p)
 http://origin5.mediacdn.ru/live/tvm/index.m3u8
+#EXTINF:-1 tvg-id="domashny" tvg-logo="https://epgx.site/p/domashny.png" group-title="Развлекательные",Домашний (WSVGA)
+https://streaming.televizor-24-tochka.ru/live/17-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Развлекательные",Домашний (HD)
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний International (EDTV 576p)
@@ -130,9 +134,11 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 http://146.158.0.56/Teatr/mono.m3u8
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://epgx.site/p/tochka-tv.png" group-title="Развлекательные",Точка ТВ (EDTV 576p)
 https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="tnt" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ (EDTV 576p)
+http://45.15.43.12:80/tnt/video.m3u8?token=test
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ (HD)
 http://92.242.110.52:9835/udp/238.1.4.4:1234
-#EXTINF:-1 tvg-id="tnt-int-cis" tvg-logo="https://epgx.site/p/tnt-int-cis.png" group-title="Развлекательные",ТНТ International (СНГ,480p)
+#EXTINF:-1 tvg-id="tnt-int-cis" tvg-logo="https://epgx.site/p/tnt-int-cis.png" group-title="Развлекательные",ТНТ International (СНГ, 480p)
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV 576p)
 http://91.205.199.3:80/tnt4/index.m3u8
@@ -535,7 +541,7 @@ http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
 #EXTINF:-1 tvg-id="stv-by" tvg-logo="https://epgx.site/p/stv-by.png" group-title="Белорусские",СТВ (HD)
 http://80.94.225.126:8080/STV/mono.m3u8
 
-#EXTINF:-1 tvg-id="12-omsk" tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск,WSVGA)
+#EXTINF:-1 tvg-id="12-omsk" tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск, WSVGA)
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="astraxan24" tvg-logo="https://epgx.site/p/astraxan24.png" group-title="Региональные",Астрахань 24 (HD)
 http://astrakhan24.mediacdn.ru:80/cdn/astrakhan24/playlist_hdhigh.m3u8
