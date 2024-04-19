@@ -53,7 +53,7 @@ http://91.205.199.3:80/tnt4/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Федеральные",Муз-ТВ
 https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Федеральные",2x2
-http://45.15.43.12:80/2x2/video.m3u8?token=test
+http://strm.yandex.ru/kal/2x2_belarus/2x2_belarus0.m3u8
 #EXTINF:-1 tvg-id="che" tvg-logo="https://epgx.site/p/che.png" group-title="Федеральные",Че!
 http://178.212.71.253:8002/play/a00s/index.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-logo="https://epgx.site/p/yu.png" group-title="Федеральные",Ю HD
@@ -73,6 +73,8 @@ http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" tvg-logo="https://epgx.site/p/idxtra.png" group-title="Выбор подписчиков",ID Xtra HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+#EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://epgx.site/p/nickelodeon-ru.png" group-title="Выбор подписчиков",Nickelodeon
+http://streaming.tv-teleport.ru/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="dorama" tvg-logo="https://epgx.site/p/dorama.png" group-title="Выбор подписчиков",Дорама
 http://ott-cdn.ucom.am/s95/04.m3u8
 
