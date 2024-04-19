@@ -567,6 +567,8 @@ https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1 tvg-id="mtv-volgograd" tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ (Волгоград, HD ready)
 https://hls-volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="saxa" tvg-logo="https://epgx.site/p/saxa.png" group-title="Региональные",НВК Саха (HD)
+https://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
 #EXTINF:-1 tvg-id="nn-24" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Региональные",Нижний Новгород 24 (HD)
 http://dmi3y-tv.ru/hls/smotrim/region/CH_NN24HD_NN.m3u8
 #EXTINF:-1 tvg-id="novy-vek-tambov" tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Региональные",Новый Век (Тамбов, HD ready)
