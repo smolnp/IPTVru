@@ -358,6 +358,8 @@ https://player.smotrim.ru/iframe/stream/live_id/21
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" tvg-logo="https://epgx.site/p/solovjinypomiot.png" group-title="Новостные",Соловьев.Live (HD)
 https://player.smotrim.ru/iframe/stream/live_id/63338?43e=5.m3u8
+#EXTINF:-1 tvg-id="Moskva24.ru" tvg-logo="https://i.imgur.com/gXbUMVy.png" group-title="Новостные",Москва 24
+https://player.smotrim.ru/iframe/stream/live_id/1661
 
 #EXTINF:-1 tvg-id="extreme-sports" tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="Спортивные",Extreme Sports (EDTV 576p)
 http://188.113.190.15/39/tracks-v1a1/index.m3u8
