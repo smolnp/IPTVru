@@ -124,7 +124,7 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epgx.site/p/prodvizhenie.png" group-title="Развлекательные",Продвижение (D1)
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница (EDTV 576p)
-http://streamer2.fokks.ru:10016/index.m3u8
+http://92.242.110.52:9835/udp/238.1.11.46:1234
 #EXTINF:-1 tvg-id="piatnica-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Развлекательные",Пятница Int (EDTV 576p)
 https://stream01.vnet.am/Pyatnica/mono.m3u8
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="Развлекательные",Сарафан (EDTV 576p)
@@ -439,7 +439,7 @@ http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://epgx.site/p/terra-ru.png" group-title="Познавательные",Terra (EDTV 576p)
 http://188.113.190.15/78/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="rtg-tv" tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG (EDTV 576p)
-http://195.26.83.96:7007/play/a00n/index.m3u8
+http://82.209.197.187:8080/udp/239.0.100.91:1234
 #EXTINF:-1 tvg-id="viasat-history" tvg-logo="https://epgx.site/p/viasat-history.png" group-title="Познавательные",Viju History (EDTV 576p)
 http://31.131.136.4:8001/play/e002
 #EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://epgx.site/p/viasat-nature.png" group-title="Познавательные",Viju Nature (EDTV 576p)
@@ -583,6 +583,8 @@ http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="lipeckoe-vremia" tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Региональные",Липецкое время (HD ready)
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+#EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://epgx.site/p/moskva-24.png" group-title="Новостные",Москва 24 (WSVGA)
+https://player.smotrim.ru/iframe/stream/live_id/1661
 #EXTINF:-1 tvg-id="mtv-volgograd" tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ (Волгоград, HD ready)
 https://hls-volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="saxa" tvg-logo="https://epgx.site/p/saxa.png" group-title="Региональные",НВК Саха (HD)
