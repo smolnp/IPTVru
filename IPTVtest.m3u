@@ -1,4 +1,6 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.taurer.org/epg_content/taurerru.xml.gz"
+#EXT-X-SESSION-DATA:DATA-ID="com.trr3.client"
+
 #EXTINF:-1 group-title="Медиахолдинг Taurer.Org" tvg-id="RRTVEU" tvg-logo="https://tv.taurer.org/iptv_content/logos/GROOVEZZO_TEMP.png",Groovezzo
 https://nl1.live-stream.plus.taurer.org:443/pbuPAuthGp/MDTTv32fbk/7.m3u8
 #EXTINF:-1 group-title="Медиахолдинг Taurer.Org" tvg-id="NINJA" tvg-logo="https://tv.taurer.org/iptv_content/logos/NINJA_TEMP.png",Ninja
