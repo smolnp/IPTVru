@@ -26,9 +26,8 @@ https://smolnp.github.io/IPTVru//IPTVru.m3u
 
 ### Минимальный плейлист: 
 ```
-https://smolnp.github.io/IPTVru//IPTVmini.m3u
+https://smolnp.github.io/IPTVru//IPTVtest.m3u
 ```
-
 
 ### Плейлист с телеканалами для взрослых: 
 ```
