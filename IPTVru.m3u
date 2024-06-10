@@ -61,6 +61,12 @@ http://92.242.110.52:9835/udp/238.1.9.6:1234
 http://stream01.vnet.am/Channel_114/mono.m3u8
 #EXTINF:-1 tvg-id="nicktoons" tvg-logo="https://epgx.site/p/nicktoons.png" group-title="Детские",Nicktoons (HD)
 https://stream01.vnet.am/Boomerang/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://tv.taurer.org/iptv_content/logos/KIDSPLANET_TEMP.png",KidsPlanet (HD)
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/4.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://tv.taurer.org/iptv_content/logos/KIDSPLANETPLUS_TEMP.png",KidsPlanet+ (HD)
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/2.m3u8
+#EXTINF:-1 tvg-logo="https://stream.sunset-media.ru:443/images/AfE0MpsGM8EECV5bHCwLz405Nh5VXnPV-VdC2Z_4Pl-o8vmziUihdFw9YtuIlvK9.png" group-title="Детские",Sunset Kids (HD)
+https://stream.sunset-media.ru:443/Free/Free/4.m3u8
 #EXTINF:-1 tvg-id="tiji" tvg-logo="https://epgx.site/p/timeless-dizi.png" group-title="Детские",TiJi (EDTV 576p)
 http://stream01.vnet.am/Tiji/mono.m3u8
 #EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://epgx.site/p/detkinoint-tviksel.png" group-title="Детские",Детское кино Int (768×432)
@@ -180,10 +186,14 @@ http://92.242.110.52:9835/udp/238.1.9.5:1234
 http://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://tv.taurer.org/iptv_content/logos/GROOVEZZO_TEMP.png" group-title="Музыкальные",Groovezzo (HD)
+https://nl1.live-stream.plus.taurer.org:443/pbuPAuthGp/MDTTv32fbk/7.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" tvg-logo="https://epgx.site/p/europa-plus-tv.png" group-title="Музыкальные",Europa Plus TV (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.6.5:1234
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/d0ZjF31K/1.png" group-title="Музыкальные",Sunset Music (HD)
+https://stream.sunset-media.ru:443/Free/Free/2.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://epgx.site/p/zhar-ptica.png" group-title="Музыкальные",Жар-Птица (EDTV 480p)
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (HD)
@@ -246,6 +256,8 @@ https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 
 #EXTINF:-1 tvg-id="start-world" tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="Кинозал",Start World (HD)
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/G2BNZb0B/1.png" group-title="Кинозал",Sunset Movie (HD)
+https://stream.sunset-media.ru:443/Free/Free/1.m3u8
 #EXTINF:-1 tvg-id="trashtv" tvg-logo="https://epgx.site/p/trashtv.png" group-title="Кинозал",Trash (HD)
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="https://epgx.site/p/tv1000.png" group-title="Кинозал",Viju TV1000 (EDTV 576p)
@@ -448,6 +460,10 @@ http://91.205.199.3:80/viasatnature/index.m3u8
 http://31.131.136.4:8001/play/e006
 #EXTINF:-1 tvg-id="zoopark" tvg-logo="http://epg.it999.ru/img2/367.png" group-title="Познавательные",ZOOпарк (EDTV 576p)
 http://109.239.208.82:80/zoo/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrB527vG/1.png" group-title="Познавательные",Sunset Space (HD)
+https://stream.sunset-media.ru:443/Free/Free/3.m3u8
+#EXTINF:-1 tvg-id="W1" tvg-logo="https://tv.taurer.org/iptv_content/logos/W1_TEMP.png" group-title="Познавательные",World-1 (HD)
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/7.m3u8
 #EXTINF:-1 tvg-id="arsenaltv" tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал (HD)
 http://109.239.208.82:80/arsenal/index.m3u8
 #EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://epgx.site/p/ege-tv.png" group-title="Познавательные",ЕГЭ ТВ (EDTV 576p)
@@ -515,6 +531,8 @@ http://146.158.0.56/ZagorodnayaJizn/mono.m3u8
 http://188.113.190.15/70/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="kuxnia-tv" tvg-logo="http://epg.it999.ru/img2/614.png" group-title="Хобби и увлечения",Кухня ТВ (EDTV 576p)
 http://stream01.vnet.am/KukhnyaTv/mono.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://tv.taurer.org/iptv_content/logos/KULINAR_TEMP.png" group-title="Хобби и увлечения",Кулинар (HD)
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/14.m3u8
 #EXTINF:-1 tvg-id="lapki-live" tvg-logo="https://epgx.site/p/lapki-live.png" group-title="Хобби и увлечения",Лапки Live (EDTV 576p)
 http://91.247.68.229:8000/play/Lapki/index.m3u8
 #EXTINF:-1 tvg-id="muzhskoy" tvg-logo="http://epg.it999.ru/img2/2444.png" group-title="Хобби и увлечения",Мужской (EDTV 576p)
