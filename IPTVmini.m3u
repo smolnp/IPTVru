@@ -25,7 +25,7 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8
 #EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Федеральные",ТВ Центр
 http://31.148.6.9:10010/index.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Федеральные",РЕН ТВ
-http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
+http://92.242.110.52:9835/udp/238.1.11.43:1234
 #EXTINF:-1 tvg-id="spas" tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Федеральные",Спас
 http://spas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://epgx.site/p/sts.png" group-title="Федеральные",СТС HD
@@ -61,44 +61,60 @@ http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://epgx.site/p/rt-doc.png" group-title="Федеральные",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 
-#EXTINF:-1 tvg-id="backustv" tvg-logo="https://epgx.site/p/backustv.png" group-title="Выбор подписчиков",BackusTV original HD
-https://stream.backustv.ru/live/btv/index.m3u8
-#EXTINF:-1 tvg-id="backustv-horror" tvg-logo="https://epgx.site/p/backustv-horror.png" group-title="Выбор подписчиков",BackusTV dark HD
-http://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1 tvg-id="backustv-music" tvg-logo="https://epgx.site/p/backustv-music.png" group-title="Выбор подписчиков",BackusTV Music HD
-https://playlist.nuum.ru/live/5478/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="e-tv" tvg-logo="https://epgx.site/p/e-tv.png" group-title="Выбор подписчиков",E TV HD
-http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="Выбор подписчиков",Discovery HD
-http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
-#EXTINF:-1 tvg-id="id-xtra-eu" tvg-logo="https://epgx.site/p/idxtra.png" group-title="Выбор подписчиков",ID Xtra HD
-http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
-#EXTINF:-1 tvg-id="dorama" tvg-logo="https://epgx.site/p/dorama.png" group-title="Выбор подписчиков",Дорама
-http://ott-cdn.ucom.am/s95/04.m3u8
+#EXTINF:-1 tvg-id="12-omsk" tvg-logo="http://epg.it999.ru/img2/5841.png" group-title="Региональные",12 Канал (Омск, WSVGA)
+http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
+#EXTINF:-1 tvg-id="astraxan24" tvg-logo="https://epgx.site/p/astraxan24.png" group-title="Региональные",Астрахань 24 (HD)
+http://astrakhan24.mediacdn.ru:80/cdn/astrakhan24/playlist_hdhigh.m3u8
+#EXTINF:-1 tvg-id="brianskaya-gubernia" tvg-logo="https://epgx.site/p/brianskaya-gubernia.png" group-title="Региональные",Брянская губерния (HD)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/BRYANSK/CH_BRGUBERNIAHD.m3u8
+#EXTINF:-1 tvg-id="vetta24" tvg-logo="https://epgx.site/p/vetta24.png" group-title="Региональные",Ветта 24 (Пермь, EDTV 480p)
+http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
+#EXTINF:-1 tvg-id="volga" tvg-logo="http://epg.it999.ru/img2/2468.png" group-title="Региональные",Волга (Нижний Новгород, HD)
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
+#EXTINF:-1 tvg-id="volgograd-24" tvg-logo="https://i.imgur.com/gFMnaU5.png" group-title="Региональные",Волгоград 24 (HD)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="gorodskoy-yaroslavl" tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="Региональные",Городской телеканал Ярославль (EDTV 576p)
+https://www.gtk.tv/hls/gtyar.m3u8
+#EXTINF:-1 tvg-id="gubernia-samara" tvg-logo="https://i.imgur.com/IlL57Rm.png" group-title="Региональные",Губерния (Самара)
+http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="deviatka" tvg-logo="https://epgx.site/p/deviatka.png" group-title="Региональные",Девятка ТВ HD (Киров)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/KIROV/CH_9TVHD.m3u8
+#EXTINF:-1 tvg-id="don-24" tvg-logo="https://epgx.site/p/don-24.png" group-title="Региональные",Дон 24 (Ростов-на-Дону)
+https://donmedia.bonus-tv.ru/cdn/donmedia/playlist_sdmid.m3u8
+#EXTINF:-1 tvg-id="enisey-region" tvg-logo="https://epgx.site/p/enisey-region.png" group-title="Региональные",Енисей HD (Красноярск)
+https://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="krasnodar" tvg-logo="https://epgx.site/p/krasnodar.png" group-title="Региональные",Краснодар HD
+http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="lipeckoe-vremia" tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Региональные",Липецкое время HD
+http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+#EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://epgx.site/p/moskva-24.png" group-title="Региональные",МОСКВА24
+https://player.smotrim.ru/iframe/stream/live_id/1661
+#EXTINF:-1 tvg-id="mtv-volgograd" tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ HD (Волгоград)
+https://hls-volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="saxa" tvg-logo="https://epgx.site/p/saxa.png" group-title="Региональные",НВК Саха HD
+https://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
+#EXTINF:-1 tvg-id="nn-24" tvg-logo="https://i.imgur.com/ZWgPVIC.png" group-title="Региональные",Нижний Новгород 24 HD
+http://dmi3y-tv.ru/hls/smotrim/region/CH_NN24HD_NN.m3u8
+#EXTINF:-1 tvg-id="novy-vek-tambov" tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Региональные",Новый Век HD (Тамбов)
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
+#EXTINF:-1 tvg-id="ntm" tvg-logo="https://epgx.site/p/ntm.png" group-title="Региональные",НТМ HD (Саранск)
+https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ramenskoe-tv" tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",РТВ HD (Раменск)
+https://e10-ll.facecast.net/rtv/0.m3u8
+#EXTINF:-1 tvg-id="region29" tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29 HD (Архангельск)
+http://live-atkmedia.cdnvideo.ru/atkmedia/atkmedia/playlist.m3u8
+#EXTINF:-1 tvg-id="svoyo-tv-stavropol" tvg-logo="https://epgx.site/p/svoyo-tv-stavropol.png" group-title="Региональные",Своё ТВ HD (Ставрополь)
+https://svoetv.mediacdn.ru/cdn/svoetv/playlist_hdhigh.m3u8
+#EXTINF:-1 tvg-id="s1-surgut" logo="https://epgx.site/p/s1-surgut.png",С1 (Сургут)
+https://sitv.ru/hls/stv1024.m3u8
+#EXTINF:-1 tvg-id="russky-sever" tvg-logo="https://epgx.site/p/russky-sever.png" group-title="Региональные",Русский Север HD (Вологда)
+https://live.rusevertv.ru/rs/1080/s.m3u8
+#EXTINF:-1 tvg-id="sankt-peterburg" tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург HD
+https://player.smotrim.ru/iframe/stream/live_id/62037
+#EXTINF:-1 tvg-id="sarov-24" tvg-logo="http://epg.it999.ru/img2/6794.png" group-title="Региональные",Саров 24 HD
+http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
+#EXTINF:-1 tvg-id="insit-tv" tvg-logo="https://epgx.site/p/insit-tv.png" group-title="Региональные",ЮУрГУ HD (Челябинск)
+http://tvrlive.susu.ru/1800k/playlist.m3u8
 
-#EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://epgx.site/p/avtoradio.png" group-title="Радио",Авторадио
-http://ic7.101.ru:8000/v3_1
-#EXTINF:-1 tvg-id="dorozhnoe-radio" tvg-logo="https://epgx.site/p/dorozhnoe-radio.png" group-title="Радио",Дорожное Радио
-http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
-#EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-nashe-radio.png" group-title="Радио",Наше радио
-http://nashe1.hostingradio.ru:80/nashe-256
-#EXTINF:-1 tvg-id="radio-dfm" tvg-logo="https://epgx.site/p/radio-dfm.png" group-title="Радио",Радио DFM
-http://dfm.hostingradio.ru/dfm128.mp3
-#EXTINF:-1 tvg-id="radio-mayak" tvg-logo="https://epgx.site/p/radio-mayak.png" group-title="Радио",Радио Маяк
-http://icecast.vgtrk.cdnvideo.ru/mayakfm
-#EXTINF:-1 tvg-id="radio-mir" tvg-logo="https://epgx.site/p/radio-mir.png" group-title="Радио",Радио Мир
-http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
-#EXTINF:-1 tvg-id="radio-na7xolmax" tvg-logo="https://epgx.site/p/radio-na7xolmax.png" group-title="Радио",Радио на семи холмах
-http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
-#EXTINF:-1 tvg-id="radio-romantika" tvg-logo="https://epgx.site/p/radio-romantika.png" group-title="Радио",Радио Романтика
-http://ic7.101.ru:8000/v4_1
-#EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://epgx.site/p/radio-shanson.png" group-title="Радио",Радио Шансон
-http://chanson.hostingradio.ru:8041/chanson256.mp3
-#EXTINF:-1 tvg-id="radio-vania" tvg-logo="https://epgx.site/p/radio-vania.png" group-title="Радио",Радио Ваня
-http://icecast-radiovanya.cdnvideo.ru:8000/radiovanya
-#EXTINF:-1 tvg-id="retro-fm" tvg-logo="https://epgx.site/p/retro-fm.png" group-title="Радио",Ретро FM
-http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
-#EXTINF:-1 tvg-id="xit-fm" tvg-logo="https://epgx.site/p/xit-fm.png" group-title="Радио",Хит FM
-http://hitfm.hostingradio.ru/hitfm128.mp3
-#EXTINF:-1 tvg-id="yumor-fm" tvg-logo="https://epgx.site/p/yumor-fm.png" group-title="Радио",Юмор FM
-http://ic7.101.ru:8000/v5_1
