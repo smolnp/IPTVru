@@ -26,8 +26,9 @@ https://smolnp.github.io/IPTVru//IPTVru.m3u
 
 ### Минимальный плейлист: 
 ```
-https://smolnp.github.io/IPTVru//IPTVtest.m3u
+https://smolnp.github.io/IPTVru//IPTVmini.m3u
 ```
+ 30 федеральных телеканалов (те которые должны бесплатно поставляться с любым провайдером) и 12 радиоканалов.
 
 ### Плейлист с телеканалами для взрослых: 
 ```
@@ -37,7 +38,7 @@ https://smolnp.github.io/IPTVru//IPTVххх.m3u
 
 ### Тестовый плейлист: 
 ```
-https://smolnp.github.io/IPTVru//IPTVmini.m3u
+https://smolnp.github.io/IPTVru//IPTVtest.m3u
 ```
 Телеканалы без значков, телепрограммы и категорий.
 
