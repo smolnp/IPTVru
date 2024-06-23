@@ -146,7 +146,7 @@ http://178.212.71.253:8002/play/a00r/index.m3u8
 #EXTINF:-1 tvg-id="sts-int" tvg-logo="https://epgx.site/p/sts-int.png" group-title="Развлекательные",СТС Int (EDTV 576p)
 https://cdn1.skygo.mn/live/disk1/STS/HLS-FTA/STS.m3u8
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://epgx.site/p/tv3-ru.png" group-title="Развлекательные",ТВ3 (EDTV 576p)
-http://86.57.178.105:9951/tv3
+http://31.148.6.9:10015/index.m3u8
 #EXTINF:-1 tvg-id="tvoyo-tv-hd" tvg-logo="https://epgx.site/p/tvoyo-tv-hd.png" group-title="Развлекательные",Твоё ТВ (HD)
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 tvg-id="tvoetv-humor" tvg-logo="https://epgx.site/p/tvoetv-humor.png" group-title="Развлекательные",Твоё ТВ Юмор (HD)
