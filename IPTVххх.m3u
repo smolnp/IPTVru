@@ -51,6 +51,8 @@ http://31.148.6.9:10010/index.m3u8
 
 #EXTINF:-1 tvg-id="ani" tvg-logo="https://epgx.site/p/ani.png" group-title="Детские",Ani (WSVGA)
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
+#EXTINF:-1 tvg-id="cartoon-classics" tvg-logo="https://epgx.site/p/cartoon-classics.png" group-title="Детские",Cartoon Classics (EDTV 576p)
+http://178.163.99.10:4022/udp/234.0.0.238:2000
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network (EDTV 576p)
 http://stream01.vnet.am/Kinosemya/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (EDTV 576p)
@@ -230,6 +232,8 @@ http://stream01.vnet.am/AmediaPremium/mono.m3u8
 
 #EXTINF:-1 tvg-id="backustv-horror" tvg-logo="https://epgx.site/p/backustv-horror.png" group-title="Кинозал",BackusTV dark (HD)
 
+#EXTINF:-1 audio-track="ru" tvg-id="epik-drama" tvg-logo="https://epgx.site/p/epik-drama.png" group-title="Кинозал",Epic Drama (HD)
+http://81.7.108.21:9000/play/EpicDramaHD-DVBC330-sti4400019110542
 #EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://epgx.site/p/cinema.png" group-title="Кинозал",Cinema (HD)
 https://strm.yandex.ru/kal/cinema_tv_belarus/cinema_tv_belarus0.m3u8
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://epgx.site/p/fanhd.png" group-title="Кинозал",FAN (EDTV 576p)
@@ -256,9 +260,9 @@ https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 http://188.113.190.15/111/mono.m3u8
 #EXTINF:-1 tvg-id="trashtv" tvg-logo="https://epgx.site/p/trashtv.png" group-title="Кинозал",Trash (HD)
 https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
-#EXTINF:-1 tvg-id="tv1000-cee" tvg-logo="https://epgx.site/p/tv1000-cee.png" audio-track="ru" group-title="Кинозал",Viasat Kino (EDTV 576p)
+#EXTINF:-1 audio-track="ru" tvg-id="tv1000-cee" tvg-logo="https://epgx.site/p/tv1000-cee.png" group-title="Кинозал",Viasat Kino (EDTV 576p)
 http://81.7.108.21:9000/play/TV1000-DVBC322-sti4400017090089
-#EXTINF:-1 tvg-id="tv1000-action-cee" tvg-logo="https://epgx.site/p/tv1000-action-cee.png" audio-track="ru" group-title="Кинозал",Viasat Kino Action (EDTV 576p)
+#EXTINF:-1 audio-track="ru" tvg-id="tv1000-action-cee" tvg-logo="https://epgx.site/p/tv1000-action-cee.png" group-title="Кинозал",Viasat Kino Action (EDTV 576p)
 http://81.7.108.21:9000/play/TV1000Action-DVBC322-sti4400017090089
 #EXTINF:-1 tvg-id="tv1000-worldkino" tvg-logo="https://epgx.site/p/tv1000-worldkino.png" group-title="Кинозал",Viasat Kino World (EDTV 576p)
 http://81.7.108.21:9000/play/TV1000RusskojeKino-DVBC322-sti4400017090089
@@ -323,6 +327,8 @@ http://188.113.190.15/182/tracks-v1a1/index.m3u8
 #EXTINF:-1  tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Кинозал",Фантастика (HD)
 http://hlss.goodgame.ru/hls/187241.m3u8
 
+#EXTINF:-1 tvg-id="bolt-ru" tvg-logo="https://epgx.site/p/bolt.png" group-title="Русский кинозал",Bolt (EDTV 576p)
+http://edge02.odtv.az/o4/mtvhits/playlist.m3u8
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://epgx.site/p/start-air.png" group-title="Русский кинозал",Start Air (HD)
 http://92.242.110.52:9835/udp/238.1.7.28:1234
 #EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://epgx.site/p/star-cinema.png" group-title="Русский кинозал",Star Cinema (EDTV 576p)
@@ -497,7 +503,7 @@ http://188.113.190.15/228/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-id="fashion-tv" tvg-logo="https://epgx.site/p/fashion-tv.png" group-title="Хобби и увлечения",Fashion TV (HD)
 http://91.247.68.229:8000/play/Fashion/index.m3u8
-#EXTINF:-1 audio-track="ru" tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="Хобби и увлечения",TLC (EDTV 576p)
+#EXTINF:-1 audio-track="rus" tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="Хобби и увлечения",TLC (EDTV 576p)
 http://81.7.108.21:9000/play/DiscoveryTLC-DVBC306-sti4400017090089
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/521.png" group-title="Хобби и увлечения",Viju EXPLORE (EDTV 576p)
 http://92.242.110.52:9835/udp/238.1.8.25:1234
