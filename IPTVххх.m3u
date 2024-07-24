@@ -94,7 +94,7 @@ http://188.113.190.15/145/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="multimania" tvg-logo="https://epgx.site/p/multimania.png" group-title="Детские",Мультиландия (EDTV 576p)
 http://188.113.190.15/108/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания (SDTV 576i)
-
+https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-logo="https://epgx.site/p/o_.png" group-title="Детские",О! (EDTV 576p)
 http://188.113.190.15/136/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://epgx.site/p/ryzhy.png" group-title="Детские",Рыжий (WSVGA)
@@ -140,7 +140,7 @@ http://95.156.76.230:33001/udp/230.4.34.6:1234
 #EXTINF:-1 tvg-id="kaleydoskop-tv" tvg-logo="https://epgx.site/p/kaleydoskop.png" group-title="Развлекательные",Калейдоскоп ТВ (EDTV 576p)
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="Развлекательные",КВН ТВ (EDTV 576p)
-
+http://109.239.208.82:80/kvn/index.m3u8
 #EXTINF:-1 tvg-id="nostalgia" tvg-logo="https://epgx.site/p/nostalgia.png" group-title="Развлекательные",Ностальгия (SDTV 576i)
 http://146.158.0.56/Nostalgiya/index.m3u8
 #EXTINF:-1 tvg-id="perec-int" tvg-logo="https://epgx.site/p/perec.png" group-title="Развлекательные",Перец (EDTV 576p)
@@ -322,8 +322,8 @@ http://188.113.190.15/156/tracks-v1a1/index.m3u8
 http://188.113.190.15/129/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="2407" tvg-logo="http://epg.one/img2/2407.png" group-title="Кинозал",Киноман (EDTV 576p)
 http://188.113.190.15/224/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="kinomiks" tvg-logo="https://epgx.site/p/kinomiks.png" group-title="Кинозал",Киномикс (HD)
-
+#EXTINF:-1 tvg-id="kinomiks" tvg-logo="https://epgx.site/p/kinomiks.png" group-title="Кинозал",Киномикс (EDTV 576p)
+http://31.210.208.171:8080/kinomix/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://epgx.site/p/kinopokaz.png" group-title="Кинозал",Кинопоказ (EDTV 576p)
 http://31.210.208.171:8080/kinopokaz/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-logo="https://epgx.site/p/kinopremiera.png" group-title="Кинозал",Кинопремьера (HD)
@@ -331,7 +331,7 @@ http://stream02.vnet.am/Kinopremera/mono.m3u8
 #EXTINF:-1 tvg-id="kinosat" tvg-logo="https://epgx.site/p/kinosat.png" group-title="Кинозал",Киносат (WSVGA)
 
 #EXTINF:-1 tvg-id="kinosemiya" tvg-logo="https://epgx.site/p/kinosemia.png" group-title="Кинозал",Киносемья (HD)
-
+http://91.205.199.3:80/kinosemyahd/index.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" tvg-logo="https://epgx.site/p/kinosvidanie.png" group-title="Кинозал",Киносвидание (EDTV 576p)
 http://91.205.199.3/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://epgx.site/p/kinouzhas.png" group-title="Кинозал",Киноужас (HD)
@@ -384,7 +384,7 @@ http://188.113.190.15/188/video.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epgx.site/p/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV 576p)
 http://185.112.140.28:80/Mosfilm/index.m3u8
 #EXTINF:-1 tvg-id="nashe-novoe-kino" tvg-logo="https://epgx.site/p/nashe-novoe-kino.png" group-title="Русский кинозал",Наше Новое Кино (WSVGA)
-
+http://135.181.115.81:8000/play/a01b/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="Русский кинозал",НТВ Сериал (WSVGA)
 http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="Русский кинозал",Победа (EDTV 576p)
@@ -457,7 +457,7 @@ https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd
 #EXTINF:-1 tvg-id="2782" tvg-logo="http://epg.one/img2/2782.png" group-title="Спортивные",Футбол (EDTV 576p)
 http://188.113.190.15/105/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="footbolny" tvg-logo="https://epgx.site/p/footbolny.png" group-title="Спортивные",Футбольный (HD)
-
+http://31.210.208.171:8080/football/index.m3u8?token=+W2MSER
 
 #EXTINF:-1 tvg-id="nadezhda" tvg-logo="https://epgx.site/p/nadezhda.png" group-title="Христианские",Надежда (HD ready)
 http://dmi3y-tv.ru/hls/CH_NADEZHDAHD720.m3u8
@@ -587,8 +587,8 @@ http://cdn2.ntv.ru/th_style/tracks-v1a1/mono.m3u8
 http://188.113.190.15/225/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="oxota-i-rybalka" tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="Хобби и увлечения",ОХОТА И РЫБАЛКА (EDTV 576p)
 http://188.113.190.15/69/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения (HD)
-
+#EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения (480p)
+http://ott-cdn.ucom.am/s99/04.m3u8
 #EXTINF:-1 tvg-id="tochka-otryva" tvg-logo="http://epg.it999.ru/img2/617.png" group-title="Хобби и увлечения",Точка Отрыва (EDTV 576p)
 http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 tvg-id="usadba" tvg-logo="https://epgx.site/p/usadba.png" group-title="Хобби и увлечения",Усадьба (EDTV 576p)
@@ -652,7 +652,7 @@ http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist
 #EXTINF:-1 tvg-id="ntm" tvg-logo="https://epgx.site/p/ntm.png" group-title="Региональные",НТМ (Саранск, HD ready)
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ramenskoe-tv" tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",РТВ (Раменск, HD ready)
-
+https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-id="region29" tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29 (Архангельск, HD ready)
 http://live-atkmedia.cdnvideo.ru/atkmedia/atkmedia/playlist.m3u8
 #EXTINF:-1 tvg-id="svoyo-tv-stavropol" tvg-logo="https://epgx.site/p/svoyo-tv-stavropol.png" group-title="Региональные",Своё ТВ (Ставрополь, HD)
@@ -660,7 +660,8 @@ https://svoetv.mediacdn.ru/cdn/svoetv/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="s1-surgut" logo="https://epgx.site/p/s1-surgut.png",С1 (Сургут, WSVGA)
 https://sitv.ru/hls/stv1024.m3u8
 #EXTINF:-1 tvg-id="russky-sever" tvg-logo="https://epgx.site/p/russky-sever.png" group-title="Региональные",Русский Север (Вологда, HD)
-
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+https://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 tvg-id="sankt-peterburg" tvg-logo="http://epg.it999.ru/img2/690.png" group-title="Региональные",Санкт-Петербург (HD)
 https://player.smotrim.ru/iframe/stream/live_id/62037
 #EXTINF:-1 tvg-id="sarov-24" tvg-logo="http://epg.it999.ru/img2/6794.png" group-title="Региональные",Саров 24 (HD ready)
