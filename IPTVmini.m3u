@@ -42,8 +42,6 @@ http://31.148.6.9:10015/index.m3u8
 http://178.16.151.67/pyatnica_hd/index.m3u8
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://epgx.site/p/zvezda.png" group-title="Федеральные",Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-id="zvezda-plus" tvg-logo="https://epgx.site/p/zvezda-plus.png" group-title="Федеральные",Звезда плюс HD
-http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-logo="https://epgx.site/p/mir.png" group-title="Федеральные",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Федеральные",ТНТ HD
