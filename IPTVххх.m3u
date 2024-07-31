@@ -394,17 +394,17 @@ http://188.113.190.15/24/mono.m3u8
 
 #EXTINF:-1 tvg-id="4780" tvg-logo="https://tv.taurer.org/iptv_content/logos/ALPHAANIME_TEMP.png" group-title="Live",Alpha Anime (HD ready)
 http://node-01.streaming.taurermedia.online:80/DNgXtq6mxU/RE9bedFwGP/12.m3u8
-#EXTINF:-1 tvg-logo="https://tv.taurer.org/iptv_content/logos/ALPHAGAMES_TEMP.png" group-title="Live",Alpha Games (HD ready)
+#EXTINF:-1 tvg-id="4780" tvg-logo="https://tv.taurer.org/iptv_content/logos/ALPHAGAMES_TEMP.png" group-title="Live",Alpha Games (HD ready)
 http://node-01.streaming.taurermedia.online:80/DNgXtq6mxU/RE9bedFwGP/11.m3u8
-#EXTINF:-1  tvg-id="4780" tvg-logo="https://tv.taurer.org/iptv_content/logos/ALPHASEX_TEMP.png" group-title="Live",Alpha Sex (HD ready)
+#EXTINF:-1 tvg-id="4780" tvg-logo="https://tv.taurer.org/iptv_content/logos/ALPHASEX_TEMP.png" group-title="Live",Alpha Sex (HD ready)
 http://node-01.streaming.taurermedia.online:80/DNgXtq6mxU/RE9bedFwGP/13.m3u8
 #EXTINF:-1 tvg-id="4780" tvg-logo="https://tv.taurer.org/iptv_content/logos/CRINGETV_TEMP.png" group-title="Live",Кринж ТВ (HD ready)
 http://node-01.streaming.taurermedia.online:80/DNgXtq6mxU/RE9bedFwGP/18.m3u8
-#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg"Смотрим:Мелодрамы (HD)
+#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg" group-title="Live",Смотрим:Мелодрамы (HD)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/playlist.m3u8
-#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg"Смотрим:Тайны (HD)
+#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg" group-title="Live",Смотрим:Тайны (HD)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist.m3u8
-#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg"Смотрим:Частный Детектив (HD)
+#EXTINF:-1,tvg-id="4780" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/d/da/Логотип_платформы_Смотрим.svg" group-title="Live",Смотрим:Частный Детектив (HD)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="4780" tvg-logo="http://epg.it999.ru/img2/4780.png" group-title="Live",Фантастика (HD)
 http://hlss.goodgame.ru/hls/187241.m3u8
