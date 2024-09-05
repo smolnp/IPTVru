@@ -71,8 +71,8 @@ http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
 http://88.218.242.237:8000/play/a00f
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network (EDTV 576p)
 http://stream01.vnet.am/Kinosemya/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (WSVGA)
-http://hls.seversk.ru:8080/play/a01l/index.m3u8
+#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (HD)
+http://stream01.vnet.am/Channel_120/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://epgx.site/p/da-vinci.png" group-title="Детские",Da Vinci (EDTV 576p)
 http://hls127.homeiptv.org:8880/Da_Vinci_Learning/video.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://epgx.site/p/nickelodeon-ru.png" group-title="Детские",Nickelodeon (HD)
@@ -129,7 +129,7 @@ http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="gags-network" tvg-logo="https://epgx.site/p/gags-network.png" group-title="Развлекательные",GagsNetwork (HD)
 rtmp://5.182.229.90//7142
 #EXTINF:-1 tvg-id="tvmchannel" tvg-logo="https://epgx.site/p/tvmchannel.png" group-title="Развлекательные",TVM Channel (EDTV 576p)
-http://origin5.mediacdn.ru/live/tvm/index.m3u8
+http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="belarus2" tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Развлекательные",Беларусь 2 (EDTV 576p)
 http://194.158.222.36:6107
 #EXTINF:-1 tvg-id="belmuztv" tvg-logo="https://epgx.site/p/belmuztv.png" group-title="Развлекательные",БелМузТВ (EDTV 576p)
@@ -154,7 +154,7 @@ http://hls127.homeiptv.org:8880/Kluch/video.m3u8
 http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epgx.site/p/prodvizhenie.png" group-title="Развлекательные",Продвижение (D1)
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница (EDTV 576p)
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="http://epg.one/img2/1003.png" group-title="Развлекательные",Пятница (EDTV 576p)
 http://91.90.255.235:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница (HD)
 https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
@@ -188,7 +188,7 @@ https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ (HD)
 http://185.112.140.28/TNT_HD/index.m3u8
-#EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="https://epgx.site/p/tnt-int-eu.png" group-title="Развлекательные",ТНТ Int (Европа) (EDTV 576p)
+#EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ Int (Европа) (EDTV 576p)
 http://85.187.13.40:18000/tntint
 #EXTINF:-1 tvg-id="tnt-kz" tvg-logo="https://epgx.site/p/tnt-kz.png" group-title="Развлекательные",ТНТ KZ (EDTV 480p)
 http://sc.id-tv.kz/tntComedy.m3u8
@@ -202,7 +202,7 @@ http://178.212.71.253:8002/play/a00s/index.m3u8
 http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
-http://146.158.0.56/1HD/mono.m3u8
+http://31.210.208.171:8080/1hd/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные",Bridge (EDTV 576p)
 http://hls.seversk.ru:8080/play/a00z/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic (EDTV 576p)
@@ -215,8 +215,8 @@ http://hls.seversk.ru:8080/play/a012/index.m3u8
 https://livetv.mylifeisgood.net.ru/channels/bridgehitstv.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
 http://stream01.vnet.am/Channel_115/mono.m3u8
-#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (WSVGA)
-http://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (EDTV 576p)
+https://livetv.mylifeisgood.net.ru/channels/bridgetvshlyager.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="Музыкальные",Music Box Russia (EDTV 576p)
@@ -226,7 +226,7 @@ http://195.26.83.96:7006/play/1/index.m3u8
 #EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="Музыкальные",RU TV (HD)
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://epgx.site/p/viva-rus.png" group-title="Музыкальные",VIVA Russia (HD)
-http://hlss.goodgame.ru/hls/180805.m3u8
+
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://epgx.site/p/zhar-ptica.png" group-title="Музыкальные",Жар-Птица (EDTV 480p)
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (EDTV 576p)
