@@ -239,6 +239,12 @@ http://dmi3y-tv.ru/hls/zabava/region/KZN/CH_MAIDAN.m3u8
 http://stream01.vnet.am/MuzTv/mono.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
 http://91.90.255.235:8000/play/1/index.m3u8
+#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-muzyka-kino-international_1.jpg?itok=2Br4kvdj" group-title="Музыкальные",Музыка Кино Int (768×432)
+http://autopilot.catcast.tv/content/37739/index.m3u8
+#EXTINF:-1 tvg-logo="https://alltv.su/wp-content/uploads/2023/03/kino-1.jpg" group-title="Музыкальные",Музыка 1 Int (768×432)
+http://autopilot.catcast.tv/content/37745/index.m3u8
+#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-muzyka-2-international.jpg?itok=QBzJqaoB" group-title="Музыкальные",Музыка 2 Int (768×432)
+http://autopilot.catcast.tv/content/37742/index.m3u8
 #EXTINF:-1 tvg-id="radio-strana-fm-tv" tvg-logo="https://epgx.site/p/radio-strana-fm-tv.png" group-title="Музыкальные",Страна FM (HD ready)
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://epgx.site/p/tnt-music.png" group-title="Музыкальные",ТНТ Music (HD)
@@ -426,18 +432,18 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" tvg-logo="https://epgx.site/p/solovjinypomiot.png" group-title="Новостные",Соловьев.Live (HD)
 https://player.smotrim.ru/iframe/stream/live_id/63338?43e=5.m3u8
 
-#EXTINF:-1 tvg-id="2362" tvg-logo="http://epg.one/img2/2362.png" group-title="Спортивные",Fast&FunBox (HD)
-
 #EXTINF:-1 tvg-id="extreme-sports" tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="Спортивные",Extreme Sports (EDTV 576p)
-http://edge02.odtv.az/o4/extremesport/playlist.m3u8
+
 #EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://epgx.site/p/eurosport1.png" group-title="Спортивные",Eurosport 1 (HD)
 http://45.159.74.14:80/Eurosport/tracks-v1a2/mono.m3u8
-#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://epgx.site/p/eurosport2.png" group-title="Спортивные",Eurosport 2 (EDTV 576p)
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://epgx.site/p/eurosport2.png" group-title="Спортивные",Eurosport 2 (HD)
+http://iptv-hls.idc.md:8200/hls/260/live1.m3u8
+#EXTINF:-1 tvg-id="2362" tvg-logo="http://epg.one/img2/2362.png" group-title="Спортивные",Fast&FunBox (HD)
 
 #EXTINF:-1 tvg-id="russky-ekstrim" tvg-logo="https://epgx.site/p/russky-ekstrim.png" group-title="Спортивные",Russian Extreme (EDTV 576p)
 
 #EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="Спортивные",Viju+sport (EDTV 576p)
-http://45.159.74.13:80/AutoPlus/tracks-v1a1/mono.m3u8
+http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
 #EXTINF:-1 tvg-id="belarus5" tvg-logo="https://epgx.site/p/belarus5hd.png" group-title="Спортивные",Беларусь 5 (HD)
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #EXTINF:-1  tvg-id="belarus5-inet" tvg-logo="https://epgx.site/p/belarus5-inet.png" group-title="Спортивные", Беларусь 5 Интернет (HD)
