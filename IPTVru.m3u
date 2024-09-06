@@ -419,6 +419,27 @@ http://stream01.vnet.am/Telekafe/mono.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://epgx.site/p/feniks-plus-kino.png" group-title="Русский кинозал",Феникс+Кино (EDTV 576p)
 http://78.140.39.3/play/a010/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Медальон [США/2012]
+http://dmi3y-tv.ru/hls/film/MEDALON.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Иностранец [США/2017]
+http://dmi3y-tv.ru/hls/film/INOSTRANETZ.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png",Репродукция [США/2018]
+http://dmi3y-tv.ru/hls/film/REPRODUKCIYA.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Ловушка времени [США/2017]
+http://dmi3y-tv.ru/hls/film/LOVUSHKA_VREMENI.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Морской бой [США/2012]
+http://dmi3y-tv.ru/hls/film/MORSKOY_BOY.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",После нашей эры [США/2013]
+http://dmi3y-tv.ru/hls/film/POSLE_NASHEY_ERY.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Разлом времени [США/2017]
+http://dmi3y-tv.ru/hls/film/RAZLOM_VREMENI.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Соник в кино [США/2020]
+http://dmi3y-tv.ru/hls/film/SONIC_V_KINO.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Сквозь снег [США/2013]
+http://dmi3y-tv.ru/hls/film/SKVOZ_SNEG.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Ван Хельсинг [США/2004]
+http://dmi3y-tv.ru/hls/film/VAN_HELSING.m3u8
+
 #EXTINF:-1 tvg-id="360-news" tvg-logo="https://epgx.site/p/360-news.png" group-title="Новостные",360° Новости (HD)
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #EXTINF:-1 tvg-id="nastoiaschee-vremia" tvg-logo="https://epgx.site/p/nastoiaschee-vremia.png" group-title="Новостные",Настоящее Время (HD ready)
