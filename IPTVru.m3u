@@ -88,6 +88,8 @@ https://v2.catcast.tv/content/38720/index.m3u8
 http://stream01.vnet.am/CartoonNetwork/mono.m3u8
 #EXTINF:-1 tvg-id="karusel" tvg-logo="https://epgx.site/p/karusel.png" group-title="Детские",Карусель (WSVGA)
 https://player.smotrim.ru/iframe/stream/live_id/61126
+#EXTINF:-1 tvg-id="karusel-int" tvg-logo="https://epgx.site/p/karusel.png" group-title="Детские",Карусель Int (WSVGA)
+https://cdn1.skygo.mn/live/disk1/Karusel/HLS-FTA/Karusel.m3u8
 #EXTINF:-1 tvg-id="liova" tvg-logo="https://epgx.site/p/liova.png"  group-title="Детские",Лёва (HD)
 http://91.205.199.3/planb/index.m3u8
 #EXTINF:-1 tvg-id="mama" tvg-logo="https://epgx.site/p/mama.png" group-title="Детские",Мама (SDTV 576i)
@@ -191,6 +193,8 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 https://free-tv.me/iptv/src/s/secret_token/tnt-hd-orig.m3u8
 #EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ Int (Европа) (EDTV 576p)
 http://85.187.13.40:18000/tntint
+#EXTINF:-1 tvg-id="tnt-int-cis" tvg-logo="https://epgx.site/img2/353.png" group-title="Развлекательные",ТНТ Int (СНГ) (EDTV 480p)
+https://cdn1.skygo.mn/live/disk1/THT/HLS-FTA/THT.m3u8
 #EXTINF:-1 tvg-id="tnt-kz" tvg-logo="https://epgx.site/p/tnt-kz.png" group-title="Развлекательные",ТНТ KZ (EDTV 480p)
 
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV 576p)
