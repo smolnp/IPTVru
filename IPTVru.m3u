@@ -66,16 +66,16 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 
 #EXTINF:-1 tvg-id="ani" tvg-logo="https://epgx.site/p/ani.png" group-title="Детские",Ani (WSVGA)
 http://stv.mediacdn.ru/live/cdn/ani/playlist_sdhigher.m3u8
-#EXTINF:-1 tvg-id="baby-time" tvg-logo="https://epgx.site/p/baby-time.png" group-title="Детские",Baby Time (WSVGA)
-
+#EXTINF:-1 tvg-id="baby-time" tvg-logo="https://epgx.site/p/baby-time.png" group-title="Детские",Baby Time (EDTV 576p)
+https://livetv.mylifeisgood.net.ru/channels/babytime.m3u8
 #EXTINF:-1 tvg-id="cartoon-classics" tvg-logo="https://epgx.site/p/cartoon-classics.png" group-title="Детские",Cartoon Classics (EDTV 480p)
 http://88.218.242.237:8000/play/a00f
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://epgx.site/p/cartoon-network.png" group-title="Детские",Cartoon Network (EDTV 576p)
 http://stream01.vnet.am/Kinosemya/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="boomerang" tvg-logo="https://epgx.site/p/boomerang.png" group-title="Детские",Cartoonito (HD)
-
+http://stream01.vnet.am/Channel_120/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://epgx.site/p/da-vinci.png" group-title="Детские",Da Vinci (EDTV 576p)
-
+http://91.207.115.228:12000/play/a01z
 #EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://epgx.site/p/nickelodeon-ru.png" group-title="Детские",Nickelodeon (HD)
 http://stream01.vnet.am/Channel_114/mono.m3u8
 #EXTINF:-1 tvg-id="nicktoons" tvg-logo="https://epgx.site/p/nicktoons.png" group-title="Детские",Nicktoons (HD)
@@ -88,6 +88,8 @@ https://v2.catcast.tv/content/38720/index.m3u8
 http://stream01.vnet.am/CartoonNetwork/mono.m3u8
 #EXTINF:-1 tvg-id="karusel" tvg-logo="https://epgx.site/p/karusel.png" group-title="Детские",Карусель (WSVGA)
 https://player.smotrim.ru/iframe/stream/live_id/61126
+#EXTINF:-1 tvg-id="karusel-int" tvg-logo="https://epgx.site/p/karusel.png" group-title="Детские",Карусель Int (EDTV 576p)
+http://45.159.74.13:80/Karusel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="liova" tvg-logo="https://epgx.site/p/liova.png"  group-title="Детские",Лёва (HD)
 http://91.205.199.3/planb/index.m3u8
 #EXTINF:-1 tvg-id="mama" tvg-logo="https://epgx.site/p/mama.png" group-title="Детские",Мама (SDTV 576i)
@@ -97,7 +99,7 @@ http://stv.mediacdn.ru/live/cdn/mult/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="multimuzyka" tvg-logo="https://epgx.site/p/multimuzyka.png" group-title="Детские",МУЛЬТиМУЗЫКА(EDTV 576p)
 http://91.142.158.107:8092/play/24/index.m3u8
 #EXTINF:-1 tvg-id="multimania" tvg-logo="https://epgx.site/p/multimania.png" group-title="Детские",Мультиландия (EDTV 576p)
-
+http://185.50.148.2:7706/Multimania/index.m3u8
 #EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="Детские",Мультимания (SDTV 576i)
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-logo="https://epgx.site/p/o_.png" group-title="Детские",О! (EDTV 576p)
@@ -115,7 +117,7 @@ http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://epgx.site/p/sts-kids-hd.png" group-title="Детские",СТС Kids (EDTV 576p)
 http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="Детские",Уникум (EDTV 576p)
-
+http://91.224.169.250:5000/c44
 
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://epgx.site/p/2na2.png" group-title="Развлекательные",2x2 (EDTV 576p)
 http://31.210.208.171:8080/2x2/index.m3u8?token=+W2MSER
