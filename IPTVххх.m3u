@@ -457,8 +457,8 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 
 #EXTINF:-1 tvg-id="match-tv" tvg-logo="https://epgx.site/p/match-tv.png" group-title="Спортивные",Матч! (EDTV 576p)
 http://91.142.158.107:8092/play/33/index.m3u8
-#EXTINF:-1 tvg-id="mir-basketbola" tvg-logo="https://epgx.site/p/mir-basketbola.png" group-title="Спортивные",Мир баскетбола (EDTV 576p)
-
+#EXTINF:-1 tvg-id="mir-basketbola" tvg-logo="https://epgx.site/p/mir-basketbola.png" group-title="Спортивные",Мир баскетбола (HD)
+http://88.218.242.237:8000/play/a00e
 #EXTINF:-1 tvg-id="start" tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="Спортивные",Старт (EDTV 576p)
 
 #EXTINF:-1 tvg-id="start-triumf" tvg-logo="https://epgx.site/p/start-triumf.png" group-title="Спортивные",Старт Триумф (HD ready)
@@ -503,15 +503,15 @@ http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rtg-tv" tvg-logo="http://epg.it999.ru/img2/648.png" group-title="Познавательные",RTG (HD)
 http://31.210.208.171:8080/rtg/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Познавательные",Top Secret (EDTV 576p)
-
+http://91.205.199.3/sovershennosekretno/index.m3u8
 #EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://epgx.site/p/terra-ru.png" group-title="Познавательные",TERRA (EDTV 576p)
-
+http://109.200.130.123:7537/play/a02i
 #EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://epgx.site/p/univer-tv.png" group-title="Познавательные",UNIVER (WSVGA)
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="viasat-history" tvg-logo="https://epgx.site/p/viasat-history.png" group-title="Познавательные",Viju HISTORY (EDTV 576p)
 http://edge02.odtv.az/o5/viasathistory/playlist.m3u8
-#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://epgx.site/p/viasat-nature.png" group-title="Познавательные",Viju NATURE (HD)
-
+#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://epgx.site/p/viasat-nature.png" group-title="Познавательные",Viju NATURE (EDTV 576p)
+http://91.205.199.3:80/viasatnature/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="Познавательные",Viju+planet (HD)
 
 #EXTINF:-1 tvg-id="zoopark" tvg-logo="http://epg.it999.ru/img2/367.png" group-title="Познавательные",ZOOПАРК (EDTV 576p)
@@ -519,7 +519,7 @@ http://91.224.169.250:5000/c45
 #EXTINF:-1 tvg-id="arsenaltv" tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="Познавательные",Арсенал (HD)
 http://45.143.108.104/arsenal/index.m3u8
 #EXTINF:-1 tvg-id="belarus3" tvg-logo="https://epgx.site/p/belarus3hd.png" group-title="Познавательные",Беларусь 3 (EDTV 576p)
-
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx" tvg-logo="https://epgx.site/p/v-mire-zhivotnyx.png" group-title="Познавательные",В мире животных (HD ready)
 https://stream2.cinerama.uz/1404/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="voprosy-i-otvety" tvg-logo="https://epgx.site/p/voprosy-i-otvety.png" group-title="Познавательные",Вопросы и ответы (EDTV 576p)
@@ -527,7 +527,7 @@ https://stream2.cinerama.uz/1429/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://epgx.site/p/ege-tv.png" group-title="Познавательные",ЕГЭ ТВ (EDTV 576p)
 
 #EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="https://epgx.site/p/zhivaya-planeta.png" group-title="Познавательные",Живая Планета (EDTV 576p)
-
+http://91.224.169.250:5000/c7
 #EXTINF:-1 tvg-id="zhivaya-priroda" tvg-logo="https://epgx.site/p/zhivaya-priroda.png" group-title="Познавательные",Живая Природа (HD)
 http://178.212.71.253:8002/play/a00o/index.m3u8
 #EXTINF:-1 tvg-id="zootv" tvg-logo="https://epgx.site/p/zootv.png" group-title="Познавательные",Зоо ТВ (EDTV 576p)
@@ -541,13 +541,13 @@ https://stream2.cinerama.uz/1248/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.it999.ru/img2/675.png" group-title="Познавательные",Моя Планета (EDTV 576p)
 http://194.143.148.28:8080/Nauka20/mpegts
 #EXTINF:-1 tvg-id="ocean-tv" tvg-logo="https://epgx.site/p/ocean-tv.png" group-title="Познавательные",ОКЕАН (EDTV 576p)
-
+http://178.124.179.122:8088/Ocean/index.m3u8
 #EXTINF:-1 tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="Познавательные",Первый Космический (HD)
 http://stream01.vnet.am/Evrika/mono.m3u8
 #EXTINF:-1 tvg-id="poexali" tvg-logo="https://epgx.site/p/poexali.png" group-title="Познавательные",Поехали! (EDTV 576p)
 http://91.247.68.229:8000/play/Poehali/index.m3u8
 #EXTINF:-1 tvg-id="prosveschenie" tvg-logo="https://epgx.site/p/prosveschenie.png" group-title="Познавательные",Просвещение (720×540)
-
+http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="psixologia-21" tvg-logo="https://epgx.site/p/psixologia-21.png" group-title="Познавательные",Психология (EDTV 576p)
 http://91.207.115.228:12000/play/a04s
 #EXTINF:-1 id="kultura" tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Познавательные",Россия К (HD)
@@ -566,7 +566,7 @@ http://178.212.71.253:8002/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="doktor" tvg-logo="https://epgx.site/p/doktor.png" group-title="Хобби и увлечения",Доктор (EDTV 576p)
 http://88.85.172.243:7004/play/a01l
 #EXTINF:-1 tvg-id="domashnie-zhivotnye" tvg-logo="http://epg.it999.ru/img2/520.png" group-title="Хобби и увлечения",Домашние Животные (EDTV 576p)
-
+http://91.224.169.250:5000/c38
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="Хобби и увлечения",Дикая Охота (HD)
 http://stream01.vnet.am/Channel_127/mono.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения",Дикая Рыбалка (HD)
@@ -578,9 +578,9 @@ http://91.207.115.228:12000/play/a04z
 #EXTINF:-1 tvg-id="eda" tvg-logo="https://epgx.site/p/eda.png" group-title="Хобби и увлечения",Еда (nHD)
 
 #EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="Хобби и увлечения",Живи Активно (HD)
-
+https://livetv.mylifeisgood.net.ru/channels/jiviactivno.m3u8
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://epgx.site/p/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь (EDTV 576p)
-
+http://195.26.83.96:7007/play/10/index.m3u8
 #EXTINF:-1 tvg-id="zagorodny" tvg-logo="http://epg.it999.ru/img2/2463.png" group-title="Хобби и увлечения",Загородный (480p)
 http://stream01.vnet.am/DTX/mono.m3u8
 #EXTINF:-1 tvg-id="zagorodny-int" tvg-logo="https://epgx.site/p/zagorodny-int.png" group-title="Хобби и увлечения",Загородный Int (HD)
@@ -593,12 +593,12 @@ http://91.247.68.229:8000/play/Lapki/index.m3u8
 http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 tvg-id="nasha-tema" tvg-logo="http://epg.it999.ru/img2/2433.png" group-title="Хобби и увлечения",Наша Тема (EDTV 576p)
 http://91.207.114.220:9001/play/a07i/index.m3u8
-#EXTINF:-1 tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",НТВ Стиль (HD)
-
-#EXTINF:-1 tvg-id="otkryty-mir" tvg-logo="https://epgx.site/p/otkryty-mir.png" group-title="Хобби и увлечения",Открытый мир (EDTV 576p)
-
+#EXTINF:-1 tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="Хобби и увлечения",НТВ Стиль (EDTV 576p)
+https://livetv.mylifeisgood.net.ru/channels/ntvstyle24.m3u8
+#EXTINF:-1 tvg-id="otkryty-mir" tvg-logo="https://epgx.site/p/otkryty-mir.png" group-title="Хобби и увлечения",Открытый мир (WSVGA)
+http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 tvg-id="oxota-i-rybalka" tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="Хобби и увлечения",ОХОТА И РЫБАЛКА (EDTV 576p)
-
+http://91.207.115.228:12000/play/a04q
 #EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="Хобби и увлечения",Приключения (480p)
 
 #EXTINF:-1 tvg-id="svetloe-tv" tvg-logo="https://epgx.site/p/svetloe-tv.png" group-title="Хобби и увлечения",Светлое ТВ (EDTV 576p)
