@@ -207,7 +207,7 @@ http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-logo="https://epgx.site/p/1hd-music.png" group-title="Музыкальные",1HD (HD)
 http://31.210.208.171:8080/1hd/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://epgx.site/p/bridge-tv.png" group-title="Музыкальные",Bridge (EDTV 576p)
-
+http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://epgx.site/p/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic (EDTV 576p)
 http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://epgx.site/p/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe (EDTV 576p)
@@ -215,11 +215,11 @@ http://91.197.104.34/AAC/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (EDTV 576p)
 
 #EXTINF:-1 tvg-id="2024" tvg-logo="http://epg.one/img2/2024.png" group-title="Музыкальные",Bridge Hits (HD)
-
+https://livetv.mylifeisgood.net.ru/channels/bridgehitstv.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://epgx.site/p/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV 576p)
 http://stream01.vnet.am/Channel_115/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (EDTV 576p)
-
+http://31.131.136.4:8000/play/a00s
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://epgx.site/p/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="Музыкальные",Music Box Russia (EDTV 576p)
@@ -233,14 +233,14 @@ https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://epgx.site/p/zhar-ptica.png" group-title="Музыкальные",Жар-Птица (EDTV 480p)
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://epgx.site/p/zhara.png" group-title="Музыкальные",Жара (EDTV 576p)
-
+http://91.207.115.228:12000/play/a03e
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://epgx.site/p/maydan.png" group-title="Музыкальные",Майдан (EDTV 576p)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/KZN/CH_MAIDAN.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Музыкальные",МузТВ (WSVGA)
 http://stream01.vnet.am/MuzTv/mono.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого (EDTV 576p)
-
+http://185.50.148.2:7707/MuzikaPervogo/index.m3u8
 #EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-muzyka-kino-international_1.jpg?itok=2Br4kvdj" group-title="Музыкальные",Музыка Кино Int (768×432)
 http://autopilot.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 tvg-logo="https://alltv.su/wp-content/uploads/2023/03/kino-1.jpg" group-title="Музыкальные",Музыка 1 Int (768×432)
