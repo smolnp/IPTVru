@@ -133,8 +133,8 @@ http://cdn-01.bonus-tv.ru:80/gsl/tracks-v1a1/mono.m3u8
 rtmp://5.182.229.90//7142
 #EXTINF:-1 tvg-id="tvmchannel" tvg-logo="https://epgx.site/p/tvmchannel.png" group-title="Развлекательные",TVM Channel (EDTV 576p)
 http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="belarus2" tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Развлекательные",Беларусь 2 (EDTV 576p)
-
+#EXTINF:-1 tvg-id="belarus2" tvg-logo="https://epgx.site/p/belarus2hd.png" group-title="Развлекательные",Беларусь 2 (HD)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="belmuztv" tvg-logo="https://epgx.site/p/belmuztv.png" group-title="Развлекательные",БелМузТВ (EDTV 576p)
 
 #EXTINF:-1 tvg-id="deviatka" tvg-logo="https://epgx.site/p/deviatka.png" group-title="Развлекательные",Девятка (HD)
@@ -144,7 +144,7 @@ http://dmi3y-tv.ru/hls/zabava/region/KIROV/CH_9TVHD.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 #EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Развлекательные",Домашний (HD)
-
+http://91.207.114.220:9001/play/a0e2/index.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://epgx.site/p/domashny-int.png" group-title="Развлекательные",Домашний Int (EDTV 576p)
 http://45.159.74.13:80/Domashniy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="zal-suda" tvg-logo="https://epgx.site/p/zal-suda.png" group-title="Развлекательные",Зал суда (EDTV 576p)
@@ -157,18 +157,18 @@ http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epgx.site/p/prodvizhenie.png" group-title="Развлекательные",Продвижение (D1)
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="piatnica" tvg-logo="http://epg.one/img2/1003.png" group-title="Развлекательные",Пятница (EDTV 576p)
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="http://epg.one/img2/1003.png" group-title="Развлекательные",Пятница! (EDTV 576p)
+http://93.189.224.246:52900/play/a00n/index.m3u8
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница! (HD)
 
-#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Развлекательные",Пятница (HD)
-
-#EXTINF:-1 tvg-id="piatnica-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Развлекательные",Пятница Int (EDTV 576p)
+#EXTINF:-1 tvg-id="piatnica-int" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Развлекательные",Пятница! Int (EDTV 576p)
 https://stream01.vnet.am/Pyatnica/mono.m3u8
 #EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="Развлекательные",Сарафан (EDTV 576p)
 http://31.210.208.171:8080/sarafan/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Развлекательные",Суббота (HD)
 https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 #EXTINF:-1 tvg-id="strk" tvg-logo="https://epgx.site/p/strk.png" group-title="Развлекательные",СТРК (HD ready)
-
+http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="sts" tvg-logo="https://epgx.site/p/sts.png" group-title="Развлекательные",СТС (EDTV 480p)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer 
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
@@ -181,24 +181,24 @@ https://cdn1.skygo.mn/live/disk1/STS/HLS-FTA/STS.m3u8
 #EXTINF:-1 tvg-id="tvoyo-tv-hd" tvg-logo="https://epgx.site/p/tvoyo-tv-hd.png" group-title="Развлекательные",Твоё ТВ (HD)
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 tvg-id="tvoetv-humor" tvg-logo="https://epgx.site/p/tvoetv-humor.png" group-title="Развлекательные",Твоё ТВ Юмор (HD)
-
+http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 tvg-id="teatr" tvg-logo="https://epgx.site/p/teatr.png" group-title="Развлекательные",Театр (EDTV 576p)
-
+http://195.26.83.96:7005/play/16/index.m3u8
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://epgx.site/p/tochka-tv.png" group-title="Развлекательные",Точка ТВ (EDTV 576p)
 https://tochkatv-live.cdnvideo.ru/tochkatv2/tochkatv-sd.stream/playlist.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ (EDTV 480p)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Развлекательные",ТНТ (HD)
-
+http://91.207.115.228:12000/play/a04a
 #EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="Развлекательные",ТНТ Int (Европа) (EDTV 576p)
 http://85.187.13.40:18000/tntint
 #EXTINF:-1 tvg-id="tnt-kz" tvg-logo="https://epgx.site/p/tnt-kz.png" group-title="Развлекательные",ТНТ KZ (EDTV 480p)
 
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV 576p)
 http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
-#EXTINF:-1 tvg-id="centralnoye-tv" tvg-logo="https://epgx.site/p/centralnoye-tv.png" group-title="Развлекательные",ЦТВ (EDTV 576p)
-
+#EXTINF:-1 tvg-id="centralnoye-tv" tvg-logo="https://epgx.site/p/centralnoye-tv.png" group-title="Развлекательные",Центральное ТВ (EDTV 576p)
+http://stream01.vnet.am/Channel_129/mono.m3u8
 #EXTINF:-1 tvg-id="che" tvg-logo="https://epgx.site/p/che.png" group-title="Развлекательные",Че! (EDTV 576p)
 http://178.212.71.253:8002/play/a00s/index.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-logo="https://epgx.site/p/yu.png" group-title="Развлекательные",Ю (HD ready)
