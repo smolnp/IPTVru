@@ -667,6 +667,29 @@ http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="insit-tv" tvg-logo="https://epgx.site/p/insit-tv.png" group-title="Региональные",ЮУрГУ (Челябинск) (HD ready)
 http://tvrlive.susu.ru/1800k/playlist.m3u8
 
+#EXTINF:-1 tvg-id="brazzers-tv-europe" tvg-logo="https://epgx.site/p/brazzers.png" group-title="Для взрослых",Brazzers TV Europe (HD)
+http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.cxctv.it/image/logo.png" group-title="Для взрослых",CENTOXCENTO (HD)
+http://pl.seetv.cc/play/6868/D591A450364592E/video.m3u8
+#EXTINF:-1 tvg-id="dorcel" tvg-logo="https://epgx.site/p/dorcel.png" group-title="Для взрослых",Dorcel TV (HD)
+http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="dorcel-xxx" tvg-logo="https://epgx.site/p/dorcel.png" group-title="Для взрослых",Dorcel XXX (HD)
+#EXTINF:-1 tvg-id="eroxxxhd" tvg-logo="https://epgx.site/p/eroxxxhd.png" group-title="Для взрослых",Eroxxx (HD)
+http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="3258" tvg-logo="http://epg.one/img2/3258.png" group-title="Для взрослых",Erotic (HD)
+https://webtvstream.bhtelecom.ba/pink_erotic1.m3u8
+#EXTINF:-1 tvg-id="extasytv" tvg-logo="https://epgx.site/p/extasytv.png" group-title="Для взрослых",Extasy (HD)
+http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://loganet.ru/images/channels/FUUU-TV.png" group-title="Для взрослых",FUUU TV (HD)
+http://wellsee.gdn/live.m3u8
+#EXTINF:-1 tvg-id="hustler-hd" tvg-logo="https://epgx.site/p/hustler-hd.png" group-title="Для взрослых",Hustler (HD)
+https://89.187.167.247/hustler.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="passionxxx" tvg-logo="https://epgx.site/p/passionxxx.png" group-title="Для взрослых",PassionXXX (EDTV 576p)
+#EXTINF:-1 tvg-id="penthouse-gold" tvg-logo="https://epgx.site/p/penthouse-gold.png" group-title="Для взрослых",Penthouse Gold (HD)
+http://78.130.250.2:8023/play/a005/index.m3u8
+#EXTINF:-1 tvg-id="2779" tvg-logo="http://epg.one/img2/2779.png" group-title="Для взрослых",Penthouse Reality (HD)
+http://78.130.250.2:8023/play/a006/index.m3u8
+
 #EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://epgx.site/p/avtoradio.png" group-title="Радио",Авторадио
 http://ic7.101.ru:8000/v3_1
 #EXTINF:-1 tvg-id="dorozhnoe-radio" tvg-logo="https://epgx.site/p/dorozhnoe-radio.png" group-title="Радио",Дорожное Радио
