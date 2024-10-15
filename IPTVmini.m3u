@@ -1,17 +1,17 @@
 #EXTM3U url-tvg="http://epg.it999.ru/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz" tvg-shift="+3"
 
-#EXTINF:-1 tvg-id="pervy" tvg-logo="https://epgx.site/p/pervy.png" group-title="Федеральные",Первый канал HD
-http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Федеральные",Россия 1 HD
-https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
+#EXTINF:-1 tvg-id="pervy" tvg-logo="https://epgx.site/p/pervy.png" group-title="Общественные",Первый HD
+http://194.143.148.28:8080/PerviyHD/index.m3u8
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://epgx.site/p/rossia1.png" group-title="Общественные",Россия 1 HD
+http://91.207.115.228:12000/play/a02o
 #EXTINF:-1 tvg-id="match-tv" tvg-logo="https://epgx.site/p/match-tv.png" group-title="Федеральные",Матч ТВ
 http://91.142.158.107:8092/play/33/index.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://epgx.site/p/ntv.png" group-title="Федеральные",НТВ HD
-http://cdn2.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+http://91.207.115.228:12000/play/a04b
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://epgx.site/p/5kanal-ru.png" group-title="Федеральные",Пятый канал
 http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
 #EXTINF:-1 id="kultura" tvg-logo="http://epg.it999.ru/img2/187.png" group-title="Федеральные",Россия-Культура HD
-https://player.smotrim.ru/iframe/stream/live_id/19201
+http://91.142.158.107:8092/play/36/index.m3u8
 #EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://epgx.site/p/rossia-24.png" group-title="Федеральные",Россия 24
 https://player.smotrim.ru/iframe/stream/live_id/21
 #EXTINF:-1 tvg-id="rbk" tvg-logo="http://epg.it999.ru/img2/743.png" group-title="Федеральные",РБК HD
@@ -25,8 +25,8 @@ http://s18209.cdn.ngenix.net/hls/CH_R01_OTR/playlist.m3u8
 #EXTINF:-1  catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tvcentr" tvg-logo="https://epgx.site/p/tvcentr.png" group-title="Федеральные",ТВ Центр
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
-#EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Федеральные",РЕН ТВ HD
-https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="Федеральные",РЕН ТВ
+http://91.207.114.220:9001/play/a058/index.m3u8
 #EXTINF:-1 tvg-id="spas" tvg-logo="http://epg.it999.ru/img2/2141.png" group-title="Федеральные",Спас
 http://spas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://epgx.site/p/sts.png" group-title="Федеральные",СТС HD
@@ -36,18 +36,18 @@ http://178.212.71.253:8002/play/a00r/index.m3u8
 #EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="Федеральные",Суббота HD
 https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 #EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Федеральные",Домашний HD
-https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+http://91.207.114.220:9001/play/a0e2/index.m3u8
 #EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tv3-ru" tvg-logo="https://epgx.site/p/tv3-ru.png" group-title="Федеральные",ТВ-3
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
-#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Федеральные",Пятница! HD
-https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="Федеральные",Пятница!
+http://93.189.224.246:52900/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://epgx.site/p/zvezda.png" group-title="Федеральные",Звезда HD
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="mir" tvg-logo="https://epgx.site/p/mir.png" group-title="Федеральные",Мир HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/mirhdorig.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://epgx.site/p/tnt.png" group-title="Федеральные",ТНТ HD
-http://185.112.140.28/TNT_HD/index.m3u8
+http://91.207.115.228:12000/play/a04a
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epgx.site/p/tnt4.png" group-title="Федеральные",ТНТ4
 http://31.210.208.171:8080/tnt4/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://epgx.site/p/muztv.png" group-title="Федеральные",Муз-ТВ
@@ -91,7 +91,7 @@ http://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="lipeckoe-vremia" tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Региональные",Липецкое время HD
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://epgx.site/p/moskva-24.png" group-title="Региональные",МОСКВА24
-https://player.smotrim.ru/iframe/stream/live_id/1661
+http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="2308" tvg-logo="http://epg.one/img2/2308.png" group-title="Развлекательные",Москва Доверие
 https://player.smotrim.ru/iframe/stream/live_id/61125
 #EXTINF:-1 tvg-id="mtv-volgograd" tvg-logo="http://epg.it999.ru/img2/6767.png" group-title="Региональные",МТВ HD (Волгоград)
@@ -103,7 +103,7 @@ http://live-vestinn.cdnvideo.ru/vestinn/nn24/playlist.m3u8
 #EXTINF:-1 tvg-id="novy-vek-tambov" tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Региональные",Новый Век HD (Тамбов)
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
 #EXTINF:-1 tvg-id="ntm" tvg-logo="https://epgx.site/p/ntm.png" group-title="Региональные",НТМ HD (Саранск)
-https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+
 #EXTINF:-1 tvg-id="ramenskoe-tv" tvg-logo="http://epg.it999.ru/img2/6763.png" group-title="Региональные",РТВ (Раменск)
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-id="region29" tvg-logo="https://epgx.site/p/region29.png" group-title="Региональные",Регион 29 HD (Архангельск)
