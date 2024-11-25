@@ -489,8 +489,9 @@ http://cdn2.ntv.ru/th_serial/playlist.m3u8
 http://cdn2.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="Русский кинозал",НТВ Хит (HD)
 
-#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.one/img2/2447.png" group-title="Русский кинозал",Победа (EDTV 576p)
-http://93.189.224.246:52900/play/a010/index.m3u8
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.one/img2/2447.png" group-title="Русский кинозал",Победа (HD ready)
+#EXTVLCOPT:http-referrer=https://pobeda.tv/
+https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
 #EXTINF:-1 tvg-id="pro-lyubov" tvg-logo="https://iptvx.one/picons/pro-lyubov.png" group-title="Русский кинозал",Про любовь (EDTV 576p)
 http://185.23.80.28:8080/ProLyubov/index.m3u8?token=test
 #EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер (EDTV 576p)
