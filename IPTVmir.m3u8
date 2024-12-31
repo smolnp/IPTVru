@@ -800,7 +800,7 @@ http://41.205.93.154/FOXBUSINESS/index.m3u8
 http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="nbc-news-now-us" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="Информационные",NBC News NOW (HD ready)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
-#EXTINF:-1 tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-logo="newsmax-tv-us" group-title="Информационные",Newsmax TV (HD ready)
+#EXTINF:-1 tvg-id="Newsmax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" group-title="Информационные",Newsmax TV (HD ready)
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://iptvx.one/picons/rt-news.png" group-title="Информационные",Russia Today (HD)
 http://cdn-01.bonus-tv.ru:80/RussiaToday/index.m3u8
