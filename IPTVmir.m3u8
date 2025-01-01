@@ -792,6 +792,8 @@ http://fl2.moveonjoy.com/CNBC/index.m3u8
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="bbc" tvg-logo="https://iptvx.one/picons/bbc.png" group-title="Информационные",BBC World News (EDTV 576p)
 http://stream2.cinerama.uz/1251/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://iptvx.one/picons/bloomberg.png" group-title="Информационные",Bloomberg (HD)
+http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews (HD)
 https://stream01.vnet.am/Channel_119/mono.m3u8
 #EXTINF:-1 tvg-id="fox-news-us" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="Информационные",Fox News Channel (HD)
