@@ -802,8 +802,8 @@ https://stream01.vnet.am/Channel_119/mono.m3u8
 http://cdn1host.online:2999/live/venomj/EmoOmOskzq/267.m3u8
 #EXTINF:-1 tvg-id="Fox.Business.us" tvg-logo="https://foxcareers.com/Content/img2019/OurBrands/logo-lg-fox-business-network.png" group-title="Информационные",Fox Business (HD)
 http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
-#EXTINF:-1 tvg-id="france-24" tvg-logo="https://iptvx.one/picons/france24.png" group-title="Информационные",France 24 (HD)
-http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="France.24.English.us" tvg-logo="https://iptvx.one/picons/france24.png" group-title="Информационные",France 24 English (HD)
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="plex.tv.LiveNOW.from.FOX.plex" tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="Информационные",LiveNOW from FOX (HD)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MSNBC.USA.us" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" group-title="Информационные",MSNBC (HD ready)
