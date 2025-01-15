@@ -89,8 +89,8 @@ http://31.210.208.171:8080/moskva_24/index.m3u8?token=+W2MSER
 http://185.23.80.28:8080/MoskvaDoverie/index.m3u8?token=test
 #EXTINF:-1 tvg-id="pervy-info-by" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" group-title="Информационные",Первый информационный (HD)
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
-#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://iptvx.one/picons/rossia-24.png" group-title="Информационные",Россия 24 (WSVGA)
-https://player.smotrim.ru/iframe/stream/live_id/3d9c7787-a522-4b8b-86a6-b0217fa278a3
+#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://iptvx.one/picons/rossia-24.png" group-title="Информационные",Россия 24 (EDTV 576p)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/spb/russia24-sd/2081200_576p.m3u8
 #EXTINF:-1 tvg-id="rbk" tvg-logo="http://epg.one/img2/743.png" group-title="Информационные",РБК (HD)
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" group-title="Информационные",Соловьев.Live (HD)
