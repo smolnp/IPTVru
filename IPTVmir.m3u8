@@ -772,6 +772,8 @@ http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
 http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
 #EXTINF:-1 tvg-id="espn2-us" tvg-logo="https://epg.iptvx.one/picons/espn2-us.png" group-title="США",ESPN 2 (HD ready)
 http://fl2.moveonjoy.com/ESPN_2/index.m3u8
+#EXTINF:-1 tvg-id="deutsche-welle-ru" tvg-logo="https://epg.iptvx.one/picons/deutsche-welle-ru.png" group-title="Информационные",Deutsche Welle Russia (HD)
+https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews (HD)
 https://stream01.vnet.am/Channel_119/mono.m3u8
 #EXTINF:-1 tvg-id="fox-news-us" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="США",Fox News (HD ready)
