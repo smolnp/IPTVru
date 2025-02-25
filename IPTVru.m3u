@@ -130,8 +130,6 @@ http://135.181.115.81:8000/play/a03x/index.m3u8?token=livetv
 http://stream01.vnet.am/Channel_114/mono.m3u8
 #EXTINF:-1 tvg-id="nicktoons" tvg-logo="https://iptvx.one/picons/nicktoons.png" group-title="Детские",Nicktoons (HD)
 http://stream01.vnet.am/Boomerang/mono.m3u8
-#EXTINF:-1 tvg-id="v-gostiax-u-skazki" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="Детские",В гостях у сказки (EDTV)
-http://109.200.130.123:7537/play/a02m
 #EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" group-title="Детские",Детское кино Int (WVGA)
 https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 tvg-id="detsky-mir" tvg-logo="https://iptvx.one/picons/detsky-mir.png" group-title="Детские",Детский мир (EDTV)
@@ -337,8 +335,6 @@ http://130.193.73.10:8937/play/a02k
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="kinojam2" tvg-logo="https://iptvx.one/picons/kinojam2.png" group-title="Кинозал",Kinojam 2 (HD)
 
-#EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://iptvx.one/picons/kinoliving.png" group-title="Кинозал",KinoLiving (EDTV)
-http://109.200.130.123:7537/play/a02k
 #EXTINF:-1 tvg-id="plan-b" tvg-logo="https://iptvx.one/picons/plan-b.png" group-title="Кинозал",Plan B (HD)
 
 #EXTINF:-1 tvg-id="romance" tvg-logo="https://iptvx.one/picons/romance.png" group-title="Кинозал",Romance (EDTV)
@@ -379,8 +375,6 @@ http://xx001.vivat.live/t-1.0f6f.d/sd/00316/1m/index.m3u8
 http://130.193.73.10:8937/play/a03g
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://iptvx.one/picons/vip-serial.png" group-title="Кинозал",Viju+ serial (HD)
 
-#EXTINF:-1 tvg-id="dorama" tvg-logo="https://iptvx.one/picons/dorama.png" group-title="Кинозал",Дорама (EDTV)
-http://31.210.208.171:8080/dorama/index.m3u8?token=+W2MSER
 #EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="Кинозал",Еврокино (EDTV)
 http://185.50.148.2:7709/Evrokino/index.m3u8
 #EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" group-title="Кинозал",Иллюзион+ (EDTV)
@@ -510,8 +504,6 @@ http://109.200.130.123:7537/play/a02l
 
 #EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные",Animal Planet (HD)
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
-#EXTINF:-1 tvg-id="big-planet" tvg-logo="https://iptvx.one/picons/big-planet.png" group-title="Познавательные",Big Planet (EDTV)
-http://109.200.130.123:7537/play/a02j
 #EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://iptvx.one/picons/discovery-channel.png" group-title="Познавательные",Discovery (HD)
 http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="galaxy-tv" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" group-title="Познавательные",Galaxy TV (EDTV)
@@ -593,8 +585,6 @@ http://xx001.vivat.live/t-1.0f6f.d/sd/00558/1m/index.m3u8
 http://stream01.vnet.am/TLC/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://iptvx.one/picons/viasat-explore.png" group-title="Хобби и увлечения",Viju EXPLORE (EDTV)
 http://xx001.vivat.live/t-1.0f6f.d/sd/00321/1m/index.m3u8
-#EXTINF:-1 tvg-id="world-fashion-channel" tvg-logo="https://iptvx.one/picons/world-fashion-channel.png" group-title="Хобби и увлечения",WFC.TV (HD)
-http://live-3.otcnet.ru/wfcrus/index.m3u8
 #EXTINF:-1 tvg-id="avto24" tvg-logo="https://iptvx.one/picons/avto24.png" group-title="Хобби и увлечения",АВТО 24 (EDTV)
 http://xx001.vivat.live/t-1.0f6f.d/sd/00259/1m/index.m3u8
 #EXTINF:-1 tvg-id="appetitny" tvg-logo="https://epg.iptvx.one/picons/appetitny.png" group-title="Хобби и увлечения",Аппетитный (EDTV)
