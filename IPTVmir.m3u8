@@ -763,9 +763,9 @@ https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews (HD)
 https://stream01.vnet.am/Channel_119/mono.m3u8
 #EXTINF:-1 tvg-id="fox-news-us" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="США",Fox News (HD ready)
-#EXTVLCOPT:http-referrer=https://newembedplay.xyz/
+#EXTVLCOPT:http-referrer=https://www.newslive.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://zekonew.iosplayer.ru/zeko/premium347/mono.m3u8
+https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8
 #EXTINF:-1 tvg-id="fox-business-us" tvg-logo="https://epg.iptvx.one/picons/fox-business-us.png" group-title="США",Fox Business (HD ready)
 http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
 #EXTINF:-1 tvg-id="france24-en" tvg-logo="https://iptvx.one/picons/france24.png" group-title="Информационные",France 24 English (HD ready)
