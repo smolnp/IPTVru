@@ -797,7 +797,9 @@ http://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="newsmax-us" tvg-logo="https://epg.iptvx.one/picons/newsmax-us.png" group-title="США",Newsmax TV (HD)
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="newsnation-us" tvg-logo="https://iptvx.one/picons/newsnation-us.png" group-title="США",NewsNation (HD ready)
-http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium292/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/W0Jvi5o.png" group-title="США",Scripps News (HD ready)
 https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="США",Showtime (HD)
