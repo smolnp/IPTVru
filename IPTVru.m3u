@@ -237,7 +237,7 @@ http://31.148.48.15/Tochka_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Развлекательные",ТНТ4 (EDTV)
 http://31.148.48.15/TNT4/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="Развлекательные",ТНТ (HD)
-http://185.23.80.29:8080/TNT_HD/tracks-v1a1/mono.m3u8?token=test
+http://185.50.148.2:7710/TNT_HD/index.m3u8
 #EXTINF:-1 tvg-id="tnt4-international" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Развлекательные",ТНТ4 Int (EDTV)
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
 #EXTINF:-1 tvg-id="centralnoye-tv" tvg-logo="https://iptvx.one/picons/centralnoye-tv.png" group-title="Развлекательные",Центральное ТВ (EDTV)
