@@ -253,16 +253,18 @@ http://178.212.71.253:8002/play/a00s/index.m3u8
 #EXTINF:-1 tvg-id="yu" tvg-logo="https://iptvx.one/picons/yu.png" group-title="Развлекательные",Ю (EDTV)
 http://92.53.64.197:5050/yu/video.m3u8?token=m3VIth-Rou_bM1
 
-#EXTINF:-1 tvg-id="1hd" tvg-logo="https://iptvx.one/picons/1hd-music.png" group-title="Музыкальные",1HD (HD)
-
+#EXTINF:-1 tvg-id="1hd" tvg-logo="https://iptvx.one/picons/1hd-music.png" group-title="Музыкальные",1HD (WSVGA)
+https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
 #EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://iptvx.one/picons/bridge-tv.png" group-title="Музыкальные",Bridge (EDTV)
 http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic (EDTV)
 http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe (HD)
-
+#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe (EDTV)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/I5DDxjX60es_5lGX3V9wBQ,1742504413/streaming/br_delux/324/1/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (EDTV)
-
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/W6DCPczjYLZb3398Pd0F8w,1742504413/streaming/br_rock/324/1/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" group-title="Музыкальные",Bridge Hits (EDTV)
 http://45.159.74.14/NanoTv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV)
@@ -272,7 +274,7 @@ http://stream01.vnet.am/Channel_115/mono.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="o2tv" tvg-logo="https://iptvx.one/picons/o2tv.png" group-title="Музыкальные",О!2 (EDTV)
-
+http://91.205.199.3/o2tv/index.m3u8
 #EXTINF:-1 tvg-id="retro-music-cz" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" group-title="Музыкальные",Retro Music TV (WSVGA)
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" group-title="Музыкальные",Russian MusicBox (HD ready)
@@ -285,8 +287,9 @@ https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="Музыкальные",Жар-Птица (EDTV)
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-#EXTINF:-1  tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные",Жара (EDTV)
-
+#EXTINF:-1  tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные",Жара (D1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+https://mhd128.iptv2022.com/p/J16YHXacDI7WDpSwxU1OMQ,1742504414/streaming/myhouse/324/1/index.m3u8
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://iptvx.one/picons/maydan.png" group-title="Музыкальные",Майдан (EDTV)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/KZN/CH_MAIDAN.m3u8
