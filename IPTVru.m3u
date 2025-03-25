@@ -261,11 +261,11 @@ http://31.173.165.29:8000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (EDTV)
 http://31.173.165.29:8000/play/a01v/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" group-title="Музыкальные",Bridge Hits (EDTV)
-
+http://178.212.71.253:8000/play/134/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV)
 http://31.173.165.29:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер (EDTV)
-
+http://178.212.71.253:8000/play/142/index.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" group-title="Музыкальные",Clubbing TV (HD ready)
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="o2tv" tvg-logo="https://iptvx.one/picons/o2tv.png" group-title="Музыкальные",О!2 (EDTV)
@@ -299,26 +299,31 @@ http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
 https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="Кинозал",.black (EDTV)
-http://91.205.199.3/black/index.m3u8
+http://188.190.222.53/Sony_turbo/index.m3u8
 #EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="Кинозал",.red (EDTV)
-http://91.205.199.3/red/index.m3u8
+http://178.124.152.238:8088/sony
 #EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://iptvx.one/picons/sony-scifi.png" group-title="Кинозал",.sci-fi (EDTV)
 http://130.193.73.10:8937/play/a02q
+#EXTINF:-1 tvg-logo="https://online-tv.live/images/1filmax.png" group-title="Кинозал",1FILMAX Фантастика (FWVGA)
+http://hls.goodgame.ru:8080/hls/204708.m3u8
+#EXTINF:-1 tvg-logo="https://online-tv.live/images/2filmax.png" group-title="Кинозал",2FILMAX Комедия (FWVGA)
+http://hls.goodgame.ru:8080/hls/204717.m3u8
+#EXTINF:-1 tvg-id="312-kino" tvg-logo="https://iptvx.one/picons/312-kino.png" group-title="Кинозал",312 Кино (EDTV)
+http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #EXTINF:-1 tvg-id="amedia1" tvg-logo="https://iptvx.one/picons/amedia1.png" group-title="Кинозал",Amedia 1 (EDTV)
-http://65.21.85.175:8000/play/a00g/index.m3u8?token=livetv
-#EXTINF:-1 tvg-id="amedia2" tvg-logo="https://iptvx.one/picons/amedia2.png" group-title="Кинозал",Amedia 2 (EDTV)
-
-#EXTINF:-1 tvg-id="amedia-hit" tvg-logo="https://iptvx.one/picons/amedia-hit.png" group-title="Кинозал",Amedia Hit (HD)
-http://91.205.199.3/amediahithd/index.m3u8
+http://130.193.73.10:8937/play/a02m
+#EXTINF:-1 tvg-id="amedia2" tvg-logo="https://iptvx.one/picons/amedia2.png" group-title="Кинозал",Amedia 2 (FWVGA)
+http://ott-cdn.ucom.am/s33/04.m3u8
+#EXTINF:-1 tvg-id="amedia-hit" tvg-logo="https://iptvx.one/picons/amedia-hit.png" group-title="Кинозал",Amedia Hit (EDTV)
+http://31.173.165.29:8000/play/a053/index.m3u8
 #EXTINF:-1 tvg-id="amedia-premium" tvg-logo="https://iptvx.one/picons/amedia-premium.png" group-title="Кинозал",Amedia Premium (HD)
-http://91.205.199.3/amediapremiumhd/index.m3u8
+
 #EXTINF:-1 tvg-id="bollywood-hd" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" group-title="Кинозал",BollywooD (HD)
-http://arbiter.bolshoe.tv/?path=abr1/BollywoodHD/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDc6NTg6MTkgQU0maGFzaF92YWx1ZT1LNms2WUt5alhXS0xzNFB4dXNZL2ZRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://130.193.73.10:8937/play/a02l
 #EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://iptvx.one/picons/cinema.png" group-title="Кинозал",Cinema (EDTV)
 http://catchup.videoline.ru/cinema/index.m3u8
 #EXTINF:-1 tvg-id="timeless-dizi" tvg-logo="https://iptvx.one/picons/timeless-dizi.png" group-title="Кинозал",Dizi (EDTV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/MdbXsHJlf-4OgU_sTVxxRA,1742504407/streaming/dizitv/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://iptvx.one/picons/fanhd.png" group-title="Кинозал",FAN (EDTV)
 http://109.200.130.123:7537/play/a02a
 #EXTINF:-1 tvg-id="fanhd" tvg-logo="https://iptvx.one/picons/fanhd.png" group-title="Кинозал",FAN (HD)
@@ -329,40 +334,22 @@ http://130.193.73.10:8937/play/a02r
 http://130.193.73.10:8937/play/a03s
 #EXTINF:-1 tvg-id="filmbox-arthouse" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" group-title="Кинозал",Filmbox Arthouse (EDTV)
 http://130.193.73.10:8937/play/a03t
-#EXTINF:-1 tvg-id="fox" tvg-logo="https://iptvx.one/picons/fox.png" group-title="Кинозал",FX (EDTV)
-
-#EXTINF:-1 tvg-id="foxlife" tvg-logo="https://iptvx.one/picons/foxlife.png" group-title="Кинозал",FX Life (EDTV)
-
 #EXTINF:-1 tvg-id="hollywood" tvg-logo="https://iptvx.one/picons/hollywood.png" group-title="Кинозал",HollywooD (EDTV)
 http://109.200.130.123:7537/play/a02g
 #EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="Кинозал",HollywooD (HD)
 http://130.193.73.10:8937/play/a02k
 #EXTINF:-1 tvg-id="kino-24" tvg-logo="https://iptvx.one/picons/kino-24.png" group-title="Кинозал",Kino 24 (EDTV)
 https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-#EXTINF:-1 tvg-id="kinojam2" tvg-logo="https://iptvx.one/picons/kinojam2.png" group-title="Кинозал",Kinojam 2 (HD)
-
-#EXTINF:-1 tvg-id="plan-b" tvg-logo="https://iptvx.one/picons/plan-b.png" group-title="Кинозал",Plan B (HD)
-
 #EXTINF:-1 tvg-id="romance" tvg-logo="https://iptvx.one/picons/romance.png" group-title="Кинозал",Romance (EDTV)
 http://130.193.73.10:8937/play/a01o
-#EXTINF:-1 tvg-id="scream" tvg-logo="https://iptvx.one/picons/scream.png" group-title="Кинозал",Scream (EDTV)
-
-#EXTINF:-1 tvg-id="suspense" tvg-logo="https://iptvx.one/picons/suspense.png" group-title="Кинозал",Suspense (EDTV)
-
 #EXTINF:-1 tvg-id="shot-tv" tvg-logo="https://iptvx.one/picons/shot-tv.png" group-title="Кинозал",SHOT TV (EDTV)
 http://109.200.130.123:7537/play/a02b
 #EXTINF:-1 tvg-id="start-world" tvg-logo="https://iptvx.one/picons/start-world.png" group-title="Кинозал",Start World (EDTV)
 http://95.156.76.230:33001/udp/230.4.34.66:1234
-
-#EXTINF:-1 tvg-id="trashtv" tvg-logo="https://iptvx.one/picons/trashtv.png" group-title="Кинозал",Trash (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/hPEUx2lFBd6YB7piWUoJvw,1742504408/streaming/trash/324/1/tracks-v5a1/mono.m3u8
-#EXTINF:-1tvg-id="vip-comedy-cee" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" group-title="Кинозал",Viasat Kino Comedy (HD ready)
-
+#EXTINF:-1 tvg-id="trashtv" tvg-logo="https://iptvx.one/picons/trashtv.png" group-title="Кинозал",Trash (HD ready)
+https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
 #EXTINF:-1 tvg-id="tv1000-worldkino" tvg-logo="https://iptvx.one/picons/tv1000-worldkino.png" group-title="Кинозал",Viasat Kino World (EDTV)
 https://wowza1.leisertv.com/live/tv1000russiakino.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="vhs-ka" tvg-logo="https://iptvx.one/picons/vhs-ka.png" group-title="Кинозал",VHS-ка (HD)
-
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="https://iptvx.one/picons/tv1000.png" group-title="Кинозал",Viju TV1000 (EDTV)
 http://130.193.73.10:8937/play/a02s
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://iptvx.one/picons/tv1000-action.png" group-title="Кинозал",Viju TV1000 Action (EDTV)
@@ -370,41 +357,35 @@ http://130.193.73.10:8937/play/a02t
 #EXTINF:-1 tvg-id="viju-tv1000-romantica" tvg-logo="https://iptvx.one/picons/viju-tv1000-romantica.png" group-title="Кинозал",Viju TV1000 romantica (HD)
 https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=dGl6AFJnDNX9roNQ_jM59g&e=1743018185&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
 #EXTINF:-1 tvg-id="viju-tv1000-novella" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="Кинозал",viju TV1000 Новелла (HD)
-https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Novella_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=2ZgxAXejNwn3VpWugDjOYA&e=1742618293&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="Кинозал",Viju+ comedy (HD)
-http://arbiter.bolshoe.tv/?path=abr2/tv_1000_comedy_hd/71/copy/playlist.m3u8&wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDc6NTg6MTkgQU0maGFzaF92YWx1ZT1LNms2WUt5alhXS0xzNFB4dXNZL2ZRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="Кинозал",Viju+ megahit (HD)
-http://91.205.199.3/vipmegahit/index.m3u8
+
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="Кинозал",Viju+ premiere (HD)
 http://130.193.73.10:8937/play/a03g
 #EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://iptvx.one/picons/vip-serial.png" group-title="Кинозал",Viju+ serial (HD)
-http://91.205.199.3/vipserialhd/index.m3u8
+
 #EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="Кинозал",Еврокино (EDTV)
-http://91.205.199.3/eurokino/index.m3u8
+http://109.200.130.123:7537/play/a020
 #EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" group-title="Кинозал",Иллюзион+ (EDTV)
 http://130.193.73.10:8937/play/a02y
-#EXTINF:-1 tvg-id="kamedi" tvg-logo="https://iptvx.one/picons/kamedi.png" group-title="Кинозал",Камеди (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/zN-UYm71QUM4a_bDRucanA,1742504407/streaming/kamedi/324/1/tracks-v5a1/mono.m3u8
 #EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" group-title="Кинозал",Комедия (EDTV)
 http://130.193.73.10:8937/play/a03k
-#EXTINF:-1 tvg-id="komedijnoe-hd" tvg-logo="https://iptvx.one/picons/komedijnoe.png" group-title="Кинозал",Комедийное (HD)
-
 #EXTINF:-1 tvg-id="kineko" tvg-logo="https://iptvx.one/picons/kineko.png" group-title="Кинозал",Кинеко (HD)
 http://130.193.73.10:8937/play/a03d
 #EXTINF:-1 tvg-id="kino-bez-granic" tvg-logo="https://iptvx.one/picons/kino-bez-granic.png" group-title="Кинозал",Кино без границ (EDTV)
-
+http://31.173.165.29:8000/play/a01d/index.m3u8
 #EXTINF:-1 tvg-id="kinosat" tvg-logo="https://iptvx.one/picons/kinosat.png" group-title="Кинозал",Киноман (EDTV)
 http://178.212.71.253:8000/play/66/index.m3u8
 #EXTINF:-1 tvg-id="kino-tv" tvg-logo="https://iptvx.one/picons/kino-tv.png" group-title="Кинозал",Кино ТВ (EDTV)
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://iptvx.one/picons/kinopokaz.png" group-title="Кинозал",Кинопоказ (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/dtMMw4tFtT_uVQdYeMqArg,1742504408/streaming/kinopokaz/324/1/tracks-v5a1/mono.m3u8
+http://65.21.85.175:8000/play/a02a/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="lubimoe-kino" tvg-logo="https://iptvx.one/picons/lubimoe-kino.png" group-title="Кинозал",Любимое кино (EDTV)
-http://91.205.199.3/lubimoekino/index.m3u8
+http://130.193.73.10:8937/play/a037
 #EXTINF:-1 tvg-id="nst" tvg-logo="https://iptvx.one/picons/nst.png" group-title="Кинозал",НСТ (EDTV)
-http://arbiter.bolshoe.tv/?path=streaming/nstv/71/tvrec/playlist.m3u8&&wmsAuthSign=c2VydmVyX3RpbWU9My8yMC8yMDI1IDc6NTg6MTkgQU0maGFzaF92YWx1ZT1LNms2WUt5alhXS0xzNFB4dXNZL2ZRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD03Nzc=
+http://130.193.73.10:8937/play/a03c
 #EXTINF:-1 tvg-id="ostrosiuzhetnoe-hd" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe-hd.png" group-title="Кинозал",Остросюжетное (HD ready)
 
 #EXTINF:-1 tvg-id="premialnoe-hd" tvg-logo="https://iptvx.one/picons/premialnoe-hd.png" group-title="Кинозал",Премиальное (HD)
@@ -414,30 +395,24 @@ http://194.158.218.123:8880/Retrotv/index.m3u8
 #EXTINF:-1 tvg-id="sapfir" tvg-logo="https://iptvx.one/picons/sapfir.png" group-title="Кинозал",Сапфир (EDTV)
 http://135.181.115.81:8000/play/a03f/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="tvxxi" tvg-logo="https://iptvx.one/picons/tvxxi.png" group-title="Кинозал",ТВ-21 (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/3D_FitfV6EPZQDada_64zg,1742504421/streaming/tv_xxi/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="khit-hd" tvg-logo="https://iptvx.one/picons/khit.png" group-title="Кинозал",Хит (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/jVoYZz9I1c3QeflN6uq49Q,1742504407/streaming/hit/324/1/tracks-v5a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-id="bolt-ru" tvg-logo="https://iptvx.one/picons/bolt.png" group-title="Русский кинозал",Bolt (EDTV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/8vNvgtsGgTrfplcyjID8uw,1742504407/streaming/bolt/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="kinojam1" tvg-logo="https://iptvx.one/picons/kinojam1.png" group-title="Русский кинозал",Kinojam 1 (HD)
 
 #EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="Русский кинозал",Star Cinema (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/M7XDaoNmUlk11ayzg1ur0g,1742504407/streaming/star_cinema/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="star-family" tvg-logo="https://iptvx.one/picons/star-family.png" group-title="Русский кинозал",Star Family (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/cQ9Ce4Zac4aX91Umhsy45Q,1742504407/streaming/star_family/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://iptvx.one/picons/start-air.png" group-title="Русский кинозал",Start Air (HD)
 https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV)
 http://91.205.199.3/tv1000ruskoekino/index.m3u8
 #EXTINF:-1 tvg-id="denpobedy" tvg-logo="https://iptvx.one/picons/denpobedy.png" group-title="Русский кинозал",День Победы (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/7mf0UFcU4yQHKOnzussoUQ,1742504407/streaming/den-pobedi/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Русский кинозал",Дом Кино (EDTV)
 http://65.21.85.175:8000/play/a00m/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="Русский кинозал",Дом кино Премиум (EDTV)
@@ -453,11 +428,9 @@ http://91.205.199.3/mirseriala/index.m3u8
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV)
 http://91.205.199.3/mosfilm/index.m3u8
 #EXTINF:-1 tvg-id="nashe-muzhskoe-hd" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" group-title="Русский кинозал",Наше Мужское (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/Vv_xBCnGKxXMV4WW-FWWhw,1742504407/streaming/nashemuzskoe/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="Русский кинозал",Наш кинопоказ (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/YAbTJw_mX7Dlx3PMCDT17Q,1742504407/streaming/nashpokaz/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="ntv-serial" tvg-logo="https://iptvx.one/picons/ntv-serial.png" group-title="Русский кинозал",НТВ Сериал (WSVGA)
 http://cdn2.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="Русский кинозал",НТВ Хит (WSVGA)
@@ -468,8 +441,7 @@ http://91.205.199.3/pobeda/index.m3u8
 #EXTVLCOPT:http-referrer=https://pobeda.tv/
 https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
 #EXTINF:-1 tvg-id="pro-lyubov" tvg-logo="https://iptvx.one/picons/pro-lyubov.png" group-title="Русский кинозал",Про любовь (EDTV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/0aMdOlv0Imtvdy3S3CxEtw,1742504407/streaming/prolubov/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" group-title="Русский кинозал",Русский бестселлер (EDTV)
 http://130.193.73.10:8937/play/a03l
 #EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" group-title="Русский кинозал",Русский детектив (EDTV)
@@ -481,8 +453,6 @@ http://130.193.73.10:8937/play/a03n
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="https://iptvx.one/picons/telekafe.png" group-title="Русский кинозал",Телекафе (EDTV)
 http://45.11.139.43:8555/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" group-title="Русский кинозал",Феникс плюс кино (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/deMMtrHe6I4IeaMjh8vjUg,1742504408/streaming/fenixkino/324/1/tracks-v5a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="extreme-sports" tvg-logo="https://iptvx.one/picons/extreme-sports.png" group-title="Спортивные",Extreme Sports (EDTV)
 http://109.200.130.123:7537/play/a02p
@@ -491,8 +461,7 @@ http://iptv-hls.idc.md:8200/hls/260/live1.m3u8
 #EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="Спортивные",Eurosport 2 (HD)
 
 #EXTINF:-1 tvg-id="fightbox-hd" tvg-logo="https://iptvx.one/picons/fightbox-hd.png" group-title="Спортивные",FightBox (EDTV)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/tCIFxxjPcvH0pFLMtf3d_Q,1742504413/streaming/fightbox/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="viasat-sport" tvg-logo="https://iptvx.one/picons/viasat-sport.png" group-title="Спортивные",Viju+ sport (EDTV)
 http://91.205.199.3/viasatsport/index.m3u8
 #EXTINF:-1 tvg-id="belarus5" tvg-logo="https://iptvx.one/picons/belarus5hd.png" group-title="Спортивные",Беларусь 5 (HD)
@@ -509,11 +478,9 @@ http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir-basketbola" tvg-logo="https://iptvx.one/picons/mir-basketbola.png" group-title="Спортивные",Мир баскетбола (EDTV)
 http://130.193.73.10:8937/play/a04m
 #EXTINF:-1 tvg-id="footbolny" tvg-logo="https://iptvx.one/picons/footbolny.png" group-title="Спортивные",Мяч (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/U6ZIJSCPw2iVOOdcyj20bA,1742504412/streaming/footbolniyhd/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="start" tvg-logo="https://iptvx.one/picons/start.png" group-title="Спортивные",Старт (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/4u9qHA0IsesmYI693qhCCA,1742504413/streaming/start/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="start-triumf" tvg-logo="https://iptvx.one/picons/start-triumf.png" group-title="Спортивные",Старт Триумф (HD ready)
 https://bl.webcaster.pro/media/playlist/free_672d700f2f9510be660253786e4406fe_hd/33_85479982/1080p/4eaec8986e2012fb936478856fbf3b4b/4818731006.m3u8?live=15&ref=https://tvstart.ru/ru/pages/start-triumph/
 #EXTINF:-1 tvg-id="tancuj" tvg-logo="https://iptvx.one/picons/tancuj.png" group-title="Спортивные",Танцуй! (EDTV)
@@ -521,8 +488,7 @@ http://178.212.71.253:8000/play/81/index.m3u8
 #EXTINF:-1 tvg-id="ufc" tvg-logo="https://iptvx.one/picons/ufc.png" group-title="Спортивные",Удар (HD)
 https://tv.movielab.pro/4111/video.m3u8?token=8afcf7e4630ec38760cea028f1b6117859428047-b33b0717353a7fe5872631e3da679823-1742543600-1742457200
 #EXTINF:-1 tvg-id="football-ru" tvg-logo="https://iptvx.one/picons/football-ru.png" group-title="Спортивные",Футбол (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/sBKQINmLq7BJPRJ9GKU7eQ,1742504421/streaming/footbal/324/1/tracks-v5a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-id="animal-planet-eu" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" group-title="Познавательные",Animal Planet (EDTV)
 http://135.181.115.81:8000/play/a03i/index.m3u8?token=livetv
@@ -567,8 +533,7 @@ https://livetv.mylifeisgood.net.ru/channels/1c5442c0461e5186126aaba26edd6857.m3u
 #EXTINF:-1 tvg-id="belarus3" tvg-logo="https://iptvx.one/picons/belarus3hd.png" group-title="Познавательные",Беларусь 3 (HD)
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" tvg-logo="https://iptvx.one/picons/v-mire-zhivotnyx.png" group-title="Познавательные",В мире животных (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/ZMTS3cuyNX5boWk54E1HyQ,1742504411/streaming/animalshd/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="voprosy-i-otvety" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" group-title="Познавательные",Вопросы и ответы (EDTV)
 http://178.212.71.253:8000/play/97/index.m3u8
 #EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://iptvx.one/picons/ege-tv.png" group-title="Познавательные",ЕГЭ ТВ (EDTV)
@@ -578,8 +543,7 @@ http://130.193.73.10:8937/play/a01m
 #EXTINF:-1 tvg-id="zhivaya-priroda" tvg-logo="https://iptvx.one/picons/zhivaya-priroda.png" group-title="Познавательные",Живая Природа (HD)
 https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
 #EXTINF:-1 tvg-id="zootv" tvg-logo="https://iptvx.one/picons/zootv.png" group-title="Познавательные",Зоо ТВ (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/YHLj58F88pNW9wWkAV5PQQ,1742504411/streaming/zoo/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="istoria" tvg-logo="https://iptvx.one/picons/istoria.png" group-title="Познавательные",История (EDTV)
 http://109.200.130.123:7537/play/a025
 #EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные",Наука (EDTV)
@@ -595,8 +559,7 @@ http://194.143.148.28:8080/Nauka20/mpegts
 #EXTINF:-1 tvg-id="morskoy" tvg-logo="https://iptvx.one/picons/morskoy.png" group-title="Познавательные",Моя стихия (EDTV)
 http://109.200.130.123:7537/play/a02f
 #EXTINF:-1 tvg-id="eureka-hd" tvg-logo="https://iptvx.one/picons/kosmichesky.png" group-title="Познавательные",Первый Космический (HD)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
-https://mhd128.iptv2022.com/p/6qughm0HosaYN6DbQ7BJIg,1742504411/streaming/eurekahd/324/1/tracks-v5a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="poexali" tvg-logo="https://iptvx.one/picons/poexali.png" group-title="Познавательные",Поехали! (EDTV)
 http://91.247.68.229:8000/play/Poehali/index.m3u8
 #EXTINF:-1 tvg-id="prosveschenie" tvg-logo="https://iptvx.one/picons/prosveschenie.png" group-title="Познавательные",Просвещение (SDTV)
