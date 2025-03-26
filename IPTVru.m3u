@@ -255,11 +255,11 @@ http://91.247.68.229:8000/play/eee/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv" tvg-logo="https://iptvx.one/picons/bridge-tv.png" group-title="Музыкальные",Bridge (EDTV)
 http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic (EDTV)
-http://31.173.165.29:8000/play/a01u/index.m3u8
+http://178.212.71.253:8000/play/135/index.m3u8
 #EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe (EDTV)
 http://31.173.165.29:8000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock (EDTV)
-http://31.173.165.29:8000/play/a01v/index.m3u8
+http://178.212.71.253:8000/play/101/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" group-title="Музыкальные",Bridge Hits (EDTV)
 http://178.212.71.253:8000/play/134/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит (EDTV)
@@ -401,20 +401,18 @@ http://135.181.115.81:8000/play/a03f/index.m3u8?token=livetv
 
 #EXTINF:-1 tvg-id="bolt-ru" tvg-logo="https://iptvx.one/picons/bolt.png" group-title="Русский кинозал",Bolt (EDTV)
 
-#EXTINF:-1 tvg-id="kinojam1" tvg-logo="https://iptvx.one/picons/kinojam1.png" group-title="Русский кинозал",Kinojam 1 (HD)
-
 #EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="Русский кинозал",Star Cinema (HD)
 
 #EXTINF:-1 tvg-id="star-family" tvg-logo="https://iptvx.one/picons/star-family.png" group-title="Русский кинозал",Star Family (HD)
 
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://iptvx.one/picons/start-air.png" group-title="Русский кинозал",Start Air (HD)
-https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV)
-http://91.205.199.3/tv1000ruskoekino/index.m3u8
-#EXTINF:-1 tvg-id="denpobedy" tvg-logo="https://iptvx.one/picons/denpobedy.png" group-title="Русский кинозал",День Победы (HD)
 
-#EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Русский кинозал",Дом Кино (EDTV)
-http://65.21.85.175:8000/play/a00m/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" group-title="Русский кинозал",Viju TV1000 Русское (EDTV)
+http://130.193.73.10:8937/play/a02u
+#EXTINF:-1 tvg-id="denpobedy" tvg-logo="https://iptvx.one/picons/denpobedy.png" group-title="Русский кинозал",День Победы (HD ready)
+https://livetv.mylifeisgood.net.ru/channels/dcad9e4e7150ef14312ec85b9f2a002e.m3u8
+#EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Русский кинозал",Дом Кино (WSVGA)
+https://streaming.thestream.cyou/live/44-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="Русский кинозал",Дом кино Премиум (EDTV)
 
 #EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="Русский кинозал",Дом кино Премиум (HD)
@@ -424,9 +422,9 @@ http://65.21.85.175:8000/play/a00m/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-logo="https://iptvx.one/picons/kino1int-tviksel.png" group-title="Русский кинозал",Кино 1 Int (WVGA)
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="Русский кинозал",Мир сериала (EDTV)
-http://91.205.199.3/mirseriala/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (EDTV)
-http://91.205.199.3/mosfilm/index.m3u8
+http://188.190.222.53/Mir_seriala/index.m3u8
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Русский кинозал",Мосфильм. Золотая коллекция (HD)
+http://31.184.194.43:8080/3/index.m3u8
 #EXTINF:-1 tvg-id="nashe-muzhskoe-hd" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" group-title="Русский кинозал",Наше Мужское (HD)
 
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="Русский кинозал",Наш кинопоказ (HD)
@@ -436,7 +434,7 @@ http://cdn2.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="Русский кинозал",НТВ Хит (WSVGA)
 http://cdn2.ntv.ru/th_hit/playlist.m3u8
 #EXTINF:-1 tvg-id="pobeda" tvg-logo="https://iptvx.one/picons/pobeda.png" group-title="Русский кинозал",Победа (EDTV)
-http://91.205.199.3/pobeda/index.m3u8
+http://130.193.73.10:8937/play/a03h
 #EXTINF:-1 tvg-id="pobeda" tvg-logo="https://iptvx.one/picons/pobeda.png" group-title="Русский кинозал",Победа (HD ready)
 #EXTVLCOPT:http-referrer=https://pobeda.tv/
 https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
@@ -451,8 +449,9 @@ http://192.166.144.101:8000/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://iptvx.one/picons/russky-roman.png" group-title="Русский кинозал",Русский роман (EDTV)
 http://130.193.73.10:8937/play/a03n
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="https://iptvx.one/picons/telekafe.png" group-title="Русский кинозал",Телекафе (EDTV)
-http://45.11.139.43:8555/telekafe/index.m3u8
+http://130.193.73.10:8937/play/a03u
 #EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" group-title="Русский кинозал",Феникс плюс кино (HD)
+
 
 #EXTINF:-1 tvg-id="extreme-sports" tvg-logo="https://iptvx.one/picons/extreme-sports.png" group-title="Спортивные",Extreme Sports (EDTV)
 http://109.200.130.123:7537/play/a02p
