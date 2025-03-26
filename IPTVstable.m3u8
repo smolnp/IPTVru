@@ -587,11 +587,11 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://iptvx.one/picons/viasat-explore.png" group-title="Хобби и увлечения",Viju EXPLORE (EDTV)
 
 #EXTINF:-1 tvg-id="avto24" tvg-logo="https://iptvx.one/picons/avto24.png" group-title="Хобби и увлечения",АВТО 24 (EDTV)
-
+http://178.124.152.238:8088/auto24
 #EXTINF:-1 tvg-id="appetitny" tvg-logo="https://epg.iptvx.one/picons/appetitny.png" group-title="Хобби и увлечения",Аппетитный (EDTV)
-http://185.50.148.2:7703/Motorsport/index.m3u8
+
 #EXTINF:-1 tvg-id="bobior" tvg-logo="https://iptvx.one/picons/bober.png" group-title="Хобби и увлечения",Бобёр (EDTV)
-http://178.212.71.253:8002/play/a00m/index.m3u8
+
 #EXTINF:-1 tvg-id="glazami-turista" tvg-logo="https://iptvx.one/picons/glazami-turista.png" group-title="Хобби и увлечения",Глазами туриста (HD)
 #EXTVLCOPT:http-user-agent=SmartTV
 https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
@@ -602,7 +602,7 @@ http://130.193.73.10:8937/play/a01q
 #EXTINF:-1 tvg-id="domashnie-zhivotnye" tvg-logo="https://iptvx.one/picons/domashnie-zhivotnye.png" group-title="Хобби и увлечения",Домашние Животные (EDTV)
 http://130.193.73.10:8937/play/a02d
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="https://iptvx.one/picons/dikaya-oxota-hd.png" group-title="Хобби и увлечения",Дикая Охота (HD)
-http://stream01.vnet.am/Channel_127/mono.m3u8
+
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="https://iptvx.one/picons/dikaya-rybalka-hd.png" group-title="Хобби и увлечения",Дикая Рыбалка (HD)
 http://130.193.73.10:8937/play/a04p
 #EXTINF:-1 tvg-id="dikiy" tvg-logo="https://iptvx.one/picons/dikiy.png" group-title="Хобби и увлечения",Дикий (EDTV)
@@ -616,7 +616,7 @@ http://130.193.73.10:8937/play/a04s
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="Хобби и увлечения",Загородная Жизнь (EDTV)
 http://185.57.68.33/40/mpegts
 #EXTINF:-1 tvg-id="zagorodny" tvg-logo="https://iptvx.one/picons/zagorodny.png" group-title="Хобби и увлечения",Загородный (EDTV)
-http://45.159.74.14/DTX/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 tvg-id="zagorodny-int" tvg-logo="https://iptvx.one/picons/zagorodny-int.png" group-title="Хобби и увлечения",Загородный Int (HD ready)
 
 #EXTINF:-1 tvg-id="zdorovoe-tv" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" group-title="Хобби и увлечения",Здоровое ТВ (EDTV)
