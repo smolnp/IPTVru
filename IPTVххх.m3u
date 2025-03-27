@@ -711,6 +711,17 @@ http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="insit-tv" tvg-logo="https://iptvx.one/picons/insit-tv.png" group-title="Региональные",ЮУрГУ (Челябинск) (HD ready)
 http://tvrlive.susu.ru/1800k/playlist.m3u8
 
+#EXTINF:-1 tvg-id="brazzers-tv-europe" tvg-logo="https://iptvx.one/picons/brazzers.png" group-title="Для взрослых",Brazzers TV Europe (HD)
+http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="dorcel" tvg-logo="https://iptvx.one/picons/dorcel.png" group-title="Для взрослых",Dorcel TV (HD)
+http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="eroxxxhd" tvg-logo="https://iptvx.one/picons/eroxxxhd.png" group-title="Для взрослых",Eroxxx (HD)
+http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="extasytv" tvg-logo="https://iptvx.one/picons/extasytv.png" group-title="Для взрослых",Extasy (HD)
+http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="hustler-hd" tvg-logo="https://iptvx.one/picons/hustler-hd.png" group-title="Для взрослых",Hustler (HD)
+https://89.187.167.247/hustler.stream/chunks.m3u8
+
 #EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://iptvx.one/picons/avtoradio.png" group-title="Радио",Авторадио
 http://ic7.101.ru:8000/v3_1
 #EXTINF:-1 tvg-id="dorozhnoe-radio" tvg-logo="https://iptvx.one/picons/dorozhnoe-radio.png" group-title="Радио",Дорожное Радио
