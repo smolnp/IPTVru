@@ -760,8 +760,18 @@ https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_35
 http://fl2.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
 #EXTINF:-1 tvg-id="bbc" tvg-logo="https://iptvx.one/picons/bbc.png" group-title="США",BBC World News North America (HD)
 http://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
-#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://iptvx.one/picons/bloomberg.png" group-title="США",Bloomberg (HD ready)
-http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="bein-sport-us" tvg-logo="https://iptvx.one/picons/bein-sport-us.png" group-title="США",BEIN SPORTS (HD ready)
+http://fl2.moveonjoy.com/BEIN_SPORTS/index.m3u8
+#EXTINF:-1 tvg-id="bet-jams-us" tvg-logo="https://iptvx.one/picons/bet-jams-us.png" group-title="США",BET Jams (EDTV)
+http://fl3.moveonjoy.com/BET_Jams/index.m3u8
+#EXTINF:-1 tvg-id="bet-her-us" tvg-logo="https://iptvx.one/picons/bet-her-us.png" group-title="США",BET Her (HD ready)
+http://fl2.moveonjoy.com/BET_HER/index.m3u8
+#EXTINF:-1 tvg-id="bet-soul-us" tvg-logo="https://iptvx.one/picons/bet-soul-us.png" group-title="США",BET Soul (HVGA)
+http://fl2.moveonjoy.com/BET_SOUL/index.m3u8
+#EXTINF:-1 tvg-id="bet-gospel-us" tvg-logo="https://iptvx.one/picons/bet-gospel-us.png" group-title="США",BET Gospel (HD ready)
+http://fl2.moveonjoy.com/BET_GOSPEL/index.m3u8
+#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://iptvx.one/picons/bloomberg.png" group-title="США",Bloomberg (EU) (HD ready)
+https://www.bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cinemax-us.png" group-title="США",CINEMAX EAST (HD ready)
 http://fl2.moveonjoy.com/CINEMAX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/cinemax-moremax-us.png?raw=true" group-title="США",CINEMAX MOREMAX (EDTV)
@@ -770,6 +780,10 @@ http://fl3.moveonjoy.com/CINEMAX_MOREMAX/index.m3u8
 https://v2.thetvapp.to/hls/ESPN/index.m3u8
 #EXTINF:-1 tvg-id="espn2-us" tvg-logo="https://epg.iptvx.one/picons/espn2-us.png" group-title="США",ESPN 2 (HD ready)
 http://fl2.moveonjoy.com/ESPN_2/index.m3u8
+#EXTINF:-1 tvg-id="espn-news-us" tvg-logo="https://epg.iptvx.one/picons/espn-news-us.png" group-title="США",ESPN NEWS (HD ready)
+http://fl2.moveonjoy.com/ESPN_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="espn-u-us" tvg-logo="https://epg.iptvx.one/picons/espn-u-us.png" group-title="США",ESPN U (HD ready)
+http://fl2.moveonjoy.com/ESPN_U/index.m3u8
 #EXTINF:-1 tvg-id="deutsche-welle-ru" tvg-logo="https://epg.iptvx.one/picons/deutsche-welle-ru.png" group-title="Информационные",Deutsche Welle Russia (HD)
 https://dwamdstream110.akamaized.net/hls/live/2017971/dwstream110/index.m3u8
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews (HD)
@@ -781,7 +795,7 @@ http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
 #EXTINF:-1 tvg-id="france24-en" tvg-logo="https://iptvx.one/picons/france24.png" group-title="Информационные",France 24 English (HD ready)
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="fx-sports-1-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" group-title="США",Fox Sports 1 (HD ready)
-http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
+https://v3.thetvapp.to/hls/FoxSports1/index.m3u8
 #EXTINF:-1 tvg-id="fx-sports-2-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-2-us.png" group-title="США",Fox Sports 2 (HD ready)
 https://v18.thetvapp.to/hls/FoxSports2/index.m3u8
 #EXTINF:-1 tvg-id="golf-cnl-us" tvg-logo="https://epg.iptvx.one/picons/golf-cnl-us.png" group-title="США",Golf Channel (HD)
@@ -800,6 +814,10 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 https://v17.thetvapp.to/hls/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="mlb-network-us" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" group-title="США",MLB Network (HD ready)
 http://fl2.moveonjoy.com/MLB_NETWORK/index.m3u8
+#EXTINF:-1 tvg-id="mtv-us" tvg-logo="https://epg.iptvx.one/picons/mtv-us.png" group-title="США",MTV (HD ready)
+https://v14.thetvapp.to/hls/MTVEast/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="mtv-2-us" tvg-logo="https://epg.iptvx.one/picons/mtv-2-us.png" group-title="США",MTV 2 (HD ready)
+https://v14.thetvapp.to/hls/mtv-2-east/index.m3u8
 #EXTINF:-1 tvg-id="nba-tv-us" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" group-title="США",NBA TV (HD ready)
 https://v4.thetvapp.to/hls/NBATV/index.m3u8
 #EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1039.png" group-title="США",NBC News NOW (HD)
@@ -812,8 +830,12 @@ http://fl2.moveonjoy.com/NHL_NETWORK/index.m3u8
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="newsnation-us" tvg-logo="https://iptvx.one/picons/newsnation-us.png" group-title="США",NewsNation (HD ready)
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTINF:-1 tvg-id="revolt-tv-us" tvg-logo="https://iptvx.one/picons/revolt-tv-us.png" group-title="США",Revolt (HD)
+http://fl2.moveonjoy.com/REVOLT/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/W0Jvi5o.png" group-title="США",Scripps News (HD ready)
 https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
+#EXTINF:-1 tvg-id="spectrum-sportsnet-us" tvg-logo="https://iptvx.one/picons/spectrum-sportsnet-us.png" group-title="США",Spectrum SportsNet (HD ready)
+https://v3.thetvapp.to/hls/spectrum-sportsnet/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="США",Showtime (HD)
 http://fl2.moveonjoy.com/SHOWTIME/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="США",Showtime 2 (HD ready)
@@ -828,6 +850,8 @@ https://v12.thetvapp.to/hls/StarzEast/index.m3u8
 http://fl5.moveonjoy.com/STARZ_ENCORE_CLASSIC/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11867_dark_360w_270h.png" group-title="США",TBS (HD ready)
 http://fl1.moveonjoy.com/TBS/index.m3u8
+#EXTINF:-1 tvg-id="tennis-cnl-us" tvg-logo="https://iptvx.one/picons/tennis-cnl-us.png" group-title="США",The Tennis Channel (HD ready)
+https://v16.thetvapp.to/hls/TennisChannel/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s11164_dark_360w_270h.png" group-title="США",TNT (HD ready)
 http://fl2.moveonjoy.com/TNT/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/37K0AZX.png" group-title="США",USA TODAY (HD ready)
