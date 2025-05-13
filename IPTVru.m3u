@@ -189,7 +189,7 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 #EXTINF:-1 tvg-id="domashny" tvg-logo="https://iptvx.one/picons/domashny.png" group-title="Развлекательные",Домашний (HD)
-
+http://list.onlinetv-sochi.ru:8080/live/view5mod.php?name_id=domashny
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://iptvx.one/picons/domashny-int.png" group-title="Развлекательные",Домашний Int (EDTV)
 http://178.124.152.238:8088/dom
 #EXTINF:-1 tvg-id="zal-suda" tvg-logo="https://iptvx.one/picons/zal-suda.png" group-title="Развлекательные",Зал суда (EDTV)
