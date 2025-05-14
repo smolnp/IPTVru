@@ -836,6 +836,8 @@ http://fl1.moveonjoy.com/TBS/index.m3u8
 https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/37K0AZX.png" group-title="США",USA TODAY (HD ready)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="sky-news-uk" tvg-logo="https://epg.iptvx.one/picons/sky-news-uk.png" group-title="Информационные",Sky News (HD)
+https://jmp2.uk/sam-USBB52000022Q.m3u8
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://iptvx.one/picons/rt-news.png" group-title="Информационные",Russia Today (HD)
 http://cdn-01.bonus-tv.ru:80/RussiaToday/index.m3u8
 #EXTINF:-1 tvg-id="baby-tv" tvg-logo="https://iptvx.one/picons/baby-tv.png" group-title="Детские",Baby TV (EDTV)
