@@ -773,7 +773,7 @@ https://www.bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cinemax-us.png" group-title="США",CINEMAX EAST (HD ready)
 http://fl3.moveonjoy.com/CINEMAX_EAST/index.m3u8
 #EXTINF:-1 tvg-id="espn-us" tvg-logo="https://epg.iptvx.one/picons/espn-us.png" group-title="США",ESPN 1 (HD ready)
-https://ft.fbcdntv247.cfd/memfs/4e731d12-852c-4daa-b950-aa97b5357aba_output_0.m3u8
+http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:-1 tvg-id="espn2-us" tvg-logo="https://epg.iptvx.one/picons/espn2-us.png" group-title="США",ESPN 2 (HD ready)
 http://fl1.moveonjoy.com/ESPN_2/index.m3u8
 #EXTINF:-1 tvg-id="espn-news-us" tvg-logo="https://epg.iptvx.one/picons/espn-news-us.png" group-title="США",ESPN NEWS (HD ready)
@@ -783,15 +783,15 @@ http://fl3.moveonjoy.com/ESPN_U/index.m3u8
 #EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="Информационные",Euronews (HD)
 https://www.youtube.com/euronewsru/live
 #EXTINF:-1 tvg-id="fox-news-us" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="США",Fox News (HD ready)
-https://ft.fbcdntv247.cfd/memfs/f03819b3-64bd-4730-ab94-2469c3d30d81_output_0.m3u8
+http://fl6.moveonjoy.com/FOX_NEWS_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="fox-business-us" tvg-logo="https://epg.iptvx.one/picons/fox-business-us.png" group-title="США",Fox Business (HD ready)
 http://fl3.moveonjoy.com/FOX_Business_Network/index.m3u8
 #EXTINF:-1 tvg-id="france24-en" tvg-logo="https://iptvx.one/picons/france24.png" group-title="Информационные",France 24 English (HD ready)
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="fx-sports-1-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" group-title="США",Fox Sports 1 (HD ready)
-https://ft.fbcdntv247.cfd/memfs/f140c459-525b-4cd6-b3ad-92d274d78903_output_0.m3u8
-#EXTINF:-1 tvg-id="fx-sports-2-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-2-us.png" group-title="США",Fox Sports 2 (HD ready)
-https://ft.fbcdntv247.cfd/memfs/b97d13a4-fd30-434e-9e23-2cbd03687c1f_output_0.m3u8
+http://fl6.moveonjoy.com/FOX_Sports_1/index.m3u8
+#EXTINF:-1 tvg-id="fx-sports-2-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-2-us.png" group-title="США",Fox Sports 2 (360p)
+https://tvpass.org/live/FoxSports2/sd/
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10240_dark_360w_270h.png" group-title="США",HBO (HD ready)
 http://fl3.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16585_dark_360w_270h.png" group-title="США",HBO Family (HD ready)
@@ -799,15 +799,15 @@ http://fl3.moveonjoy.com/HBO_FAMILY/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="США",LiveNOW from FOX (HD)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="msnbc-us" tvg-logo="https://epg.iptvx.one/picons/msnbc-us.png" group-title="США",MSNBC (HD ready)
-https://ft.fbcdntv247.cfd/memfs/020da831-3bb1-4609-8f59-7aa72392ab15_output_0.m3u8
+http://fl6.moveonjoy.com/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="mlb-network-us" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" group-title="США",MLB Network (HD ready)
 http://fl3.moveonjoy.com/MLB_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="mtv-us" tvg-logo="https://epg.iptvx.one/picons/mtv-us.png" group-title="США",MTV (HD ready)
-https://ft.fbcdntv247.cfd/memfs/35f9fae8-6edc-4a88-ab78-65ac05b2b4e1_output_0.m3u8
+http://fl2.moveonjoy.com/MTV/index.m3u8
 #EXTINF:-1 tvg-id="mtv-2-us" tvg-logo="https://epg.iptvx.one/picons/mtv-2-us.png" group-title="США",MTV 2 (HD ready)
 https://fl5.moveonjoy.com/MTV_2/index.m3u8
 #EXTINF:-1 tvg-id="nba-tv-us" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" group-title="США",NBA TV (HD ready)
-https://v4.thetvapp.to/hls/NBATV/index.m3u8
+http://fl6.moveonjoy.com/NBA_TV/index.m3u8
 #EXTINF:-1 tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1039.png" group-title="США",NBC News NOW (HD)
 https://livetv-fa.tubi.video/nbc-news-now/master.m3u8
 #EXTINF:-1 tvg-id="nfl-network-us" tvg-logo="https://epg.iptvx.one/picons/nfl-network-us.png" group-title="США",NFL Network (HD ready)
@@ -841,9 +841,9 @@ http://cdn-01.bonus-tv.ru:80/RussiaToday/index.m3u8
 #EXTINF:-1 tvg-id="baby-tv" tvg-logo="https://iptvx.one/picons/baby-tv.png" group-title="Детские",Baby TV (EDTV)
 http://178.219.128.68:64889/BABYTV
 #EXTINF:-1 tvg-id="" tvg-logo="http://epg.one/img2/423.png" group-title="США",Nickelodeon East (HD ready)
-https://v4.thetvapp.to/hls/NickelodeonEast/index.m3u8
+http://fl6.moveonjoy.com/NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://epg.one/img2/917.png" group-title="США",Nick Jr. East (HD ready)
-https://v1.thetvapp.to/hls/NickJrEast/index.m3u8
+http://fl6.moveonjoy.com/NICK_JR/index.m3u8
 #EXTINF:-1 tvg-id="nick-music" tvg-logo="https://iptvx.one/picons/nick-music.png" group-title="США",NickMusic (WSVGA)
 http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.pl" tvg-logo="http://epg.one/img2/423.png" group-title="Польша",Nickelodeon Poland (EDTV)
