@@ -740,7 +740,7 @@ http://fl3.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://iptvx.one/picons/cnn.png" group-title="США",CNN (HD ready)
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="cnn" tvg-logo="https://iptvx.one/picons/cnn.png" group-title="США",CNN INTERNATIONAL (HD ready)
-http://fl3.moveonjoy.com/CNN_INTERNATIONAL/index.m3u8
+https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="bbc" tvg-logo="https://iptvx.one/picons/bbc.png" group-title="США",BBC World News North America (HD)
 http://fl1.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="bein-sport-us" tvg-logo="https://iptvx.one/picons/bein-sport-us.png" group-title="США",BEIN SPORTS (HD ready)
@@ -776,13 +776,11 @@ https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="fx-sports-1-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" group-title="США",Fox Sports 1 (HD ready)
 http://fl6.moveonjoy.com/FOX_Sports_1/index.m3u8
 #EXTINF:-1 tvg-id="fx-sports-2-us" tvg-logo="https://epg.iptvx.one/picons/fx-sports-2-us.png" group-title="США",Fox Sports 2 (360p)
-https://tvpass.org/live/FoxSports2/sd/
+http://23.237.104.106:8080/USA_FS2/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s10240_dark_360w_270h.png" group-title="США",HBO (HD ready)
 http://fl3.moveonjoy.com/HBO/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s16585_dark_360w_270h.png" group-title="США",HBO Family (HD ready)
 http://fl3.moveonjoy.com/HBO_FAMILY/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="США",LiveNOW from FOX (HD)
-https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="msnbc-us" tvg-logo="https://epg.iptvx.one/picons/msnbc-us.png" group-title="США",MSNBC (HD ready)
 http://fl6.moveonjoy.com/MSNBC/index.m3u8
 #EXTINF:-1 tvg-id="mlb-network-us" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" group-title="США",MLB Network (HD ready)
