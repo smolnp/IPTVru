@@ -670,23 +670,12 @@ http://176.107.219.20:9000/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="Хобби и увлечения",Усадьба
 
 
-#EXTINF:-1 tvg-id="12-omsk" tvg-logo="https://iptvx.one/picons/12-omsk.png" group-title="Региональные",12 Канал HD (Омск)
-
-#EXTINF:-1 tvg-id="sochi-live" tvg-logo="https://iptvx.one/picons/sochi-live.png" group-title="Региональные",Sochi Live HD (Сочи)
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="astraxan24" tvg-logo="https://iptvx.one/picons/astraxan24.png" group-title="Региональные",Астрахань 24 HD
-https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-#EXTINF:-1 tvg-id="bashkortostan24" tvg-logo="https://iptvx.one/picons/bashkortostan24.png" group-title="Региональные",Башкортостан 24 HD
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/ufa/bashkortostan24-hd/index.m3u8
-#EXTINF:-1 tvg-id="brianskaya-gubernia" tvg-logo="https://iptvx.one/picons/brianskaya-gubernia.png" group-title="Региональные",Брянская губерния HD
-https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
-#EXTINF:-1 tvg-id="bst" tvg-logo="https://iptvx.one/picons/bst.png" group-title="Региональные",БСТ HD (Башкортостан)
-http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
-#EXTINF:-1 tvg-id="vektor-24" tvg-logo="https://iptvx.one/picons/vektor-24.png" group-title="Региональные",Вектор 24 HD
-http://136723.edgevideo.ru/streams/136723_657205/720n/index.m3u8
-#EXTINF:-1 tvg-id="vetta24" tvg-logo="https://iptvx.one/picons/vetta24.png" group-title="Региональные",Ветта 24 (Пермь)
-http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
-#EXTINF:-1 tvg-id="volga" tvg-logo="https://iptvx.one/picons/volga.png" group-title="Региональные",Волга HD (Нижний Новгород)
+#EXTINF:-1 tvg-id="novy-vek-tambov" tvg-logo="https://iptvx.one/picons/novy-vek-tambov.png" group-title="Тамбов",Новый Век HD
+http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Tambov/hls/1280x720@2500/playlist.m3u8
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Тамбов",Россия 1
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://iptvx.one/picons/rossia-24.png" group-title="Тамбов",Россия 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia24-sd/index.m3u8
 
 #EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://iptvx.one/picons/avtoradio.png" group-title="Радио",Авторадио
 

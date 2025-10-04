@@ -247,16 +247,16 @@ http://91.247.68.229:8000/play/eee/index.m3u8
 http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" group-title="Музыкальные",Bridge Classic
 
-#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe
+#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="Музыкальные",Bridge Deluxe HD
 
 #EXTINF:-1 tvg-id="bridge-tv-dance" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" group-title="Музыкальные",Bridge Hits
 http://178.212.71.253:8000/play/134/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Bridge Rock
-
+http://91.194.191.241:8081/chid475/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" group-title="Музыкальные",Bridge Русский хит
-
+http://93.125.121.61:8383/play/a02b
 #EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" group-title="Музыкальные",Bridge Шлягер
-
+http://91.194.191.241:8081/chid98/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="clubbing-tv" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" group-title="Музыкальные",Clubbing HD
 
 #EXTINF:-1 tvg-id="mezzo" tvg-logo="https://iptvx.one/picons/mezzo.png" group-title="Музыкальные",Mezzo
@@ -264,7 +264,7 @@ http://178.212.71.253:8000/play/31/index.m3u8
 #EXTINF:-1 tvg-id="muzzone" tvg-logo="https://iptvx.one/picons/muzzone.png" group-title="Музыкальные",Muzzone
 
 #EXTINF:-1 tvg-id="o2tv" tvg-logo="https://iptvx.one/picons/o2tv.png" group-title="Музыкальные",О!2
-
+http://tv.ttk.mx:9059
 #EXTINF:-1 tvg-id="retro-music-cz" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" group-title="Музыкальные",Retro Music
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" group-title="Музыкальные",Trace Urban HD
@@ -276,9 +276,9 @@ https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="Музыкальные",Жар-Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1  tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные",Жара
-
+http://46.8.46.14/Zhara/index.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="Музыкальные",МузТВ
-
+http://tv.ttk.mx:9019
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" group-title="Музыкальные",Музыка Первого
 
 #EXTINF:-1 tvg-id="onemuz" tvg-logo="https://iptvx.one/picons/1muz.png" group-title="Музыкальные",Первый музыкальный Россия
