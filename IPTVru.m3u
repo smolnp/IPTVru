@@ -440,62 +440,22 @@ http://45.11.139.43:8555/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" group-title="Кино и сериалы RU",Феникс плюс кино HD
 http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
 
-#EXTINF:-1 tvg-id="zal-01-tricolor" tvg-logo="https://iptvx.one/picons/zal-01-tricolor.png" group-title="Кинозалы",Зал 1 (Шерлок Холмс)
-
-#EXTINF:-1 tvg-id="zal-02-tricolor" tvg-logo="https://iptvx.one/picons/zal-02-tricolor.png" group-title="Кинозалы",Зал 2 (След)
-
-#EXTINF:-1 tvg-id="zal-03-tricolor" tvg-logo="https://iptvx.one/picons/zal-03-tricolor.png" group-title="Кинозалы",Зал 3 (Ментовские войны)
-
-#EXTINF:-1 tvg-id="zal-05-tricolor" tvg-logo="https://iptvx.one/picons/zal-05-tricolor.png" group-title="Кинозалы",Зал 5 (Солдаты)
-
-#EXTINF:-1 tvg-id="zal-06-tricolor" tvg-logo="https://iptvx.one/picons/zal-06-tricolor.png" group-title="Кинозалы",Зал 6 (Некрасивая подружка)
-
-#EXTINF:-1 tvg-id="zal-07-tricolor" tvg-logo="https://iptvx.one/picons/zal-07-tricolor.png" group-title="Кинозалы",Зал 7 (Три богатыря)
-
-#EXTINF:-1 tvg-id="zal-08-tricolor" tvg-logo="https://iptvx.one/picons/zal-08-tricolor.png" group-title="Кинозалы",Зал 8 (Доказательства вины)
-
-#EXTINF:-1 tvg-id="zal-09-tricolor" tvg-logo="https://epg.iptvx.one/picons/zal-09-tricolor.png" group-title="Кинозалы",Зал 9 (Анна-детективъ)
-
-#EXTINF:-1 tvg-id="zal-10-tricolor" tvg-logo="https://iptvx.one/picons/zal-10-tricolor.png" group-title="Кинозалы",Зал 10 (Советские мультфильмы)
-
-#EXTINF:-1 tvg-id="zal-11-tricolor" tvg-logo="https://iptvx.one/picons/zal-11-tricolor.png" group-title="Кинозалы",Зал 11 (Смешарики)
-
-#EXTINF:-1 tvg-id="zal-12-tricolor" tvg-logo="https://iptvx.one/picons/zal-12-tricolor.png" group-title="Кинозалы",Зал 12 (Комедии)
-
-#EXTINF:-1 tvg-id="zal-17-tricolor" tvg-logo="https://iptvx.one/picons/zal-17-tricolor.png" group-title="Кинозалы",Зал 17 (Боевики HD)
-
-#EXTINF:-1 tvg-id="zal-18-tricolor" tvg-logo="https://iptvx.one/picons/zal-18-tricolor.png" group-title="Кинозалы",Зал 18 (Бодо Бородо)
-
-#EXTINF:-1 tvg-id="zal-19-tricolor" tvg-logo="https://iptvx.one/picons/zal-19-tricolor.png" group-title="Кинозалы",Зал 19 (Ужасы HD)
-
-#EXTINF:-1 tvg-id="zal-20-tricolor" tvg-logo="https://iptvx.one/picons/zal-20-tricolor.png" group-title="Кинозалы",Зал 20 (Исторический HD)
-
-#EXTINF:-1 tvg-id="zal-21-tricolor" tvg-logo="https://iptvx.one/picons/zal-21-tricolor.png" group-title="Кинозалы",Зал 21 (Робозуна)
-
-#EXTINF:-1 tvg-id="zal-22-tricolor" tvg-logo="https://iptvx.one/picons/zal-22-tricolor.png" group-title="Кинозалы",Зал 22 (Детские песенки)
-
-#EXTINF:-1 tvg-id="zal-23-tricolor" tvg-logo="https://iptvx.one/picons/zal-23-tricolor.png" group-title="Кинозалы",Зал 23 (Советские фильмы)
-
-#EXTINF:-1 tvg-id="zal-24-tricolor" tvg-logo="https://iptvx.one/picons/zal-24-tricolor.png" group-title="Кинозалы",Зал 24 (Глухарь)
-
-#EXTINF:-1 tvg-id="zal-25-tricolor" tvg-logo="https://iptvx.one/picons/zal-25-tricolor.png" group-title="Кинозалы",Зал 25 (Горюнов)
-
-#EXTINF:-1 tvg-id="zal-26-tricolor" tvg-logo="https://iptvx.one/picons/zal-26-tricolor.png" group-title="Кинозалы",Зал 26 (Последний Мент)
-
-#EXTINF:-1 tvg-id="zal-27-tricolor" tvg-logo="https://iptvx.one/picons/zal-27-tricolor.png" group-title="Кинозалы",Зал 27 (Улицы разбитых фонарей)
-
-#EXTINF:-1 tvg-id="zal-28-tricolor" tvg-logo="https://iptvx.one/picons/zal-28-tricolor.png" group-title="Кинозалы",Зал 28 (6 кадров)
-
-#EXTINF:-1 tvg-id="zal-29-tricolor" tvg-logo="https://iptvx.one/picons/zal-29-tricolor.png" group-title="Кинозалы",Зал 29 (Женский детектив)
-
-#EXTINF:-1 tvg-id="zal-30-tricolor" tvg-logo="https://iptvx.one/picons/zal-30-tricolor.png" group-title="Кинозалы",Зал 30 (Мажор)
-
-#EXTINF:-1 tvg-id="zal-31-tricolor" tvg-logo="https://iptvx.one/picons/zal-31-tricolor.png" group-title="Кинозалы",Зал 31 (Осторожно, Модерн!)
-
-#EXTINF:-1 tvg-id="zal-32-tricolor" tvg-logo="https://iptvx.one/picons/zal-32-tricolor.png" group-title="Кинозалы",Зал 32 (Бандитский Петербург)
-
-#EXTINF:-1 tvg-id="zal-33-tricolor" tvg-logo="https://iptvx.one/picons/zal-33-tricolor.png" group-title="Кинозалы",Зал 33 (Восток-Запад)
-
+#EXTINF:-1 tvg-id="15plusmusic" tvg-logo="https://taurerassets.xyz/tv_content/images/15plusmusichd.png" group-title="Кинозал Vokka",15+ Music HD
+https://dvr3.vokkavideo.xyz/CRINGETVHD/index.m3u8
+#EXTINF:-1 tvg-id="alphacinema" tvg-logo="https://taurerassets.xyz/tv_content/images/alphacinemahd.png" group-title="Кинозал Vokka",alpha Cinema HD
+https://dvr3.vokkavideo.xyz/ALPHACINEMAHD/index.m3u8
+#EXTINF:-1 tvg-id="alphamoretime" tvg-logo="https://taurerassets.xyz/tv_content/images/alphamoretimehd.png" group-title="Кинозал Vokka",alpha Moretime HD
+https://dvr3.vokkavideo.xyz/ALPHAMORETIMEHD/index.m3u8
+#EXTINF:-1 tvg-id="alphafunny" tvg-logo="https://taurerassets.xyz/tv_content/images/alphafunnyhd.png" group-title="Кинозал Vokka",alpha Funny HD
+https://dvr3.vokkavideo.xyz/ALPHAFUNNYHD/index.m3u8
+#EXTINF:-1 tvg-id="newrussian" tvg-logo="https://taurerassets.xyz/tv_content/images/newrussianhd.png" group-title="Кинозал Vokka",Новый Русский HD
+https://dvr3.vokkavideo.xyz/NEWRUSSIAHD/index.m3u8
+#EXTINF:-1 tvg-id="TV4" tvg-logo="https://taurerassets.xyz/tv_content/images/tv4sd.png" group-title="Кинозал Vokka",TV4
+https://dvr3.vokkavideo.xyz/TV4SD/index.m3u8
+#EXTINF:-1 tvg-id="TV4"  tvg-logo="https://taurerassets.xyz/tv_content/images/tv4hd.png" group-title="Кинозал Vokka",TV4 HD
+https://dvr3.vokkavideo.xyz/TV4HD/index.m3u8
+#EXTINF:-1 tvg-id="HTV" tvg-logo="https://taurerassets.xyz/tv_content/images/htvhd.png" group-title="Кинозал Vokka",HTV HD
+https://dvr3.vokkavideo.xyz/HTVHD/index.m3u8
 
 #EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://iptvx.one/picons/eurosport1.png" group-title="Спортивные",Eurosport 1 HD
 
