@@ -2,24 +2,30 @@
 
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-rock-fm.png" group-title="Рок и альтернатива",ROCK-FM
 http://nashe1.hostingradio.ru/rock-64.mp3
+#EXTINF:-1 tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/990b009f-8418-4e8c-8ed7-b441eb45a95d.jpg" group-title="Рок и альтернатива",Maximum
+http://maximum.hostingradio.ru/maximum96.aacp
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-radio-ultra.png" group-title="Рок и альтернатива",Ultra
 http://nashe1.hostingradio.ru/ultra-64.mp3
 #EXTINF:-1 tvg-logo="https://static.rustore.ru/imgproxy/SnFhQqCbJ3AznrTrDxfWy_NZyV6kmzE93hs6SbyIAF0/preset:vk_og_img/plain/https://static.rustore.ru/apk/2063585983/content/ICON/b6ff122e-15ef-402c-a291-cc5e4378648a.png@webp" group-title="Рок и альтернатива",Наше радио
 http://nashe1.hostingradio.ru/nashespb128.mp3
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/radio-na7xolmax.png" group-title="Рок и альтернатива",Радио на семи холмах
 http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
-#EXTINF:-1 tvg-logo="https://s.rbk.ru/v1_companies_s3/media/trademarks/990b009f-8418-4e8c-8ed7-b441eb45a95d.jpg" group-title="Рок и альтернатива",Maximum
-http://maximum.hostingradio.ru/maximum96.aacp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pLM7Lj7z/2023-04-10-200831163.png" group-title="Рок и альтернатива" ,Русский панк
+http://79.120.77.11:8000/punkru
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/pLM7Lj7z/2023-04-10-200831163.png" group-title="Рок и альтернатива" ,Русский рок
+http://79.120.77.11:8000/rockru
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/radio-dfm.png" group-title="Поп и хиты",Радио DFM
 http://dfm.hostingradio.ru/dfm128.mp3
+#EXTINF:-1 tvg-logo="https://papik.pro/uploads/posts/2021-11/1636211742_65-papik-pro-p-logotipi-radiostantsii-foto-68.png" group-title="Поп и хиты",Новое Радио
+http://icecast-newradio.cdnvideo.ru/newradio3
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ZRk0745r/pop.jpg" group-title="Поп и хиты" ,Русские хиты 1980-1990х
+http://79.120.77.11:8000/80ru
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-europa-plus.png" group-title="Поп и хиты",Радио Европа Плюс
 http://europaplus.hostingradio.ru:8014/europaplus320.mp3
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-russkoe-radio.png" group-title="Поп и хиты",Русское радио
 http://rusradio.hostingradio.ru/rusradio96.aacp
 #EXTINF:-1 tvg-logo="https://rmg.ru/uploads/2a/f2/225b8111a3efc570844d9f2f5c07.png" group-title="Поп и хиты",Хит FM
 http://hitfm.hostingradio.ru/hitfm96.aacp
-#EXTINF:-1 tvg-logo="https://papik.pro/uploads/posts/2021-11/1636211742_65-papik-pro-p-logotipi-radiostantsii-foto-68.png" group-title="Поп и хиты",Новое Радио
-http://icecast-newradio.cdnvideo.ru/newradio3
 #EXTINF:-1  tvg-logo="https://i.podster.fm/img/73541/crop/yes/size/xlarge/73541.jpg" group-title="В дорогу",Авторадио
 http://ic7.101.ru:8000/v3_1
 #EXTINF:-1  tvg-logo="https://iptvx.one/picons/dorozhnoe-radio.png" group-title="В дорогу",Дорожное Радио
