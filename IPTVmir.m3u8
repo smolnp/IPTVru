@@ -2513,10 +2513,6 @@ https://kino-1.catcast.tv/content/38617/index.m3u8
 
 #EXTINF:-1 tvg-id="kinokazka" tvg-logo="http://epg.one/img2/kinokazka.png" group-title="Неопределённые", KinoKazka
 
-#EXTINF:-1 tvg-id="kinokomedia" tvg-logo="http://epg.one/img2/kinokomedia.png" group-title="Кино и сериалы", Кинокомедия
-https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="kinokomedia-int" tvg-logo="http://epg.one/img2/kinokomedia-int.png" group-title="Кино и сериалы", Кинокомедия International
-
 #EXTINF:-1 tvg-id="kinokult" tvg-logo="http://epg.one/img2/kinokult.png" group-title="Неопределённые", КиноКульт
 
 #EXTINF:-1 tvg-id="kinomult" tvg-logo="http://epg.one/img2/kinomult.png" group-title="Детские", Киномульт
@@ -2532,10 +2528,6 @@ https://stream8.cinerama.uz/1232/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="kinopolskamuz-int" tvg-logo="http://epg.one/img2/kinopolskamuz-int.png" group-title="Неопределённые", Kino Polska Muzyka International
 
 #EXTINF:-1 tvg-id="kinosat" tvg-logo="http://epg.one/img2/kinosat.png" group-title="Неопределённые", Киносат
-
-#EXTINF:-1 tvg-id="kinoseria" tvg-logo="http://epg.one/img2/kinoseria.png" group-title="Неопределённые", Киносерия
-https://stream8.cinerama.uz/1235/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="kinoseria-int" tvg-logo="http://epg.one/img2/kinoseria-int.png" group-title="Неопределённые", Киносерия International
 
 #EXTINF:-1 tvg-id="kinosezon" tvg-logo="http://epg.one/img2/kinosezon.png" group-title="Неопределённые", КиноСезон
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
