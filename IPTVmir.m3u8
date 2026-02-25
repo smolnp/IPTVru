@@ -144,7 +144,7 @@ https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/varia
 #EXTINF:-1 tvg-id="8kanal-novosibirsk" tvg-logo="http://epg.one/img2/8kanal-novosibirsk.png" group-title="Региональные" ,8 канал (Новосибирск)
 https://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
 #EXTINF:-1 tvg-id="8kanal-ru" tvg-logo="http://epg.one/img2/8kanal-ru.png" group-title="Развлекательные" ,8 канал
-
+http://v4.proofix.ru:80/8tv-russia/index.m3u8
 #EXTINF:-1 tvg-id="8tv-lv" tvg-logo="http://epg.one/img2/8tv-lv.png" group-title="Неопределённые", 8TV [LV]
 
 #EXTINF:-1 tvg-id="8vladik" tvg-logo="http://epg.one/img2/8vladik.png" group-title="Региональные" ,8 канал (Владивосток)
@@ -670,13 +670,13 @@ https://plbl.m9.lfstrm.tv/detskij_mir/normal/1/index.m3u8
 #EXTINF:-1 tvg-id="bein-sports-xtra-us" tvg-logo="http://epg.one/img2/bein-sports-xtra-us.png" group-title="Неопределённые", beIN Sports Xtra [US]
 
 #EXTINF:-1 tvg-id="belarus1" tvg-logo="http://epg.one/img2/belarus1.png" group-title="Общественные" ,Беларусь 1 HD
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
+https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
 #EXTINF:-1 tvg-id="belarus2" tvg-logo="http://epg.one/img2/belarus2.png" group-title="Развлекательные", Беларусь 2 HD
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
 #EXTINF:-1 tvg-id="belarus24" tvg-logo="http://epg.one/img2/belarus24.png" group-title="Информационные" ,Беларусь 24
-
+http://178.124.179.122:8080/Belarus24/index.m3u8
 #EXTINF:-1 tvg-id="belarus3" tvg-logo="http://epg.one/img2/belarus3.png" group-title="Познавательные", Беларусь 3 HD
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
 #EXTINF:-1 tvg-id="belarus4-brest" tvg-logo="http://epg.one/img2/belarus4-brest.png" group-title="Региональные" ,Беларусь 4 Брест
 
 #EXTINF:-1 tvg-id="belarus4-gomel" tvg-logo="http://epg.one/img2/belarus4-gomel.png" group-title="Региональные" ,Беларусь 4 Гомель
@@ -1880,7 +1880,7 @@ http://188.225.31.197/bpk-tv/000004466/tve/index.m3u8
 #EXTINF:-1 tvg-id="footbolny" tvg-logo="http://epg.one/img2/footbolny.png" group-title="Спортивные", Мяч
 
 #EXTINF:-1 tvg-id="fox" tvg-logo="http://epg.one/img2/fox.png" group-title="Кино и сериалы", FX
-
+http://185.164.82.18:9010/ykMHqK_Fox
 #EXTINF:-1 tvg-id="fox-business-us" tvg-logo="http://epg.one/img2/fox-business-us.png" group-title="Неопределённые", Fox Business [US]
 
 #EXTINF:-1 tvg-id="fox-hd-tr" tvg-logo="http://epg.one/img2/fox-hd-tr.png" group-title="Неопределённые", NOW TR
@@ -2494,7 +2494,7 @@ https://vod.tuva.ru/kinotv/index.m3u8
 #EXTINF:-1 tvg-id="kino-ultra-hd" tvg-logo="http://epg.one/img2/kino-ultra-hd.png" group-title="Неопределённые", Кино UHD
 
 #EXTINF:-1 tvg-id="kino1-tviksel" tvg-logo="http://epg.one/img2/kino1-tviksel.png" group-title="Кино и сериалы" ,Кино 1
-
+http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
 #EXTINF:-1 tvg-id="kino1int-tviksel" tvg-logo="http://epg.one/img2/kino1int-tviksel.png" group-title="Кино и сериалы" ,Кино 1 International
 http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
 #EXTINF:-1 tvg-id="kino2-tviksel" tvg-logo="http://epg.one/img2/kino2-tviksel.png" group-title="Кино и сериалы" ,Кино 2
@@ -3344,13 +3344,13 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="muzwar" tvg-logo="http://epg.one/img2/muzwar.png" group-title="Неопределённые", Музвар
 
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="http://epg.one/img2/muzyka-pervogo.png" group-title="Музыкальные", Музыка Первого
-
+http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Muz_Perv
 #EXTINF:-1 tvg-id="muzykamodatv" tvg-logo="http://epg.one/img2/muzykamodatv.png" group-title="Неопределённые", Музыка Мода ТВ
 
 #EXTINF:-1 tvg-id="muzzone" tvg-logo="http://epg.one/img2/muzzone.png" group-title="Музыкальные", MuzZone
 
 #EXTINF:-1 tvg-id="my-i-gorod" tvg-logo="http://epg.one/img2/my-i-gorod.png" group-title="Неопределённые", Мы и город
-
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant.m3u8
 #EXTINF:-1 tvg-id="myhits-ee" tvg-logo="http://epg.one/img2/myhits-ee.png" group-title="Неопределённые", MyHits [EE]
 
 #EXTINF:-1 tvg-id="mysport-eins-ch" tvg-logo="http://epg.one/img2/mysport-eins-ch.png" group-title="Неопределённые", MySports Eins [CH]
@@ -3372,9 +3372,9 @@ http://a0925677.xsph.ru/hls/CH_NADEZHDAHD720.m3u8
 #EXTINF:-1 tvg-id="nadia" tvg-logo="http://epg.one/img2/nadia.png" group-title="Неопределённые", Надія
 
 #EXTINF:-1 tvg-id="nano-hd" tvg-logo="http://epg.one/img2/nano-hd.png" group-title="Познавательные", Nano HD
-
+http://s1.tv-nano.com/Nano_rec/index.m3u8
 #EXTINF:-1 tvg-id="nano-tv" tvg-logo="http://epg.one/img2/nano-tv.png" group-title="Познавательные" ,Нано
-
+http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 tvg-id="narod-vsio-vidit" tvg-logo="http://epg.one/img2/narod-vsio-vidit.png" group-title="Неопределённые", Народ Всё Видит
 
 #EXTINF:-1 tvg-id="nasa4k" tvg-logo="http://epg.one/img2/nasa4k.png" group-title="Неопределённые", NASA 4K
@@ -3982,7 +3982,7 @@ https://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u
 #EXTINF:-1 tvg-id="pervy-gorodskoy-odessa" tvg-logo="http://epg.one/img2/pervy-gorodskoy-odessa.png" group-title="Региональные" ,Первый городской (Одесса)
 
 #EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" tvg-logo="http://epg.one/img2/pervy-gorodskoy-omsk.png" group-title="Региональные" ,Первый городской (Омск)
-
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-info-by" tvg-logo="http://epg.one/img2/pervy-info-by.png" group-title="Информационные", Первый информационный
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="pervy-kanal-csi" tvg-logo="http://epg.one/img2/pervy-kanal-csi.png" group-title="Общественные", Первый канал СНГ
@@ -4028,9 +4028,9 @@ http://live-3.otcnet.ru/pskov/index.m3u8
 #EXTINF:-1 tvg-id="pervy-rostovsky" tvg-logo="http://epg.one/img2/pervy-rostovsky.png" group-title="Региональные" ,Первый Ростовский
 https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="pervy-sevastopolsky" tvg-logo="http://epg.one/img2/pervy-sevastopolsky.png" group-title="Региональные" ,Первый Севастопольский
-
+https://zabava-htlive.cdn.ngenix.net/hls/CH_PERVIJSEVASTOPOL/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-tulsky" tvg-logo="http://epg.one/img2/pervy-tulsky.png" group-title="Региональные" ,Первый Тульский
-http://1tvtula.ru/tula/1tv_low/index.m3u8
+http://5.164.24.83/tula/1tv_hi/index.m3u8
 #EXTINF:-1 tvg-id="pervy-vegetariansky" tvg-logo="http://epg.one/img2/pervy-vegetariansky.png" group-title="Хобби и увлечения", Первый вегетарианский
 http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Perviy_Vegetor
 #EXTINF:-1 tvg-id="pervy-yaroslavsky" tvg-logo="http://epg.one/img2/pervy-yaroslavsky.png" group-title="Региональные" ,Первый Ярославский
@@ -5304,7 +5304,7 @@ https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O
 #EXTINF:-1 tvg-id="stars-tv" tvg-logo="http://epg.one/img2/stars-tv.png" group-title="Неопределённые", Stars.TV
 
 #EXTINF:-1 tvg-id="start" tvg-logo="http://epg.one/img2/start.png" group-title="Спортивные", Старт
-https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/480p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
+https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?
 #EXTINF:-1 tvg-id="start-air" tvg-logo="http://epg.one/img2/start-air.png" group-title="Кино и сериалы", Start Air
 http://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTINF:-1 tvg-id="start-basket" tvg-logo="http://epg.one/img2/start-basket.png" group-title="Спортивные", Старт Баскет
@@ -6742,7 +6742,7 @@ http://sc.id-tv.kz/Khabar.m3u8
 #EXTINF:-1 tvg-id="xite-nl" tvg-logo="http://epg.one/img2/xite-nl.png" group-title="Неопределённые", XITE [NL]
 
 #EXTINF:-1 tvg-id="xokkejny" tvg-logo="http://epg.one/img2/xokkejny.png" group-title="Спортивные", Хоккей ТВ
-
+http://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="yaban-tr" tvg-logo="http://epg.one/img2/yaban-tr.png" group-title="Неопределённые", Yaban TV [TR]
 
 #EXTINF:-1 tvg-id="yakutia24" tvg-logo="http://epg.one/img2/yakutia24.png" group-title="Региональные" ,Якутия 24
