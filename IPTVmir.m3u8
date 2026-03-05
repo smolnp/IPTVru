@@ -1058,7 +1058,7 @@ https://bl.rutube.ru/livestream/55fec7f2c11f4decc66568fca39f26b2/index.m3u8?s=N_
 #EXTINF:-1 tvg-id="cartoon-classics" tvg-logo="http://epg.one/img2/cartoon-classics.png" group-title="Детские" ,Cartoon Classics
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="http://epg.one/img2/cartoon-network.png" group-title="Детские", Cartoon Network
-
+http://176.118.197.101/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="cartoons-90" tvg-logo="http://epg.one/img2/cartoons-90.png" group-title="Неопределённые", Cartoons 90
 
 #EXTINF:-1 tvg-id="cartoons-big" tvg-logo="http://epg.one/img2/cartoons-big.png" group-title="Неопределённые", Cartoons Big
@@ -1424,11 +1424,11 @@ https://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000
 #EXTINF:-1 tvg-id="detkino-tviksel" tvg-logo="http://epg.one/img2/detkino-tviksel.png" group-title="Детские", Детское кино (TvikselTV)
 
 #EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="http://epg.one/img2/detkinoint-tviksel.png" group-title="Детские", Детское кино International
-
+https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 tvg-id="detskoe-kino" tvg-logo="http://epg.one/img2/detskoe-kino.png" group-title="Детские", Детское кино
 
 #EXTINF:-1 tvg-id="detsky" tvg-logo="http://epg.one/img2/detsky.png" group-title="Неопределённые", Уникум
-
+http://217.114.191.150/Solnce/index.m3u8
 #EXTINF:-1 tvg-id="detsky-mir" tvg-logo="http://epg.one/img2/detsky-mir.png" group-title="Детские", Детский мир
 
 #EXTINF:-1 tvg-id="deviatka" tvg-logo="http://epg.one/img2/deviatka.png" group-title="Развлекательные", Девятка ТВ
@@ -5304,7 +5304,7 @@ https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=-O
 #EXTINF:-1 tvg-id="stars-tv" tvg-logo="http://epg.one/img2/stars-tv.png" group-title="Неопределённые", Stars.TV
 
 #EXTINF:-1 tvg-id="start" tvg-logo="http://epg.one/img2/start.png" group-title="Спортивные", Старт
-https://bl.webcaster.pro/media/playlist/free_621d169e5c631c638136df3cb136c5c9/33_68881676/1080p/b32eaae5fbf1d2b8211543566a1d9a78/4914392769.m3u8?
+https://bl.webcaster.pro/media/playlist/api_free_fd14ed34164a52d1090e4cb9db93683f/4_79276517/480p/d33bbf3e6ac7c41524eae5d1c3d9258d/4873167902.m3u8?live=15&ref=https://tvstart.ru/channels/tv-start/
 #EXTINF:-1 tvg-id="start-air" tvg-logo="http://epg.one/img2/start-air.png" group-title="Кино и сериалы", Start Air
 http://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 #EXTINF:-1 tvg-id="start-basket" tvg-logo="http://epg.one/img2/start-basket.png" group-title="Спортивные", Старт Баскет
@@ -5418,7 +5418,7 @@ https://svoetv.mediacdn.ru/cdn/svoetv/playlist.m3u8
 #EXTINF:-1 tvg-id="takt" tvg-logo="http://epg.one/img2/takt.png" group-title="Неопределённые", Такт
 
 #EXTINF:-1 tvg-id="tamyr" tvg-logo="http://epg.one/img2/tamyr.png" group-title="Детские" ,Тамыр
-http://bsttv.bonus-tv.ru/cdn/tamyr/playlist.m3u8
+http://bsttv.bonus-tv.ru/cdn/tamyr/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tancuj" tvg-logo="http://epg.one/img2/tancuj.png" group-title="Спортивные", Танцуй! HD
 
 #EXTINF:-1 tvg-id="tararam" tvg-logo="http://epg.one/img2/tararam.png" group-title="Неопределённые", Тарарам!
@@ -5562,7 +5562,7 @@ http://176.118.197.101/Teatr/index.m3u8
 #EXTINF:-1 tvg-id="teledom" tvg-logo="http://epg.one/img2/teledom.png" group-title="Развлекательные", Теледом
 http://a0925677.xsph.ru/hls/region/CH_TELEDOMHD720_SPB.m3u8
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="http://epg.one/img2/telekafe.png" group-title="Развлекательные" ,Телекафе
-http://176.118.197.101/Telekafe/index.m3u8
+https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
 #EXTINF:-1 tvg-id="telekanal-naronoj-muzyki" tvg-logo="http://epg.one/img2/telekanal-naronoj-muzyki.png" group-title="Неопределённые", Телеканал народной музыки
 
 #EXTINF:-1 tvg-id="telekon24-nt" tvg-logo="http://epg.one/img2/telekon24-nt.png" group-title="Неопределённые", Телекон 24 (Нижний Тагил)
@@ -5594,7 +5594,7 @@ http://158.101.222.193:88/georgia_play.php?id=24techno
 #EXTINF:-1 tvg-id="the-country-ntwrk-us" tvg-logo="http://epg.one/img2/the-country-ntwrk-us.png" group-title="Неопределённые", The Country Network [US]
 
 #EXTINF:-1 tvg-id="the-explorers" tvg-logo="http://epg.one/img2/the-explorers.png" group-title="Познавательные" ,The Explorers
-http://sc.id-tv.kz/ElArna.m3u8
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 #EXTINF:-1 tvg-id="the-fishing-hunting" tvg-logo="http://epg.one/img2/the-fishing-hunting.png" group-title="Неопределённые", The Fishing and Hunting
 
 #EXTINF:-1 tvg-id="the-voice-bg" tvg-logo="http://epg.one/img2/the-voice-bg.png" group-title="Неопределённые", The Voice BG
@@ -5690,7 +5690,7 @@ http://87.76.32.36:8001/tochkaotriva
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="http://epg.one/img2/tochka-tv.png" group-title="Неопределённые", Точка
 
 #EXTINF:-1 tvg-id="tolk" tvg-logo="http://epg.one/img2/tolk.png" group-title="Развлекательные", Толк
-https://live-tolknews.cdnvideo.ru/tolknews/stream/tracks-v1a1/mono.m3u8
+https://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="tolpartv" tvg-logo="http://epg.one/img2/tolpartv.png" group-title="Неопределённые", Толпар-ТВ (Уфа)
 
 #EXTINF:-1 tvg-id="tolyatti24" tvg-logo="http://epg.one/img2/tolyatti24.png" group-title="Региональные" ,Тольятти 24
@@ -6178,7 +6178,7 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_URAL1/variant.m3u8
 #EXTINF:-1 tvg-id="urfo24" tvg-logo="http://epg.one/img2/urfo24.png" group-title="Неопределённые", УрФО24
 
 #EXTINF:-1 tvg-id="usadba" tvg-logo="http://epg.one/img2/usadba.png" group-title="Хобби и увлечения", Усадьба
-https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
+http://87.76.32.36:8001/usadba
 #EXTINF:-1 tvg-id="uspex" tvg-logo="http://epg.one/img2/uspex.png" group-title="Неопределённые", Успех
 
 #EXTINF:-1 tvg-id="ussr-premieregroup" tvg-logo="http://epg.one/img2/ussr-premieregroup.png" group-title="Неопределённые", USSR HD
