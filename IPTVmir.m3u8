@@ -1578,7 +1578,7 @@ http://31148.rafail1982.uz/Eda_Premium_HD/index.m3u8
 #EXTINF:-1 tvg-id="efir24-relax" tvg-logo="http://epg.one/img2/efir24-relax.png" group-title="Региональные" ,Эфир
 https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 #EXTINF:-1 tvg-id="ege-tv" tvg-logo="http://epg.one/img2/ege-tv.png" group-title="Неопределённые", ЕГЭ
-
+http://tv.streams.baikal-telecom.net:8080/RT_DOC/index.m3u8
 #EXTINF:-1 tvg-id="eko-tv" tvg-logo="http://epg.one/img2/eko-tv.png" group-title="Неопределённые", Эко-ТВ
 
 #EXTINF:-1 tvg-id="eleven-sport1-pt" tvg-logo="http://epg.one/img2/eleven-sport1-pt.png" group-title="Неопределённые", DAZN 1 PT
@@ -2216,7 +2216,7 @@ http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 #EXTINF:-1 tvg-id="jambyl-kz" tvg-logo="http://epg.one/img2/jambyl-kz.png" group-title="Неопределённые", Jambyl
 
 #EXTINF:-1 tvg-id="jimjam" tvg-logo="http://epg.one/img2/jimjam.png" group-title="Детские" ,JimJam
-http://176.118.197.125/JimJam/index.m3u8
+http://158.160.149.81:8080/269/index.m3u8
 #EXTINF:-1 tvg-id="jimjam-pl" tvg-logo="http://epg.one/img2/jimjam-pl.png" group-title="Детские" ,JimJam Polsat
 
 #EXTINF:-1 tvg-id="joj-sport-2-cz" tvg-logo="http://epg.one/img2/joj-sport-2-cz.png" group-title="Неопределённые", JOJ Šport 2 [CZ]
@@ -5830,7 +5830,7 @@ http://api.alpaca.t62a.com/hls/9106/stream0.m3u8
 #EXTINF:-1 tvg-id="tv1-lt" tvg-logo="http://epg.one/img2/tv1-lt.png" group-title="Неопределённые", TV1
 
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="http://epg.one/img2/tv1000.png" group-title="Кино и сериалы", viju TV1000
-http://176.118.197.125/viju-TV1000/index.m3u8
+http://188.225.31.197/bpk-tv/000003747/tve/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="http://epg.one/img2/tv1000-action.png" group-title="Кино и сериалы", viju TV1000 Action
 http://80.77.52.3/streams/media/tv1000action_720x576/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action-cee" tvg-logo="http://epg.one/img2/tv1000-action-cee.png" group-title="Кино и сериалы", Viasat Kino Action
@@ -6620,13 +6620,13 @@ https://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m
 #EXTINF:-1 tvg-id="viaplay-tv-plus-nl" tvg-logo="http://epg.one/img2/viaplay-tv-plus-nl.png" group-title="Неопределённые", Viaplay TV+ [NL]
 
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="http://epg.one/img2/viasat-explore.png" group-title="Хобби и увлечения", viju Explore
-http://176.118.197.125/viju-Explore/index.m3u8
+http://158.101.222.193:88/georgia_play.php?id=viasatexp
 #EXTINF:-1 tvg-id="viasat-explore-cee" tvg-logo="http://epg.one/img2/viasat-explore-cee.png" group-title="Кино и сериалы", Viasat Explore CEE
 
 #EXTINF:-1 tvg-id="viasat-golf-hd" tvg-logo="http://epg.one/img2/viasat-golf-hd.png" group-title="Неопределённые", V Sport Golf
 
 #EXTINF:-1 tvg-id="viasat-history" tvg-logo="http://epg.one/img2/viasat-history.png" group-title="Познавательные", viju History
-http://176.118.197.125/viju-History/index.m3u8
+http://158.101.222.193:88/georgia_play.php?id=viasathist
 #EXTINF:-1 tvg-id="viasat-hockey-hd" tvg-logo="http://epg.one/img2/viasat-hockey-hd.png" group-title="Кино и сериалы", Viasat Hockey HD
 
 #EXTINF:-1 tvg-id="viasat-motor-hd" tvg-logo="http://epg.one/img2/viasat-motor-hd.png" group-title="Неопределённые", V Sport Motor
@@ -6992,7 +6992,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/kaliningrad/zapad24-hd/index.m3u8
 #EXTINF:-1 tvg-id="zdf" tvg-logo="http://epg.one/img2/zdf.png" group-title="Неопределённые", ZDF
 
 #EXTINF:-1 tvg-id="zdorovoe-tv" tvg-logo="http://epg.one/img2/zdorovoe-tv.png" group-title="Хобби и увлечения", Здоровое ТВ
-http://176.118.197.125/Zdorovoe-TV/index.m3u8
+http://87.76.32.36:8001/zdorovoetv
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="http://epg.one/img2/zhar-ptica.png" group-title="Музыкальные" ,Жар Птица
 https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=2r54ZPgnc2r3TX_Z4F-zEg&e=2070623526&scheme=https
 #EXTINF:-1 tvg-id="zhara" tvg-logo="http://epg.one/img2/zhara.png" group-title="Музыкальные", Жара
