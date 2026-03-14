@@ -26,7 +26,7 @@
 #EXTINF:-1 tvg-id="192tv-80s" tvg-logo="http://epg.one/img2/192tv-80s.png" group-title="Неопределённые", 192TV 80s
 
 #EXTINF:-1 tvg-id="1hd" tvg-logo="http://epg.one/img2/1hd.png" group-title="Музыкальные", 1HD Music
-
+http://188.225.31.197/bpk-tv/000001020/tve/index.m3u8
 #EXTINF:-1 tvg-id="1obl-blagoveschensk" tvg-logo="http://epg.one/img2/1obl-blagoveschensk.png" group-title="Региональные" ,Первый областной (Благовещенск)
 
 #EXTINF:-1 tvg-id="2-kanal-mogilev" tvg-logo="http://epg.one/img2/2-kanal-mogilev.png" group-title="Региональные" ,ТВ2 (Могилёв)
@@ -2120,7 +2120,7 @@ https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
 #EXTINF:-1 tvg-id="hbo3-hd" tvg-logo="http://epg.one/img2/hbo3-hd.png" group-title="Неопределённые", HBO3 HD
 
 #EXTINF:-1 tvg-id="hd-life" tvg-logo="http://epg.one/img2/hd-life.png" group-title="Неопределённые", Точка.РФ
-
+http://158.101.222.193:88/georgia_play.php?id=hdlife
 #EXTINF:-1 tvg-id="hd-media" tvg-logo="http://epg.one/img2/hd-media.png" group-title="Неопределённые", HD Медиа
 
 #EXTINF:-1 tvg-id="hgtv" tvg-logo="http://epg.one/img2/hgtv.png" group-title="Познавательные", HGTV
@@ -2756,7 +2756,7 @@ https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 #EXTINF:-1 tvg-id="lietuvos-ryto-televizija" tvg-logo="http://epg.one/img2/lietuvos-ryto-televizija.png" group-title="Неопределённые", Lietuvos ryto televizija
 
 #EXTINF:-1 tvg-id="liova" tvg-logo="http://epg.one/img2/liova.png" group-title="Детские", Лёва
-
+http://188.225.31.197/bpk-tv/000008003/tve/index.m3u8
 #EXTINF:-1 tvg-id="lipeck24" tvg-logo="http://epg.one/img2/lipeck24.png" group-title="Региональные" ,Липецк 24
 https://bl.rutube.ru/livestream/b04fc212802bbf7ec94768c029e54aa9/index.m3u8?s=PxMZcpt76COiPH4EwWL3hw&e=2070623508&scheme=https
 #EXTINF:-1 tvg-id="lipeckoe-vremia" tvg-logo="http://epg.one/img2/lipeckoe-vremia.png" group-title="Региональные", Липецкое время
@@ -3368,7 +3368,7 @@ http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant
 #EXTINF:-1 tvg-id="naczhk" tvg-logo="http://epg.one/img2/naczhk.png" group-title="Неопределённые", Национальный Жилищный Канал
 
 #EXTINF:-1 tvg-id="nadezhda" tvg-logo="http://epg.one/img2/nadezhda.png" group-title="Христианские", Надежда
-http://a0925677.xsph.ru/hls/CH_NADEZHDAHD720.m3u8
+http://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="nadia" tvg-logo="http://epg.one/img2/nadia.png" group-title="Неопределённые", Надія
 
 #EXTINF:-1 tvg-id="nano-hd" tvg-logo="http://epg.one/img2/nano-hd.png" group-title="Познавательные", Nano HD
@@ -3614,7 +3614,7 @@ https://lightning-now80s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="nst" tvg-logo="http://epg.one/img2/nst.png" group-title="Кино и сериалы", НСТ
 http://80.77.52.3/streams/media/nstv_720x576/index.m3u8
 #EXTINF:-1 tvg-id="ntk-kz" tvg-logo="http://epg.one/img2/ntk-kz.png" group-title="Развлекательные" ,НТК
-http://87.76.32.36:8001/ntk
+https://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
 #EXTINF:-1 tvg-id="ntk-niagan" tvg-logo="http://epg.one/img2/ntk-niagan.png" group-title="Неопределённые", НТК (Нягань)
 
 #EXTINF:-1 tvg-id="ntk-zelenogorsk" tvg-logo="http://epg.one/img2/ntk-zelenogorsk.png" group-title="Неопределённые", НТК (Зеленогорск)
@@ -5560,7 +5560,7 @@ http://176.118.197.101/Teatr/index.m3u8
 #EXTINF:-1 tvg-id="teledeporte-es" tvg-logo="http://epg.one/img2/teledeporte-es.png" group-title="Неопределённые", Teledeporte [ES]
 
 #EXTINF:-1 tvg-id="teledom" tvg-logo="http://epg.one/img2/teledom.png" group-title="Развлекательные", Теледом
-http://a0925677.xsph.ru/hls/region/CH_TELEDOMHD720_SPB.m3u8
+http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 tvg-id="telekafe" tvg-logo="http://epg.one/img2/telekafe.png" group-title="Развлекательные" ,Телекафе
 https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
 #EXTINF:-1 tvg-id="telekanal-naronoj-muzyki" tvg-logo="http://epg.one/img2/telekanal-naronoj-muzyki.png" group-title="Неопределённые", Телеканал народной музыки
@@ -5684,7 +5684,7 @@ https://s25617.cdn.ngenix.net/mdrm/CH_TNT4_7/variant.m3u8
 #EXTINF:-1 tvg-id="tnv" tvg-logo="http://epg.one/img2/tnv.png" group-title="Неопределённые", ТНВ
 
 #EXTINF:-1 tvg-id="tnv-planeta" tvg-logo="http://epg.one/img2/tnv-planeta.png" group-title="Познавательные" ,ТНВ-Планета
-http://87.76.32.36:8001/tnv
+https://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R05_TNV/variant.m3u8
 #EXTINF:-1 tvg-id="tochka-otryva" tvg-logo="http://epg.one/img2/tochka-otryva.png" group-title="Хобби и увлечения", Точка отрыва
 http://87.76.32.36:8001/tochkaotriva
 #EXTINF:-1 tvg-id="tochka-tv" tvg-logo="http://epg.one/img2/tochka-tv.png" group-title="Неопределённые", Точка
@@ -5700,7 +5700,7 @@ https://old.tomsk-time.ru/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="tonus-tv" tvg-logo="http://epg.one/img2/tonus-tv.png" group-title="Хобби и увлечения", Тонус ТВ
 
 #EXTINF:-1 tvg-id="tooku" tvg-logo="http://epg.one/img2/tooku.png" group-title="Неопределённые", Тооку
-
+http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
 #EXTINF:-1 tvg-id="top-movies-polska" tvg-logo="http://epg.one/img2/top-movies-polska.png" group-title="Общественные" ,Top Movies Polska
 https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 #EXTINF:-1 tvg-id="top-shop-tv" tvg-logo="http://epg.one/img2/top-shop-tv.png" group-title="Неопределённые", Top Shop TV
