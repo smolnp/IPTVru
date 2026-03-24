@@ -39,7 +39,6 @@
 https://smolnp.github.io/IPTVru//IPTVххх.m3u
 ```
 
-- Короткая ссылка: `https://m3u.su/so2`.
 - Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVххх.m3u`.
 
 Редактируется сообществом. Именно в этот плейлист вы можете добавить свой канал, даже без ссылки (главное: имя и атрибуты) и как только скрипты найдут на этот канал рабочую ссылку он, со временем появится во всех плейлистах.
@@ -50,7 +49,6 @@ https://smolnp.github.io/IPTVru//IPTVххх.m3u
 https://smolnp.github.io/IPTVru//IPTVru.m3u
 ```
 
-- Короткая ссылка: `https://m3u.su/so`
 - Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u`.
 
 Плейлист формируется после добавления и проверки ссылок на потоки из тестового плейлиста. Используется полный EPG файл (значки, программа и описание). Пулреквесты не принимаются.
@@ -61,7 +59,6 @@ https://smolnp.github.io/IPTVru//IPTVru.m3u
 https://smolnp.github.io/IPTVru//IPTVstable.m3u8
 ```
 
-- Короткая ссылка: `https://m3u.su/ss`
 - Для всех плееров:`https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8`.
 
 Плейлист формируется после удаления нестабильных и / или неработающих потоков из основного плейлиста. Используется облегченный EPG файл (значки и программа). Пулреквесты не принимаются.
@@ -72,7 +69,6 @@ https://smolnp.github.io/IPTVru//IPTVstable.m3u8
 https://smolnp.github.io/IPTVru//IPTVmir.m3u8
 ```
 
-- Короткая ссылка: `https://m3u.su/sm`
 - Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVmir.m3u8`.
 
 Включает в себя зарубежные каналы (никем не поддерживается, обновляется скриптами).
@@ -83,9 +79,9 @@ https://smolnp.github.io/IPTVru//IPTVmir.m3u8
 
 - **Сбербанк:** `2202 2010 9153 6009`
 - **Озонбанк:** `2204 3201 7065 3176`
-- Донаты Вконтакте
+- **Донаты Вконтакте**
 
-Ваша поддержка помогает развивать проект и поддерживать его работу. Спасибо!
+> Ваша поддержка помогает развивать проект и поддерживать его работу. Спасибо!
 
 ## Юридическая информация
 
