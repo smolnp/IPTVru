@@ -25,6 +25,12 @@
 
 [Наше сообщество ВКонтакте](https://vk.com/iptvru250) Новости и изменения в плейлистах.
 
+## Ksenia M3U Editor
+
+M3U плейлист редактор с расширенными функциями.
+
+📖 **Подробнее:** [Ksenia M3U Editor]([Ksenia%20M3U%20Editor/KSENIA_M3U_EDITOR.md](https://github.com/smolnp/Ksenia/blob/main/Ksenia%20M3U%20Editor/KSENIA_M3U_EDITOR.md))
+
 ---
 
 🚫[Заблокированные телеканалы](blacklist.md)
