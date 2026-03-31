@@ -29,7 +29,7 @@
 
 Наш редактор плейлистов.
 
-📖 **Подробнее:** [Ksenia M3U Editor](https://github.com/smolnp/Ksenia/blob/main/Ksenia%20M3U%20Editor/KSENIA_M3U_EDITOR.md))
+📖 **Подробнее:** [Ksenia M3U Editor](https://github.com/smolnp/Ksenia/blob/main/Ksenia%20M3U%20Editor/KSENIA_M3U_EDITOR.md)
 
 ---
 
