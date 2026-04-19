@@ -42,28 +42,25 @@
 ---
 
 ## 📂 Доступные плейлисты
-### IPRadio:
+#### IPRadio:
 > https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPRadio.m3u
 
-### IPTVmir:
+#### IPTVmir:
 > https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVmir.m3u8
 
-### IPTVru:
+#### IPTVru:
 > https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVmir.m3u
 
-### IPTVstable **[Рекомендуется]**
+#### IPTVstable **[Рекомендуется]**
 >  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVstable.m3u8
 
-### IPTVxxx 
+#### IPTVxxx 
 >  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVxxx.m3u
 
-### KseniaTV
->  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/KseniaTV.m3u
-
-### IPTV20channels
+#### IPTV20channels
 >  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTV20channels.m3u
 
-### IPTVavto
+#### IPTVavto
 >  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVavto.m3u
 
 ---
