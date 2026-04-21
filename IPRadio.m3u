@@ -1,10 +1,5 @@
-<<<<<<< Updated upstream
 #EXTM3U radio="true"
 #PLAYLIST:IPradio
-=======
-#EXTM3U
-#EXTM3U radio="true"
->>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-rock-fm.png" group-title="Рок и альтернатива" ,ROCK FM
 http://nashe1.hostingradio.ru/rock-64.mp3
@@ -42,29 +37,20 @@ http://icecast-newradio.cdnvideo.ru/newradio3
 http://79.120.77.11:8000/80ru
 #EXTINF:-1 tvg-logo="https://pi.fm/img/logonew.png" group-title="Поп и хиты",Радио ПИ ФМ
 https://cdn.pifm.ru/mp3web?rn=718
-<<<<<<< Updated upstream
 #EXTINF:-1 group-title="Поп и хиты" ,Романтика
 http://23.105.238.4/gpm-romantika495.aacp
 #EXTINF:-1 group-title="Поп и хиты" ,Рекорд
 http://icecast-record.cdnvideo.ru/record
 #EXTINF:-1 group-title="Поп и хиты" ,Русский хит
 http://stream2.ruhit.fm:9000/19_ruhit_128_reg_1
-=======
-#EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-europa-plus.png" group-title="Поп и хиты",Радио Европа Плюс
-http://europaplus.hostingradio.ru:8014/europaplus320.mp3
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-russkoe-radio.png" group-title="Поп и хиты",Русское радио
 http://rusradio.hostingradio.ru/rusradio96.aacp
 #EXTINF:-1 tvg-logo="https://rmg.ru/uploads/2a/f2/225b8111a3efc570844d9f2f5c07.png" group-title="Поп и хиты",Хит FM
 http://hitfm.hostingradio.ru/hitfm96.aacp
 #EXTINF:-1 tvg-logo="https://i.podster.fm/img/73541/crop/yes/size/xlarge/73541.jpg" group-title="В дорогу",Авторадио
-<<<<<<< Updated upstream
 http://23.105.238.4/gpm-avtoradio495.aacp
 #EXTINF:-1 group-title="В дорогу" ,Восток FM
 http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_18_vostok_128_reg_1
-=======
-http://ic7.101.ru:8000/v3_1
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/dorozhnoe-radio.png" group-title="В дорогу",Дорожное Радио
 http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
 #EXTINF:-1 group-title="В дорогу" ,Милицейская волна
@@ -83,7 +69,6 @@ http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-logo="https://топрадио.рф/files/seo_image/24/03/17/65f6ea8c8cc20/vesti-fm_65f6e9787e945.jpg" group-title="Новостные",Вести FM
 http://icecast.vgtrk.cdnvideo.ru/vestifm
-<<<<<<< Updated upstream
 #EXTINF:-1 group-title="Новостные" ,Говорит Москва
 http://media.govoritmoskva.ru:8000/gm.mp3
 #EXTINF:-1 group-title="Новостные" ,Гордость
@@ -98,13 +83,10 @@ http://kraskp.ru:8000/mskregion
 http://icecast.vgtrk.cdnvideo.ru/moscowfm128
 #EXTINF:-1 group-title="Новостные" ,Первое спортивное
 http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_20_sport_128_reg_1
-=======
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Radio_Mayak_logo.svg/1200px-Radio_Mayak_logo.svg.png" group-title="Новостные",Радио Маяк
 http://icecast.vgtrk.cdnvideo.ru/mayakfm
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/radio-mir.png" group-title="Новостные",Радио Мир
 http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
-<<<<<<< Updated upstream
 #EXTINF:-1 group-title="Новостные" ,Радио Москвы
 http://icecast-vgtrk.cdnvideo.ru/moscowtalk128
 #EXTINF:-1 group-title="Новостные" ,Радио России
@@ -115,10 +97,6 @@ http://icecast.radonezh.cdnvideo.ru:8000/rad128
 http://reg.fmplay.ru:8000/rbc-48.aac
 #EXTINF:-1 group-title="Новостные" ,Спутник
 http://orig.video.ria.ru:8000/voicemsk1
-=======
-#EXTINF:-1 tvg-logo="https://москва.рекламанащитах.рф/wp-content/uploads/sites/2/2021/01/jumor.jpg" group-title="Юмор и развлечения",Юмор FM
-http://live.humorfm.by:8000/veseloe.m3u
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-logo="https://avatars.yandex.net/get-music-content/7548376/4fc124e4.a.18838876-2/m1000x1000?webp=false" group-title="Юмор и развлечения",Comedy Radio
 http://23.105.238.4/gpm-comedyradio495.aacp
 #EXTINF:-1 group-title="Юмор и развлечения" ,Новое радио
@@ -139,110 +117,5 @@ https://hls-01-radiorecord.hostingradio.ru/record-chil/playlist.m3u8
 http://choco.hostingradio.ru:10010/fm
 #EXTINF:-1 tvg-logo="https://avatars.yandex.net/get-music-content/4404215/e0c9ebbd.a.10142222-2/m1000x1000" group-title="Детские",Классное радио РДШ
 https://schoolradio.hostingradio.ru:18026/schoolradio128.mp3
-<<<<<<< Updated upstream
 #EXTINF:-1 group-title="Детские" ,Детское радио
 http://23.105.238.4/gpm-detifm495.aacp
-=======
-#EXTINF:-1 tvg-name="Comedy радио 102,5 FM" group-title="Юмор и развлечения",Comedy радио 102,5 FM
-http://23.105.238.4/gpm-comedyradio495.aacp
-#EXTINF:-1 tvg-name="DFM 101,2 FM" group-title="Поп и хиты",DFM 101,2 FM
-http://23.105.238.4/dfm128.mp3
-#EXTINF:-1 tvg-name="Energy-FM 104,2 FM" group-title="Поп и хиты",Energy-FM 104,2 FM
-http://23.105.238.4/gpm-energyfm495.aacp
-#EXTINF:-1 tvg-name="Like-FM 87,9 FM" group-title="Поп и хиты",Like-FM 87,9 FM
-http://23.105.238.4/gpm-likefm495.aacp
-#EXTINF:-1 tvg-name="Love-радио 106,6 FM" group-title="Поп и хиты",Love-радио 106,6 FM
-http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_12_love_128_reg_44
-#EXTINF:-1 tvg-name="Rock-FM 95,2 FM" group-title="Рок и альтернатива",Rock-FM 95,2 FM
-http://nashe1.hostingradio.ru/rock-256
-#EXTINF:-1 tvg-name="Studio 21 93,2 FM" group-title="Поп и хиты",Studio 21 93,2 FM
-http://78.140.197.238:9877/msk_studio21
-#EXTINF:-1 tvg-name="Авторадио 90,3 FM" group-title="В дорогу",Авторадио 90,3 FM
-http://23.105.238.4/gpm-avtoradio495.aacp
-#EXTINF:-1 tvg-name="Вести-FM 97,6 FM" group-title="Новостные",Вести-FM 97,6 FM
-http://icecast-vgtrk.cdnvideo.ru/vestifm_mp3_192kbps
-#EXTINF:-1 tvg-name="Восток-FM 94,0 FM" group-title="В дорогу",Восток-FM 94,0 FM
-http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_18_vostok_128_reg_1
-#EXTINF:-1 tvg-name="Говорит Москва 94,8 FM" group-title="Новостные",Говорит Москва 94,8 FM
-http://media.govoritmoskva.ru:8000/gm.mp3
-#EXTINF:-1 tvg-name="Гордость 105,0 FM" group-title="Новостные",Гордость 105,0 FM
-http://134.0.119.161:9090/ostankino
-#EXTINF:-1 tvg-name="Дача 92,4 FM" group-title="Ретро",Дача 92,4 FM
-http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_12_dacha_128_reg_1093
-#EXTINF:-1 tvg-name="Детское радио 96,8 FM" group-title="Детские",Детское радио 96,8 FM
-http://23.105.238.4/gpm-detifm495.aacp
-#EXTINF:-1 tvg-name="Джаз 89,1 FM" group-title="Релакс и Джаз",Джаз 89,1 FM
-http://nashe1.hostingradio.ru/jazz-128.mp3
-#EXTINF:-1 tvg-name="Дорожное радио 96,0 FM" group-title="В дорогу",Дорожное радио 96,0 FM
-http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
-#EXTINF:-1 tvg-name="Европа плюс 106,2 FM" group-title="Поп и хиты",Европа плюс 106,2 FM
-http://emgregion.hostingradio.ru:8064/moscow.europaplus.mp3
-#EXTINF:-1 tvg-name="Жара-FM 100,5 FM" group-title="Поп и хиты",Жара-FM 100,5 FM
-https://live1.zharafm.ru/msk
-#EXTINF:-1 tvg-name="Звезда 95,6 FM" group-title="Новостные",Звезда 95,6 FM
-http://radio.mediacdn.ru/radio/zvezda/zvezda_128
-#EXTINF:-1 tvg-name="Калина красная 89,5 FM" group-title="Ретро",Калина красная 89,5 FM
-http://78.140.197.238:9877/msk_KalynaK_1a
-#EXTINF:-1 tvg-name="Коммерсант-FM 93,6 FM" group-title="Новостные",Коммерсант-FM 93,6 FM
-http://kommersant77.hostingradio.ru:8016/kommersant128.mp3
-#EXTINF:-1 tvg-name="Комсомольская правда 97,2 FM" group-title="Новостные",Комсомольская правда 97,2 FM
-http://kraskp.ru:8000/mskregion
-#EXTINF:-1 tvg-name="Культура 91,6 FM" group-title="Релакс и Джаз",Культура 91,6 FM
-http://icecast-vgtrk.cdnvideo.ru/kulturafm
-#EXTINF:-1 tvg-name="Максимум 103,7 FM" group-title="Рок и альтернатива",Максимум 103,7 FM
-http://maximum.hostingradio.ru/maximum128.mp3
-#EXTINF:-1 tvg-name="Маруся-FM 107,0 FM" group-title="Поп и хиты",Маруся-FM 107,0 FM
-http://msk1.radio-holding.ru:9000/stream_site_marus_hls
-#EXTINF:-1 tvg-name="Маяк 103,4 FM" group-title="Новостные",Маяк 103,4 FM
-http://185.40.31.28:8000/station_115
-#EXTINF:-1 tvg-name="Милицейская волна 107,8 FM" group-title="В дорогу",Милицейская волна 107,8 FM
-http://radio2.sevstar.net:8000/milicia
-#EXTINF:-1 tvg-name="Москва-FM 92,0 FM" group-title="Новостные",Москва-FM 92,0 FM
-http://icecast.vgtrk.cdnvideo.ru/moscowfm128
-#EXTINF:-1 tvg-name="На семи холмах 104,7 FM" group-title="Релакс и Джаз",На семи холмах 104,7 FM
-http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
-#EXTINF:-1 tvg-name="Наше радио 101,8 FM" group-title="Рок и альтернатива",Наше радио 101,8 FM
-http://nashe1.hostingradio.ru/nashe-128.mp3
-#EXTINF:-1 tvg-name="Новое радио 98,4 FM" group-title="Юмор и развлечения",Новое радио 98,4 FM
-http://stream.newradio.ru/moscow.novoe.aacp
-#EXTINF:-1 tvg-name="Орфей 99,2 FM" group-title="Рок и альтернатива",Орфей 99,2 FM
-http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
-#EXTINF:-1 tvg-name="Первое спортивное 94,4 FM" group-title="Новостные",Первое спортивное 94,4 FM
-http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_20_sport_128_reg_1
-#EXTINF:-1 tvg-name="Радио Москвы 105,3 FM" group-title="Новостные",Радио Москвы 105,3 FM
-http://icecast-vgtrk.cdnvideo.ru/moscowtalk128
-#EXTINF:-1 tvg-name="Радио России 101,5 FM" group-title="Новостные",Радио России 101,5 FM
-http://radio.sevstar.net:8000/radio-rossii
-#EXTINF:-1 tvg-name="Радонеж 72,92 FM" group-title="Новостные",Радонеж 72,92 FM
-http://icecast.radonezh.cdnvideo.ru:8000/rad128
-#EXTINF:-1 tvg-name="РБК 92,8 FM" group-title="Новостные",РБК 92,8 FM
-http://reg.fmplay.ru:8000/rbc-48.aac
-#EXTINF:-1 tvg-name="Рекорд 89,9 FM" group-title="Поп и хиты",Рекорд 89,9 FM
-http://icecast-record.cdnvideo.ru/record
-#EXTINF:-1 tvg-name="Рекорд Chill-Out" group-title="Релакс и Джаз",Рекорд Chill-Out
-https://hls-01-radiorecord.hostingradio.ru/record-chil/playlist.m3u8
-#EXTINF:-1 tvg-name="Релакс-FM 90,8 FM" group-title="Релакс и Джаз",Релакс-FM 90,8 FM
-http://23.105.238.4/gpm-relaxfm495.aacp
-#EXTINF:-1 tvg-name="Ретро-FM 88,3 FM" group-title="Ретро",Ретро-FM 88,3 FM
-http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
-#EXTINF:-1 tvg-name="Романтика 98,8 FM" group-title="Поп и хиты",Романтика 98,8 FM
-http://23.105.238.4/gpm-romantika495.aacp
-#EXTINF:-1 tvg-name="Русский хит 99,6 FM" group-title="Поп и хиты",Русский хит 99,6 FM
-http://stream2.ruhit.fm:9000/19_ruhit_128_reg_1
-#EXTINF:-1 tvg-name="Русское радио 105,7 FM" group-title="Поп и хиты",Русское радио 105,7 FM
-http://23.105.238.4/rusradio128.mp3
-#EXTINF:-1 tvg-name="Серебряный дождь 100,1 FM" group-title="Поп и хиты",Серебряный дождь 100,1 FM
-http://s0.radioheart.ru:8000/ird
-#EXTINF:-1 tvg-name="Спутник 91,2 FM" group-title="Новостные",Спутник 91,2 FM
-http://orig.video.ria.ru:8000/voicemsk1
-#EXTINF:-1 tvg-name="Такси-FM 96,4 FM" group-title="В дорогу",Такси-FM 96,4 FM
-http://185.40.31.28:8000/station_54
-#EXTINF:-1 tvg-name="Хит-FM 107,4 FM" group-title="Поп и хиты",Хит-FM 107,4 FM
-http://23.105.238.4/hitfm128.mp3
-#EXTINF:-1 tvg-name="Шансон 103,0 FM" group-title="Ретро",Шансон 103,0 FM
-http://5.101.51.219:8041/chanson256.mp3
-#EXTINF:-1 tvg-name="Шоколад 98,0 FM" group-title="Релакс и Джаз",Шоколад 98,0 FM
-http://choco.hostingradio.ru:10010/fm
-#EXTINF:-1 tvg-name="Юмор-FM 88,7 FM" group-title="Юмор и развлечения",Юмор-FM 88,7 FM
-http://23.105.238.4/gpm-humorfm495.aacp
->>>>>>> Stashed changes
