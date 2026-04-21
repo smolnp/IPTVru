@@ -1,8 +1,6 @@
-# IPTV плейлисты (RU/BY)
+# IPTV плейлисты 
 
-Проект содержит ссылки из плейлистов, найденных в открытых источниках. Плейлисты составляются преимущественно для граждан РФ и Беларуси.
-
-> ⚠️ **Внимание:** Данный репозиторий является форком. Все плейлисты берутся из источника [smolnp/IPTVru](https://github.com/smolnp/IPTVru). Работоспособность каналов зависит от источника и вашего провайдера.
+Проект содержит ссылки из плейлистов, которые были найдены в открытых источниках. Плейлисты составляются преимущественно для граждан РФ и Беларуси.
 
 ## 📺 Поддерживаемые плееры
 
@@ -29,41 +27,59 @@
 >
 > Некоторые каналы могут не работать в вашем регионе, у вашего провайдера или блокироваться. Стабильность не гарантируется на 100%.
 
-[📢 Сообщество ВКонтакте автора](https://vk.com/iptvru250) — новости, обсуждения и помощь.
+[📢 Сообщество ВКонтакте](https://vk.com/iptvru250) — новости, обсуждения и помощь.
 
 ---
 
 ## 🛠 Ksenia M3U Editor
 
-Редактор плейлистов от smolnp
+Наш редактор плейлистов.
 
 📖 **Подробнее:** [Ksenia M3U Editor](https://github.com/smolnp/Ksenia/blob/main/Ksenia%20M3U%20Editor/KSENIA_M3U_EDITOR.md)
 
 ---
 
-## 📂 Доступные плейлисты
-#### IPRadio:
-> https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPRadio.m3u
+## 📂 Плейлисты
 
-#### IPTVmir:
-> https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVmir.m3u8
+### Тестовый
 
-#### IPTVru:
-> https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVmir.m3u
+```
+https://smolnp.github.io/IPTVru//IPTVххх.m3u
+```
 
-#### IPTVstable **[Рекомендуется]**
->  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVstable.m3u8
+- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVххх.m3u`.
 
-#### IPTVxxx 
->  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVxxx.m3u
+Редактируется сообществом. Именно в этот плейлист вы можете добавить свой канал, даже без ссылки (главное: имя и атрибуты) и как только скрипты найдут на этот канал рабочую ссылку он, со временем появится во всех плейлистах.
 
-#### IPTV20channels
->  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTV20channels.m3u
+### Основной
 
-#### IPTVavto
->  https://github.com/Maksim4081862/IPTVru/releases/download/v1.0/IPTVavto.m3u
+```
+https://smolnp.github.io/IPTVru//IPTVru.m3u
+```
 
----
+- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u`.
+
+Плейлист формируется после добавления и проверки ссылок на потоки из тестового плейлиста. Используется полный EPG файл (значки, программа и описание). Пулреквесты не принимаются.
+
+### Стабильный
+
+```
+https://smolnp.github.io/IPTVru//IPTVstable.m3u8
+```
+
+- Для всех плееров:`https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVstable.m3u8`.
+
+Плейлист формируется после удаления нестабильных и / или неработающих потоков из основного плейлиста. Используется облегченный EPG файл (значки и программа). Пулреквесты не принимаются.
+
+### Мировой
+
+```
+https://smolnp.github.io/IPTVru//IPTVmir.m3u8
+```
+
+- Для всех плееров: `https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVmir.m3u8`.
+
+Включает в себя зарубежные каналы (никем не поддерживается, обновляется скриптами).
 
 ## 🚫 Черный список
 Список временно заблокированных или нерабочих каналов:
