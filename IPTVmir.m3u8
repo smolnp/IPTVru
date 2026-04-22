@@ -38,10 +38,13 @@ http://188.225.31.197/bpk-tv/000001020/tve/index.m3u8
 #EXTINF:-1 tvg-id="2na2" tvg-logo="https://iptvx.one/picons/2na2.png" group-title="Детские" ,2x2
 http://176.118.197.101/2x2/index.m3u8
 #EXTINF:-1 tvg-id="2na2-pl2" tvg-logo="https://iptvx.one/picons/2na2-pl2.png" group-title="Детские" ,2x2 (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_2/variant.m3u8
 #EXTINF:-1 tvg-id="2na2-pl4" tvg-logo="https://iptvx.one/picons/2na2-pl4.png" group-title="Детские" ,2x2 (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 #EXTINF:-1 tvg-id="2na2-pl7" tvg-logo="https://iptvx.one/picons/2na2-pl7.png" group-title="Детские" ,2x2 (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
 #EXTINF:-1 tvg-id="3-plus-ee" tvg-logo="https://iptvx.one/picons/3-plus-ee.png" group-title="Неопределённые" ,TV3 Gold [EE]
 
@@ -98,6 +101,7 @@ https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/ind
 #EXTINF:-1 tvg-id="5kanal-karaganda" tvg-logo="https://iptvx.one/picons/5kanal-karaganda.png" group-title="Неопределённые" ,5 канал [KZ]
 
 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Общественные" ,Пятый канал
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru-pl2" tvg-logo="https://iptvx.one/picons/5kanal-ru-pl2.png" group-title="Общественные" ,Пятый канал +2
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_5TV_EKT/variant.m3u8
@@ -1498,16 +1502,20 @@ http://45.11.139.43:8555/doctor/index.m3u8
 #EXTINF:-1 tvg-id="domashnie-zhivotnye" tvg-logo="https://iptvx.one/picons/domashnie-zhivotnye.png" group-title="Хобби и увлечения" ,Домашние животные
 
 #EXTINF:-1 tvg-id="domashny" tvg-logo="https://iptvx.one/picons/domashny.png" group-title="Развлекательные" ,Домашний
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 #EXTINF:-1 tvg-id="domashny-int" tvg-logo="https://iptvx.one/picons/domashny-int.png" group-title="Развлекательные" ,Домашний International
 
 #EXTINF:-1 tvg-id="domashny-magazin" tvg-logo="https://iptvx.one/picons/domashny-magazin.png" group-title="Развлекательные" ,Домашний магазин
 
 #EXTINF:-1 tvg-id="domashny-pl2" tvg-logo="https://iptvx.one/picons/domashny-pl2.png" group-title="Развлекательные" ,Домашний (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_2/variant.m3u8
 #EXTINF:-1 tvg-id="domashny-pl4" tvg-logo="https://iptvx.one/picons/domashny-pl4.png" group-title="Развлекательные" ,Домашний (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY_4/variant.m3u8
 #EXTINF:-1 tvg-id="domashny-pl7" tvg-logo="https://iptvx.one/picons/domashny-pl7.png" group-title="Развлекательные" ,Домашний (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNY_7/variant.m3u8
 #EXTINF:-1 tvg-id="domkino" tvg-logo="https://iptvx.one/picons/domkino.png" group-title="Кино и сериалы" ,Дом кино
 http://176.96.241.40/DomKino/index.m3u8
@@ -2270,12 +2278,15 @@ http://77.232.131.211/Karusel/index.m3u8
 #EXTINF:-1 tvg-id="karusel-int" tvg-logo="https://iptvx.one/picons/karusel-int.png" group-title="Детские" ,Карусель International
 
 #EXTINF:-1 tvg-id="karusel-pl2" tvg-logo="https://iptvx.one/picons/karusel-pl2.png" group-title="Детские" ,Карусель (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_2/variant.m3u8
 #EXTINF:-1 tvg-id="karusel-pl3" tvg-logo="https://iptvx.one/picons/karusel-pl3.png" group-title="Детские" ,Карусель (+3)
 
 #EXTINF:-1 tvg-id="karusel-pl4" tvg-logo="https://iptvx.one/picons/karusel-pl4.png" group-title="Детские" ,Карусель (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_4/variant.m3u8
 #EXTINF:-1 tvg-id="karusel-pl7" tvg-logo="https://iptvx.one/picons/karusel-pl7.png" group-title="Детские" ,Карусель (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL_7/variant.m3u8
 #EXTINF:-1 tvg-id="karusel-pl8" tvg-logo="https://iptvx.one/picons/karusel-pl8.png" group-title="Детские" ,Карусель (+8)
 
@@ -3120,10 +3131,13 @@ http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
 #EXTINF:-1 tvg-id="mir-kz" tvg-logo="https://iptvx.one/picons/mir-kz.png" group-title="Общественные" ,Мир KZ
 
 #EXTINF:-1 tvg-id="mir-pl2" tvg-logo="https://iptvx.one/picons/mir-pl2.png" group-title="Общественные" ,Мир (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_2/variant.m3u8
 #EXTINF:-1 tvg-id="mir-pl4" tvg-logo="https://iptvx.one/picons/mir-pl4.png" group-title="Общественные" ,Мир (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_4/variant.m3u8
 #EXTINF:-1 tvg-id="mir-pl7" tvg-logo="https://iptvx.one/picons/mir-pl7.png" group-title="Общественные" ,Мир (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="Кино и сериалы" ,Мир сериала
 http://94.236.201.114/MIR_SERIALA_SD/index.m3u8
@@ -3334,12 +3348,16 @@ http://158.101.222.193:88/georgia_play.php?id=muzhskoy
 #EXTINF:-1 tvg-id="muzsoyuz" tvg-logo="https://iptvx.one/picons/muzsoyuz.png" group-title="Христианские" ,МузСоюз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="Музыкальные" ,Муз-ТВ
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 tvg-id="muztv-pl2" tvg-logo="https://iptvx.one/picons/muztv-pl2.png" group-title="Музыкальные" ,Муз-ТВ (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
 #EXTINF:-1 tvg-id="muztv-pl4" tvg-logo="https://iptvx.one/picons/muztv-pl4.png" group-title="Музыкальные" ,Муз-ТВ (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="muztv-pl7" tvg-logo="https://iptvx.one/picons/muztv-pl7.png" group-title="Музыкальные" ,Муз-ТВ (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="muzwar" tvg-logo="https://iptvx.one/picons/muzwar.png" group-title="Неопределённые" ,Музвар
 
@@ -3644,12 +3662,15 @@ http://194.158.222.36:6107
 #EXTINF:-1 tvg-id="ntv-pl1" tvg-logo="https://iptvx.one/picons/ntv-pl1.png" group-title="Общественные" ,НТВ (+1)
 https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pl2" tvg-logo="https://iptvx.one/picons/ntv-pl2.png" group-title="Общественные" ,НТВ (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pl3" tvg-logo="https://iptvx.one/picons/ntv-pl3.png" group-title="Общественные" ,НТВ (+3)
 
 #EXTINF:-1 tvg-id="ntv-pl4" tvg-logo="https://iptvx.one/picons/ntv-pl4.png" group-title="Общественные" ,НТВ (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pl7" tvg-logo="https://iptvx.one/picons/ntv-pl7.png" group-title="Общественные" ,НТВ (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" group-title="Развлекательные" ,НТВ Право
 https://cdn.ntv.ru/th_pravo/playlist.m3u8
@@ -3920,6 +3941,7 @@ http://catchup.videoline.ru/iriston/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="otkryty-mir" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" group-title="Хобби и увлечения" ,Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="Общественные" ,ОТР
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 #EXTINF:-1 tvg-id="otr-pl2" tvg-logo="https://iptvx.one/picons/otr-pl2.png" group-title="Общественные" ,ОТР (+2)
 
@@ -4036,18 +4058,22 @@ https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
 #EXTINF:-1 tvg-id="piantica-kz" tvg-logo="https://iptvx.one/picons/piantica-kz.png" group-title="Развлекательные" ,Пятница Int KZ
 
 #EXTINF:-1 tvg-id="piatnica" tvg-logo="https://iptvx.one/picons/piatnica.png" group-title="Развлекательные" ,Пятница!
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 #EXTINF:-1 tvg-id="piatnica-20-kg" tvg-logo="https://iptvx.one/picons/piatnica-20-kg.png" group-title="Развлекательные" ,Пятница 2.0 [KG]
 
 #EXTINF:-1 tvg-id="piatnica-int" tvg-logo="https://iptvx.one/picons/piatnica-int.png" group-title="Развлекательные" ,Пятница! International
 http://158.101.222.193:88/georgia_play.php?id=friday
 #EXTINF:-1 tvg-id="piatnica-pl2" tvg-logo="https://iptvx.one/picons/piatnica-pl2.png" group-title="Развлекательные" ,Пятница! (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8
 #EXTINF:-1 tvg-id="piatnica-pl3" tvg-logo="https://iptvx.one/picons/piatnica-pl3.png" group-title="Развлекательные" ,Пятница! (+3)
 
 #EXTINF:-1 tvg-id="piatnica-pl4" tvg-logo="https://iptvx.one/picons/piatnica-pl4.png" group-title="Развлекательные" ,Пятница! (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA_4/variant.m3u8
 #EXTINF:-1 tvg-id="piatnica-pl7" tvg-logo="https://iptvx.one/picons/piatnica-pl7.png" group-title="Развлекательные" ,Пятница! (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_7/variant.m3u8
 #EXTINF:-1 tvg-id="piaty-int" tvg-logo="https://iptvx.one/picons/piaty-int.png" group-title="Общественные" ,Пятый Int
 
@@ -4344,10 +4370,13 @@ https://a3569457567-s70378.cdn.ngenix.net/ren_tv/1/index.m3u8
 #EXTINF:-1 tvg-id="rentv-md" tvg-logo="https://iptvx.one/picons/rentv-md.png" group-title="Общественные" ,РенТВ Молдова
 
 #EXTINF:-1 tvg-id="rentv-pl2" tvg-logo="https://iptvx.one/picons/rentv-pl2.png" group-title="Общественные" ,Рен ТВ (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
 #EXTINF:-1 tvg-id="rentv-pl4" tvg-logo="https://iptvx.one/picons/rentv-pl4.png" group-title="Общественные" ,Рен ТВ (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="rentv-pl7" tvg-logo="https://iptvx.one/picons/rentv-pl7.png" group-title="Общественные" ,Рен ТВ (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="retro-music-cz" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" group-title="Музыкальные" ,Retro Music
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
@@ -4398,10 +4427,12 @@ https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.
 #EXTINF:-1 tvg-id="rossia1-pl1" tvg-logo="https://iptvx.one/picons/rossia1-pl1.png" group-title="Общественные" ,Россия 1 (+1)
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl2" tvg-logo="https://iptvx.one/picons/rossia1-pl2.png" group-title="Общественные" ,Россия 1 (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_2/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl3" tvg-logo="https://iptvx.one/picons/rossia1-pl3.png" group-title="Общественные" ,Россия 1 (+3)
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl4" tvg-logo="https://iptvx.one/picons/rossia1-pl4.png" group-title="Общественные" ,Россия 1 (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1_4/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl5" tvg-logo="https://iptvx.one/picons/rossia1-pl5.png" group-title="Общественные" ,Россия 1 (+5)
 https://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_UUDE_ROSSIA1_ULAN/variant.m3u8
@@ -5058,10 +5089,13 @@ https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a54
 #EXTINF:-1 tvg-id="solnce" tvg-logo="https://iptvx.one/picons/solnce.png" group-title="Детские" ,Солнце
 http://tv.mediacdn.ru/live/solntse/playlist.m3u8
 #EXTINF:-1 tvg-id="solnce-pl2" tvg-logo="https://iptvx.one/picons/solnce-pl2.png" group-title="Детские" ,Солнце (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8
 #EXTINF:-1 tvg-id="solnce-pl4" tvg-logo="https://iptvx.one/picons/solnce-pl4.png" group-title="Детские" ,Солнце (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
 #EXTINF:-1 tvg-id="solnce-pl7" tvg-logo="https://iptvx.one/picons/solnce-pl7.png" group-title="Детские" ,Солнце (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" group-title="Информационные" ,Соловьев.Live
 https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
@@ -5112,8 +5146,10 @@ https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1 tvg-id="spas" tvg-logo="https://iptvx.one/picons/spas.png" group-title="Христианские" ,Спас
 http://tvspas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="spas-pl2" tvg-logo="https://iptvx.one/picons/spas-pl2.png" group-title="Христианские" ,Спас (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS_2/variant.m3u8
 #EXTINF:-1 tvg-id="spas-pl7" tvg-logo="https://iptvx.one/picons/spas-pl7.png" group-title="Христианские" ,Спас (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS_7/variant.m3u8
 #EXTINF:-1 tvg-id="spectrum-sportsnet-us" tvg-logo="https://iptvx.one/picons/spectrum-sportsnet-us.png" group-title="Неопределённые" ,Spectrum SportsNet [US]
 
@@ -5330,24 +5366,31 @@ http://176.118.197.101/CTC/index.m3u8
 #EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="Детские" ,СТС Kids HD
 
 #EXTINF:-1 tvg-id="sts-love" tvg-logo="https://iptvx.one/picons/sts-love.png" group-title="Развлекательные" ,СТС Love
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
 #EXTINF:-1 tvg-id="sts-love-pl2" tvg-logo="https://iptvx.one/picons/sts-love-pl2.png" group-title="Развлекательные" ,СТС Love (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
 #EXTINF:-1 tvg-id="sts-love-pl4" tvg-logo="https://iptvx.one/picons/sts-love-pl4.png" group-title="Развлекательные" ,СТС Love (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_4/variant.m3u8
 #EXTINF:-1 tvg-id="sts-love-pl7" tvg-logo="https://iptvx.one/picons/sts-love-pl7.png" group-title="Развлекательные" ,СТС Love (+7)
 
 #EXTINF:-1 tvg-id="sts-pl2" tvg-logo="https://iptvx.one/picons/sts-pl2.png" group-title="Развлекательные" ,СТС (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
 #EXTINF:-1 tvg-id="sts-pl4" tvg-logo="https://iptvx.one/picons/sts-pl4.png" group-title="Развлекательные" ,СТС (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
 #EXTINF:-1 tvg-id="sts-pl7" tvg-logo="https://iptvx.one/picons/sts-pl7.png" group-title="Развлекательные" ,СТС (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
 #EXTINF:-1 tvg-id="stv-by" tvg-logo="https://iptvx.one/picons/stv-by.png" group-title="Общественные" ,СТВ Беларусь
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="stv-pirma!" tvg-logo="https://iptvx.one/picons/stv-pirma!.png" group-title="Неопределённые" ,STV Pirmā!
 
 #EXTINF:-1 tvg-id="stv24" tvg-logo="https://iptvx.one/picons/stv24.png" group-title="Региональные" ,СТВ 24
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STV24HD/variant.m3u8
 #EXTINF:-1 tvg-id="sumiko" tvg-logo="https://iptvx.one/picons/sumiko.png" group-title="Детские" ,Sumiko
 
@@ -5360,10 +5403,13 @@ http://217.114.191.150/Subbota/index.m3u8
 #EXTINF:-1 tvg-id="super-one" tvg-logo="https://iptvx.one/picons/super-one.png" group-title="Неопределённые" ,Super One HD
 
 #EXTINF:-1 tvg-id="super-pl2" tvg-logo="https://iptvx.one/picons/super-pl2.png" group-title="Развлекательные" ,Суббота! (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
 #EXTINF:-1 tvg-id="super-pl4" tvg-logo="https://iptvx.one/picons/super-pl4.png" group-title="Развлекательные" ,Суббота! (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
 #EXTINF:-1 tvg-id="super-pl7" tvg-logo="https://iptvx.one/picons/super-pl7.png" group-title="Развлекательные" ,Суббота! (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
 #EXTINF:-1 tvg-id="super-plus" tvg-logo="https://iptvx.one/picons/super-plus.png" group-title="Неопределённые" ,Super Plus
 
@@ -5654,28 +5700,35 @@ http://176.118.197.101/THT/index.m3u8
 #EXTINF:-1 tvg-id="tnt-music" tvg-logo="https://iptvx.one/picons/tnt-music.png" group-title="Развлекательные" ,ТНТ-Music
 
 #EXTINF:-1 tvg-id="tnt-pl2" tvg-logo="https://iptvx.one/picons/tnt-pl2.png" group-title="Развлекательные" ,ТНТ (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
 #EXTINF:-1 tvg-id="tnt-pl3" tvg-logo="https://iptvx.one/picons/tnt-pl3.png" group-title="Развлекательные" ,ТНТ (+3)
 
 #EXTINF:-1 tvg-id="tnt-pl4" tvg-logo="https://iptvx.one/picons/tnt-pl4.png" group-title="Развлекательные" ,ТНТ (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
 #EXTINF:-1 tvg-id="tnt-pl7" tvg-logo="https://iptvx.one/picons/tnt-pl7.png" group-title="Развлекательные" ,ТНТ (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
 #EXTINF:-1 tvg-id="tnt-serie-de" tvg-logo="https://iptvx.one/picons/tnt-serie-de.png" group-title="Неопределённые" ,TNT Serie
 
 #EXTINF:-1 tvg-id="tnt-sports-prem-ar" tvg-logo="https://iptvx.one/picons/tnt-sports-prem-ar.png" group-title="Неопределённые" ,TNT Sports Premium HD [AR]
 
 #EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="Развлекательные" ,ТНТ4
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 #EXTINF:-1 tvg-id="tnt4-international" tvg-logo="https://iptvx.one/picons/tnt4-international.png" group-title="Развлекательные" ,ТНТ4 International
 
 #EXTINF:-1 tvg-id="tnt4-pl2" tvg-logo="https://iptvx.one/picons/tnt4-pl2.png" group-title="Развлекательные" ,ТНТ4 (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
 #EXTINF:-1 tvg-id="tnt4-pl4" tvg-logo="https://iptvx.one/picons/tnt4-pl4.png" group-title="Развлекательные" ,ТНТ4 (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
 #EXTINF:-1 tvg-id="tnt4-pl6" tvg-logo="https://iptvx.one/picons/tnt4-pl6.png" group-title="Развлекательные" ,ТНТ4 (+6)
 
 #EXTINF:-1 tvg-id="tnt4-pl7" tvg-logo="https://iptvx.one/picons/tnt4-pl7.png" group-title="Развлекательные" ,ТНТ4 (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
 #EXTINF:-1 tvg-id="tnv" tvg-logo="https://iptvx.one/picons/tnv.png" group-title="Неопределённые" ,ТНВ
 
@@ -5868,14 +5921,18 @@ http://158.101.222.193:88/georgia_play.php?id=tv1000rukino
 #EXTINF:-1 tvg-id="tv3-plus-lt" tvg-logo="https://iptvx.one/picons/tv3-plus-lt.png" group-title="Неопределённые" ,TV3 Plus [LT]
 
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="Общественные" ,ТВ3
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-ru-pl2" tvg-logo="https://iptvx.one/picons/tv3-ru-pl2.png" group-title="Общественные" ,ТВ3 (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-ru-pl3" tvg-logo="https://iptvx.one/picons/tv3-ru-pl3.png" group-title="Общественные" ,ТВ3 (+3)
 
 #EXTINF:-1 tvg-id="tv3-ru-pl4" tvg-logo="https://iptvx.one/picons/tv3-ru-pl4.png" group-title="Общественные" ,ТВ3 (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-ru-pl7" tvg-logo="https://iptvx.one/picons/tv3-ru-pl7.png" group-title="Общественные" ,ТВ3 (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-sport-3" tvg-logo="https://iptvx.one/picons/tv3-sport-3.png" group-title="Неопределённые" ,TV3 Sport 3
 
@@ -7028,10 +7085,13 @@ https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=2r
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-id="zvezda-pl2" tvg-logo="https://iptvx.one/picons/zvezda-pl2.png" group-title="Общественные" ,Звезда (+2)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_2/variant.m3u8
 #EXTINF:-1 tvg-id="zvezda-pl4" tvg-logo="https://iptvx.one/picons/zvezda-pl4.png" group-title="Общественные" ,Звезда (+4)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_4/variant.m3u8
 #EXTINF:-1 tvg-id="zvezda-pl7" tvg-logo="https://iptvx.one/picons/zvezda-pl7.png" group-title="Общественные" ,Звезда (+7)
+#EXTVLCOPT:http-user-agent="#EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer""
 https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA_7/variant.m3u8
 #EXTINF:-1 tvg-id="zvyazda-by" tvg-logo="https://iptvx.one/picons/zvyazda-by.png" group-title="Неопределённые" ,Звязда
 
