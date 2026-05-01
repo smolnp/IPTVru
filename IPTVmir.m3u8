@@ -3522,7 +3522,7 @@ http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8
 #EXTINF:-1 tvg-id="nhl-network-us" tvg-logo="https://iptvx.one/picons/nhl-network-us.png" group-title="Неопределённые" ,NHL Network [US]
 
 #EXTINF:-1 tvg-id="nick-jr" tvg-logo="https://iptvx.one/picons/nick-jr.png" group-title="Детские" ,Nick Jr
-http://77.245.98.18:8000/play/a00a
+
 #EXTINF:-1 tvg-id="nick-jr-baltic" tvg-logo="https://iptvx.one/picons/nick-jr-baltic.png" group-title="Детские" ,Nick Jr. Baltic
 
 #EXTINF:-1 tvg-id="nickelodeon-baltic" tvg-logo="https://iptvx.one/picons/nickelodeon-baltic.png" group-title="Детские" ,Nickelodeon Baltic
@@ -6713,7 +6713,7 @@ http://77.245.98.18:8000/play/a011
 #EXTINF:-1 tvg-id="vip-comedy-cee" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" group-title="Кино и сериалы" ,Viasat Kino Comedy
 
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="Кино и сериалы" ,viju+ Megahit
-http://77.245.98.18:8000/play/a010
+http://37.46.49.14:18010/play/a02j/index.m3u8
 #EXTINF:-1 tvg-id="vip-megahit-cee" tvg-logo="https://iptvx.one/picons/vip-megahit-cee.png" group-title="Кино и сериалы" ,Viasat Kino Megahit
 
 #EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="Кино и сериалы" ,viju+ Premiere
@@ -7059,7 +7059,7 @@ http://31.148.48.15/Zhivaya_Planeta/index.m3u8
 #EXTINF:-1 tvg-id="zhivaya-priroda" tvg-logo="https://iptvx.one/picons/zhivaya-priroda.png" group-title="Познавательные" ,Живая природа
 
 #EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="https://iptvx.one/picons/zhivi-aktivno.png" group-title="Неопределённые" ,Живи активно
-http://77.245.98.18:8000/play/a012
+
 #EXTINF:-1 tvg-id="ziggo-sport1-nl" tvg-logo="https://iptvx.one/picons/ziggo-sport1-nl.png" group-title="Неопределённые" ,Ziggo Sport 1 [NL]
 
 #EXTINF:-1 tvg-id="ziggo-sport2-nl" tvg-logo="https://iptvx.one/picons/ziggo-sport2-nl.png" group-title="Неопределённые" ,Ziggo Sport 2 [NL]
