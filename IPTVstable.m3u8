@@ -420,6 +420,8 @@ https://stream.almaz-media.tv:8080/hls/720.m3u8
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/arhangelsk/arktika24-hd/index.m3u8
 #EXTINF:-1 tvg-id="arxyz24" tvg-logo="https://iptvx.one/picons/arxyz24.png" group-title="Местные" ,Архыз 24 (Карачаево-Черкесия)
 https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
+#EXTINF:-1 tvg-id="tumenskoe-vremia" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr_KptC_eYKCPTL5NyNUIzOSCufYsKOyyx7w&s" group-title="Местные" ,Тюменское время (Тюмень)
+https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="astraxan24" tvg-logo="https://iptvx.one/picons/astraxan24.png" group-title="Местные" ,Астрахань 24
 https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="atv-media" tvg-logo="https://iptvx.one/picons/atv-media.png" group-title="Местные" ,АТВ-Медиа
