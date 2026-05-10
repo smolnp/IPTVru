@@ -1010,7 +1010,7 @@ https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 tvg-id="tst-cheremchovo" tvg-logo="https://iptvx.one/picons/tst-cheremchovo.png" group-title="Местные" ,ТСТ (Черемхово)
 http://5.183.155.8:88/stream.m3u8
 #EXTINF:-1 tvg-id="tumenskoe-vremia" tvg-logo="https://iptvx.one/picons/tumenskoe-vremia.png" group-title="Местные" ,Тюменское время
-https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo/playlist.m3u8
+https://hls-sibinformburo.cdnvideo.ru/sibinformburo-srt/sibinformburo001/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="tvoya-tumen" tvg-logo="https://iptvx.one/picons/tvoya-tumen.png" group-title="Местные" ,TVоя Тюмень
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TVOYATUMEN/variant.m3u8
 #EXTINF:-1 tvg-id="udmurtia" tvg-logo="https://iptvx.one/picons/udmurtia.png" group-title="Местные" ,Удмуртия
