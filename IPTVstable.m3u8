@@ -200,8 +200,6 @@ http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="vot-tv" tvg-logo="https://iptvx.one/picons/vot-tv.png" group-title="Развлекательные (Местные)" ,ВОТ ТВ
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
-#EXTINF:-1 tvg-id="vestnik-nadyma" tvg-logo="https://iptvx.one/picons/vestnik-nadyma.png" group-title="Развлекательные (Местные)" ,Вестник Надыма
-https://0werof7ib0p.a.trbcdn.net/livemaster/6r10qa9k6d_trknadym.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="deviatka" tvg-logo="https://iptvx.one/picons/deviatka.png" group-title="Развлекательные (Местные)" ,Девятка
 http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rentv-istoki" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" group-title="Развлекательные (Местные)" ,Истоки
@@ -238,8 +236,6 @@ http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=2r54ZPgnc2r3TX_Z4F-zEg&e=2070623526&scheme=https
 #EXTINF:-1 tvg-id="maydan" tvg-logo="https://iptvx.one/picons/maydan.png" group-title="Музыкальные" ,Майдан
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_OTT_VLG_KZN_MAIDAN/variant.m3u8?version2
-#EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="Музыкальные" ,Муз ТВ
-http://185.71.81.6:8080/20/index.m3u8
 #EXTINF:-1 tvg-id="muzyka-pervogo" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" group-title="Музыкальные" ,Музыка Первого
 https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://iptvx.one/picons/radio-shanson.png" group-title="Музыкальные" ,Радио Шансон
@@ -286,8 +282,6 @@ https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" group-title="Кино и сериалы (Российские)" ,Комедия
 http://176.118.197.101/Komediya/index.m3u8
-#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция
-http://185.164.82.18:9010/ykMHqK_Fox
 #EXTINF:-1 tvg-id="ntv-serial" tvg-logo="https://iptvx.one/picons/ntv-serial.png" group-title="Кино и сериалы (Российские)",НТВ Сериал
 https://cdn.ntv.ru/th_serial/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="Кино и сериалы (Российские)" ,НТВ Хит
@@ -438,8 +432,6 @@ https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
 https://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="bst-bratsk" tvg-logo="https://iptvx.one/picons/bst-bratsk.png" group-title="Местные" ,БСТ Братск
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
-#EXTINF:-1 tvg-id="vektor-24" tvg-logo="https://iptvx.one/picons/vektor-24.png" group-title="Местные" ,Вектор 24 HD
-http://136723.edgevideo.ru/streams/136723_657205/720n/index.m3u8
 #EXTINF:-1 tvg-id="vetta24" tvg-logo="https://iptvx.one/picons/vetta24.png" group-title="Местные" ,Ветта 24 (Пермь)
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="volga" tvg-logo="https://iptvx.one/picons/volga.png" group-title="Местные" ,Волга
@@ -614,8 +606,6 @@ http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
 https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="telemiks" tvg-logo="https://iptvx.one/picons/telemiks.png" group-title="Местные" ,Телемикс
 http://s91030.cdn.ngenix.net/hls/CH_R25_TMX/variant.m3u8
-#EXTINF:-1 tvg-id="tivikom" tvg-logo="https://iptvx.one/picons/tivikom.png" group-title="Местные" ,Тивиком
-https://stream.trafjam.ru/tvcom/studio/tracks-v1a1/rewind-43200.m3u8
 #EXTINF:-1 tvg-id="tk-variant" tvg-logo="https://iptvx.one/picons/tk-variant.png" group-title="Местные" ,ТК Вариант
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-id="tolyatti24" tvg-logo="https://iptvx.one/picons/tolyatti24.png" group-title="Местные" ,Тольятти 24

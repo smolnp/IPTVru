@@ -295,7 +295,7 @@ http://212.2.225.30:1935/live/site.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="vot-tv" tvg-logo="https://iptvx.one/picons/vot-tv.png" group-title="Развлекательные (Местные)" ,ВОТ ТВ
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
 #EXTINF:-1 tvg-id="vestnik-nadyma" tvg-logo="https://iptvx.one/picons/vestnik-nadyma.png" group-title="Развлекательные (Местные)" ,Вестник Надыма
-https://0werof7ib0p.a.trbcdn.net/livemaster/6r10qa9k6d_trknadym.sdp/playlist.m3u8
+
 #EXTINF:-1 tvg-id="deviatka" tvg-logo="https://iptvx.one/picons/deviatka.png" group-title="Развлекательные (Местные)" ,Девятка
 http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rentv-istoki" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" group-title="Развлекательные (Местные)" ,Истоки
@@ -363,7 +363,7 @@ http://5.188.159.128:8070/rutv/index.m3u8
 #EXTINF:-1 tvg-id="vostok-tv" tvg-logo="https://iptvx.one/picons/vostok-tv.png" group-title="Музыкальные" ,Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 #EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://iptvx.one/picons/viva-rus.png" group-title="Музыкальные" ,VIVA Russia
-https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
+
 #EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные" ,Жара
 
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="Музыкальные" ,Жар Птица
@@ -517,7 +517,7 @@ http://176.118.197.101/Retro/index.m3u8
 #EXTINF:-1 tvg-id="kinojam2" tvg-logo="https://iptvx.one/picons/kinojam2.png" group-title="Кино и сериалы (Российские)" ,Kinojam 2
 
 #EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="Кино и сериалы (Российские)" ,Star Cinema
-
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=4158
 #EXTINF:-1 tvg-id="star-family" tvg-logo="https://iptvx.one/picons/star-family.png" group-title="Кино и сериалы (Российские)",Star Family
 
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://iptvx.one/picons/start-air.png" group-title="Кино и сериалы (Российские)" ,Start Air
@@ -541,7 +541,7 @@ http://176.118.197.101/Komediya/index.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="Кино и сериалы (Российские)" ,Мир Сериала
 http://93.84.115.174:10181/mir_seriala
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://iptvx.one/picons/mosfilm.png" group-title="Кино и сериалы (Российские)" ,Мосфильм. Золотая коллекция
-http://185.164.82.18:9010/ykMHqK_Fox
+
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="Кино и сериалы (Российские)" ,Наш кинопоказ HD
 
 #EXTINF:-1 tvg-id="nashehd" tvg-logo="https://iptvx.one/picons/nashehd.png" group-title="Кино и сериалы (Российские)",Наше крутое HD
@@ -805,7 +805,7 @@ https://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="bst-bratsk" tvg-logo="https://iptvx.one/picons/bst-bratsk.png" group-title="Местные" ,БСТ Братск
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
 #EXTINF:-1 tvg-id="vektor-24" tvg-logo="https://iptvx.one/picons/vektor-24.png" group-title="Местные" ,Вектор 24 HD
-http://136723.edgevideo.ru/streams/136723_657205/720n/index.m3u8
+
 #EXTINF:-1 tvg-id="vetta24" tvg-logo="https://iptvx.one/picons/vetta24.png" group-title="Местные" ,Ветта 24 (Пермь)
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="volga" tvg-logo="https://iptvx.one/picons/volga.png" group-title="Местные" ,Волга
@@ -998,7 +998,7 @@ https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="telemiks" tvg-logo="https://iptvx.one/picons/telemiks.png" group-title="Местные" ,Телемикс
 http://s91030.cdn.ngenix.net/hls/CH_R25_TMX/variant.m3u8
 #EXTINF:-1 tvg-id="tivikom" tvg-logo="https://iptvx.one/picons/tivikom.png" group-title="Местные" ,Тивиком
-https://stream.trafjam.ru/tvcom/studio/tracks-v1a1/rewind-43200.m3u8
+
 #EXTINF:-1 tvg-id="tk-variant" tvg-logo="https://iptvx.one/picons/tk-variant.png" group-title="Местные" ,ТК Вариант
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-id="tolyatti24" tvg-logo="https://iptvx.one/picons/tolyatti24.png" group-title="Местные" ,Тольятти 24
@@ -1030,7 +1030,7 @@ http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
 #EXTINF:-1 tvg-id="yakutia24" tvg-logo="https://iptvx.one/picons/yakutia24.png" group-title="Местные" ,Якутия 24
 http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png" group-title="Местные" ,Югра
-
+https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 #EXTINF:-1 tvg-id="yurgan" tvg-logo="https://iptvx.one/picons/yurgan.png" group-title="Местные" ,Юрган
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
 #EXTINF:-1 tvg-id="efir24-relax" tvg-logo="https://iptvx.one/picons/efir24-relax.png" group-title="Местные" ,Эфир
