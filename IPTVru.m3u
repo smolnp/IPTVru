@@ -100,6 +100,14 @@ http://185.46.16.239:8000/Ani
 http://5.188.159.128:8070/Cartoon_Network/index.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://iptvx.one/picons/cartoon-network.png" group-title="Детские" ,Cartoon Network
 http://176.118.197.101/Cartoon_Network/index.m3u8
+#EXTINF:-1 group-title="Детские",Nickelodeon
+http://dmi3y-tv.online/hls/CH_NICKELODEON.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nickelodeon HD
+http://dmi3y-tv.online/hls/CH_NICKELODEONHD.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nicktoons
+http://dmi3y-tv.online/hls/CH_NICKTOONS.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nick Jr.
+http://dmi3y-tv.online/hls/CH_NICKJR.m3u8
 #EXTINF:-1 tvg-id="ducktv" tvg-logo="https://iptvx.one/picons/ducktv.png" group-title="Детские",Duck TV
 https://stream8.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="jimjam" tvg-logo="https://iptvx.one/picons/jimjam.png" group-title="Детские" ,JimJam
