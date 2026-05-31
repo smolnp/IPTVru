@@ -2154,7 +2154,7 @@ http://158.101.222.193:88/georgia_play.php?id=hdlife
 #EXTINF:-1 tvg-id="hollywood" tvg-logo="https://iptvx.one/picons/hollywood.png" group-title="Кино и сериалы" ,Hollywood
 http://31.148.48.15/AMC/index.m3u8
 #EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="Кино и сериалы" ,Hollywood HD
-http://5.188.159.128:8070/HOLLYWOOD_HD/index.m3u8
+
 #EXTINF:-1 tvg-id="home-4k" tvg-logo="https://iptvx.one/picons/home-4k.png" group-title="Неопределённые" ,Home 4K
 
 #EXTINF:-1 tvg-id="horrortv" tvg-logo="https://iptvx.one/picons/horrortv.png" group-title="Кино и сериалы" ,Horror TV
@@ -4044,7 +4044,7 @@ http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_1TV_EKT/variant.m3u8?ver
 #EXTINF:-1 tvg-id="pervy-pridnestrovsky" tvg-logo="https://iptvx.one/picons/pervy-pridnestrovsky.png" group-title="Региональные" ,Первый Приднестровский
 
 #EXTINF:-1 tvg-id="pervy-pskovsky" tvg-logo="https://iptvx.one/picons/pervy-pskovsky.png" group-title="Региональные" ,Первый Псковский
-http://live-3.otcnet.ru/pskov/index.m3u8
+
 #EXTINF:-1 tvg-id="pervy-rostovsky" tvg-logo="https://iptvx.one/picons/pervy-rostovsky.png" group-title="Региональные" ,Первый Ростовский
 https://rost.mediacdn.ru/cdn/rostov1/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-id="pervy-sevastopolsky" tvg-logo="https://iptvx.one/picons/pervy-sevastopolsky.png" group-title="Региональные" ,Первый Севастопольский
@@ -5634,7 +5634,7 @@ https://stream.teotv.ru/live/site360/playlist.m3u8
 #EXTINF:-1 tvg-id="teve2hd" tvg-logo="https://iptvx.one/picons/teve2hd.png" group-title="Неопределённые" ,Teve2 HD
 
 #EXTINF:-1 tvg-id="texno-24" tvg-logo="https://iptvx.one/picons/texno-24.png" group-title="Неопределённые" ,Т24
-http://158.101.222.193:88/georgia_play.php?id=24techno
+
 #EXTINF:-1 tvg-id="the-country-ntwrk-us" tvg-logo="https://iptvx.one/picons/the-country-ntwrk-us.png" group-title="Неопределённые" ,The Country Network [US]
 
 #EXTINF:-1 tvg-id="the-explorers" tvg-logo="https://iptvx.one/picons/the-explorers.png" group-title="Познавательные" ,The Explorers
