@@ -1584,7 +1584,7 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/d5
 #EXTINF:-1 tvg-id="917" tvg-logo="http://epg.one/img2/917.png" group-title="детские" ,Nick Jr.
 
 #EXTINF:-1 tvg-id="423" tvg-logo="http://epg.one/img2/423.png" group-title="детские" ,Nickelodeon
-http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="923" tvg-logo="http://epg.one/img2/923.png" group-title="детские" ,Детский мир
 http://46.32.176.50/detskiymir/index.m3u8
 #EXTINF:-1 tvg-id="494" tvg-logo="http://epg.one/img2/494.png" group-title="детские" ,JimJam
@@ -2826,7 +2826,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
 #EXTINF:-1 tvg-id="162" tvg-logo="http://epg.one/img2/162.png" group-title="другие" ,НТВ
 http://46.32.64.39:10004
 #EXTINF:-1 tvg-id="353" tvg-logo="http://epg.one/img2/353.png" group-title="другие" ,ТНТ
-http://176.118.197.101/THT/index.m3u8
+http://31.131.141.195:8000/play/2090/index.m3u8
 #EXTINF:-1 tvg-id="1003" tvg-logo="http://epg.one/img2/1003.png" group-title="другие" ,Пятница!
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 #EXTINF:-1 tvg-id="79" tvg-logo="http://epg.one/img2/79.png" group-title="другие" ,СТС
