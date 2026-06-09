@@ -1,49 +1,49 @@
 #EXTM3U radio="true"
 #PLAYLIST:IPradio
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Rock_FM_logo.png/1200px-Rock_FM_logo.png" group-title="Рок и альтернатива",ROCK FM
+#EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",ROCK FM
 http://nashe1.hostingradio.ru/rock-64.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/38/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_Maximum.png" group-title="Рок и альтернатива",Maximum
+#EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Maximum
 http://maximum.hostingradio.ru/maximum96.aacp
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_Ultra.png" group-title="Рок и альтернатива",Ultra
+#EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Ultra
 http://nashe1.hostingradio.ru/ultra-64.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/%D0%9D%D0%B0%D1%88%D0%B5_%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Рок и альтернатива",Наше радио
+#EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Наше радио
 http://nashe1.hostingradio.ru/nashespb128.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/Orpheus_radio_station_logo.png" group-title="Рок и альтернатива",Орфей
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/ru/thumb/d/de/Радио_Орфей.svg/1280px-Радио_Орфей.svg.png" group-title="Рок и альтернатива",Орфей
 http://orfeyfm.hostingradio.ru:8034/orfeyfm192.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_7_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Рок и альтернатива",Радио на семи холмах
+#EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Радио на семи холмах
 http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pLM7Lj7.png" group-title="Рок и альтернатива",Русский панк
 http://79.120.77.11:8000/punkru
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pLM7Lj7.png" group-title="Рок и альтернатива",Русский рок
 http://79.120.77.11:8000/rockru
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Energyfm_logo_2015.png" group-title="Поп и хиты",Energy FM
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Energy_FM_logo.png/1280px-Energy_FM_logo.png" group-title="Поп и хиты",Energy FM
 http://23.105.238.4/gpm-energyfm495.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/df/Like_FM_logo_2015.png" group-title="Поп и хиты",Like FM
 http://23.105.238.4/gpm-likefm495.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b8/Love_Radio_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2013.png" group-title="Поп и хиты",Love Радио
 http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_12_love_128_reg_44
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Europa_Plus_logo.svg/1200px-Europa_Plus_logo.svg.png" group-title="Поп и хиты",Европа Плюс
+#EXTINF:-1 tvg-logo="https://vectorseek.com/wp-content/uploads/2024/02/Europa-Plus-Sarov-102.7-FM-Logo-Vector.svg-.png" group-title="Поп и хиты",Европа Плюс
 http://europaplus.hostingradio.ru:8014/europaplus320.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/%D0%9C%D0%B0%D1%80%D1%83%D1%81%D1%8F_FM_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Поп и хиты",Маруся FM
+#EXTINF:-1 tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/90/72/45/907245c3-089b-90d4-fda1-bfb02aeaad8c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x600wa.png" group-title="Поп и хиты",Маруся FM
 http://msk1.radio-holding.ru:9000/stream_site_marus_hls
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/DFM_logo.png" group-title="Поп и хиты",Радио DFM
 http://dfm.hostingradio.ru/dfm128.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2019.png" group-title="Поп и хиты",Новое Радио
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Поп и хиты",Новое Радио
 http://icecast-newradio.cdnvideo.ru/newradio3
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ZRk0745.jpg" group-title="Поп и хиты",Русские хиты 1980-1990х
+#EXTINF:-1 tvg-logo="" group-title="Поп и хиты",Русские хиты 1980-1990х
 http://79.120.77.11:8000/80ru
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b6/%D0%9F%D0%B8_FM_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2015.png" group-title="Поп и хиты",Радио ПИ ФМ
 https://cdn.pifm.ru/mp3web?rn=718
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/Romantika_Radio_Logo_2015.png" group-title="Поп и хиты",Романтика
+#EXTINF:-1 tvg-logo="https://png.pngtree.com/png-clipart/20230922/original/pngtree-love-logo-abstract-logo-romantic-vector-png-image_12648454.png" group-title="Поп и хиты",Романтика
 http://23.105.238.4/gpm-romantika495.aacp
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_%D0%A0%D0%B5%D0%BA%D0%BE%D1%80%D0%B4_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Поп и хиты",Рекорд
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Поп и хиты",Рекорд
 http://icecast-record.cdnvideo.ru/record
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D0%B8%D1%82_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2018.png" group-title="Поп и хиты",Русский хит
+#EXTINF:-1 tvg-logo="https://vectorseek.com/wp-content/uploads/2024/02/BRIDGE-TV-Russian-Hit-Logo-Vector.svg-.png" group-title="Поп и хиты",Русский хит
 http://stream2.ruhit.fm:9000/19_ruhit_128_reg_1
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B5_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2015.png" group-title="Поп и хиты",Русское радио
+#EXTINF:-1 tvg-logo="https://boxing-fbc.ru/wp-content/uploads/2017/11/RR_logo-1-1.png" group-title="Поп и хиты",Русское радио
 http://rusradio.hostingradio.ru/rusradio96.aacp
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/Hit_FM_logo.png" group-title="Поп и хиты",Хит FM
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/1005/472/png-transparent-logo-fm-broadcasting-%D0%A5%D1%96%D1%82-fm-radio-hit-record-others-text-fm-broadcasting-logo.png" group-title="Поп и хиты",Хит FM
 http://hitfm.hostingradio.ru/hitfm96.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/25/Avtoradio_logo.png" group-title="В дорогу",Авторадио
 http://23.105.238.4/gpm-avtoradio495.aacp
@@ -65,7 +65,7 @@ http://78.140.197.238:9877/msk_KalynaK_1a
 http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/53/Shanson_radio_logo_2015.png" group-title="Ретро",Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/Vesti_FM_logo.png" group-title="Новостные",Вести FM
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Новостные",Вести FM
 http://icecast.vgtrk.cdnvideo.ru/vestifm
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a3/Govorit_Moskva_logo.png" group-title="Новостные",Говорит Москва
 http://media.govoritmoskva.ru:8000/gm.mp3
@@ -77,15 +77,15 @@ http://radio.mediacdn.ru/radio/zvezda/zvezda_128
 http://kommersant77.hostingradio.ru:8016/kommersant128.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/Komsomolskaya_pravda_radio_logo.png" group-title="Новостные",Комсомольская правда
 http://kraskp.ru:8000/mskregion
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fd/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_FM_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Новостные",Москва FM
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Новостные",Москва FM
 http://icecast.vgtrk.cdnvideo.ru/moscowfm128
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c1/Pervoe_Sportivnoe_Radio_Logo_2018.png" group-title="Новостные",Первое спортивное
 http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_20_sport_128_reg_1
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/Radio_Mayak_logo.png" group-title="Новостные",Радио Маяк
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Новостные",Радио Маяк
 http://icecast.vgtrk.cdnvideo.ru/mayakfm
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/61/Radio_Mir_logo_2015.png" group-title="Новостные",Радио Мир
 http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0b/Radio_Moskvy_logo.png" group-title="Новостные",Радио Москвы
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Новостные",Радио Москвы
 http://icecast-vgtrk.cdnvideo.ru/moscowtalk128
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/ba/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_2022.png" group-title="Новостные",Радио России
 http://radio.sevstar.net:8000/radio-rossii
@@ -101,17 +101,17 @@ http://23.105.238.4/gpm-comedyradio495.aacp
 http://stream.newradio.ru/moscow.novoe.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/Yumor_FM_logo_2015.png" group-title="Юмор и развлечения",Юмор FM
 http://live.humorfm.by:8000/veseloe.m3u
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Radio_Jazz.png" group-title="Релакс и Джаз",Jazz
+#EXTINF:-1 tvg-logo="https://jazz.fm/wp-content/uploads/logo.png" group-title="Релакс и Джаз",Jazz
 http://jazz.streamr.ru/jazz-64.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0b/Relax_FM_logo_2015.png" group-title="Релакс и Джаз",Relax FM
 http://23.105.238.4/gpm-relaxfm495.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE_7_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Релакс и Джаз",Радио на семи холмах (Relax)
 http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/07/Radio_Kultura_logo.png" group-title="Релакс и Джаз",Радио Культура
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Релакс и Джаз",Радио Культура
 http://icecast-vgtrk.cdnvideo.ru/kulturafm
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b0/Record_Chill-Out_Logo.png" group-title="Релакс и Джаз",Рекорд Chill-Out
 https://hls-01-radiorecord.hostingradio.ru/record-chil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png" group-title="Релакс и Джаз",Шоколад
+#EXTINF:-1 tvg-logo="" group-title="Релакс и Джаз",Шоколад
 http://choco.hostingradio.ru:10010/fm
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/Klassnoe_radio_logo.png" group-title="Детские",Классное радио РДШ
 https://schoolradio.hostingradio.ru:18026/schoolradio128.mp3
@@ -119,7 +119,7 @@ https://schoolradio.hostingradio.ru:18026/schoolradio128.mp3
 http://23.105.238.4/gpm-detifm495.aacp
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/Monte_Carlo_Radio_Logo.png" group-title="Поп и хиты",Монте-Карло
 http://montecarlo.hostingradio.ru/montecarlo96.aacp
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Yunost_Radio_Logo_2018.png" group-title="Поп и хиты",Юность
+#EXTINF:-1 tvg-logo="https://cdnvideo.ru/logo.png" group-title="Поп и хиты",Юность
 http://icecast-vgtrk.cdnvideo.ru/unost_mp3_192kbps
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/21/Record_Deep_Logo.png" group-title="Релакс и Джаз",Рекорд Deep
 https://hls-01-radiorecord.hostingradio.ru/record-deep/playlist.m3u8
