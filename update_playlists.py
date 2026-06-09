@@ -1,176 +1,164 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-Автоматический обновлятор IPTV плейлистов для smolnp/IPTVru
-Проверяет работоспособность каналов и обновляет все плейлисты
-"""
-
 import os
 import sys
-import json
-import time
 import re
-import hashlib
-import pickle
 import random
-from datetime import datetime, timedelta
-from typing import List, Dict, Optional, Set, Tuple
-from urllib.parse import urlparse
+import time
+from datetime import datetime
+from typing import List, Dict, Tuple
 import concurrent.futures
-
 import requests
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# ============== КОНФИГУРАЦИЯ ==============
+# Конфигурация
 CONFIG = {
-    'max_workers': 50,              # Максимум потоков для проверки
-    'check_timeout': 5,             # Таймаут проверки канала (сек)
-    'request_timeout': 15,          # Таймаут загрузки плейлиста
-    'batch_size': 100,              # Размер пакета для проверки
-    'min_working_channels': 10,     # Минимум рабочих каналов в плейлисте (общий)
-    'save_history': True,           # Сохранять историю изменений
-    'max_history_days': 30,         # Хранить историю 30 дней
-    'cache_hours': 6,               # Кэширование результатов проверки
+    'max_workers': 50,
+    'check_timeout': 5,
+    'min_working_channels': 10,
+    'remove_empty_urls': True,
+    'remove_invalid_urls': True,
+    'remove_duplicates': True,
+    'clean_channel_names': True,
+    'add_blank_line_after_header': True,
 }
 
-# Полный список плейлистов из репозитория smolnp/IPTVru
+# Список плейлистов
 PLAYLISTS = {
-    'main': 'IPTVru.m3u',           # Основной плейлист
-    'stable': 'IPTVstable.m3u8',    # Стабильная версия
-    'mirror': 'IPTVmir.m3u8',       # Зеркало
-    'xxx': 'IPTVххх.m3u',           # Взрослые каналы (18+)
-    'radio': 'IPTVradio.m3u',       # Радиостанции
+    'main': 'IPTVru.m3u',
+    'stable': 'IPTVstable.m3u8',
+    'mirror': 'IPTVmir.m3u8',
+    'xxx': 'IPTVххх.m3u',
+    'radio': 'IPTVradio.m3u',
 }
 
-# Настройки для каждого плейлиста
+# Настройки плейлистов
 PLAYLIST_SETTINGS = {
     'IPTVru.m3u': {
-        'name': 'Основной плейлист',
+        'name': 'IPTVru', 
         'min_working': 50,
-        'description': 'Все каналы'
+        'epg_url': 'https://iptvx.one/epg/epg.xml.gz'
     },
     'IPTVstable.m3u8': {
-        'name': 'Стабильная версия',
+        'name': 'IPTVstable', 
         'min_working': 30,
-        'description': 'Проверенные стабильные каналы'
+        'epg_url': 'https://iptvx.one/epg/epg.xml.gz'
     },
     'IPTVmir.m3u8': {
-        'name': 'Зеркало',
+        'name': 'IPTVmir', 
         'min_working': 30,
-        'description': 'Альтернативные источники'
+        'epg_url': 'https://iptvx.one/epg/epg.xml.gz'
     },
     'IPTVххх.m3u': {
-        'name': 'Взрослые каналы',
-        'min_working': 5,
-        'description': 'Каналы для взрослых (18+)',
+        'name': 'IPTVxxx', 
+        'min_working': 5, 
         'adult': True
     },
     'IPTVradio.m3u': {
-        'name': 'Радиостанции',
-        'min_working': 10,
-        'description': 'Интернет-радио',
+        'name': 'IPTVradio', 
+        'min_working': 10, 
         'radio': True
     },
 }
 
-HISTORY_DIR = 'history'
-LOGS_DIR = 'logs'
-REPORTS_DIR = 'reports'
-
-# ============== ВСПОМОГАТЕЛЬНЫЕ КЛАССЫ ==============
-
-class Logger:
-    """Простое логирование"""
-    def __init__(self):
-        os.makedirs(LOGS_DIR, exist_ok=True)
-        self.log_file = os.path.join(LOGS_DIR, f"update_{datetime.now().strftime('%Y%m%d')}.log")
-    
-    def log(self, message: str, level: str = "INFO"):
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        log_line = f"[{timestamp}] [{level}] {message}"
-        print(log_line)
-        try:
-            with open(self.log_file, 'a', encoding='utf-8') as f:
-                f.write(log_line + '\n')
-        except:
-            pass
-    
-    def info(self, msg): self.log(msg, "INFO")
-    def warning(self, msg): self.log(msg, "WARNING")
-    def error(self, msg): self.log(msg, "ERROR")
-
-logger = Logger()
-
+def log(msg):
+    """Простой вывод в консоль"""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"[{timestamp}] {msg}")
 
 class UserAgentRotator:
-    """Ротация User-Agent"""
     USER_AGENTS = [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0.0.0",
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0",
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/131.0.0.0",
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131.0.0.0",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
     ]
-    
     @classmethod
     def get(cls): return random.choice(cls.USER_AGENTS)
 
-
-class CacheManager:
-    """Кэширование результатов проверки"""
-    def __init__(self, cache_hours=6):
-        self.cache_dir = ".cache_checker"
-        self.cache_hours = cache_hours
-        os.makedirs(self.cache_dir, exist_ok=True)
-    
-    def _get_key(self, url: str) -> str:
-        return hashlib.md5(url.encode()).hexdigest()
-    
-    def get(self, url: str) -> Optional[Tuple[bool, float]]:
-        key = self._get_key(url)
-        path = os.path.join(self.cache_dir, f"{key}.cache")
-        if os.path.exists(path):
-            try:
-                mtime = datetime.fromtimestamp(os.path.getmtime(path))
-                if datetime.now() - mtime < timedelta(hours=self.cache_hours):
-                    with open(path, 'rb') as f:
-                        return pickle.load(f)
-            except: pass
-        return None
-    
-    def set(self, url: str, status: bool, response_time: float):
-        key = self._get_key(url)
-        path = os.path.join(self.cache_dir, f"{key}.cache")
-        try:
-            with open(path, 'wb') as f:
-                pickle.dump((status, response_time), f)
-        except: pass
-    
-    def clear_old(self):
-        """Очистка старого кэша"""
-        try:
-            for f in os.listdir(self.cache_dir):
-                path = os.path.join(self.cache_dir, f)
-                mtime = datetime.fromtimestamp(os.path.getmtime(path))
-                if datetime.now() - mtime > timedelta(days=7):
-                    os.remove(path)
-        except: pass
-
-
-class PlaylistParser:
-    """Парсер M3U плейлистов"""
+class UrlValidator:
+    @staticmethod
+    def is_valid(url: str) -> bool:
+        """Проверка URL - более либеральная"""
+        if not url or not isinstance(url, str):
+            return False
+        
+        url = url.strip()
+        if len(url) < 8:
+            return False
+        
+        # Должна начинаться с http:// или https://
+        if not (url.startswith('http://') or url.startswith('https://')):
+            return False
+        
+        # Проверка на явный мусор
+        invalid_patterns = [r'^#', r'^null$', r'^undefined$', r'^None$', r'^\s*$']
+        for pattern in invalid_patterns:
+            if re.match(pattern, url, re.IGNORECASE):
+                return False
+        
+        # Базовые недопустимые символы
+        invalid_chars = ['\n', '\r', '\t', '\x00']
+        for char in invalid_chars:
+            if char in url:
+                return False
+        
+        return True
     
     @staticmethod
-    def parse(content: str, source_name: str = "") -> List[Dict]:
-        """Парсинг M3U в список каналов"""
+    def is_empty(url: str) -> bool:
+        """Проверка на пустую ссылку"""
+        if not url:
+            return True
+        url = url.strip()
+        empty_patterns = [r'^#.*$', r'^\s*$', r'^null$', r'^undefined$', r'^None$']
+        for pattern in empty_patterns:
+            if re.match(pattern, url, re.IGNORECASE):
+                return True
+        return False
+
+class ChannelCleaner:
+    @staticmethod
+    def clean_channel_name(name: str) -> str:
+        """Очистка названия канала"""
+        if not name:
+            return ""
+        
+        # Удаляем техническую информацию, но сохраняем суть
+        patterns_to_remove = [
+            r'\(\s*(?:480|360)\s*[pPi]?\s*\)',  # только низкое качество
+            r'-\s*(?:COPY|COPYRIGHT)\s*',
+        ]
+        for pattern in patterns_to_remove:
+            name = re.sub(pattern, '', name, flags=re.IGNORECASE)
+        
+        # Удаляем лишние пробелы
+        name = re.sub(r'\s+', ' ', name)
+        name = name.strip()
+        
+        return name if name else "Unknown Channel"
+
+class PlaylistParser:
+    @staticmethod
+    def parse(content, source_name=""):
+        """Парсинг M3U с поддержкой EXTVLCOPT и других опций"""
         channels = []
         lines = content.split('\n')
-        i, n = 0, len(lines)
+        i = 0
+        n = len(lines)
         
         while i < n:
             line = lines[i].strip()
+            
+            # Пропускаем пустые строки и комментарии (кроме EXTINF)
+            if not line or (line.startswith('#') and not line.startswith('#EXTINF')):
+                i += 1
+                continue
+            
+            # Нашли строку канала
             if line.startswith('#EXTINF:'):
                 channel = {
                     'name': '',
@@ -181,83 +169,119 @@ class PlaylistParser:
                     'source': source_name
                 }
                 
-                # Извлекаем название
+                # Извлекаем название (всё после последней запятой)
                 if ',' in line:
+                    # Разделяем по запятой, но учитываем что в tvg-id тоже может быть запятая
                     parts = line.split(',')
                     if len(parts) > 1:
-                        raw_name = ','.join(parts[1:]).strip()
-                        # Очистка названия
-                        raw_name = re.sub(r'\(\s*(?:720|1080|480|2160|4K|FHD|HD)\s*[pPi]?\s*\)', '', raw_name, flags=re.I)
-                        raw_name = re.sub(r'\s+', ' ', raw_name).strip()
+                        # Название - это всё, что после последней запятой
+                        raw_name = parts[-1].strip()
                         channel['name'] = raw_name
-                
-                # Извлекаем group
-                group_match = re.search(r'group-title="([^"]*)"', line)
-                if group_match:
-                    channel['group'] = group_match.group(1)
                 
                 # Извлекаем tvg-id
                 tvg_match = re.search(r'tvg-id="([^"]*)"', line)
                 if tvg_match:
                     channel['tvg_id'] = tvg_match.group(1)
                 
-                # Извлекаем logo
+                # Извлекаем tvg-logo
                 logo_match = re.search(r'tvg-logo="([^"]*)"', line)
                 if logo_match:
                     channel['tvg_logo'] = logo_match.group(1)
                 
-                # Ищем URL
+                # Извлекаем group-title
+                group_match = re.search(r'group-title="([^"]*)"', line)
+                if group_match:
+                    channel['group'] = group_match.group(1)
+                
+                # Ищем URL (может быть на следующей строке или после опций)
                 j = i + 1
-                while j < n and j < i + 5:
+                url_found = None
+                
+                while j < n and j < i + 10:
                     next_line = lines[j].strip()
-                    if next_line and not next_line.startswith('#'):
-                        if next_line.startswith(('http://', 'https://')):
-                            channel['url'] = next_line
+                    
+                    # Пропускаем пустые строки
+                    if not next_line:
+                        j += 1
+                        continue
+                    
+                    # Пропускаем EXTVLCOPT и другие опции VLC
+                    if next_line.startswith('#EXTVLCOPT:'):
+                        j += 1
+                        continue
+                    
+                    # Если нашли URL
+                    if next_line.startswith(('http://', 'https://')):
+                        url_found = next_line
                         break
+                    
+                    # Если нашли строку которая не начинается с # - возможно это URL
+                    if not next_line.startswith('#'):
+                        # Проверяем, похоже ли на URL
+                        if re.match(r'^https?://', next_line) or '.' in next_line:
+                            url_found = next_line
+                            break
+                    
                     j += 1
                 
-                if channel['name'] and channel['url'] and len(channel['name']) >= 2:
+                if url_found:
+                    channel['url'] = url_found
+                    # Перемещаем указатель на строку после URL
+                    i = j + 1
+                else:
+                    i += 1
+                
+                # Добавляем канал только если есть и название, и URL
+                if channel['name'] and channel['url']:
                     channels.append(channel)
-                i = j
+                else:
+                    log(f"Пропущен канал: name='{channel['name']}', url='{channel['url']}'")
             else:
                 i += 1
         
         return channels
     
     @staticmethod
-    def parse_file(filepath: str) -> List[Dict]:
-        """Парсинг файла плейлиста"""
+    def parse_file(filepath):
         try:
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
-            return PlaylistParser.parse(content, os.path.basename(filepath))
+            channels = PlaylistParser.parse(content, os.path.basename(filepath))
+            log(f"Парсинг {filepath}: найдено {len(channels)} каналов")
+            return channels
         except Exception as e:
-            logger.error(f"Ошибка парсинга {filepath}: {e}")
+            log(f"Ошибка парсинга {filepath}: {e}")
             return []
     
     @staticmethod
-    def save_playlist(channels: List[Dict], filepath: str):
-        """Сохранение плейлиста в файл"""
+    def save_playlist(channels, filepath):
         try:
-            # Получаем настройки для этого плейлиста
             settings = PLAYLIST_SETTINGS.get(filepath, {})
-            playlist_name = settings.get('name', os.path.basename(filepath))
-            description = settings.get('description', '')
+            name = settings.get('name', os.path.basename(filepath))
+            epg_url = settings.get('epg_url', '')
             
             with open(filepath, 'w', encoding='utf-8') as f:
-                f.write('#EXTM3U\n')
-                f.write(f'# Playlist: {playlist_name}\n')
-                f.write(f'# Updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n')
-                f.write(f'# Channels: {len(channels)}\n')
-                if description:
-                    f.write(f'# Description: {description}\n')
-                if settings.get('adult'):
-                    f.write('# Adult content: 18+\n')
-                if settings.get('radio'):
-                    f.write('# Type: Radio streams\n')
-                f.write('#\n\n')
+                # Заголовок плейлиста
+                if epg_url:
+                    f.write(f'#EXTM3U url-tvg="{epg_url}"\n')
+                else:
+                    f.write('#EXTM3U\n')
                 
+                # Метаданные
+                f.write(f'#PLAYLIST:{name}\n')
+                f.write(f'#UPDATED:{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}\n')
+                f.write(f'#CHANNELS:{len(channels)}\n')
+                
+                # Пустая строка для разделения
+                if CONFIG.get('add_blank_line_after_header', True):
+                    f.write('\n')
+                
+                # Сохраняем каналы
                 for ch in channels:
+                    # Очищаем название
+                    if CONFIG['clean_channel_names']:
+                        ch['name'] = ChannelCleaner.clean_channel_name(ch['name'])
+                    
                     # Собираем атрибуты
                     attrs = []
                     if ch.get('tvg_id'):
@@ -272,352 +296,228 @@ class PlaylistParser:
                         f.write(f'#EXTINF:{attr_str} ,{ch["name"]}\n')
                     else:
                         f.write(f'#EXTINF:-1 ,{ch["name"]}\n')
+                    
                     f.write(f'{ch["url"]}\n')
             
-            logger.info(f"Сохранён плейлист: {filepath} ({len(channels)} каналов)")
+            log(f"Сохранён: {filepath} ({len(channels)} каналов)")
             return True
         except Exception as e:
-            logger.error(f"Ошибка сохранения {filepath}: {e}")
+            log(f"Ошибка сохранения {filepath}: {e}")
             return False
 
-
 class StreamChecker:
-    """Проверка работоспособности потоков"""
-    
-    def __init__(self, timeout: int = 5, max_workers: int = 50):
+    def __init__(self, timeout=5, max_workers=50):
         self.timeout = timeout
         self.max_workers = max_workers
-        self.cache = CacheManager()
-        self._stop = False
     
-    def check_url(self, url: str) -> Tuple[bool, float]:
-        """Проверка одного URL"""
-        if not url or len(url) < 10:
-            return False, 0.0
-        
-        # Проверка кэша
-        cached = self.cache.get(url)
-        if cached:
-            return cached
+    def check_url(self, url):
+        """Проверка URL - более щадящая"""
+        if not url or len(url) < 8:
+            return False
         
         try:
             session = requests.Session()
-            headers = {'User-Agent': UserAgentRotator.get(), 'Connection': 'close'}
+            headers = {
+                'User-Agent': UserAgentRotator.get(),
+                'Accept': '*/*',
+                'Accept-Encoding': 'gzip, deflate',
+                'Connection': 'close'
+            }
             session.headers.update(headers)
             
             start = time.time()
             
-            # Сначала HEAD запрос
+            # Пробуем HEAD запрос
             try:
                 resp = session.head(url, timeout=self.timeout, allow_redirects=True, verify=False)
-                if resp.status_code in [200, 206, 301, 302, 403]:
-                    response_time = time.time() - start
-                    self.cache.set(url, True, response_time)
-                    return True, response_time
+                if resp.status_code in [200, 206, 301, 302, 304, 403, 404]:
+                    # 404 тоже может быть рабочим (поток с защитой)
+                    if resp.status_code != 404 or 'm3u8' in url or 'mpd' in url:
+                        return True
             except:
                 pass
             
-            # Если HEAD не сработал, пробуем GET с небольшим буфером
+            # Пробуем GET с маленьким буфером
             try:
                 resp = session.get(url, timeout=self.timeout, stream=True, verify=False)
                 for chunk in resp.iter_content(chunk_size=512):
-                    if resp.status_code in [200, 206]:
-                        response_time = time.time() - start
+                    if resp.status_code in [200, 206, 302]:
                         session.close()
-                        self.cache.set(url, True, response_time)
-                        return True, response_time
+                        return True
                     break
                 session.close()
             except:
                 pass
             
-            self.cache.set(url, False, self.timeout)
-            return False, self.timeout
-            
-        except Exception as e:
-            self.cache.set(url, False, self.timeout)
-            return False, self.timeout
+            return False
+        except:
+            return False
     
-    def check_channels(self, channels: List[Dict], progress_callback=None) -> List[Dict]:
+    def check_channels(self, channels):
         """Массовая проверка каналов"""
         results = []
         total = len(channels)
-        checked = 0
         working = 0
         
+        log(f"Начинаем проверку {total} каналов...")
+        
         with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-            future_to_channel = {
-                executor.submit(self.check_url, ch['url']): ch 
-                for ch in channels
-            }
+            futures = {executor.submit(self.check_url, ch['url']): ch for ch in channels}
             
-            for future in concurrent.futures.as_completed(future_to_channel):
-                channel = future_to_channel[future]
-                checked += 1
+            for i, future in enumerate(concurrent.futures.as_completed(futures)):
+                ch = futures[future]
                 try:
-                    is_working, response_time = future.result()
+                    is_working = future.result()
                     if is_working:
                         working += 1
-                        channel['working'] = True
-                        channel['response_time'] = response_time
-                        results.append(channel)
+                        results.append(ch)
                 except:
                     pass
                 
-                if progress_callback and checked % 50 == 0:
-                    progress_callback(checked, total, working)
+                if (i + 1) % 20 == 0:
+                    log(f"Прогресс: {i+1}/{total} | Рабочих: {working}")
         
-        logger.info(f"Проверка завершена: {working}/{total} рабочих каналов")
+        log(f"Проверка завершена: {working}/{total} рабочих каналов")
         return results
 
-
-class HistoryManager:
-    """Управление историей изменений"""
-    
-    def __init__(self, history_dir: str = HISTORY_DIR):
-        self.history_dir = history_dir
-        os.makedirs(history_dir, exist_ok=True)
-    
-    def save_snapshot(self, playlist_name: str, channels: List[Dict]):
-        """Сохраняет снимок плейлиста"""
-        date_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-        safe_name = playlist_name.replace('.', '_').replace('/', '_')
-        snapshot_file = os.path.join(self.history_dir, f"{safe_name}_{date_str}.json")
-        
-        data = {
-            'timestamp': datetime.now().isoformat(),
-            'playlist': playlist_name,
-            'channel_count': len(channels),
-            'channels': [
-                {'name': ch['name'], 'url': ch['url'], 'group': ch.get('group', '')}
-                for ch in channels
-            ]
-        }
-        
-        try:
-            with open(snapshot_file, 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            logger.info(f"Сохранён снимок: {snapshot_file}")
-        except Exception as e:
-            logger.error(f"Ошибка сохранения снимка: {e}")
-    
-    def clean_old(self, max_days: int = 30):
-        """Удаляет старые снимки"""
-        try:
-            cutoff = datetime.now() - timedelta(days=max_days)
-            for f in os.listdir(self.history_dir):
-                if f.endswith('.json'):
-                    filepath = os.path.join(self.history_dir, f)
-                    mtime = datetime.fromtimestamp(os.path.getmtime(filepath))
-                    if mtime < cutoff:
-                        os.remove(filepath)
-                        logger.info(f"Удалён старый снимок: {f}")
-        except Exception as e:
-            logger.error(f"Ошибка очистки истории: {e}")
-
-
 class PlaylistUpdater:
-    """Основной класс обновления плейлистов"""
-    
     def __init__(self):
-        self.checker = StreamChecker(
-            timeout=CONFIG['check_timeout'],
-            max_workers=CONFIG['max_workers']
-        )
-        self.history = HistoryManager()
-        self.stats = {}
+        self.checker = StreamChecker(CONFIG['check_timeout'], CONFIG['max_workers'])
     
-    def update_playlist(self, filepath: str, save_snapshot: bool = True) -> Dict:
-        """Обновление одного плейлиста"""
-        logger.info(f"\n{'='*50}")
-        logger.info(f"Обработка плейлиста: {filepath}")
+    def clean_channels(self, channels: List[Dict]) -> Tuple[List[Dict], Dict]:
+        """Очистка каналов от мусора (без агрессивного удаления)"""
+        original_count = len(channels)
+        cleaned = []
+        removed_stats = {'empty_url': 0, 'invalid_url': 0, 'invalid_name': 0, 'duplicate_url': 0}
+        seen_urls = set()
+        
+        for ch in channels:
+            url = ch.get('url', '')
+            
+            # Проверка на пустую ссылку
+            if CONFIG['remove_empty_urls'] and UrlValidator.is_empty(url):
+                removed_stats['empty_url'] += 1
+                continue
+            
+            # Проверка на валидность URL (только явно невалидные)
+            if CONFIG['remove_invalid_urls'] and not UrlValidator.is_valid(url):
+                # Пропускаем только если это точно не URL
+                if url and not (url.startswith('http://') or url.startswith('https://')):
+                    removed_stats['invalid_url'] += 1
+                    continue
+            
+            # Проверка названия
+            name = ch.get('name', '')
+            if not name or len(name.strip()) < 1:
+                removed_stats['invalid_name'] += 1
+                continue
+            
+            # Проверка на дубликаты URL
+            if CONFIG['remove_duplicates'] and url in seen_urls:
+                removed_stats['duplicate_url'] += 1
+                continue
+            
+            seen_urls.add(url)
+            
+            # Очищаем название (но не удаляем важную информацию)
+            if CONFIG['clean_channel_names']:
+                ch['name'] = ChannelCleaner.clean_channel_name(ch['name'])
+            
+            cleaned.append(ch)
+        
+        total_removed = sum(removed_stats.values())
+        if total_removed > 0:
+            log(f"Очистка: удалено {total_removed} каналов (пустых: {removed_stats['empty_url']}, невалидных: {removed_stats['invalid_url']}, без названий: {removed_stats['invalid_name']}, дубликатов: {removed_stats['duplicate_url']})")
+        
+        return cleaned, removed_stats
+    
+    def update_playlist(self, filepath):
+        log(f"\n{'='*50}")
+        log(f"Обработка: {filepath}")
         
         settings = PLAYLIST_SETTINGS.get(filepath, {})
-        playlist_name = settings.get('name', filepath)
         min_working = settings.get('min_working', CONFIG['min_working_channels'])
         
-        logger.info(f"Название: {playlist_name}")
-        logger.info(f"Мин. каналов: {min_working}")
-        logger.info(f"{'='*50}")
+        if not os.path.exists(filepath):
+            log(f"Файл не найден: {filepath}")
+            PlaylistParser.save_playlist([], filepath)
+            return {'file': filepath, 'original_count': 0, 'working_count': 0}
         
-        stats = {
-            'file': filepath,
-            'name': playlist_name,
-            'original_count': 0,
-            'working_count': 0,
-            'removed_count': 0,
-            'start_time': datetime.now()
-        }
-        
-        # 1. Парсим текущий плейлист
+        # Парсим плейлист
         channels = PlaylistParser.parse_file(filepath)
-        stats['original_count'] = len(channels)
-        logger.info(f"Загружено каналов: {len(channels)}")
+        original_count = len(channels)
+        log(f"Загружено: {original_count} каналов")
         
-        if len(channels) == 0:
-            logger.warning(f"Плейлист {filepath} пуст, пропускаем")
-            return stats
+        if original_count == 0:
+            return {'file': filepath, 'original_count': 0, 'working_count': 0}
         
-        # 2. Сохраняем снимок до изменений
-        if save_snapshot and CONFIG['save_history']:
-            self.history.save_snapshot(filepath, channels)
+        # Очищаем от мусора
+        cleaned_channels, _ = self.clean_channels(channels)
+        cleaned_count = len(cleaned_channels)
         
-        # 3. Проверяем работоспособность
-        logger.info(f"Начинаем проверку {len(channels)} каналов...")
+        if cleaned_count == 0:
+            log("После очистки не осталось каналов")
+            return {'file': filepath, 'original_count': original_count, 'working_count': 0}
         
-        def progress_cb(checked, total, working):
-            if checked % 100 == 0:
-                logger.info(f"Прогресс: {checked}/{total} | Рабочих: {working}")
+        # Проверяем работоспособность
+        working_channels = self.checker.check_channels(cleaned_channels)
+        working_count = len(working_channels)
         
-        working_channels = self.checker.check_channels(channels, progress_cb)
-        stats['working_count'] = len(working_channels)
-        stats['removed_count'] = stats['original_count'] - stats['working_count']
+        log(f"Результат: {working_count} рабочих каналов из {original_count}")
         
-        logger.info(f"Результат: {stats['working_count']} рабочих, {stats['removed_count']} нерабочих")
-        
-        # 4. Сохраняем обновлённый плейлист
-        if working_channels and len(working_channels) >= min_working:
+        # Сохраняем если достаточно каналов
+        if working_count >= min_working:
             PlaylistParser.save_playlist(working_channels, filepath)
-            stats['success'] = True
-            logger.info(f"✅ Плейлист обновлён: {stats['working_count']} каналов")
+            log(f"✅ Сохранено {working_count} каналов")
         else:
-            logger.warning(f"❌ Слишком мало рабочих каналов ({len(working_channels)} < {min_working}), пропускаем сохранение")
-            stats['success'] = False
+            # Если мало рабочих, сохраняем всё равно (лучше чем ничего)
+            if working_count > 0:
+                PlaylistParser.save_playlist(working_channels, filepath)
+                log(f"⚠️ Сохранено только {working_count} каналов (меньше минимума {min_working})")
+            else:
+                log(f"❌ Нет рабочих каналов, плейлист не обновлён")
         
-        stats['end_time'] = datetime.now()
-        stats['duration'] = (stats['end_time'] - stats['start_time']).total_seconds()
-        
-        return stats
+        return {'file': filepath, 'original_count': original_count, 'working_count': working_count}
     
-    def update_all(self) -> Dict:
-        """Обновление всех плейлистов"""
-        logger.info("\n" + "="*60)
-        logger.info("ЗАПУСК АВТОМАТИЧЕСКОГО ОБНОВЛЕНИЯ ПЛЕЙЛИСТОВ")
-        logger.info(f"Время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        logger.info("="*60)
+    def update_all(self):
+        log(f"\n{'='*60}")
+        log("ЗАПУСК ОБНОВЛЕНИЯ ПЛЕЙЛИСТОВ")
+        log(f"Время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        log(f"{'='*60}")
         
-        total_stats = {
-            'start_time': datetime.now(),
-            'playlists': {},
-            'total_original': 0,
-            'total_working': 0,
-            'total_removed': 0
-        }
+        results = []
+        total_original = 0
+        total_working = 0
         
         for key, filename in PLAYLISTS.items():
-            if os.path.exists(filename):
-                stats = self.update_playlist(filename)
-                total_stats['playlists'][key] = stats
-                total_stats['total_original'] += stats.get('original_count', 0)
-                total_stats['total_working'] += stats.get('working_count', 0)
-                total_stats['total_removed'] += stats.get('removed_count', 0)
-            else:
-                logger.warning(f"Файл не найден: {filename}")
-                # Создаём пустой плейлист если его нет
-                PlaylistParser.save_playlist([], filename)
-                logger.info(f"Создан пустой плейлист: {filename}")
+            stats = self.update_playlist(filename)
+            results.append(stats)
+            total_original += stats.get('original_count', 0)
+            total_working += stats.get('working_count', 0)
         
-        total_stats['end_time'] = datetime.now()
-        total_stats['duration'] = (total_stats['end_time'] - total_stats['start_time']).total_seconds()
+        # Итоговая статистика
+        log(f"\n{'='*50}")
+        log("ИТОГОВАЯ СТАТИСТИКА:")
+        log(f"Всего каналов: {total_original}")
+        log(f"Рабочих каналов: {total_working}")
+        if total_original > 0:
+            log(f"Эффективность: {(total_working/total_original*100):.1f}%")
+        log(f"{'='*50}")
         
-        # Сохраняем отчёт
-        self.save_report(total_stats)
-        
-        # Очищаем старую историю
-        if CONFIG['save_history']:
-            self.history.clean_old(CONFIG['max_history_days'])
-        
-        # Очищаем кэш
-        self.checker.cache.clear_old()
-        
-        return total_stats
+        return results
+
+def main():
+    log("Запуск обновления плейлистов...")
     
-    def save_report(self, stats: Dict):
-        """Сохраняет отчёт об обновлении"""
-        os.makedirs(REPORTS_DIR, exist_ok=True)
-        
-        report_file = os.path.join(REPORTS_DIR, f"report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
-        
-        report = {
-            'timestamp': datetime.now().isoformat(),
-            'duration_seconds': stats['duration'],
-            'summary': {
-                'total_original': stats['total_original'],
-                'total_working': stats['total_working'],
-                'total_removed': stats['total_removed'],
-                'success_rate': f"{(stats['total_working']/stats['total_original']*100):.1f}%" if stats['total_original'] > 0 else "0%"
-            },
-            'playlists': {}
-        }
-        
-        for key, playlist_stats in stats['playlists'].items():
-            report['playlists'][key] = {
-                'name': playlist_stats.get('name', key),
-                'file': playlist_stats.get('file', ''),
-                'original_count': playlist_stats.get('original_count', 0),
-                'working_count': playlist_stats.get('working_count', 0),
-                'removed_count': playlist_stats.get('removed_count', 0),
-                'success': playlist_stats.get('success', False),
-                'duration_seconds': playlist_stats.get('duration', 0)
-            }
-        
-        try:
-            with open(report_file, 'w', encoding='utf-8') as f:
-                json.dump(report, f, ensure_ascii=False, indent=2)
-            logger.info(f"Отчёт сохранён: {report_file}")
-        except Exception as e:
-            logger.error(f"Ошибка сохранения отчёта: {e}")
-        
-        # Также выводим краткую статистику в лог
-        logger.info("\n" + "="*50)
-        logger.info("ИТОГОВАЯ СТАТИСТИКА:")
-        logger.info(f"Всего каналов: {stats['total_original']}")
-        logger.info(f"Рабочих: {stats['total_working']}")
-        logger.info(f"Удалено: {stats['total_removed']}")
-        logger.info(f"Эффективность: {(stats['total_working']/stats['total_original']*100):.1f}%" if stats['total_original'] > 0 else "0%")
-        logger.info(f"Время выполнения: {stats['duration']:.2f} сек")
-        
-        # Статистика по каждому плейлисту
-        logger.info("\nДетализация по плейлистам:")
-        for key, playlist_stats in stats['playlists'].items():
-            status = "✅" if playlist_stats.get('success') else "❌"
-            logger.info(f"  {status} {playlist_stats.get('name', key)}: {playlist_stats.get('working_count', 0)}/{playlist_stats.get('original_count', 0)}")
-        
-        logger.info("="*50)
+    updater = PlaylistUpdater()
+    results = updater.update_all()
+    
+    if results and any(r.get('working_count', 0) > 0 for r in results):
+        log("✅ Обновление завершено успешно!")
+        return 0
+    else:
+        log("❌ Обновление завершено с ошибками")
+        return 1
 
-
-def create_readme_if_not_exists():
-    """Создаёт README если его нет"""
-    readme_path = "README.md"
-    if not os.path.exists(readme_path):
-        content = """# IPTVru Playlists
-
-Автоматически обновляемые IPTV плейлисты.
-
-## 📺 Плейлисты
-
-| Файл | Описание | Ссылка |
-|------|----------|--------|
-| `IPTVru.m3u` | Основной плейлист со всеми каналами | [Скачать](https://raw.githubusercontent.com/smolnp/IPTVru/main/IPTVru.m3u) |
-| `IPTVstable.m3u8` | Стабильная версия с проверенными каналами | [Скачать](https://raw.githubusercontent.com/smolnp/IPTVru/main/IPTVstable.m3u8) |
-| `IPTVmir.m3u8` | мировые каналы | [Скачать](https://raw.githubusercontent.com/smolnp/IPTVru/main/IPTVmir.m3u8) |
-| `IPTVххх.m3u` | Тестовый плейлист | [Скачать](https://raw.githubusercontent.com/smolnp/IPTVru/main/IPTVххх.m3u) |
-| `IPTVradio.m3u` | Интернет-радиостанции | [Скачать](https://raw.githubusercontent.com/smolnp/IPTVru/main/IPTVradio.m3u) |
-
-## 🔄 Обновление
-
-Плейлисты автоматически проверяются и обновляются **2 раза в сутки** (00:00 и 12:00 UTC).
-
-### Что происходит при обновлении:
-- ✅ Проверка работоспособности всех каналов
-- ❌ Удаление неработающих каналов
-- 📊 Сохранение истории изменений
-- 📝 Создание детальных отчётов
-
-## 📊 Статистика
-
-Актуальная статистика доступна в папке [`reports/`](reports/)
-
-## 🚀 Использование
-
-Добавьте ссылку на плейлист в ваш IPTV плеер:
+if __name__ == "__main__":
+    sys.exit(main())
