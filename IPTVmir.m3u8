@@ -5683,7 +5683,7 @@ http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-id="tnr24-nv" tvg-logo="https://iptvx.one/picons/tnr24-nv.png" group-title="Неопределённые" ,ТНР 24 (Нижневартовск)
 
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="Развлекательные" ,ТНТ
-http://176.118.197.101/THT/index.m3u8
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 tvg-id="tnt-bravo-moldova" tvg-logo="https://iptvx.one/picons/tnt-bravo-moldova.png" group-title="Неопределённые" ,Exclusiv TV [MD]
 
 #EXTINF:-1 tvg-id="tnt-comedy-de" tvg-logo="https://iptvx.one/picons/tnt-comedy-de.png" group-title="Неопределённые" ,TNT Comedy
@@ -5882,7 +5882,7 @@ https://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
 #EXTINF:-1 tvg-id="tv1-lt" tvg-logo="https://iptvx.one/picons/tv1-lt.png" group-title="Неопределённые" ,TV1
 https://tv1.cloudcdn.bg/temp/livestream.m3u8
 #EXTINF:-1 tvg-id="tv1000" tvg-logo="https://iptvx.one/picons/tv1000.png" group-title="Кино и сериалы" ,viju TV1000
-http://217.11.177.56/streams/media/tv1000_720x576/index.m3u8
+http://85.117.37.41/tv1000/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://iptvx.one/picons/tv1000-action.png" group-title="Кино и сериалы" ,viju TV1000 Action
 http://217.11.177.56/streams/media/tv1000-action_720x576/index.m3u8
 #EXTINF:-1 tvg-id="tv1000-action-cee" tvg-logo="https://iptvx.one/picons/tv1000-action-cee.png" group-title="Кино и сериалы" ,Viasat Kino Action
@@ -6724,7 +6724,7 @@ http://195.26.83.96:7013/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="vitebsk" tvg-logo="https://iptvx.one/picons/vitebsk.png" group-title="Неопределённые" ,Витебск
 
 #EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://iptvx.one/picons/viva-rus.png" group-title="Музыкальные" ,VIVA Russia
-
+https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="vkus" tvg-logo="https://iptvx.one/picons/vkus.png" group-title="Неопределённые" ,Вкус
 
 #EXTINF:-1 tvg-id="vkusnoe-tv" tvg-logo="https://iptvx.one/picons/vkusnoe-tv.png" group-title="Неопределённые" ,Вкусное TV
