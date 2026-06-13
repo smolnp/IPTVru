@@ -6,7 +6,7 @@ http://nashe1.hostingradio.ru/rock-64.mp3
 #EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Maximum
 http://maximum.hostingradio.ru/maximum96.aacp
 #EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Ultra
-http://nashe1.hostingradio.ru/ultra-64.mp3
+https://block.qazcdn.com/block/geoblock0.ts
 #EXTINF:-1 tvg-logo="" group-title="Рок и альтернатива",Наше радио
 http://nashe1.hostingradio.ru/nashespb128.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/ru/thumb/d/de/Радио_Орфей.svg/1280px-Радио_Орфей.svg.png" group-title="Рок и альтернатива",Орфей
@@ -58,7 +58,7 @@ http://icecast-radiovanya.cdnvideo.ru:8000/radiovanya
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1d/Taxi_FM_logo.png" group-title="В дорогу",Такси FM
 http://185.40.31.28:8000/station_54
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/93/Dacha_radio_logo.png" group-title="Ретро",Дача
-http://microit.n340.com:9000/VgMv0WV17ZVx1uuo_12_dacha_128_reg_1093
+http://ott.watch/stream/6HAPZWKKG3/370.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d7/KalynaKrasnaya_Logo_2015.png" group-title="Ретро",Калина красная
 http://78.140.197.238:9877/msk_KalynaK_1a
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/RetroFM_logo.png" group-title="Ретро",Ретро FM
@@ -72,7 +72,7 @@ http://media.govoritmoskva.ru:8000/gm.mp3
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0mTfE5y.png" group-title="Новостные",Гордость
 http://134.0.119.161:9090/ostankino
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/Zvezda_radio_logo.png" group-title="Новостные",Звезда
-http://radio.mediacdn.ru/radio/zvezda/zvezda_128
+http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/77/Kommersant_FM_logo_2015.png" group-title="Новостные",Коммерсант-FM
 http://kommersant77.hostingradio.ru:8016/kommersant128.mp3
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f5/Komsomolskaya_pravda_radio_logo.png" group-title="Новостные",Комсомольская правда
@@ -92,7 +92,7 @@ http://radio.sevstar.net:8000/radio-rossii
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Radonezh_radio_logo.png" group-title="Новостные",Радонеж
 http://icecast.radonezh.cdnvideo.ru:8000/rad128
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/RBK_logo_2016.png" group-title="Новостные",РБК
-http://reg.fmplay.ru:8000/rbc-48.aac
+http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/db/Radio_Sputnik_logo.png" group-title="Новостные",Спутник
 http://orig.video.ria.ru:8000/voicemsk1
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4b/Comedy_Radio_logo_2015.png" group-title="Юмор и развлечения",Comedy Radio
