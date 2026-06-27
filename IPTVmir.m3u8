@@ -299,7 +299,7 @@ http://45.145.32.13:20440/amedia_premium_hd/index.m3u8?token=test
 #EXTINF:-1 tvg-id="2007" tvg-logo="http://epg.one/img2/2007.png" group-title="кино" ,Amedia Hit
 
 #EXTINF:-1 tvg-id="127" tvg-logo="http://epg.one/img2/127.png" group-title="кино" ,Viju TV1000
-http://217.11.177.56/streams/media/tv1000_720x576/index.m3u8
+
 #EXTINF:-1 tvg-id="1584" tvg-logo="http://epg.one/img2/1584.png" group-title="кино" ,Мужское Кино
 https://stream8.cinerama.uz/1237/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="608" tvg-logo="http://epg.one/img2/608.png" group-title="кино" ,Hollywood
@@ -1167,7 +1167,7 @@ http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="2408" tvg-logo="http://epg.one/img2/2408.png" group-title="музыка" ,Музыка Live
 
 #EXTINF:-1 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="музыка" ,Music Box Russia
-http://hls.peers.tv/streaming/musboxru/126/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3Njg1OTMzMjAsImlhdCI6MTc2ODUwNjkyMCwiY2lkIjo2LCJ1aWQiOjk4OTc0NTg5OCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTM4NTcsImFkdWx0IjpmYWxzZX0.3RsypXinlGbYQcyvJumh4v5HdTO9IE3YYDnT3XxDGZ8&offset=10
+
 #EXTINF:-1 tvg-id="2410" tvg-logo="http://epg.one/img2/2410.png" group-title="музыка" ,Курай ТВ
 http://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
 #EXTINF:-1 tvg-id="2412" tvg-logo="http://epg.one/img2/2412.png" group-title="музыка" ,о2тв
@@ -1319,7 +1319,7 @@ http://193.25.8.59:8000/rusong
 #EXTINF:-1 tvg-id="2024" tvg-logo="http://epg.one/img2/2024.png" group-title="музыка" ,Bridge Hits HD
 http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8
 #EXTINF:-1 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="музыка" ,Music Box Russia HD
-http://hls.peers.tv/streaming/musboxru/126/vh1w/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3Njg1OTMzMjAsImlhdCI6MTc2ODUwNjkyMCwiY2lkIjo2LCJ1aWQiOjk4OTc0NTg5OCwicmVnIjpmYWxzZSwiaXAiOjM1ODU1NTM4NTcsImFkdWx0IjpmYWxzZX0.3RsypXinlGbYQcyvJumh4v5HdTO9IE3YYDnT3XxDGZ8&offset=10
+
 #EXTINF:-1 tvg-id="11512" tvg-logo="http://epg.one/img2/11512.png" group-title="музыка" ,CHD-TV Rock HD
 
 #EXTINF:-1 tvg-id="7591" tvg-logo="http://epg.one/img2/7591.png" group-title="музыка" ,NM Television HD
@@ -1403,7 +1403,7 @@ http://mfe02.cliptv.az/dash/Viasat_History_SD78905ty.ism/playlist.mpd
 #EXTINF:-1 tvg-id="521" tvg-logo="http://epg.one/img2/521.png" group-title="познавательные" ,Viju Explore
 
 #EXTINF:-1 tvg-id="55" tvg-logo="http://epg.one/img2/55.png" group-title="познавательные" ,Океан HD
-http://217.11.177.57/streams/media/teatr_720x576/index.m3u8
+
 #EXTINF:-1 tvg-id="2026" tvg-logo="http://epg.one/img2/2026.png" group-title="познавательные" ,Бобёр
 
 #EXTINF:-1 tvg-id="367" tvg-logo="http://epg.one/img2/367.png" group-title="познавательные" ,Зоопарк
@@ -1421,7 +1421,7 @@ http://31.148.48.15:80/English_club_TV_HD/index.m3u8
 #EXTINF:-1 tvg-id="2283" tvg-logo="http://epg.one/img2/2283.png" group-title="познавательные" ,Дикий
 http://188.113.190.15/67/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="1035" tvg-logo="http://epg.one/img2/1035.png" group-title="познавательные" ,Travel+Adventure
-http://188.113.190.15/106/tracks-v1a1/index.m3u8
+
 #EXTINF:-1 tvg-id="2350" tvg-logo="http://epg.one/img2/2350.png" group-title="познавательные" ,Поехали!
 http://31148.rafail1982.uz/Poehali/index.m3u8
 #EXTINF:-1 tvg-id="2418" tvg-logo="http://epg.one/img2/2418.png" group-title="познавательные" ,Тайны Галактики
@@ -4413,7 +4413,7 @@ http://ott.watch/stream/6HAPZWKKG3/362.m3u8
 #EXTINF:-1 tvg-id="2836" tvg-logo="http://epg.one/img2/2836.png" group-title="HD" ,Камеди HD
 http://starcius-cinema.com/10203/index.m3u8?token=010101010101
 #EXTINF:-1 tvg-id="2838" tvg-logo="http://epg.one/img2/2838.png" group-title="HD" ,Viju+ Serial HD
-https://stream2.somon.tv/vipserial/index.m3u8
+
 #EXTINF:-1 tvg-id="2309" tvg-logo="http://epg.one/img2/2309.png" group-title="HD" ,Шокирующее HD
 http://ott.watch/stream/6HAPZWKKG3/75.m3u8
 #EXTINF:-1 tvg-id="1649" tvg-logo="http://epg.one/img2/1649.png" group-title="HD" ,ТНТ4 HD
