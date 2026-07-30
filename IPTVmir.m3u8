@@ -31,11 +31,7 @@ https://github.com/CrocoUser/files/raw/refs/heads/main/infokanal.m3u8
 #EXTINF:-1 tvg-id="743" tvg-logo="http://epg.one/img2/743.png" group-title="новости" ,РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 tvg-id="427" tvg-logo="http://epg.one/img2/427.png" group-title="новости" ,Пятый канал
-<<<<<<< Updated upstream
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
-=======
-
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="334" tvg-logo="http://epg.one/img2/334.png" group-title="новости" ,Москва 24
 https://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 #EXTINF:-1 tvg-id="828" tvg-logo="http://epg.one/img2/828.png" group-title="новости" ,BBC World News UK
@@ -281,11 +277,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
 #EXTINF:-1 tvg-id="516" tvg-logo="http://epg.one/img2/516.png" group-title="кино" ,.sci-fi
 
 #EXTINF:-1 tvg-id="125" tvg-logo="http://epg.one/img2/125.png" group-title="кино" ,Viju TV1000 Action
-<<<<<<< Updated upstream
 http://217.11.177.56/streams/media/tv1000-action_720x576/index.m3u8
-=======
-
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="2492" tvg-logo="http://epg.one/img2/2492.png" group-title="кино" ,Amedia 2
 http://31148.rafail1982.uz/A2/index.m3u8
 #EXTINF:-1 tvg-id="799" tvg-logo="http://epg.one/img2/799.png" group-title="кино" ,Киносерия
@@ -1381,11 +1373,7 @@ http://185.46.16.239:8000/Istoriya
 #EXTINF:-1 tvg-id="275" tvg-logo="http://epg.one/img2/275.png" group-title="познавательные" ,Top Secret
 http://hls127.freeott.top:8080/Sovershenno_Sekretno/video.m3u8
 #EXTINF:-1 tvg-id="187" tvg-logo="http://epg.one/img2/187.png" group-title="познавательные" ,Россия К
-<<<<<<< Updated upstream
 http://194.158.222.36:6037/
-=======
-
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="16" tvg-logo="http://epg.one/img2/16.png" group-title="познавательные" ,Доктор
 https://s07.watcher.uz/165/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #EXTINF:-1 tvg-id="2008" tvg-logo="http://epg.one/img2/2008.png" group-title="познавательные" ,Авто 24
@@ -2761,11 +2749,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="18" tvg-logo="http://epg.one/img2/18.png" group-title="другие" ,РЕН ТВ +7
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
 #EXTINF:-1 tvg-id="3007" tvg-logo="http://epg.one/img2/3007.png" group-title="другие" ,СТС +2
-<<<<<<< Updated upstream
 https://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STS_EKT/variant.m3u8
-=======
-
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="3008" tvg-logo="http://epg.one/img2/3008.png" group-title="другие" ,СТС +4
 http://31.148.48.15:80/STS/index.m3u8?token=test
 #EXTINF:-1 tvg-id="3009" tvg-logo="http://epg.one/img2/3009.png" group-title="другие" ,СТС +7
@@ -2817,11 +2801,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
 #EXTINF:-1 tvg-id="898" tvg-logo="http://epg.one/img2/898.png" group-title="другие" ,Ю ТВ
 
 #EXTINF:-1 tvg-id="618" tvg-logo="http://epg.one/img2/618.png" group-title="другие" ,Мама
-<<<<<<< Updated upstream
 http://31.210.208.171:8080/mama/index.m3u8?token=+W2MSER
-=======
-
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="1000" tvg-logo="http://epg.one/img2/1000.png" group-title="другие" ,ОТР
 https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 #EXTINF:-1 tvg-id="2038" tvg-logo="http://epg.one/img2/2038.png" group-title="другие" ,ТВ Центр +2
@@ -3445,7 +3425,7 @@ https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_TNT_BR/variant.m3u8
 #EXTINF:-1 tvg-id="5776" tvg-logo="http://epg.one/img2/5776.png" group-title="другие" ,РТС (Абакан)
 https://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
 #EXTINF:-1 tvg-id="5777" tvg-logo="http://epg.one/img2/5777.png" group-title="другие" ,Абакан 24
-
+https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=lbRb3zr0EFJczX70hVvgfw&e=2070623508&scheme=https
 #EXTINF:-1 tvg-id="9157" tvg-logo="http://epg.one/img2/9157.png" group-title="другие" ,БТК HD (Белорецк)
 
 #EXTINF:-1 tvg-id="649" tvg-logo="http://epg.one/img2/649.png" group-title="другие" ,ТВ Центр +0 (Липецк)
@@ -3495,7 +3475,7 @@ https://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/vari
 #EXTINF:-1 tvg-id="5816" tvg-logo="http://epg.one/img2/5816.png" group-title="другие" ,Аист ТВ (Иркутск)
 https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_AIST/variant.m3u8
 #EXTINF:-1 tvg-id="5818" tvg-logo="http://epg.one/img2/5818.png" group-title="другие" ,Прима (Красноярск)
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_Prima/hls/1920x1080@4504/playlist.m3u8
+
 #EXTINF:-1 tvg-id="5819" tvg-logo="http://epg.one/img2/5819.png" group-title="другие" ,Енисей (Красноярск)
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="5821" tvg-logo="http://epg.one/img2/5821.png" group-title="другие" ,ТВК (Красноярск)
@@ -3675,7 +3655,7 @@ http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="6458" tvg-logo="http://epg.one/img2/6458.png" group-title="другие" ,Rai 2 HD IT
 
 #EXTINF:-1 tvg-id="6459" tvg-logo="http://epg.one/img2/6459.png" group-title="другие" ,Rai 3 HD IT
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_Prima/hls/1920x1080@4504/playlist.m3u8
+
 #EXTINF:-1 tvg-id="6460" tvg-logo="http://epg.one/img2/6460.png" group-title="другие" ,Rai 4 HD IT
 
 #EXTINF:-1 tvg-id="6461" tvg-logo="http://epg.one/img2/6461.png" group-title="другие" ,Rai 5 IT
@@ -3743,7 +3723,7 @@ https://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_SAMARAGIS/variant.m3u8
 #EXTINF:-1 tvg-id="6763" tvg-logo="http://epg.one/img2/6763.png" group-title="другие" ,Раменское ТВ HD
 https://e10-ll.facecast.net/rtv/0.m3u8
 #EXTINF:-1 tvg-id="5818" tvg-logo="http://epg.one/img2/5818.png" group-title="другие" ,Прима HD (Красноярск)
-http://tele2dvrnat01-02.cdnvideo.ru:80/stream/NAT_Prima/hls/1920x1080@4504/playlist.m3u8
+
 #EXTINF:-1 tvg-id="6675" tvg-logo="http://epg.one/img2/6675.png" group-title="другие" ,Первый Тульский HD
 https://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
 #EXTINF:-1 tvg-id="6773" tvg-logo="http://epg.one/img2/6773.png" group-title="другие" ,НТВ Беларусь BY
@@ -4139,11 +4119,7 @@ http://tv.tuva.ru/ort/index.m3u8
 #EXTINF:-1 tvg-id="9084" tvg-logo="http://epg.one/img2/9084.png" group-title="HD" ,Sky Sport Mix HD DE
 
 #EXTINF:-1 tvg-id="223" tvg-logo="http://epg.one/img2/223.png" group-title="HD" ,National Geographic Wild HD
-<<<<<<< Updated upstream
-https://adpnetworkhd-cmd.github.io/iptv/NatGeoWildRomania.m3u8
-=======
 
->>>>>>> Stashed changes
 #EXTINF:-1 tvg-id="7509" tvg-logo="http://epg.one/img2/7509.png" group-title="HD" ,QazSport HD KZ
 
 #EXTINF:-1 tvg-id="2830" tvg-logo="http://epg.one/img2/2830.png" group-title="HD" ,Сочи 24 HD
