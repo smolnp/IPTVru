@@ -184,8 +184,6 @@ http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 http://77.232.131.211/RUTV/index.m3u8
 #EXTINF:-1 tvg-id="vostok-tv" tvg-logo="https://iptvx.one/picons/vostok-tv.png" group-title="Музыкальные" ,Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
-#EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://iptvx.one/picons/viva-rus.png" group-title="Музыкальные" ,VIVA Russia
-https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
 #EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные" ,Жара
 https://fs.uplink.kz/zhara/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="Музыкальные" ,Жар Птица
@@ -220,16 +218,12 @@ http://cdn2.ntv.ru/th_hit/playlist.m3u8
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" group-title="Кино Online" ,Alpha Cinema
 https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://static.tildacdn.com/stor6561-3739-4839-b866-653865323964/89862824.png" group-title="Кино Online" ,Alpha Moretime
-http://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
 #EXTINF:-1 tvg-id="cityedem-kinoazia" tvg-logo="https://iptvx.one/picons/cityedem-kinoazia.png" group-title="Кино Online" ,Сити Эдем - КиноАзия
 https://cityeden.catcast.tv/content/34393/index.m3u8
 #EXTINF:-1 tvg-id="cityedem-kinoklas" tvg-logo="https://iptvx.one/picons/cityedem-kinoklas.png" group-title="Кино Online" ,Сити Эдем - КиноКлассика
 https://cityeden.catcast.tv/content/34185/index.m3u8
 #EXTINF:-1 tvg-id="cityedem-kinomist" tvg-logo="https://iptvx.one/picons/cityedem-kinomist.png" group-title="Кино Online" ,Сити Эдем - КиноМистика
 https://cityeden.catcast.tv/content/40783/index.m3u8
-#EXTINF:-1 tvg-id="cityedem-kinoact" tvg-logo="https://iptvx.one/picons/cityedem-kinoact.png" group-title="Кино Online" ,Сити Эдем - КиноЭкшен
-https://cityeden.catcast.tv/content/41333/index.m3u8
 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Познавательные" ,RTД HD
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://iptvx.one/picons/viasat-explore.png" group-title="Познавательные" ,Viju EXPLORE
@@ -465,7 +459,7 @@ http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-id="tolyatti24" tvg-logo="https://iptvx.one/picons/tolyatti24.png" group-title="Местные" ,Тольятти 24
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
 #EXTINF:-1 tvg-id="tomskoe-vremia" tvg-logo="https://iptvx.one/picons/tomskoe-vremia.png" group-title="Местные" ,Томское время
-https://old.tomsk-time.ru/hls/playlist.m3u8
+http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Местные" ,ТСВ
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 tvg-id="tst-cheremchovo" tvg-logo="https://iptvx.one/picons/tst-cheremchovo.png" group-title="Местные" ,ТСТ (Черемхово)
