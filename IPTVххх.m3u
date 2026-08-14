@@ -147,7 +147,7 @@ http://45.132.87.69:8080/cartoon_network/index.m3u8
 #EXTINF:-1 tvg-id="ducktv" tvg-logo="https://iptvx.one/picons/ducktv.png" group-title="Детские",Duck TV
 
 #EXTINF:-1 tvg-id="jimjam" tvg-logo="https://iptvx.one/picons/jimjam.png" group-title="Детские" ,JimJam
-http://158.160.149.81:8080/269/index.m3u8
+
 #EXTINF:-1 tvg-id="nick-jr" tvg-logo="https://iptvx.one/picons/nick-jr.png" group-title="Детские",Nick Jr
 
 #EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" group-title="Детские" ,Nickelodeon
@@ -947,7 +947,7 @@ https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" tvg-logo="https://iptvx.one/picons/rgvk-dagestan.png" group-title="Местные" ,РГВК Дагестан
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 tvg-id="ramenskoe-tv" tvg-logo="https://iptvx.one/picons/ramenskoe-tv.png" group-title="Местные" ,РТВ HD (Раменск)
-https://e10-ll.facecast.net/rtv/0.m3u8
+
 #EXTINF:-1 tvg-id="zabajkajkalje" tvg-logo="https://iptvx.one/picons/zabajkajkalje.png" group-title="Местные" ,РТК Забайкалье
 http://stream.zrtk.ru/zrtk.m3u8
 #EXTINF:-1 tvg-id="rts-abakan" tvg-logo="https://iptvx.one/picons/rts-abakan.png" group-title="Местные" ,РТС - Абакан
