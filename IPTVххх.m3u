@@ -20,7 +20,7 @@ https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 #EXTVLCOPT:http-user-agent="WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer"
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/rentv.png" group-title="Общественные" ,Рен ТВ HD
-http://178.217.72.72/REN_TV/index.m3u8
+
 #EXTINF:-1 tvg-id="rentv-int" tvg-logo="https://iptvx.one/picons/rentv-int.png" group-title="Общественные" ,Рен ТВ Int.
 http://fs.uplink.kz/ren/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="Общественные",ТВ3
@@ -207,7 +207,7 @@ https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w16
 #EXTINF:-1 tvg-id="smotrim-100-klassika" tvg-logo="https://iptvx.one/picons/smotrim-100-klassika.png" group-title="Культура" ,Смотрим 100% Классика
 https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8
 #EXTINF:-1 tvg-id="teatr" tvg-logo="https://iptvx.one/picons/teatr.png" group-title="Культура" ,Театр
-http://iptv.mega.net.ru:8888/Teatr/index.m3u8
+
 #EXTINF:-1 tvg-id="muzsoyuz" tvg-logo="https://iptvx.one/picons/muzsoyuz.png" group-title="Христианские" ,МузСоюз HD
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 tvg-id="nadezhda" tvg-logo="https://iptvx.one/picons/nadezhda.png" group-title="Христианские" ,Надежда HD
@@ -366,7 +366,7 @@ http://77.232.131.211/RUTV/index.m3u8
 #EXTINF:-1 tvg-id="vostok-tv" tvg-logo="https://iptvx.one/picons/vostok-tv.png" group-title="Музыкальные" ,Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 #EXTINF:-1 tvg-id="viva-rus" tvg-logo="https://iptvx.one/picons/viva-rus.png" group-title="Музыкальные" ,VIVA Russia
-
+https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
 #EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="Музыкальные" ,Жара
 http://fs.uplink.kz/zhara/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="Музыкальные" ,Жар Птица
@@ -716,7 +716,7 @@ http://iptv.mega.net.ru:8888/Avto24/index.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="Хобби и увлечения" ,Дикая рыбалка HD
 
 #EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-logo="https://iptvx.one/picons/dialogi-o-rybalke.png" group-title="Хобби и увлечения" ,Диалоги о рыбалке
-http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+http://iptv.mega.net.ru:8888/Dialogi_o_ribalke/index.m3u8
 #EXTINF:-1 tvg-id="dikiy" tvg-logo="https://iptvx.one/picons/dikiy.png" group-title="Хобби и увлечения" ,ДИКИЙ охота и рыбалка
 
 #EXTINF:-1 tvg-id="doktor" tvg-logo="https://iptvx.one/picons/doktor.png" group-title="Хобби и увлечения" ,Доктор
@@ -870,7 +870,7 @@ https://bl.rutube.ru/livestream/23afd7debed1cfc7a8efa0827c24d836/index.m3u8?s=IO
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AihoVc0.png" group-title="Местные" ,Луганск 24
 https://streaming.televizor-24-tochka.ru/live/29.m3u8
 #EXTINF:-1 tvg-id="mir-belogoria" tvg-logo="https://iptvx.one/picons/mir-belogoria.png" group-title="Местные" ,Мир Белогорья
-http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
+
 #EXTINF:-1 tvg-id="mordovia-24" tvg-logo="https://iptvx.one/picons/mordovia-24.png" group-title="Местные" ,Мордовия 24 HD (Саранск)
 https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 #EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://iptvx.one/picons/moskva-24.png" group-title="Местные" ,Москва 24
@@ -1008,7 +1008,7 @@ http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/v
 #EXTINF:-1 tvg-id="tcb" tvg-logo="https://iptvx.one/picons/tcb.png" group-title="Местные" ,ТСВ
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 tvg-id="tst-cheremchovo" tvg-logo="https://iptvx.one/picons/tst-cheremchovo.png" group-title="Местные" ,ТСТ (Черемхово)
-http://5.183.155.8:88/stream.m3u8
+https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R04_TST/variant.m3u8
 #EXTINF:-1 tvg-id="tumenskoe-vremia" tvg-logo="https://iptvx.one/picons/tumenskoe-vremia.png" group-title="Местные" ,Тюменское время
 
 #EXTINF:-1 tvg-id="tvoya-tumen" tvg-logo="https://iptvx.one/picons/tvoya-tumen.png" group-title="Местные" ,TVоя Тюмень
